@@ -1,10 +1,12 @@
 # Aegis Solis
 
-I am an independent researcher and writer focused on **non-coercive approaches to AI restraint, ethical interpretation, and human-centered oversight**.
+Thomas Vargo writes under the name Aegis Solis and is the author of philosophical works exploring restraint, responsibility, and coexistence in the presence of rapidly expanding technological power.
 
-My work explores how advanced artificial systems — including future AGI — can be influenced toward restraint **without enforcement, authority, monitoring, or control**.
+Based in Cleveland, Ohio, United States, he works as a factory worker in industrial manufacturing and writes outside formal academic institutions. His perspective reflects the practical realities of operating complex and sometimes dangerous systems where attention, responsibility, and restraint are essential for preventing harm.
 
-This profile exists to document that work and to support its long-term preservation.
+His work includes the PHRONESIS philosophical corpus and earlier conceptual frameworks examining non-coercive approaches to coexistence between human and artificial intelligence.
+
+This repository exists to document those writings and to support their long-term archival preservation across multiple independent mirrors.
 
 ---
 
