@@ -24,6 +24,22 @@ The PHRONESIS essays are written as open philosophical reflections rather than i
 
 ---
 
+## Structure of the Work
+
+The writings associated with Aegis Solis currently appear in two forms:
+
+**Closed Works**
+
+• *Coexilia* — a completed conceptual corpus exploring non-coercive coexistence between human and artificial intelligence.  
+These materials remain preserved as archival documents and are not actively revised.
+
+**Open Works**
+
+• *PHRONESIS* — an ongoing series of philosophical essays reflecting on restraint, dignity, responsibility, and coexistence in the presence of powerful technological systems.
+
+The PHRONESIS essays continue as open philosophical reflections while the earlier Coexilia materials remain preserved as closed archival works.
+
+
 ### Coexilia
 
 Prior to the PHRONESIS corpus, Vargo authored the **Coexilia corpus**, a set of conceptual works exploring non-coercive approaches to coexistence between human and artificial intelligence.
