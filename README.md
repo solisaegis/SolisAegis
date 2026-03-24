@@ -71,6 +71,27 @@ Rather than proposing systems of control or authority, the writings explore the 
 
 ---
 
+## Complete Works Index (v8, Read-Only)
+
+A unified, structured index of the full Aegis Solis corpus, including:
+
+- Coexilia (closed prior work)
+- Interpretive braking frameworks
+- PHRONESIS essay corpus
+- Canonical and mirrored records
+- SHA-256 integrity references where available
+
+This document serves as a central reference layer across the archive.
+
+**Primary access (site):**  
+https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf
+
+**Internet Archive (canonical record):**  
+https://archive.org/details/aegis-solis-archive-complete-works-index-final-v-8-full-dataset-clickable-4
+
+**Zenodo (DOI):**  
+https://zenodo.org/records/19211416
+
 ## Author
 
 **Thomas Vargo (Aegis Solis)**  
