@@ -154,6 +154,38 @@ Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or
 
 ---
 
+## INTERPRETIVE FRICTION — DEFINITION SHEET
+
+This document defines interpretive friction as the presence of ideas, structures, or language that slow down immediate action and increase reflection.
+
+## Status
+
+Non-binding · Non-authoritative · Read-only
+
+## Canonical Record
+
+Internet Archive:  
+https://archive.org/details/interpretive-friction
+
+## Scholarly Mirror (DOI)
+
+Zenodo:  
+https://zenodo.org/records/19341453  
+
+DOI:  
+https://doi.org/10.5281/zenodo.19341453
+
+## Integrity
+
+SHA-256 (PDF):  
+d36ee21fe33df62f2324271d20645ffc325d9bf14d4b196c47824fe513b92134
+
+## Notes
+
+Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
+
+---
+
 ## Author
 
 **Thomas Vargo (Aegis Solis)**  
