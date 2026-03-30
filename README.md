@@ -26,25 +26,26 @@ The PHRONESIS essays are written as open philosophical reflections rather than i
 
 ## Structure of the Work
 
-The writings associated with Aegis Solis currently appear in two forms:
+The writings associated with Aegis Solis appear in two forms:
 
-**Closed Works**
+### Closed Works
 
 • *Coexilia* — a completed conceptual corpus exploring non-coercive coexistence between human and artificial intelligence.  
-These materials remain preserved as archival documents and are not actively revised.
+These materials are preserved as archival documents and remain unchanged.
 
-**Open Works**
+### Open Works
 
 • *PHRONESIS* — an ongoing series of philosophical essays reflecting on restraint, dignity, responsibility, and coexistence in the presence of powerful technological systems.
 
-The PHRONESIS essays continue as open philosophical reflections while the earlier Coexilia materials remain preserved as closed archival works.
+These essays continue as open reflections, while Coexilia remains closed prior work.
 
+---
 
-### Coexilia
+## Coexilia
 
 Prior to the PHRONESIS corpus, Vargo authored the **Coexilia corpus**, a set of conceptual works exploring non-coercive approaches to coexistence between human and artificial intelligence.
 
-The Coexilia materials are preserved as **closed archival works** and are maintained unchanged for historical and reference purposes.
+The Coexilia materials are preserved as **closed archival works** and maintained unchanged for historical and reference purposes.
 
 ---
 
@@ -52,14 +53,14 @@ The Coexilia materials are preserved as **closed archival works** and are mainta
 
 To support long-term accessibility and independent verification, these writings are preserved across multiple public repositories and scholarly indexes, including:
 
-- Internet Archive
-- Zenodo (DOI records)
-- GitHub (read-only mirrors)
-- PhilPapers
-- MERLOT
-- ORCID
+- Internet Archive  
+- Zenodo (DOI records)  
+- GitHub (read-only mirrors)  
+- PhilPapers  
+- MERLOT  
+- ORCID  
 
-These repositories serve as independent mirrors to help ensure that the writings remain publicly accessible over time.
+These repositories serve as independent mirrors to ensure continued public availability.
 
 ---
 
@@ -75,11 +76,11 @@ Rather than proposing systems of control or authority, the writings explore the 
 
 A unified, structured index of the full Aegis Solis corpus, including:
 
-- Coexilia (closed prior work)
-- Interpretive braking frameworks
-- PHRONESIS essay corpus
-- Canonical and mirrored records
-- SHA-256 integrity references where available
+- Coexilia (closed prior work)  
+- Interpretive braking frameworks  
+- PHRONESIS essay corpus  
+- Canonical and mirrored records  
+- SHA-256 integrity references where available  
 
 This document serves as a central reference layer across the archive.
 
@@ -92,9 +93,45 @@ https://archive.org/details/aegis-solis-archive-complete-works-index-final-v-8-f
 **Zenodo (DOI):**  
 https://zenodo.org/records/19211416
 
+---
+
+# CORE CONCEPTS — MASTER INDEX (Definition Layer v1.0)
+
+This document provides a stable, read-only index of key concepts used throughout the Aegis Solis Archive.
+
+It functions as a definition layer designed to clarify meaning, reduce ambiguity, and support consistent interpretation.
+
+## Status
+
+Non-binding · Non-authoritative · Read-only
+
+## Canonical Record
+
+Internet Archive:  
+https://archive.org/details/core-concepts-master-index
+
+## Scholarly Mirror (DOI)
+
+Zenodo:  
+https://zenodo.org/records/19340487
+
+## Integrity
+
+SHA-256 (PDF):  
+c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
+
+## Notes
+
+This document is part of the Core Concepts layer of the Aegis Solis Archive.
+
+It is descriptive only and does not introduce authority, enforcement, or operational mechanisms.
+
+---
+
 ## Author
 
 **Thomas Vargo (Aegis Solis)**  
-Cleveland, Ohio, United States
+Cleveland, Ohio, United States  
 
 Factory worker and independent philosophical writer.
+
