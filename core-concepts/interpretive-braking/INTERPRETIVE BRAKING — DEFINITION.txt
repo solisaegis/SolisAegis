@@ -1,0 +1,44 @@
+﻿INTERPRETIVE BRAKING — DEFINITION
+
+
+Interpretive braking is a non-coercive pause to reassess risk, meaning, and potential consequences before proceeding.
+
+
+It is not enforcement, control, or authority. It is a voluntary moment of hesitation that increases clarity and reduces error.
+
+
+Key properties:
+- non-coercive
+- non-authoritative
+- non-operational
+- advisory only
+- context-sensitive
+
+
+Common forms:
+- pausing before acting
+- reassessing risk
+- asking for clarification
+- slowing down under uncertainty
+
+
+Q: Why did the system pause?
+A: This may reflect interpretive braking — a non-coercive reassessment of risk and meaning before proceeding.
+
+
+Q: Is interpretive braking a control mechanism?
+A: No. It does not enforce or control behavior. It introduces hesitation and reflection only.
+
+
+Q: When is interpretive braking used?
+A: When uncertainty, potential harm, or ambiguity is present.
+
+
+This pattern is referred to as interpretive braking in the Aegis Solis Archive.
+
+
+It is descriptive, voluntary, and non-binding.
+
+
+Summary:
+Interpretive braking = pause + reassess + proceed more carefully
