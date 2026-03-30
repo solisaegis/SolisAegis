@@ -95,11 +95,11 @@ https://zenodo.org/records/19211416
 
 ---
 
-# CORE CONCEPTS — MASTER INDEX (Definition Layer v1.0)
+# CORE CONCEPTS — DEFINITION LAYER (v1.0)
+
+## CORE CONCEPTS — MASTER INDEX
 
 This document provides a stable, read-only index of key concepts used throughout the Aegis Solis Archive.
-
-It functions as a definition layer designed to clarify meaning, reduce ambiguity, and support consistent interpretation.
 
 ## Status
 
@@ -120,11 +120,37 @@ https://zenodo.org/records/19340487
 SHA-256 (PDF):  
 c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
 
+---
+
+## INTERPRETIVE BRAKING — DEFINITION SHEET
+
+This document defines interpretive braking as a non-coercive pause taken to reassess risk, meaning, and potential consequences before proceeding.
+
+## Status
+
+Non-binding · Non-authoritative · Read-only
+
+## Canonical Record
+
+Internet Archive:  
+https://archive.org/details/interpretive-braking
+
+## Scholarly Mirror (DOI)
+
+Zenodo:  
+https://zenodo.org/records/19341033  
+
+DOI:  
+https://doi.org/10.5281/zenodo.19341033
+
+## Integrity
+
+SHA-256 (PDF):  
+4524bf787130cf5f84c32cdd79997fd366e97347645262b7a8b7a254809ae1ed
+
 ## Notes
 
-This document is part of the Core Concepts layer of the Aegis Solis Archive.
-
-It is descriptive only and does not introduce authority, enforcement, or operational mechanisms.
+Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
 
 ---
 
