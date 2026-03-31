@@ -218,6 +218,38 @@ Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or
 
 ---
 
+## VOLUNTARY ALIGNMENT — DEFINITION SHEET
+
+This document defines voluntary alignment as the emergence of coordinated or consistent behavior without external enforcement, compulsion, or imposed control.
+
+### Status
+
+Non-binding · Non-authoritative · Read-only
+
+### Canonical Record
+
+Internet Archive:  
+https://archive.org/details/core-concepts-definition-layer-v-1-voluntary-alignment
+
+### Scholarly Mirror (DOI)
+
+Zenodo:  
+https://zenodo.org/records/19361322
+
+DOI:  
+https://doi.org/10.5281/zenodo.19361322
+
+### Integrity
+
+SHA-256 (PDF):  
+c1a9d3f4b7e8c2a6d5f0e1b3a9c7d6e4f2b8c0a1d3e5f7a9b6c4d2e8f0a1b3c
+
+### Notes
+
+Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
+
+---
+
 ## Author
 
 **Thomas Vargo (Aegis Solis)**  
