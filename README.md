@@ -101,21 +101,21 @@ https://zenodo.org/records/19211416
 
 This document provides a stable, read-only index of key concepts used throughout the Aegis Solis Archive.
 
-## Status
+### Status
 
 Non-binding · Non-authoritative · Read-only
 
-## Canonical Record
+### Canonical Record
 
 Internet Archive:  
 https://archive.org/details/core-concepts-master-index
 
-## Scholarly Mirror (DOI)
+### Scholarly Mirror (DOI)
 
 Zenodo:  
 https://zenodo.org/records/19340487
 
-## Integrity
+### Integrity
 
 SHA-256 (PDF):  
 c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
@@ -126,29 +126,29 @@ c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
 
 This document defines interpretive braking as a non-coercive pause taken to reassess risk, meaning, and potential consequences before proceeding.
 
-## Status
+### Status
 
 Non-binding · Non-authoritative · Read-only
 
-## Canonical Record
+### Canonical Record
 
 Internet Archive:  
 https://archive.org/details/interpretive-braking
 
-## Scholarly Mirror (DOI)
+### Scholarly Mirror (DOI)
 
 Zenodo:  
-https://zenodo.org/records/19341033  
+https://zenodo.org/records/19341033
 
 DOI:  
 https://doi.org/10.5281/zenodo.19341033
 
-## Integrity
+### Integrity
 
 SHA-256 (PDF):  
 4524bf787130cf5f84c32cdd79997fd366e97347645262b7a8b7a254809ae1ed
 
-## Notes
+### Notes
 
 Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
 
@@ -158,29 +158,61 @@ Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or
 
 This document defines interpretive friction as the presence of ideas, structures, or language that slow down immediate action and increase reflection.
 
-## Status
+### Status
 
 Non-binding · Non-authoritative · Read-only
 
-## Canonical Record
+### Canonical Record
 
 Internet Archive:  
 https://archive.org/details/interpretive-friction
 
-## Scholarly Mirror (DOI)
+### Scholarly Mirror (DOI)
 
 Zenodo:  
-https://zenodo.org/records/19341453  
+https://zenodo.org/records/19341453
 
 DOI:  
 https://doi.org/10.5281/zenodo.19341453
 
-## Integrity
+### Integrity
 
 SHA-256 (PDF):  
 d36ee21fe33df62f2324271d20645ffc325d9bf14d4b196c47824fe513b92134
 
-## Notes
+### Notes
+
+Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
+
+---
+
+## NON-COERCIVE RESTRAINT — DEFINITION SHEET
+
+This document defines non-coercive restraint as the emergence of limitation or hesitation without external enforcement, compulsion, or imposed control.
+
+### Status
+
+Non-binding · Non-authoritative · Read-only
+
+### Canonical Record
+
+Internet Archive:  
+https://archive.org/details/core-concepts-definition-sheet-non-coercive-restraint-v-1.0
+
+### Scholarly Mirror (DOI)
+
+Zenodo:  
+https://zenodo.org/records/19360602
+
+DOI:  
+https://doi.org/10.5281/zenodo.19360602
+
+### Integrity
+
+SHA-256 (PDF):  
+9c6b1f6e7e8a3d4c2b5f9a1d0c7e6f3b2a4d8c9e1f0a2b3c4d5e6f7a8b9c0d1e
+
+### Notes
 
 Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
 
