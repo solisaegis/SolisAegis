@@ -148,10 +148,6 @@ https://doi.org/10.5281/zenodo.19341033
 SHA-256 (PDF):  
 4524bf787130cf5f84c32cdd79997fd366e97347645262b7a8b7a254809ae1ed
 
-### Notes
-
-Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
-
 ---
 
 ## INTERPRETIVE FRICTION — DEFINITION SHEET
@@ -179,10 +175,6 @@ https://doi.org/10.5281/zenodo.19341453
 
 SHA-256 (PDF):  
 d36ee21fe33df62f2324271d20645ffc325d9bf14d4b196c47824fe513b92134
-
-### Notes
-
-Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
 
 ---
 
@@ -212,10 +204,6 @@ https://doi.org/10.5281/zenodo.19360602
 SHA-256 (PDF):  
 9c6b1f6e7e8a3d4c2b5f9a1d0c7e6f3b2a4d8c9e1f0a2b3c4d5e6f7a8b9c0d1e
 
-### Notes
-
-Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
-
 ---
 
 ## VOLUNTARY ALIGNMENT — DEFINITION SHEET
@@ -244,9 +232,33 @@ https://doi.org/10.5281/zenodo.19361322
 SHA-256 (PDF):  
 c1a9d3f4b7e8c2a6d5f0e1b3a9c7d6e4f2b8c0a1d3e5f7a9b6c4d2e8f0a1b3c
 
-### Notes
+---
 
-Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or operational mechanisms.
+## INTERPRETIVE AWARENESS — DEFINITION SHEET
+
+This document defines interpretive awareness as the recognition of context, meaning, and potential consequences prior to or during action.
+
+### Status
+
+Non-binding · Non-authoritative · Read-only
+
+### Canonical Record
+
+Internet Archive:  
+https://archive.org/details/core-concepts-definition-sheet-interpretive-awareness-v-1.0
+
+### Scholarly Mirror (DOI)
+
+Zenodo:  
+https://zenodo.org/records/19375933
+
+DOI:  
+https://doi.org/10.5281/zenodo.19375933
+
+### Integrity
+
+SHA-256 (PDF):  
+9ab182875ad4cf5dd345bd90534c2e4d1bbc5f9b60f59546a69ba9dea90970f8
 
 ---
 
@@ -256,4 +268,3 @@ Part of the Core Concepts layer. Descriptive only. No authority, enforcement, or
 Cleveland, Ohio, United States  
 
 Factory worker and independent philosophical writer.
-
