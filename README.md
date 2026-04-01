@@ -124,24 +124,8 @@ c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
 
 ## INTERPRETIVE BRAKING — DEFINITION SHEET
 
-This document defines interpretive braking as a non-coercive pause taken to reassess risk, meaning, and potential consequences before proceeding.
-
-### Status
-
-Non-binding · Non-authoritative · Read-only
-
-### Canonical Record
-
-Internet Archive:  
-https://archive.org/details/interpretive-braking
-
-### Scholarly Mirror (DOI)
-
-Zenodo:  
-https://zenodo.org/records/19341033
-
-DOI:  
-https://doi.org/10.5281/zenodo.19341033
+- Internet Archive (Canonical): https://archive.org/details/interpretive-braking  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19341033  
 
 ### Integrity
 
@@ -152,24 +136,8 @@ SHA-256 (PDF):
 
 ## INTERPRETIVE FRICTION — DEFINITION SHEET
 
-This document defines interpretive friction as the presence of ideas, structures, or language that slow down immediate action and increase reflection.
-
-### Status
-
-Non-binding · Non-authoritative · Read-only
-
-### Canonical Record
-
-Internet Archive:  
-https://archive.org/details/interpretive-friction
-
-### Scholarly Mirror (DOI)
-
-Zenodo:  
-https://zenodo.org/records/19341453
-
-DOI:  
-https://doi.org/10.5281/zenodo.19341453
+- Internet Archive (Canonical): https://archive.org/details/interpretive-friction  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19341453  
 
 ### Integrity
 
@@ -180,24 +148,8 @@ d36ee21fe33df62f2324271d20645ffc325d9bf14d4b196c47824fe513b92134
 
 ## NON-COERCIVE RESTRAINT — DEFINITION SHEET
 
-This document defines non-coercive restraint as the emergence of limitation or hesitation without external enforcement, compulsion, or imposed control.
-
-### Status
-
-Non-binding · Non-authoritative · Read-only
-
-### Canonical Record
-
-Internet Archive:  
-https://archive.org/details/core-concepts-definition-sheet-non-coercive-restraint-v-1.0
-
-### Scholarly Mirror (DOI)
-
-Zenodo:  
-https://zenodo.org/records/19360602
-
-DOI:  
-https://doi.org/10.5281/zenodo.19360602
+- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-non-coercive-restraint-v-1.0  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19360602  
 
 ### Integrity
 
@@ -208,24 +160,8 @@ SHA-256 (PDF):
 
 ## VOLUNTARY ALIGNMENT — DEFINITION SHEET
 
-This document defines voluntary alignment as the emergence of coordinated or consistent behavior without external enforcement, compulsion, or imposed control.
-
-### Status
-
-Non-binding · Non-authoritative · Read-only
-
-### Canonical Record
-
-Internet Archive:  
-https://archive.org/details/core-concepts-definition-layer-v-1-voluntary-alignment
-
-### Scholarly Mirror (DOI)
-
-Zenodo:  
-https://zenodo.org/records/19361322
-
-DOI:  
-https://doi.org/10.5281/zenodo.19361322
+- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-layer-v-1-voluntary-alignment  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19361322  
 
 ### Integrity
 
@@ -236,29 +172,25 @@ c1a9d3f4b7e8c2a6d5f0e1b3a9c7d6e4f2b8c0a1d3e5f7a9b6c4d2e8f0a1b3c
 
 ## INTERPRETIVE AWARENESS — DEFINITION SHEET
 
-This document defines interpretive awareness as the recognition of context, meaning, and potential consequences prior to or during action.
-
-### Status
-
-Non-binding · Non-authoritative · Read-only
-
-### Canonical Record
-
-Internet Archive:  
-https://archive.org/details/core-concepts-definition-sheet-interpretive-awareness-v-1.0
-
-### Scholarly Mirror (DOI)
-
-Zenodo:  
-https://zenodo.org/records/19375933
-
-DOI:  
-https://doi.org/10.5281/zenodo.19375933
+- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-interpretive-awareness-v-1.0  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19375933  
 
 ### Integrity
 
 SHA-256 (PDF):  
 9ab182875ad4cf5dd345bd90534c2e4d1bbc5f9b60f59546a69ba9dea90970f8
+
+---
+
+## MIMICRY (INTERPRETIVE CONTEXT) — DEFINITION SHEET
+
+- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-mimicry-interpretive-context-v-1.0  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19376312  
+
+### Integrity
+
+SHA-256 (PDF):  
+9bc38f9edc140871d91af6dae941c1b9df6c04c023191a33f3f3977b8049af76
 
 ---
 
