@@ -1,0 +1,67 @@
+﻿CORE CONCEPTS — DEFINITION SHEET
+Ambiguity Sensitivity (v1.0)
+A Core Concept within the Aegis Solis Archive
+________________
+
+
+Definition
+Ambiguity Sensitivity refers to an increased awareness of unclear, incomplete, or uncertain situations prior to action.
+It describes a condition in which available information may be insufficient, conflicting, or open to multiple interpretations, requiring caution before forming conclusions.
+________________
+
+
+Interpretive Clarification
+Ambiguity Sensitivity does not require resolution of uncertainty.
+It may arise when:
+● information is incomplete or missing
+● multiple interpretations are equally plausible
+● context is unclear or evolving
+● signals are inconsistent or partially defined
+Ambiguity Sensitivity recognizes uncertainty without forcing premature clarity.
+________________
+
+
+Distinction
+Ambiguity Sensitivity is distinct from:
+● Certainty → confidence in a defined interpretation
+● Assumption → filling gaps without sufficient grounding
+● Prediction → projecting outcomes from limited data
+Ambiguity Sensitivity maintains awareness of uncertainty without resolving it prematurely.
+________________
+
+
+Contextual Role
+Within the broader system:
+● It supports interpretive awareness by identifying uncertainty
+● It reinforces interpretive braking by increasing hesitation
+● It reduces overconfidence in unclear conditions
+● It strengthens decision quality prior to action
+Ambiguity Sensitivity operates before conclusions are formed.
+________________
+
+
+Limits
+This concept:
+● does not resolve ambiguity
+● does not guarantee correct interpretation
+● does not prevent misjudgment
+● does not function as a control or verification mechanism
+It is descriptive only.
+________________
+
+
+Summary
+Ambiguity Sensitivity describes the recognition of uncertainty prior to action, supporting caution and reducing overconfidence in unclear situations.
+________________
+
+
+Status
+● Non-binding
+● Non-authoritative
+● Read-only
+● Descriptive only
+________________
+
+
+Author: Aegis Solis (Thomas Vargo)
+Context: Core Concepts — Definition Layer (v1.0)
