@@ -82,8 +82,6 @@ A unified, structured index of the full Aegis Solis corpus, including:
 - Canonical and mirrored records  
 - SHA-256 integrity references where available  
 
-This document serves as a central reference layer across the archive.
-
 **Primary access (site):**  
 https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf
 
@@ -191,6 +189,18 @@ SHA-256 (PDF):
 
 SHA-256 (PDF):  
 9bc38f9edc140871d91af6dae941c1b9df6c04c023191a33f3f3977b8049af76
+
+---
+
+## AMBIGUITY SENSITIVITY — DEFINITION SHEET
+
+- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-ambiguity-sensitivity-v-1.0  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19392935  
+
+### Integrity
+
+SHA-256 (PDF):  
+d2c9ff8153db5a6f8e518b0a992d51a741c1b00e9b79b6cd3df98c8463e13f93
 
 ---
 
