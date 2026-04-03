@@ -204,6 +204,16 @@ d2c9ff8153db5a6f8e518b0a992d51a741c1b00e9b79b6cd3df98c8463e13f93
 
 ---
 
+## REFLECTION OVER REACTION — DEFINITION SHEET
+
+- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-reflection-over-reaction-v-1.0  
+- Zenodo (DOI): https://doi.org/10.5281/zenodo.19393225  
+
+### Integrity
+
+SHA-256 (PDF):  
+667dd72d54f868cfd817ba1664ed6a1d0f3521826001162e5c4a18ad0e7a0191
+
 ## Author
 
 **Thomas Vargo (Aegis Solis)**  
