@@ -74,13 +74,7 @@ Rather than proposing systems of control or authority, the writings explore the 
 
 ## Complete Works Index (v8, Read-Only)
 
-A unified, structured index of the full Aegis Solis corpus, including:
-
-- Coexilia (closed prior work)  
-- Interpretive braking frameworks  
-- PHRONESIS essay corpus  
-- Canonical and mirrored records  
-- SHA-256 integrity references where available  
+A unified, structured index of the full Aegis Solis corpus.
 
 **Primary access (site):**  
 https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf
@@ -90,6 +84,23 @@ https://archive.org/details/aegis-solis-archive-complete-works-index-final-v-8-f
 
 **Zenodo (DOI):**  
 https://zenodo.org/records/19211416
+
+---
+
+# SYNTHESIS PAPER
+
+## PHRONESIS — Interpretive Restraint and Non-Coercive Alignment in the Age of Artificial Intelligence (v1.0)
+
+- Internet Archive (Canonical):  
+https://archive.org/details/phronesis-interpretive-restraint-and-non-coercive-alignment-in-the-age-of-artificial-intelligence  
+
+- Zenodo (DOI):  
+https://doi.org/10.5281/zenodo.19398174  
+
+### Integrity
+
+SHA-256 (PDF):  
+1cf900d1803da60ca5c5b8407c8629ad005c08ec0cdfedccda27e084d3adf005
 
 ---
 
@@ -213,6 +224,8 @@ d2c9ff8153db5a6f8e518b0a992d51a741c1b00e9b79b6cd3df98c8463e13f93
 
 SHA-256 (PDF):  
 667dd72d54f868cfd817ba1664ed6a1d0f3521826001162e5c4a18ad0e7a0191
+
+---
 
 ## Author
 
