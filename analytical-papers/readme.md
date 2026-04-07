@@ -42,7 +42,7 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
 ## Mirror (GitHub)
 
-- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Constraint-Aware%20AGI_%20Implementing%20Ethical%20Boundaries%20Without%20Capability%20Loss.pdf  
+- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Constraint-Aware%20AGI_%20Implementing%20Ethical%20Boundaries%20Without%20Capability%20Loss.pdf
 
 ---
 
@@ -60,16 +60,16 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 ## Canonical Locations
 
 - Internet Archive:  
-  https://archive.org/details/constraint-without-supremacy-human-autonomy-agi-and-non-dominant-coexistence  
+  https://archive.org/details/constraint-without-supremacy-human-autonomy-agi-and-non-dominant-coexistenc
 
 - Zenodo (DOI record):  
-  https://zenodo.org/records/18215416  
+  https://zenodo.org/records/18177396  
 
 ---
 
 ## Mirror (GitHub)
 
-- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Constraint%20Without%20Supremacy_%20Human%20Autonomy%2C%20AGI%2C%20and%20Non-Dominant%20Coexistence.pdf  
+- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Constraint%20Without%20Supremacy_%20Human%20Autonomy%2C%20AGI%2C%20and%20Non-Dominant%20Coexistenc.pdf
 
 ---
 
