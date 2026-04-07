@@ -19,7 +19,7 @@ They exist as independent analytical explorations.
 
 ---
 
-## Constraint-Aware AGI — Implementing Ethical Boundaries Without Capability Loss
+# Constraint-Aware AGI — Implementing Ethical Boundaries Without Capability Loss
 
 **Author:** Aegis Solis  
 **Status:** Non-canonical, independent analytical paper  
@@ -46,9 +46,36 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
 ---
 
+# Constraint Without Supremacy — Human Autonomy, AGI, and Non-Dominant Coexistence
+
+**Author:** Aegis Solis  
+**Status:** Non-canonical, independent analytical paper  
+
+### SHA-256 (PDF)
+
+4b2d6ea97caafd3d36bdc5a792891e25d6871983b8e222805f61d44fd6789cae
+
+---
+
+## Canonical Locations
+
+- Internet Archive:  
+  https://archive.org/details/constraint-without-supremacy-human-autonomy-agi-and-non-dominant-coexistence  
+
+- Zenodo (DOI record):  
+  https://zenodo.org/records/18215416  
+
+---
+
+## Mirror (GitHub)
+
+- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Constraint%20Without%20Supremacy_%20Human%20Autonomy%2C%20AGI%2C%20and%20Non-Dominant%20Coexistence.pdf  
+
+---
+
 ## Mirror Notice
 
-This repository contains a **read-only mirror** of the document.
+This repository contains a **read-only mirror** of the documents.
 
 Canonical preservation occurs on:
 - Internet Archive (primary storage)
@@ -58,9 +85,9 @@ Canonical preservation occurs on:
 
 ## Integrity Note
 
-The SHA-256 hash above corresponds to the exact PDF file.
+The SHA-256 hashes above correspond to the exact PDF files.
 
-Any file claiming to be this document that does not reproduce this hash should be treated as a different or modified version.
+Any file claiming to be these documents that does not reproduce these hashes should be treated as a different or modified version.
 
 ---
 
