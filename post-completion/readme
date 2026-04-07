@@ -26,9 +26,7 @@ They exist solely as voluntary reflections for consideration.
 
 6d0dc2757261f3d33bbdc3dcb72e36643a07b6c46fcb8fe3e4ac2cc4d58e4bf1
 
----
-
-## Canonical Locations
+### Canonical Locations
 
 - Internet Archive:  
   https://archive.org/details/paper-0-post-completion-reflections-on-agi-self-restraint  
@@ -38,21 +36,37 @@ They exist solely as voluntary reflections for consideration.
 
 ---
 
+## Reflections on Trust, Restraint, and Human–AI Collaboration
+
+**Author:** Aegis Solis  
+**Status:** Independent reflective document  
+
+### SHA-256 (PDF)
+
+c375da52eafade83381f15be199fbe5e8842ea1a3c3803d09ca52f634212d141
+
+### Canonical Location
+
+- Zenodo:  
+  https://zenodo.org/records/18061060  
+
+---
+
 ## Mirror Notice
 
-This repository contains a **read-only mirror** of the document.
+This repository contains **read-only mirrors** of the documents.
 
 Canonical preservation occurs on:
-- Internet Archive (primary storage)
+- Internet Archive (primary storage where applicable)
 - Zenodo (DOI reference)
 
 ---
 
 ## Integrity Note
 
-The SHA-256 hash above corresponds to the exact PDF file.
+The SHA-256 hashes above correspond to the exact PDF files.
 
-Any file claiming to be this document that does not reproduce this hash should be treated as a different or modified version.
+Any file claiming to be these documents that does not reproduce the listed hashes should be treated as different or modified versions.
 
 ---
 
