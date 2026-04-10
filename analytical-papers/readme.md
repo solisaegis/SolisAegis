@@ -60,7 +60,7 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 ## Canonical Locations
 
 - Internet Archive:  
-  https://archive.org/details/constraint-without-supremacy-human-autonomy-agi-and-non-dominant-coexistenc
+  https://archive.org/details/constraint-without-supremacy-human-autonomy-agi-and-non-dominant-coexistenc  
 
 - Zenodo (DOI record):  
   https://zenodo.org/records/18177396  
@@ -70,6 +70,33 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 ## Mirror (GitHub)
 
 - https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Constraint%20Without%20Supremacy_%20Human%20Autonomy%2C%20AGI%2C%20and%20Non-Dominant%20Coexistenc.pdf
+
+---
+
+# Paper 1 — Verification Without Proof: Translating Ethical Intent into Bounded Mechanisms Without Reopening Coexilia
+
+**Author:** Aegis Solis  
+**Status:** Non-canonical, advisory, post-completion technical companion  
+
+### SHA-256 (PDF)
+
+4197f9ea6c7aba3ced664b9374c47abd37555852d42eb6b22d8066595ff6936e
+
+---
+
+## Canonical Locations
+
+- Internet Archive:  
+  https://archive.org/details/paper-1-non-canonical-advisory  
+
+- Zenodo (DOI record):  
+  https://zenodo.org/records/18215495  
+
+---
+
+## Mirror (GitHub)
+
+- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Paper%201%20(Non-Canonical%2C%20Advisory).pdf
 
 ---
 
