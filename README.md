@@ -162,8 +162,17 @@ d36ee21fe33df62f2324271d20645ffc325d9bf14d4b196c47824fe513b92134
 
 ### Integrity
 
-SHA-256 (PDF):  
-9c6b1f6e7e8a3d4c2b5f9a1d0c7e6f3b2a4d8c9e1f0a2b3c4d5e6f7a8b9c0d1e
+Integrity Note
+A correction has been made to one SHA-256 value listed in this mirror.
+
+CORE CONCEPTS — Non-Coercive Restraint (v1.0)
+Correct SHA-256:
+968714f15e749ed37855f6f728534e60a9d55a7dd451d13564d7c98e3582dd85
+
+This correction aligns the listed hash with the canonical file.
+
+No documents were modified.
+This update affects verification reference only.
 
 ---
 
