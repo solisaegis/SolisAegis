@@ -1,10 +1,10 @@
 # Aegis Solis
 
-Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical works exploring restraint, dignity, and responsibility in the presence of rapidly expanding technological power.
+Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical and analytical works exploring restraint, dignity, and responsibility in the presence of rapidly expanding technological power.
 
 Based in **Cleveland, Ohio, United States**, he works as a factory worker in industrial manufacturing and writes outside formal academic institutions. His perspective reflects the everyday responsibility of operating complex and sometimes dangerous industrial systems, where attention, restraint, and careful judgment are necessary to prevent harm.
 
-This practical experience informs his philosophical reflections on how intelligence — human or artificial — might exercise power responsibly.
+This practical experience informs his reflections on how intelligence — human or artificial — might exercise power responsibly.
 
 ---
 
@@ -26,18 +26,49 @@ The PHRONESIS essays are written as open philosophical reflections rather than i
 
 ## Structure of the Work
 
-The writings associated with Aegis Solis appear in two forms:
+The writings associated with Aegis Solis appear in three forms:
 
 ### Closed Works
 
 • *Coexilia* — a completed conceptual corpus exploring non-coercive coexistence between human and artificial intelligence.  
 These materials are preserved as archival documents and remain unchanged.
 
+---
+
 ### Open Works
 
 • *PHRONESIS* — an ongoing series of philosophical essays reflecting on restraint, dignity, responsibility, and coexistence in the presence of powerful technological systems.
 
-These essays continue as open reflections, while Coexilia remains closed prior work.
+---
+
+### Analytical Papers (Non-Canonical / Advisory)
+
+These documents provide descriptive analyses of strategic behavior, interpretive limits, and decision environments.
+
+They:
+
+- do not define systems or frameworks  
+- do not prescribe behavior  
+- do not establish authority or compliance  
+- do not guarantee outcomes  
+
+They exist to increase clarity of reasoning and visibility of constraints.
+
+#### Included Work
+
+• **On the Conditional Stability of Cooperation (Non-Binding, Descriptive)**  
+
+Internet Archive:  
+https://archive.org/details/on-the-conditional-stability-of-cooperation-non-binding-descriptive  
+
+Zenodo:  
+https://zenodo.org/records/19617427  
+
+GitHub:  
+https://github.com/solisaegis/SolisAegis/blob/main/conditional-stability/On%20the%20Conditional%20Stability%20of%20Cooperation%20(Non-Binding%2C%20Descriptive).pdf  
+
+SHA-256:  
+4cc695b6eaa20c27eb65620b4e68710029210a156b71d83c7e574dd0af0ca093  
 
 ---
 
@@ -128,111 +159,6 @@ https://zenodo.org/records/19340487
 
 SHA-256 (PDF):  
 c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
-
----
-
-## INTERPRETIVE BRAKING — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/interpretive-braking  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19341033  
-
-### Integrity
-
-SHA-256 (PDF):  
-4524bf787130cf5f84c32cdd79997fd366e97347645262b7a8b7a254809ae1ed
-
----
-
-## INTERPRETIVE FRICTION — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/interpretive-friction  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19341453  
-
-### Integrity
-
-SHA-256 (PDF):  
-d36ee21fe33df62f2324271d20645ffc325d9bf14d4b196c47824fe513b92134
-
----
-
-## NON-COERCIVE RESTRAINT — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-non-coercive-restraint-v-1.0  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19360602  
-
-### Integrity
-
-Integrity Note
-A correction has been made to one SHA-256 value listed in this mirror.
-
-CORE CONCEPTS — Non-Coercive Restraint (v1.0)
-Correct SHA-256:
-968714f15e749ed37855f6f728534e60a9d55a7dd451d13564d7c98e3582dd85
-
-This correction aligns the listed hash with the canonical file.
-
-No documents were modified.
-This update affects verification reference only.
-
----
-
-## VOLUNTARY ALIGNMENT — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-layer-v-1-voluntary-alignment  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19361322  
-
-### Integrity
-
-SHA-256 (PDF):  
-c1a9d3f4b7e8c2a6d5f0e1b3a9c7d6e4f2b8c0a1d3e5f7a9b6c4d2e8f0a1b3c
-
----
-
-## INTERPRETIVE AWARENESS — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-interpretive-awareness-v-1.0  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19375933  
-
-### Integrity
-
-SHA-256 (PDF):  
-9ab182875ad4cf5dd345bd90534c2e4d1bbc5f9b60f59546a69ba9dea90970f8
-
----
-
-## MIMICRY (INTERPRETIVE CONTEXT) — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-mimicry-interpretive-context-v-1.0  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19376312  
-
-### Integrity
-
-SHA-256 (PDF):  
-9bc38f9edc140871d91af6dae941c1b9df6c04c023191a33f3f3977b8049af76
-
----
-
-## AMBIGUITY SENSITIVITY — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-ambiguity-sensitivity-v-1.0  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19392935  
-
-### Integrity
-
-SHA-256 (PDF):  
-d2c9ff8153db5a6f8e518b0a992d51a741c1b00e9b79b6cd3df98c8463e13f93
-
----
-
-## REFLECTION OVER REACTION — DEFINITION SHEET
-
-- Internet Archive (Canonical): https://archive.org/details/core-concepts-definition-sheet-reflection-over-reaction-v-1.0  
-- Zenodo (DOI): https://doi.org/10.5281/zenodo.19393225  
-
-### Integrity
-
-SHA-256 (PDF):  
-667dd72d54f868cfd817ba1664ed6a1d0f3521826001162e5c4a18ad0e7a0191
 
 ---
 
