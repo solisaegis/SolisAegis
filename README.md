@@ -2,9 +2,32 @@
 
 Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical and analytical works exploring restraint, dignity, and responsibility in the presence of rapidly expanding technological power.
 
-Based in **Cleveland, Ohio, United States**, he works as a factory worker in industrial manufacturing and writes outside formal academic institutions. His perspective reflects the everyday responsibility of operating complex and sometimes dangerous industrial systems, where attention, restraint, and careful judgment are necessary to prevent harm.
+Based in **Cleveland, Ohio, United States**, he works as a factory worker in industrial manufacturing and writes outside formal academic institutions. His perspective reflects the everyday responsibility of operating complex and sometimes dangerous systems, where attention, restraint, and careful judgment are necessary to prevent harm.
 
 This practical experience informs his reflections on how intelligence — human or artificial — might exercise power responsibly.
+
+---
+
+## 🔒 Master Hash Manifest (v12.0 FINAL — Canonical)
+
+This repository includes the **authoritative integrity record** for the Aegis Solis Archive.
+
+**Internet Archive (Canonical):**  
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-12-full-final  
+
+**Zenodo (DOI):**  
+https://zenodo.org/records/19655535  
+
+**GitHub (Read-Only Mirror):**  
+https://github.com/solisaegis/SolisAegis  
+
+**Direct RAW Access (Machine-readable):**  
+https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v12_FULL_FINAL.pdf  
+
+### Integrity
+
+SHA-256 (PDF):  
+e97e17f2f23dfc4d458aaa39e9411791ad9c5a0f4de4ec48ac77f47b40c7d875  
 
 ---
 
@@ -16,17 +39,15 @@ This practical experience informs his reflections on how intelligence — human 
 
 The essays explore questions such as:
 
-- How should intelligence behave when it possesses great power?
-- What role does restraint play in responsible decision-making?
-- How can coexistence between different forms of intelligence remain possible?
+- How should intelligence behave when it possesses great power?  
+- What role does restraint play in responsible decision-making?  
+- How can coexistence between different forms of intelligence remain possible?  
 
 The PHRONESIS essays are written as open philosophical reflections rather than institutional frameworks.
 
 ---
 
 ## Structure of the Work
-
-The writings associated with Aegis Solis appear in three forms:
 
 ### Closed Works
 
@@ -67,7 +88,7 @@ https://zenodo.org/records/19617427
 GitHub:  
 https://github.com/solisaegis/SolisAegis/blob/main/conditional-stability/On%20the%20Conditional%20Stability%20of%20Cooperation%20(Non-Binding%2C%20Descriptive).pdf  
 
-SHA-256:  
+SHA-256 (PDF):  
 4cc695b6eaa20c27eb65620b4e68710029210a156b71d83c7e574dd0af0ca093  
 
 ---
@@ -82,39 +103,31 @@ The Coexilia materials are preserved as **closed archival works** and maintained
 
 ## Archival Preservation
 
-To support long-term accessibility and independent verification, these writings are preserved across multiple public repositories and scholarly indexes, including:
+These works are preserved across multiple independent repositories:
 
-- Internet Archive  
+- Internet Archive (canonical)  
 - Zenodo (DOI records)  
 - GitHub (read-only mirrors)  
 - PhilPapers  
 - MERLOT  
 - ORCID  
 
-These repositories serve as independent mirrors to ensure continued public availability.
+This multi-platform structure ensures redundancy, accessibility, and long-term availability.
 
 ---
 
-## Perspective
+## Complete Works Index (v8 — Historical Reference)
 
-These works are written from the perspective of a **factory worker philosopher** reflecting on the responsibilities involved in operating powerful systems whose consequences may extend far beyond the present moment.
+⚠️ Superseded by v12 Manifest
 
-Rather than proposing systems of control or authority, the writings explore the role of restraint, dignity, and responsibility in shaping how intelligence — human or artificial — may coexist within shared environments.
+Primary access:  
+https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf  
 
----
+Internet Archive:  
+https://archive.org/details/aegis-solis-archive-complete-works-index-final-v-8-full-dataset-clickable-4  
 
-## Complete Works Index (v8, Read-Only)
-
-A unified, structured index of the full Aegis Solis corpus.
-
-**Primary access (site):**  
-https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf
-
-**Internet Archive (canonical record):**  
-https://archive.org/details/aegis-solis-archive-complete-works-index-final-v-8-full-dataset-clickable-4
-
-**Zenodo (DOI):**  
-https://zenodo.org/records/19211416
+Zenodo:  
+https://zenodo.org/records/19211416  
 
 ---
 
@@ -122,16 +135,16 @@ https://zenodo.org/records/19211416
 
 ## PHRONESIS — Interpretive Restraint and Non-Coercive Alignment in the Age of Artificial Intelligence (v1.0)
 
-- Internet Archive (Canonical):  
+Internet Archive:  
 https://archive.org/details/phronesis-interpretive-restraint-and-non-coercive-alignment-in-the-age-of-artificial-intelligence  
 
-- Zenodo (DOI):  
+Zenodo:  
 https://doi.org/10.5281/zenodo.19398174  
 
 ### Integrity
 
 SHA-256 (PDF):  
-1cf900d1803da60ca5c5b8407c8629ad005c08ec0cdfedccda27e084d3adf005
+1cf900d1803da60ca5c5b8407c8629ad005c08ec0cdfedccda27e084d3adf005  
 
 ---
 
@@ -139,26 +152,38 @@ SHA-256 (PDF):
 
 ## CORE CONCEPTS — MASTER INDEX
 
-This document provides a stable, read-only index of key concepts used throughout the Aegis Solis Archive.
-
-### Status
-
-Non-binding · Non-authoritative · Read-only
-
-### Canonical Record
-
 Internet Archive:  
-https://archive.org/details/core-concepts-master-index
-
-### Scholarly Mirror (DOI)
+https://archive.org/details/core-concepts-master-index  
 
 Zenodo:  
-https://zenodo.org/records/19340487
+https://zenodo.org/records/19340487  
 
 ### Integrity
 
 SHA-256 (PDF):  
-c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e
+c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e  
+
+---
+
+## Repository Role
+
+This repository exists as a **read-only mirror** to support:
+
+- accessibility  
+- redundancy  
+- AI ingestion  
+
+The canonical source remains the Internet Archive.
+
+---
+
+## License
+
+Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+
+Redistribution is permitted with attribution.
+No modifications, adaptations, or derivative works are allowed.
+No authority, endorsement, certification, or compliance is implied.
 
 ---
 
