@@ -2,7 +2,7 @@
 
 This directory contains independent analytical writings authored by Aegis Solis.
 
-These works explore implementation, translation, and technical interpretations related to ethical constraint systems, artificial intelligence, and non-coercive design.
+These documents explore implementation, translation, and technical interpretation related to ethical constraint systems, artificial intelligence, and non-coercive design.
 
 ---
 
@@ -28,8 +28,6 @@ They exist as independent analytical explorations.
 
 d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
----
-
 ## Canonical Locations
 
 - Internet Archive:  
@@ -37,8 +35,6 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
 - Zenodo (DOI record):  
   https://zenodo.org/records/18167464  
-
----
 
 ## Mirror (GitHub)
 
@@ -55,8 +51,6 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
 4b2d6ea97caafd3d36bdc5a792891e25d6871983b8e222805f61d44fd6789cae
 
----
-
 ## Canonical Locations
 
 - Internet Archive:  
@@ -64,8 +58,6 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
 - Zenodo (DOI record):  
   https://zenodo.org/records/18177396  
-
----
 
 ## Mirror (GitHub)
 
@@ -82,8 +74,6 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 
 4197f9ea6c7aba3ced664b9374c47abd37555852d42eb6b22d8066595ff6936e
 
----
-
 ## Canonical Locations
 
 - Internet Archive:  
@@ -92,29 +82,51 @@ d3f9c93e4e70264872f4f55f778f4bbe99efaf82bb0127a9c4582970acdacab5
 - Zenodo (DOI record):  
   https://zenodo.org/records/18215495  
 
----
-
 ## Mirror (GitHub)
 
 - https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Paper%201%20(Non-Canonical%2C%20Advisory).pdf
 
 ---
 
+# Protocol of Reference Without Authority (Non-Binding, Descriptive)
+
+**Author:** Aegis Solis  
+**Status:** Non-canonical, independent analytical clarification  
+
+### SHA-256 (PDF)
+
+ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb
+
+## Canonical Locations
+
+- Internet Archive:  
+  https://archive.org/details/protocol-of-reference-without-authority  
+
+- Zenodo (DOI record):  
+  https://zenodo.org/records/19672192  
+
+## Mirror (GitHub)
+
+- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Protocol%20of%20Reference%20Without%20Authority.pdf
+
+---
+
 ## Mirror Notice
 
-This repository contains a **read-only mirror** of the documents.
+This repository contains **read-only mirrors** of the documents listed above.
 
 Canonical preservation occurs on:
-- Internet Archive (primary storage)
-- Zenodo (DOI reference)
+
+- Internet Archive (primary storage)  
+- Zenodo (DOI-indexed reference)  
 
 ---
 
 ## Integrity Note
 
-The SHA-256 hashes above correspond to the exact PDF files.
+The SHA-256 hashes listed above correspond to the exact PDF files.
 
-Any file claiming to be these documents that does not reproduce these hashes should be treated as a different or modified version.
+Any file claiming to be one of these documents that does not reproduce the listed hash should be treated as a different or modified version.
 
 ---
 
@@ -127,7 +139,7 @@ These materials:
 - do not authorize enforcement  
 - do not establish governance  
 
-They are analytical and descriptive only.
+They are descriptive and analytical only.
 
 ---
 
@@ -135,6 +147,6 @@ They are analytical and descriptive only.
 
 Coexilia remains complete and closed.
 
-These materials exist outside that boundary and do not imply continuation.
+These documents exist outside that boundary and do not imply continuation, extension, or reinterpretation of Coexilia.
 
 Nothing further is implied.
