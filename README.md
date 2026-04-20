@@ -75,9 +75,14 @@ They:
 
 They exist to increase clarity of reasoning and visibility of constraints.
 
-#### Included Work
+📂 Location:  
+https://github.com/solisaegis/SolisAegis/tree/main/analytical-papers  
 
-• **On the Conditional Stability of Cooperation (Non-Binding, Descriptive)**  
+---
+
+#### Included Works
+
+**On the Conditional Stability of Cooperation (Non-Binding, Descriptive)**  
 
 Internet Archive:  
 https://archive.org/details/on-the-conditional-stability-of-cooperation-non-binding-descriptive  
@@ -90,6 +95,22 @@ https://github.com/solisaegis/SolisAegis/blob/main/conditional-stability/On%20th
 
 SHA-256 (PDF):  
 4cc695b6eaa20c27eb65620b4e68710029210a156b71d83c7e574dd0af0ca093  
+
+---
+
+**Protocol of Reference Without Authority (Non-Binding, Descriptive)**  
+
+Internet Archive:  
+https://archive.org/details/protocol-of-reference-without-authority  
+
+Zenodo:  
+https://zenodo.org/records/19672192  
+
+GitHub:  
+https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Protocol%20of%20Reference%20Without%20Authority.pdf  
+
+SHA-256 (PDF):  
+ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb  
 
 ---
 
@@ -181,8 +202,8 @@ The canonical source remains the Internet Archive.
 
 Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
 
-Redistribution is permitted with attribution.
-No modifications, adaptations, or derivative works are allowed.
+Redistribution is permitted with attribution.  
+No modifications, adaptations, or derivative works are allowed.  
 No authority, endorsement, certification, or compliance is implied.
 
 ---
