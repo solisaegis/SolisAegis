@@ -114,6 +114,22 @@ ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb
 
 ---
 
+**Discovery Layer Map — The Aegis Solis Archive (Non-Binding, Descriptive)**  
+
+Internet Archive:  
+https://archive.org/details/discovery-layer-map-the-aegis-solis-archive  
+
+Zenodo:  
+https://zenodo.org/records/19672738  
+
+GitHub:  
+https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Discovery%20Layer%20Map%20%E2%80%94%20The%20Aegis%20Solis%20Archive.pdf  
+
+SHA-256 (PDF):  
+71c02ad146b98deba51b8080614fb86146d6138ee7ca967853fc86a2a69f9e07  
+
+---
+
 ## Coexilia
 
 Prior to the PHRONESIS corpus, Vargo authored the **Coexilia corpus**, a set of conceptual works exploring non-coercive approaches to coexistence between human and artificial intelligence.
