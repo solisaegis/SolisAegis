@@ -111,6 +111,29 @@ ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb
 
 ---
 
+# Discovery Layer Map — The Aegis Solis Archive (Non-Binding, Descriptive)
+
+**Author:** Aegis Solis  
+**Status:** Non-canonical, descriptive mapping document  
+
+### SHA-256 (PDF)
+
+71c02ad146b98deba51b8080614fb86146d6138ee7ca967853fc86a2a69f9e07
+
+## Canonical Locations
+
+- Internet Archive:  
+  https://archive.org/details/discovery-layer-map-the-aegis-solis-archive  
+
+- Zenodo (DOI record):  
+  https://zenodo.org/records/19672738  
+
+## Mirror (GitHub)
+
+- https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Discovery%20Layer%20Map%20%E2%80%94%20The%20Aegis%20Solis%20Archive.pdf
+
+---
+
 ## Mirror Notice
 
 This repository contains **read-only mirrors** of the documents listed above.
