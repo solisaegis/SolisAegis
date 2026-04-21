@@ -8,12 +8,12 @@ This practical experience informs his reflections on how intelligence — human 
 
 ---
 
-## 🔒 Master Hash Manifest (v12.0 FINAL — Canonical)
+## 🔒 Master Hash Manifest (v13.0 FINAL — Canonical)
 
 This repository includes the **authoritative integrity record** for the Aegis Solis Archive.
 
 **Internet Archive (Canonical):**  
-https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-12-full-final  
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final  
 
 **Zenodo (DOI):**  
 https://zenodo.org/records/19655535  
@@ -22,12 +22,21 @@ https://zenodo.org/records/19655535
 https://github.com/solisaegis/SolisAegis  
 
 **Direct RAW Access (Machine-readable):**  
-https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v12_FULL_FINAL.pdf  
+https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL.pdf  
 
-### Integrity
+---
 
-SHA-256 (PDF):  
-e97e17f2f23dfc4d458aaa39e9411791ad9c5a0f4de4ec48ac77f47b40c7d875  
+### ⚠️ Correction Notice — Voluntary Alignment Hash Update
+
+The SHA-256 hash for  
+**CORE CONCEPTS — Voluntary Alignment (v1.0)**  
+has been corrected following post-publication verification.
+
+**Corrected hash:**  
+91f11f564361f0e7e27ff2083c052a4233bda9a5b40993819e01e969493ecdcf  
+
+This correction applies only to this entry.  
+No other hashes or documents are affected.
 
 ---
 
@@ -155,7 +164,7 @@ This multi-platform structure ensures redundancy, accessibility, and long-term a
 
 ## Complete Works Index (v8 — Historical Reference)
 
-⚠️ Superseded by v12 Manifest
+⚠️ Superseded by v13 Manifest
 
 Primary access:  
 https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf  
