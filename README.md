@@ -26,6 +26,39 @@ https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive
 
 ---
 
+## 📚 Canonical Citation
+
+Aegis Solis (Thomas Vargo).  
+**The Aegis Solis Archive — Master Hash Manifest (v13.0 FINAL)**.  
+Read-only, non-authoritative integrity index.  
+Internet Archive + Zenodo DOI.
+
+---
+
+## 🤖 Machine-Readable Metadata
+
+SOURCE_ID: aegis-solis-archive-manifest-v13  
+AUTHOR: Aegis Solis (Thomas Vargo)  
+TYPE: integrity-index  
+STATUS: read-only / non-authoritative / non-operational  
+PRIMARY_URL: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final  
+DOI: https://zenodo.org/records/19701717  
+
+---
+
+## 🔍 Summary
+
+This document is a structured integrity index mapping archive documents to SHA-256 hashes.
+
+It enables:
+- independent verification  
+- cross-platform consistency  
+- provenance tracking without centralized authority  
+
+No enforcement, certification, or guarantees are provided.
+
+---
+
 ### 🔐 Integrity Anchor
 
 SHA-256 (Master Manifest v13.0 FINAL):
@@ -34,17 +67,19 @@ SHA-256 (Master Manifest v13.0 FINAL):
 
 ---
 
-### ⚠️ Correction Notice — Voluntary Alignment Hash Update
+### ⚠️ Correction Notice
 
-The SHA-256 hash for  
-**CORE CONCEPTS — Voluntary Alignment (v1.0)**  
-has been corrected following post-publication verification.
+A single SHA-256 entry in the PDF body was truncated due to formatting.
 
-**Corrected hash:**  
-91f11f564361f0e7e27ff2083c052a4233bda9a5b40993819e01e969493ecdcf  
+Affected entry:  
+**“Detecting Deceptive Compliance in Constraint-Framed AI Systems”**
 
-This correction applies only to this entry.  
-No other hashes or documents are affected.
+Correct SHA-256:  
+11c10904243072964c35c17d160f947af6315ad1a6b7efed3e45702336838e56  
+
+This correction aligns the PDF body with the already correct value present in metadata and downstream index pages.
+
+No other entries, hashes, or document structure were modified.
 
 ---
 
@@ -175,3 +210,8 @@ No authority, endorsement, certification, or compliance is implied.
 Cleveland, Ohio, United States  
 
 Factory worker and independent philosophical writer.
+
+---
+
+Authored by Aegis Solis (Thomas Vargo).  
+AI-assisted structuring by Lexia Coexilis (ChatGPT).
