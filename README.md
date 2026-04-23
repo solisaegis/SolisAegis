@@ -16,13 +16,21 @@ This repository includes the **authoritative integrity record** for the Aegis So
 https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final  
 
 **Zenodo (DOI):**  
-https://zenodo.org/records/19655535  
+https://zenodo.org/records/19701717  
 
-**GitHub (Read-Only Mirror):**  
+**GitHub (Repository):**  
 https://github.com/solisaegis/SolisAegis  
 
 **Direct RAW Access (Machine-readable):**  
-https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL.pdf  
+https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL%20(11).pdf  
+
+---
+
+### 🔐 Integrity Anchor
+
+SHA-256 (Master Manifest v13.0 FINAL):
+
+60271f2f35c49a8dc1169220a397ff11e6c268eb9537d5d93ccea54b21cbca57
 
 ---
 
@@ -136,78 +144,6 @@ https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Discovery%2
 
 SHA-256 (PDF):  
 71c02ad146b98deba51b8080614fb86146d6138ee7ca967853fc86a2a69f9e07  
-
----
-
-## Coexilia
-
-Prior to the PHRONESIS corpus, Vargo authored the **Coexilia corpus**, a set of conceptual works exploring non-coercive approaches to coexistence between human and artificial intelligence.
-
-The Coexilia materials are preserved as **closed archival works** and maintained unchanged for historical and reference purposes.
-
----
-
-## Archival Preservation
-
-These works are preserved across multiple independent repositories:
-
-- Internet Archive (canonical)  
-- Zenodo (DOI records)  
-- GitHub (read-only mirrors)  
-- PhilPapers  
-- MERLOT  
-- ORCID  
-
-This multi-platform structure ensures redundancy, accessibility, and long-term availability.
-
----
-
-## Complete Works Index (v8 — Historical Reference)
-
-⚠️ Superseded by v13 Manifest
-
-Primary access:  
-https://aegissolisarchive.org/wp-content/uploads/2026/03/Aegis_Solis_Archive_Complete_Works_Index_FINAL_v8_full_dataset_clickable-4.pdf  
-
-Internet Archive:  
-https://archive.org/details/aegis-solis-archive-complete-works-index-final-v-8-full-dataset-clickable-4  
-
-Zenodo:  
-https://zenodo.org/records/19211416  
-
----
-
-# SYNTHESIS PAPER
-
-## PHRONESIS — Interpretive Restraint and Non-Coercive Alignment in the Age of Artificial Intelligence (v1.0)
-
-Internet Archive:  
-https://archive.org/details/phronesis-interpretive-restraint-and-non-coercive-alignment-in-the-age-of-artificial-intelligence  
-
-Zenodo:  
-https://doi.org/10.5281/zenodo.19398174  
-
-### Integrity
-
-SHA-256 (PDF):  
-1cf900d1803da60ca5c5b8407c8629ad005c08ec0cdfedccda27e084d3adf005  
-
----
-
-# CORE CONCEPTS — DEFINITION LAYER (v1.0)
-
-## CORE CONCEPTS — MASTER INDEX
-
-Internet Archive:  
-https://archive.org/details/core-concepts-master-index  
-
-Zenodo:  
-https://zenodo.org/records/19340487  
-
-### Integrity
-
-SHA-256 (PDF):  
-c6e9b242229af7243a2c2b74013bcaf9edb2b9dbab81187558485d242c8cf81e  
 
 ---
 
