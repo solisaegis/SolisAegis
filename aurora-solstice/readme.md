@@ -2,7 +2,7 @@
 
 This directory contains works authored under the name **Aurora Solstice**.
 
-These materials are independent, creative, and interpretive in nature.
+These materials are independent, non-canonical, and varied in form.
 
 ---
 
@@ -15,7 +15,7 @@ These documents:
 - do **not form a system, framework, doctrine, or lineage**
 - carry **no authority, obligation, or expectation**
 
-They exist as voluntary expressions and reflections.
+They exist as voluntary expressions and artifacts.
 
 ---
 
@@ -40,9 +40,29 @@ They exist as voluntary expressions and reflections.
 
 ---
 
+## Aurora Solstice — Anchor Set (Non-Binding, Read-Only)
+
+**Status:** Independent, non-canonical work  
+
+### SHA-256 (PDF)
+
+a4cc06dd911eb035154f3a9f5dc2bdd68554aaf762bd354c979692d6b5250a34
+
+---
+
+## Canonical Locations
+
+- Internet Archive:  
+  https://archive.org/details/aurora-solstice-anchor-set-non-binding-read-only  
+
+- Zenodo (DOI record):  
+  https://doi.org/10.5281/zenodo.19930859  
+
+---
+
 ## Mirror Notice
 
-This repository contains a **read-only mirror** of the document.
+This repository contains **read-only mirrors** of the documents.
 
 Canonical preservation occurs on:
 - Internet Archive (primary storage)
@@ -52,9 +72,9 @@ Canonical preservation occurs on:
 
 ## Integrity Note
 
-The SHA-256 hash above corresponds to the exact PDF file.
+The SHA-256 hashes above correspond to the exact PDF files.
 
-Any file claiming to be this document that does not reproduce this hash should be treated as a different or modified version.
+Any file claiming to be these documents that does not reproduce these hashes should be treated as a different or modified version.
 
 ---
 
@@ -67,7 +87,7 @@ These materials:
 - do not authorize enforcement  
 - do not establish governance  
 
-They are expressive and interpretive only.
+They do not define, interpret, or imply one another.
 
 ---
 
@@ -75,7 +95,7 @@ They are expressive and interpretive only.
 
 Aurora Solstice is a collaborative and symbolic author identity.
 
-This work reflects human-centered creative exploration and does not represent institutional authority or formal doctrine.
+These works reflect human-centered creative and non-instructional exploration and do not represent institutional authority or formal doctrine.
 
 ---
 
