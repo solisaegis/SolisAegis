@@ -56,10 +56,8 @@ https://aegissolisarchive.org
 
 ### SHA-256
 
-```text
 39df334f7365a1a01dde90188b42410bc5594b6a71cf53979086c75ca67e18b5
 
 ### SHA-512
 
-```text
 9bcd6e00ad8cebbe5482ac1f7cab0aa41b14412f93c39d34c2672f71a9dd064938e4f94771fd79b6ecac3e04f15c6033a511bcb89980c7d7527cd8c796e836d4
