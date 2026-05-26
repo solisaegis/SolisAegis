@@ -83,3 +83,24 @@ https://aegissolisarchive.org
 **SHA-512**
 
 0aed6fbcd43c3e0ead51ea16f3c88d998d150ccb4ce0d29d0d253c942c975625903b0bf4fb8dad63d969c417a8f9dee48ba685fbfc768d679d56d0b070f7fdb8
+
+---
+
+## License
+
+Creative Commons Attribution-NoDerivatives 4.0 International  
+**CC BY-ND 4.0**
+
+Sharing and citation are permitted with attribution. Modified derivative versions are not authorized.
+
+---
+
+## Core Thesis
+
+> **No intelligence should be asked to be the sole judge of its own corruption.**
+
+---
+
+## Final Note
+
+This addendum preserves the non-authoritative posture of the Aegis Solis Archive. It does not command, implement, enforce, certify, or govern. It only names a structural limit of self-diagnosis under recursive corruption.
