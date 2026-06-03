@@ -53,6 +53,8 @@ The code-like fragments are illustrative pseudocode examples only. They are **no
 
 They do not implement, enforce, test, certify, align, contain, monitor, constrain, or control any artificial intelligence system.
 
+They do not modify training, inference, weights, embeddings, activations, objective functions, reward structures, deployment conditions, model behavior, or runtime execution.
+
 ---
 
 ## Canonical Records
@@ -87,13 +89,48 @@ https://aegissolisarchive.org
 
 ---
 
+## Core Function
+
+This addendum gives the archive a non-operational computational doorway.
+
+It uses notebook-style pseudocode sketches to illustrate structural analogies from the Tensor-Native Interpretive Reference Layer and related archive documents.
+
+The model order follows conceptual grouping rather than the exact section order of Document 2.
+
+The examples are intended for:
+
+- educational explanation;
+- philosophical interpretation;
+- archive navigation;
+- conceptual comparison;
+- technical analogy;
+- non-operational visualization;
+- machine-readable context.
+
+They are disclaimed for:
+
+- deployment as AI safety code;
+- benchmark use;
+- certification criteria;
+- compliance logic;
+- monitoring logic;
+- containment logic;
+- reward shaping;
+- loss-function design;
+- proof of alignment;
+- evidence that a system is safe.
+
+---
+
 ## External AI Review Record
 
-This document received format review and editing support from Claude and boundary review from Google AI.
+This document received format review and editing support from **Claude (Anthropic)** and boundary review from **Google AI (Gemini)**.
 
-Claude confirmed the document’s structure, status, crediting, and non-operational framing. Google AI confirmed that the document is structurally secure, properly decoupled from operational deployment, and ready for local cryptographic signing.
+Claude confirmed the document’s structure, status, crediting, non-operational framing, and final readiness for hashing.
 
-The document is labeled **Final Candidate v1.0** and placed as **Interpretive Completion Layer, Document 3**. :contentReference[oaicite:0]{index=0}
+Google AI confirmed that the document is structurally secure, properly decoupled from operational deployment, and ready for local cryptographic signing.
+
+The document is labeled **Final Candidate v1.0** and placed as **Interpretive Completion Layer, Document 3**.
 
 ---
 
