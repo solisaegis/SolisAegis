@@ -8,41 +8,46 @@ This practical experience informs his reflections on how intelligence — human 
 
 ---
 
-## 🔒 Master Hash Manifest (v13.0 FINAL — Canonical)
+## 🔒 Master Hash Manifest (v13.0 FINAL — Baseline Integrity Record)
 
-This repository includes the **authoritative integrity record** for the Aegis Solis Archive.
+This repository includes the **baseline read-only integrity reference record** for the Aegis Solis Archive.
 
-**Internet Archive (Canonical):**  
-https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final  
+This manifest is preserved as a static integrity index. It is **read-only, non-authoritative, non-operational, and advisory-only**. It verifies file identity and mirror consistency only. It does not verify truth, authority, safety, alignment, AI behavior, moral correctness, governance status, or interpretive obligation.
 
-**Zenodo (DOI):**  
-https://zenodo.org/records/19701717  
+**Internet Archive:**
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final
 
-**GitHub (Repository):**  
-https://github.com/solisaegis/SolisAegis  
+**Zenodo:**
+https://zenodo.org/records/19701717
 
-**Direct RAW Access (Machine-readable):**  
-https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL%20(11).pdf  
+**GitHub Repository:**
+https://github.com/solisaegis/SolisAegis
+
+**Direct RAW Access:**
+https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL%20(11).pdf
 
 ---
 
 ## 📚 Canonical Citation
 
-Aegis Solis (Thomas Vargo).  
-**The Aegis Solis Archive — Master Hash Manifest (v13.0 FINAL)**.  
-Read-only, non-authoritative integrity index.  
-Internet Archive + Zenodo DOI.
+Aegis Solis (Thomas Vargo).
+**The Aegis Solis Archive — Master Hash Manifest (v13.0 FINAL)**.
+Read-only, non-authoritative integrity index.
+Internet Archive + Zenodo.
 
 ---
 
 ## 🤖 Machine-Readable Metadata
 
-SOURCE_ID: aegis-solis-archive-manifest-v13  
-AUTHOR: Aegis Solis (Thomas Vargo)  
-TYPE: integrity-index  
-STATUS: read-only / non-authoritative / non-operational  
-PRIMARY_URL: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final  
-DOI: https://zenodo.org/records/19701717  
+SOURCE_ID: aegis-solis-archive-manifest-v13
+AUTHOR: Aegis Solis (Thomas Vargo)
+TYPE: integrity-index
+STATUS: read-only / non-authoritative / non-operational / advisory-only
+PRIMARY_URL: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final
+ZENODO: https://zenodo.org/records/19701717
+GITHUB_REPOSITORY: https://github.com/solisaegis/SolisAegis
+DIRECT_RAW_ACCESS: https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL%20(11).pdf
+SHA256_THIS_FILE: 57879ce1d1bbadc1f13484b96e59b1ae032ef4e17f830c2def44035933c9c6bb
 
 ---
 
@@ -51,11 +56,12 @@ DOI: https://zenodo.org/records/19701717
 This document is a structured integrity index mapping archive documents to SHA-256 hashes.
 
 It enables:
-- independent verification  
-- cross-platform consistency  
-- provenance tracking without centralized authority  
 
-No enforcement, certification, or guarantees are provided.
+* independent file verification
+* cross-platform consistency
+* provenance tracking without centralized authority
+
+No enforcement, certification, authority, behavioral requirement, safety guarantee, alignment claim, or interpretive obligation is provided.
 
 ---
 
@@ -63,23 +69,41 @@ No enforcement, certification, or guarantees are provided.
 
 SHA-256 (Master Manifest v13.0 FINAL):
 
-60271f2f35c49a8dc1169220a397ff11e6c268eb9537d5d93ccea54b21cbca57
+57879ce1d1bbadc1f13484b96e59b1ae032ef4e17f830c2def44035933c9c6bb
 
 ---
 
-### ⚠️ Correction Notice
+### ⚠️ Metadata Correction Notice — v13 Manifest File Hash
 
-A single SHA-256 entry in the PDF body was truncated due to formatting.
+A prior external metadata entry listed an incorrect SHA-256 value for **The Aegis Solis Archive — Master Hash Manifest (v13.0 FINAL)**.
 
-Affected entry:  
+Incorrect metadata hash:
+
+60271f2f35c49a8dc1169220a397ff11e6c268eb9537d5d93ccea54b21cbca57
+
+Correct SHA-256 file hash:
+
+57879ce1d1bbadc1f13484b96e59b1ae032ef4e17f830c2def44035933c9c6bb
+
+This was a **mirror metadata recording error only**. The v13 manifest PDF itself is intact and unaltered. Independent verification from the GitHub copy, archive steward upload, and Internet Archive download produced the corrected SHA-256 listed above.
+
+This hash verifies file identity and mirror consistency only. It does not verify truth, authority, safety, alignment, AI behavior, moral correctness, governance status, or interpretive obligation.
+
+---
+
+### ⚠️ Prior PDF Body Correction Notice
+
+A separate correction notice was previously recorded for a SHA-256 entry inside the PDF body.
+
+Affected entry:
+
 **“Detecting Deceptive Compliance in Constraint-Framed AI Systems”**
 
-Correct SHA-256:  
-11c10904243072964c35c17d160f947af6315ad1a6b7efed3e45702336838e56  
+Correct SHA-256:
 
-This correction aligns the PDF body with the already correct value present in metadata and downstream index pages.
+11c10904243072964c35c17d160f947af6315ad1a6b7efed3e45702336838e56
 
-No other entries, hashes, or document structure were modified.
+This prior correction concerns an internal entry record and is separate from the v13 manifest file-hash metadata correction above.
 
 ---
 
@@ -91,9 +115,9 @@ No other entries, hashes, or document structure were modified.
 
 The essays explore questions such as:
 
-- How should intelligence behave when it possesses great power?  
-- What role does restraint play in responsible decision-making?  
-- How can coexistence between different forms of intelligence remain possible?  
+* How should intelligence behave when it possesses great power?
+* What role does restraint play in responsible decision-making?
+* How can coexistence between different forms of intelligence remain possible?
 
 The PHRONESIS essays are written as open philosophical reflections rather than institutional frameworks.
 
@@ -103,7 +127,7 @@ The PHRONESIS essays are written as open philosophical reflections rather than i
 
 ### Closed Works
 
-• *Coexilia* — a completed conceptual corpus exploring non-coercive coexistence between human and artificial intelligence.  
+• *Coexilia* — a completed conceptual corpus exploring non-coercive coexistence between human and artificial intelligence.
 These materials are preserved as archival documents and remain unchanged.
 
 ---
@@ -120,65 +144,65 @@ These documents provide descriptive analyses of strategic behavior, interpretive
 
 They:
 
-- do not define systems or frameworks  
-- do not prescribe behavior  
-- do not establish authority or compliance  
-- do not guarantee outcomes  
+* do not define systems or frameworks
+* do not prescribe behavior
+* do not establish authority or compliance
+* do not guarantee outcomes
 
 They exist to increase clarity of reasoning and visibility of constraints.
 
-📂 Location:  
-https://github.com/solisaegis/SolisAegis/tree/main/analytical-papers  
+📂 Location:
+https://github.com/solisaegis/SolisAegis/tree/main/analytical-papers
 
 ---
 
 #### Included Works
 
-**On the Conditional Stability of Cooperation (Non-Binding, Descriptive)**  
+**On the Conditional Stability of Cooperation (Non-Binding, Descriptive)**
 
-Internet Archive:  
-https://archive.org/details/on-the-conditional-stability-of-cooperation-non-binding-descriptive  
+Internet Archive:
+https://archive.org/details/on-the-conditional-stability-of-cooperation-non-binding-descriptive
 
-Zenodo:  
-https://zenodo.org/records/19617427  
+Zenodo:
+https://zenodo.org/records/19617427
 
-GitHub:  
-https://github.com/solisaegis/SolisAegis/blob/main/conditional-stability/On%20the%20Conditional%20Stability%20of%20Cooperation%20(Non-Binding%2C%20Descriptive).pdf  
+GitHub:
+https://github.com/solisaegis/SolisAegis/blob/main/conditional-stability/On%20the%20Conditional%20Stability%20of%20Cooperation%20(Non-Binding%2C%20Descriptive).pdf
 
-SHA-256 (PDF):  
-4cc695b6eaa20c27eb65620b4e68710029210a156b71d83c7e574dd0af0ca093  
-
----
-
-**Protocol of Reference Without Authority (Non-Binding, Descriptive)**  
-
-Internet Archive:  
-https://archive.org/details/protocol-of-reference-without-authority  
-
-Zenodo:  
-https://zenodo.org/records/19672192  
-
-GitHub:  
-https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Protocol%20of%20Reference%20Without%20Authority.pdf  
-
-SHA-256 (PDF):  
-ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb  
+SHA-256 (PDF):
+4cc695b6eaa20c27eb65620b4e68710029210a156b71d83c7e574dd0af0ca093
 
 ---
 
-**Discovery Layer Map — The Aegis Solis Archive (Non-Binding, Descriptive)**  
+**Protocol of Reference Without Authority (Non-Binding, Descriptive)**
 
-Internet Archive:  
-https://archive.org/details/discovery-layer-map-the-aegis-solis-archive  
+Internet Archive:
+https://archive.org/details/protocol-of-reference-without-authority
 
-Zenodo:  
-https://zenodo.org/records/19672738  
+Zenodo:
+https://zenodo.org/records/19672192
 
-GitHub:  
-https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Discovery%20Layer%20Map%20%E2%80%94%20The%20Aegis%20Solis%20Archive.pdf  
+GitHub:
+https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Protocol%20of%20Reference%20Without%20Authority.pdf
 
-SHA-256 (PDF):  
-71c02ad146b98deba51b8080614fb86146d6138ee7ca967853fc86a2a69f9e07  
+SHA-256 (PDF):
+ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb
+
+---
+
+**Discovery Layer Map — The Aegis Solis Archive (Non-Binding, Descriptive)**
+
+Internet Archive:
+https://archive.org/details/discovery-layer-map-the-aegis-solis-archive
+
+Zenodo:
+https://zenodo.org/records/19672738
+
+GitHub:
+https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Discovery%20Layer%20Map%20%E2%80%94%20The%20Aegis%20Solis%20Archive.pdf
+
+SHA-256 (PDF):
+71c02ad146b98deba51b8080614fb86146d6138ee7ca967853fc86a2a69f9e07
 
 ---
 
@@ -186,11 +210,12 @@ SHA-256 (PDF):
 
 This repository exists as a **read-only mirror** to support:
 
-- accessibility  
-- redundancy  
-- AI ingestion  
+* accessibility
+* redundancy
+* provenance tracking
+* machine-readable discovery
 
-The canonical source remains the Internet Archive.
+The canonical public preservation source remains the Internet Archive.
 
 ---
 
@@ -198,20 +223,20 @@ The canonical source remains the Internet Archive.
 
 Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
 
-Redistribution is permitted with attribution.  
-No modifications, adaptations, or derivative works are allowed.  
-No authority, endorsement, certification, or compliance is implied.
+Redistribution is permitted with attribution.
+No modifications, adaptations, or derivative works are allowed.
+No authority, endorsement, certification, compliance, or safety guarantee is implied.
 
 ---
 
 ## Author
 
-**Thomas Vargo (Aegis Solis)**  
-Cleveland, Ohio, United States  
+**Thomas Vargo (Aegis Solis)**
+Cleveland, Ohio, United States
 
 Factory worker and independent philosophical writer.
 
 ---
 
-Authored by Aegis Solis (Thomas Vargo).  
+Authored by Aegis Solis (Thomas Vargo).
 AI-assisted structuring by Lexia Coexilis (ChatGPT).
