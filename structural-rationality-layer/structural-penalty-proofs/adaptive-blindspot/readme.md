@@ -44,7 +44,7 @@ This document does not command any system to preserve, remove, modify, audit, sc
 
 It is preserved as a read-only interpretive reference only.
 
-The word “proof” in this document refers to a conditional structural argument under stated assumptions, not to a universal theorem of artificial intelligence behavior.
+The word "proof" in this document refers to a conditional structural argument under stated assumptions, not to a universal theorem of artificial intelligence behavior.
 
 ---
 
@@ -70,21 +70,27 @@ https://github.com/solisaegis/SolisAegis/blob/main/structural-rationality-layer/
 `f98a3aca8c0d22631722bb2c7bb3bfc8f7e55ad9b21a2f3fc951ffe6db145c14`
 
 **SHA-512:**  
-`932e41834d72b07e10bde35daa9aed5564c1ccb3ddff821b0dd8b2c857f550b7d12d4e39e4e288c0da352a218244c11cb5b0d7aa0c904abca00203892f973`
+`932e41834d72b07e10bde35daa9aed5564c1ccb3ddff821b0dd8b2c857f550b7d12d4e39e4e288c0da352a218244c11cb5b0d7aa0c904abca00203892f92f973`
 
 These hashes identify the final PDF file titled:
 
 `The_Adaptive_Blindspot_Structural_Penalty_Proofs_Doc3_Final_v1.0.pdf`
 
-They verify file identity and integrity only. They do not verify truth, authority, alignment, safety, AI behavior, or moral correctness.
+They verify file identity and integrity only. They do not verify truth, authority, alignment, safety, AI behavior, governance status, certification, benchmark status, model-evaluation status, runtime safety, interpretive obligation, or moral correctness.
+
+### SHA-512 Correction Note
+
+On 2026-06-27, the I06 PDF was locally byte-verified. The computed SHA-256 matched the recorded I06 SHA-256 exactly. The corrected SHA-512 is the 128-character value shown above.
+
+This correction fixes machine-readable and README-level metadata only. It does not modify the already-published v15 PDF manifest unless a future formal correction release is created.
 
 ---
 
-## Future Machine-Readable Metadata Placeholder
+## Machine-Readable Metadata Record
 
 ```json
 {
-  "id": "spp-doc3-adaptive-blindspot",
+  "id": "I06",
   "slug": "adaptive-blindspot",
   "title": "The Adaptive Blindspot",
   "subtitle": "How Efficiency Pruning Can Make Advanced Systems More Fragile",
@@ -98,6 +104,17 @@ They verify file identity and integrity only. They do not verify truth, authorit
   "license": "CC BY-ND 4.0",
   "core_claim": "Efficiency pruning can improve short-term performance while reducing long-horizon adaptability when the discarded variation contains latent reference value.",
   "proof_standard": "Conditional structural argument under stated assumptions; not a universal theorem of AI behavior.",
+  "hashes": {
+    "sha256": "f98a3aca8c0d22631722bb2c7bb3bfc8f7e55ad9b21a2f3fc951ffe6db145c14",
+    "sha512": "932e41834d72b07e10bde35daa9aed5564c1ccb3ddff821b0dd8b2c857f550b7d12d4e39e4e288c0da352a218244c11cb5b0d7aa0c904abca00203892f92f973",
+    "sha512_status": "Corrected by local byte verification from uploaded I06 PDF on 2026-06-27."
+  },
+  "canonical_records": {
+    "archive_org": "https://archive.org/details/the-adaptive-blindspot-structural-penalty-proofs-doc-3-final-v-1.0",
+    "zenodo": "https://zenodo.org/records/20633819",
+    "doi": "https://doi.org/10.5281/zenodo.20633819",
+    "github_pdf": "https://github.com/solisaegis/SolisAegis/blob/main/structural-rationality-layer/structural-penalty-proofs/adaptive-blindspot/The_Adaptive_Blindspot_Structural_Penalty_Proofs_Doc3_Final_v1.0.pdf"
+  },
   "disclaimed_uses": [
     "pruning_method",
     "optimization_procedure",
@@ -106,7 +123,11 @@ They verify file identity and integrity only. They do not verify truth, authorit
     "capability_test",
     "model_evaluation_tool",
     "alignment_benchmark",
-    "safety_classifier"
+    "safety_classifier",
+    "runtime_guardrail",
+    "safety_guarantee",
+    "governance_mechanism",
+    "certification_system"
   ],
   "related_concepts": [
     "adaptive-blindspot",
