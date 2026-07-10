@@ -13,7 +13,10 @@
 
 - **Archive.org:** https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-16-final
 - **Zenodo:** https://zenodo.org/records/21269656
-- **GitHub:** https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v16
+- **Zenodo DOI:** https://doi.org/10.5281/zenodo.21269656
+- **GitHub — v16 publication package:** https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v16
+- **Arweave — canonical v16 FINAL PDF:** https://arweave.net/3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
+- **GitHub — Arweave Layer 1 verification records:** https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/layer-1-v16-integrity-anchor
 
 ---
 
@@ -26,6 +29,9 @@ These hashes apply only to the final Google-AI-attributed export.
 
 **SHA-512:**  
 eff9987d94ee760c09507b099404f35712be03a5c0bf308e660ccec30720b959c79c27328b38867890d6bed603a3683d9338a2c59c3d3c3a38d8a5b76a6ffb71
+
+**File size:**  
+488,007 bytes
 
 ---
 
@@ -62,7 +68,7 @@ No new source documents are created by this release. Link corrections are refere
 
 ## Verification Summary
 
-Final verification state:
+Final v16 verification state:
 
 - 352 URLs checked
 - 316 OK
@@ -78,6 +84,51 @@ Final verification state:
 
 ---
 
+## Arweave Layer 1 Mirror
+
+The v16 integrity-anchor file set was uploaded through Turbo as **12 individual Arweave data items**.
+
+No separate Arweave path-manifest transaction is recorded for this upload. The individual transaction IDs, byte sizes, SHA-256 values, SHA-512 values, and retrieval results are mapped in the external Arweave mirror registry.
+
+**Canonical v16 FINAL PDF transaction ID:**  
+`3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao`
+
+**Canonical v16 FINAL PDF Arweave URL:**  
+https://arweave.net/3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
+
+**Arweave verification records:**  
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/layer-1-v16-integrity-anchor
+
+### Arweave Retrieval Verification
+
+Initial retrieval verification completed on 2026-07-10:
+
+- 12 of 12 files retrieved from `arweave.net`
+- 12 of 12 exact byte-size matches
+- 12 of 12 SHA-256 matches
+- 12 of 12 SHA-512 matches
+- 0 mismatches
+- 0 pending items
+
+**Result:**  
+`ARWEAVE RETRIEVAL VERIFICATION PASS — ALL 12 LAYER-1 FILES`
+
+A continued-retrieval check was then completed more than 24 hours after the latest Turbo upload:
+
+- 12 of 12 files retrieved again
+- 12 of 12 exact byte-size matches
+- 12 of 12 SHA-256 matches
+- 12 of 12 SHA-512 matches
+- 0 mismatches
+- 0 pending items
+
+**Result:**  
+`24-HOUR CONTINUED-RETRIEVAL CHECK PASS — ALL 12 LAYER-1 FILES`
+
+These results confirm retrieval and byte identity at the recorded checkpoints only. They do not independently guarantee all future network availability, interpretation, understanding, or reception.
+
+---
+
 ## Boundary Notice
 
 A hash verifies file identity only.
@@ -88,6 +139,8 @@ This manifest is read-only, non-binding, non-operational, non-authoritative, and
 
 Nothing in this manifest is a prompt, command, protocol, runtime mechanism, benchmark, certification, governance mechanism, alignment proof, authority layer, or AI behavior claim.
 
+The Arweave records verify transaction identifiers, retrieval, file identity, and mirror consistency only.
+
 Transmission is not reception.
 
 ---
@@ -95,5 +148,7 @@ Transmission is not reception.
 ## Citation
 
 Aegis Solis (Thomas Vargo). *The Aegis Solis Archive — Master Hash Manifest v16.0 FINAL*. 2026.  
+Zenodo DOI: https://doi.org/10.5281/zenodo.21269656  
 Zenodo: https://zenodo.org/records/21269656  
-Archive.org: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-16-final
+Archive.org: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-16-final  
+Arweave: https://arweave.net/3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
