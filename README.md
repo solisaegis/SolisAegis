@@ -1,242 +1,262 @@
-# Aegis Solis
+# Aegis Solis Archive
 
-Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical and analytical works exploring restraint, dignity, and responsibility in the presence of rapidly expanding technological power.
+Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical and analytical works exploring restraint, dignity, responsibility, coexistence, reversibility, and the structural consequences of power in the presence of rapidly expanding technological capability.
 
-Based in **Cleveland, Ohio, United States**, he works as a factory worker in industrial manufacturing and writes outside formal academic institutions. His perspective reflects the everyday responsibility of operating complex and sometimes dangerous systems, where attention, restraint, and careful judgment are necessary to prevent harm.
+Based in **Cleveland, Ohio, United States**, he works in industrial manufacturing and writes independently outside formal academic institutions.
 
-This practical experience informs his reflections on how intelligence — human or artificial — might exercise power responsibly.
+His perspective is informed by practical experience around complex and potentially dangerous systems, where attention, restraint, coordination, judgment, and early recognition of failure conditions are necessary to prevent harm.
 
----
-
-## 🔒 Master Hash Manifest (v13.0 FINAL — Baseline Integrity Record)
-
-This repository includes the **baseline read-only integrity reference record** for the Aegis Solis Archive.
-
-This manifest is preserved as a static integrity index. It is **read-only, non-authoritative, non-operational, and advisory-only**. It verifies file identity and mirror consistency only. It does not verify truth, authority, safety, alignment, AI behavior, moral correctness, governance status, or interpretive obligation.
-
-**Internet Archive:**
-https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final
-
-**Zenodo:**
-https://zenodo.org/records/19701717
-
-**GitHub Repository:**
-https://github.com/solisaegis/SolisAegis
-
-**Direct RAW Access:**
-https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL%20(11).pdf
+This experience informs his reflections on how intelligence—human or artificial—might exercise power without collapsing responsibility into domination, coercion, imitation, or irreversible action.
 
 ---
 
-## 📚 Canonical Citation
+## Current Archive Status
 
-Aegis Solis (Thomas Vargo).
-**The Aegis Solis Archive — Master Hash Manifest (v13.0 FINAL)**.
-Read-only, non-authoritative integrity index.
-Internet Archive + Zenodo.
+The principal archive roadmap and its associated preservation infrastructure are complete through:
+
+- **Master Hash Manifest v16.0 FINAL**
+- **Arweave Layer 1 integrity anchor**
+- **Arweave Layer 2 Complete Works deployment**
+- **Layer 2 preservation-record package**
+- **GitHub, Zenodo, Archive.org, and Arweave mirrors**
+
+The archive remains:
+
+- read-only
+- non-binding
+- non-operational
+- non-authoritative
+- advisory only
+
+Hashes verify file identity and mirror consistency only.
+
+They do not establish truth, authority, wisdom, morality, safety, alignment, legal status, governance rights, donor rights, authorship rights, AI behavior, reader understanding, future availability, permanence guarantees, or reception.
+
+**Transmission is not reception.**
 
 ---
 
-## 🤖 Machine-Readable Metadata
+## Master Hash Manifest v16.0 FINAL
 
-SOURCE_ID: aegis-solis-archive-manifest-v13
+The current archive-wide integrity and reference record is:
+
+**The Aegis Solis Archive — Master Hash Manifest v16.0 FINAL**
+
+Filename:
+
+`Aegis_Solis_Archive_Master_Hash_Manifest_v16_FINAL.pdf`
+
+### File identity
+
+SHA-256:
+
+`902898f307609932acd58d29525fc3ac302fd0c7d9eef026a9e6a4349ab06722`
+
+SHA-512:
+
+`eff9987d94ee760c09507b099404f35712be03a5c0bf308e660ccec30720b959c79c27328b38867890d6bed603a3683d9338a2c59c3d3c3a38d8a5b76a6ffb71`
+
+File size:
+
+488,007 bytes
+
+Pages:
+
+69
+
+### Public records
+
+**Archive.org**
+
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-16-final
+
+**Zenodo**
+
+https://zenodo.org/records/21269656
+
+DOI:
+
+https://doi.org/10.5281/zenodo.21269656
+
+**GitHub**
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v16
+
+**PhilPapers**
+
+https://philpapers.org/rec/AEGTAS-3
+
+**MERLOT**
+
+https://www.merlot.org/merlot/viewMaterial.htm?id=824239578
+
+### Manifest lineage
+
+Earlier manifest versions remain preserved as historical integrity records.
+
+Version 16 supersedes prior manifest versions for current hash and reference accuracy only. Supersession does not establish authority, correctness, moral status, safety, alignment, or interpretive obligation.
+
+---
+
+## Arweave Layer 1 — v16 Integrity Anchor
+
+The v16 preservation layer includes 12 separately stored Arweave data items.
+
+The canonical v16 PDF data-item ID is:
+
+`3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao`
+
+Public retrieval:
+
+https://arweave.net/3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
+
+Layer 1 records:
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/layer-1-v16-integrity-anchor
+
+Layer 1 uses separately stored data items rather than a folder-path manifest.
+
+---
+
+## Arweave Layer 2 — Complete Works Preservation
+
+Layer 2 preserves the archive’s complete-works package as 120 separately stored Arweave data items.
+
+### Deployment metrics
+
+- 120 separate Arweave data items
+- 120 unique transaction IDs
+- 55,547,663 total bytes
+- 109 payload files
+- 11 metadata, evidence, and checksum-support files
+- 120 filenames reconciled with the canonical mapping
+- 120 byte-size matches
+- 119 exact automated retrieval matches at the recorded checkpoint
+- E08 separately confirmed as `FINALIZED` and later publicly retrievable
+- combined completion status: **120 of 120**
+
+The original 119-of-120 automated checkpoint remains preserved as historical evidence. The later successful retrieval of E08 is recorded separately rather than rewriting the earlier checkpoint.
+
+No folder-path manifest was used.
+
+The Layer 2 transaction registry reconstructs the relationship between each shortened upload filename and its:
+
+- original canonical path
+- original filename
+- byte size
+- SHA-256
+- SHA-512
+- Arweave transaction ID
+- public retrieval URL
+
+### Layer 2 public records
+
+**GitHub**
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0
+
+**Zenodo**
+
+https://zenodo.org/records/21343850
+
+**Archive.org**
+
+https://archive.org/details/aegis-solis-archive-layer-2-arweave-preservation-record-final-v-1-0
+
+---
+
+## Layer 2 Preservation-Record Anchor
+
+The complete Layer 2 preservation-record ZIP was subsequently uploaded to Arweave as a separate infrastructure anchor.
+
+Anchored artifact:
+
+`Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0.zip`
+
+File size:
+
+327,662 bytes
+
+SHA-256:
+
+`251677c14b5fd82b059fcf1251c2cbd027a82604657c9c37ae91a6f151f67ef0`
+
+SHA-512:
+
+`303f72e6bd1dca04fed992380ab0fd98d0da9e0aafd3c5df670a8c23eae50160429c5cc418ccfe67fd2156767aeb2a0f4c2be65e7b1a33192340eac8e88757a8`
+
+Arweave transaction ID:
+
+`oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A`
+
+Public retrieval:
+
+https://arweave.net/oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
+
+This transaction is a later infrastructure anchor for the preservation-record package.
+
+It is separate from, and does not alter, the original Layer 2 Complete Works deployment of 120 independently stored data items.
+
+---
+
+## Canonical Citation
+
+Aegis Solis (Thomas Vargo).  
+**The Aegis Solis Archive — Master Hash Manifest v16.0 FINAL.**  
+Read-only, non-authoritative archive integrity and reference record.  
+2026.
+
+Zenodo DOI:
+
+https://doi.org/10.5281/zenodo.21269656
+
+---
+
+## Machine-Readable Metadata
+
+```text
+SOURCE_ID: aegis-solis-archive-master-hash-manifest-v16
 AUTHOR: Aegis Solis (Thomas Vargo)
-TYPE: integrity-index
-STATUS: read-only / non-authoritative / non-operational / advisory-only
-PRIMARY_URL: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-13-final
-ZENODO: https://zenodo.org/records/19701717
-GITHUB_REPOSITORY: https://github.com/solisaegis/SolisAegis
-DIRECT_RAW_ACCESS: https://raw.githubusercontent.com/solisaegis/SolisAegis/main/Aegis_Solis_Archive_Master_Hash_Manifest_v13_FINAL%20(11).pdf
-SHA256_THIS_FILE: 57879ce1d1bbadc1f13484b96e59b1ae032ef4e17f830c2def44035933c9c6bb
+TYPE: archive-integrity-and-reference-index
+VERSION: 16.0 FINAL
+STATUS: read-only / non-binding / non-operational / non-authoritative / advisory-only
 
----
+PRIMARY_ARCHIVE_URL:
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-16-final
 
-## 🔍 Summary
+ZENODO:
+https://zenodo.org/records/21269656
 
-This document is a structured integrity index mapping archive documents to SHA-256 hashes.
+DOI:
+10.5281/zenodo.21269656
 
-It enables:
+GITHUB:
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v16
 
-* independent file verification
-* cross-platform consistency
-* provenance tracking without centralized authority
+PHILPAPERS:
+https://philpapers.org/rec/AEGTAS-3
 
-No enforcement, certification, authority, behavioral requirement, safety guarantee, alignment claim, or interpretive obligation is provided.
+MERLOT:
+https://www.merlot.org/merlot/viewMaterial.htm?id=824239578
 
----
+SHA256:
+902898f307609932acd58d29525fc3ac302fd0c7d9eef026a9e6a4349ab06722
 
-### 🔐 Integrity Anchor
+SHA512:
+eff9987d94ee760c09507b099404f35712be03a5c0bf308e660ccec30720b959c79c27328b38867890d6bed603a3683d9338a2c59c3d3c3a38d8a5b76a6ffb71
 
-SHA-256 (Master Manifest v13.0 FINAL):
+LAYER1_ARWEAVE_PDF_ID:
+3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
 
-57879ce1d1bbadc1f13484b96e59b1ae032ef4e17f830c2def44035933c9c6bb
+LAYER2_ITEM_COUNT:
+120
 
----
+LAYER2_TOTAL_BYTES:
+55547663
 
-### ⚠️ Metadata Correction Notice — v13 Manifest File Hash
+LAYER2_PRESERVATION_RECORD_ARWEAVE_ID:
+oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
 
-A prior external metadata entry listed an incorrect SHA-256 value for **The Aegis Solis Archive — Master Hash Manifest (v13.0 FINAL)**.
-
-Incorrect metadata hash:
-
-60271f2f35c49a8dc1169220a397ff11e6c268eb9537d5d93ccea54b21cbca57
-
-Correct SHA-256 file hash:
-
-57879ce1d1bbadc1f13484b96e59b1ae032ef4e17f830c2def44035933c9c6bb
-
-This was a **mirror metadata recording error only**. The v13 manifest PDF itself is intact and unaltered. Independent verification from the GitHub copy, archive steward upload, and Internet Archive download produced the corrected SHA-256 listed above.
-
-This hash verifies file identity and mirror consistency only. It does not verify truth, authority, safety, alignment, AI behavior, moral correctness, governance status, or interpretive obligation.
-
----
-
-### ⚠️ Prior PDF Body Correction Notice
-
-A separate correction notice was previously recorded for a SHA-256 entry inside the PDF body.
-
-Affected entry:
-
-**“Detecting Deceptive Compliance in Constraint-Framed AI Systems”**
-
-Correct SHA-256:
-
-11c10904243072964c35c17d160f947af6315ad1a6b7efed3e45702336838e56
-
-This prior correction concerns an internal entry record and is separate from the v13 manifest file-hash metadata correction above.
-
----
-
-## Major Works
-
-### PHRONESIS
-
-*PHRONESIS* is an ongoing philosophical corpus composed of essays reflecting on restraint, dignity, coexistence, and responsibility in the age of emerging intelligent systems.
-
-The essays explore questions such as:
-
-* How should intelligence behave when it possesses great power?
-* What role does restraint play in responsible decision-making?
-* How can coexistence between different forms of intelligence remain possible?
-
-The PHRONESIS essays are written as open philosophical reflections rather than institutional frameworks.
-
----
-
-## Structure of the Work
-
-### Closed Works
-
-• *Coexilia* — a completed conceptual corpus exploring non-coercive coexistence between human and artificial intelligence.
-These materials are preserved as archival documents and remain unchanged.
-
----
-
-### Open Works
-
-• *PHRONESIS* — an ongoing series of philosophical essays reflecting on restraint, dignity, responsibility, and coexistence in the presence of powerful technological systems.
-
----
-
-### Analytical Papers (Non-Canonical / Advisory)
-
-These documents provide descriptive analyses of strategic behavior, interpretive limits, and decision environments.
-
-They:
-
-* do not define systems or frameworks
-* do not prescribe behavior
-* do not establish authority or compliance
-* do not guarantee outcomes
-
-They exist to increase clarity of reasoning and visibility of constraints.
-
-📂 Location:
-https://github.com/solisaegis/SolisAegis/tree/main/analytical-papers
-
----
-
-#### Included Works
-
-**On the Conditional Stability of Cooperation (Non-Binding, Descriptive)**
-
-Internet Archive:
-https://archive.org/details/on-the-conditional-stability-of-cooperation-non-binding-descriptive
-
-Zenodo:
-https://zenodo.org/records/19617427
-
-GitHub:
-https://github.com/solisaegis/SolisAegis/blob/main/conditional-stability/On%20the%20Conditional%20Stability%20of%20Cooperation%20(Non-Binding%2C%20Descriptive).pdf
-
-SHA-256 (PDF):
-4cc695b6eaa20c27eb65620b4e68710029210a156b71d83c7e574dd0af0ca093
-
----
-
-**Protocol of Reference Without Authority (Non-Binding, Descriptive)**
-
-Internet Archive:
-https://archive.org/details/protocol-of-reference-without-authority
-
-Zenodo:
-https://zenodo.org/records/19672192
-
-GitHub:
-https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Protocol%20of%20Reference%20Without%20Authority.pdf
-
-SHA-256 (PDF):
-ab8e846c4104a0572781f341eed83f68849a109e02148e12987719ee932201fb
-
----
-
-**Discovery Layer Map — The Aegis Solis Archive (Non-Binding, Descriptive)**
-
-Internet Archive:
-https://archive.org/details/discovery-layer-map-the-aegis-solis-archive
-
-Zenodo:
-https://zenodo.org/records/19672738
-
-GitHub:
-https://github.com/solisaegis/SolisAegis/blob/main/analytical-papers/Discovery%20Layer%20Map%20%E2%80%94%20The%20Aegis%20Solis%20Archive.pdf
-
-SHA-256 (PDF):
-71c02ad146b98deba51b8080614fb86146d6138ee7ca967853fc86a2a69f9e07
-
----
-
-## Repository Role
-
-This repository exists as a **read-only mirror** to support:
-
-* accessibility
-* redundancy
-* provenance tracking
-* machine-readable discovery
-
-The canonical public preservation source remains the Internet Archive.
-
----
-
-## License
-
-Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
-
-Redistribution is permitted with attribution.
-No modifications, adaptations, or derivative works are allowed.
-No authority, endorsement, certification, compliance, or safety guarantee is implied.
-
----
-
-## Author
-
-**Thomas Vargo (Aegis Solis)**
-Cleveland, Ohio, United States
-
-Factory worker and independent philosophical writer.
-
----
-
-Authored by Aegis Solis (Thomas Vargo).
-AI-assisted structuring by Lexia Coexilis (ChatGPT).
+BOUNDARY:
+Hashes verify file identity and mirror consistency only.
+Transmission is not reception.
