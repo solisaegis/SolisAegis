@@ -1,0 +1,16 @@
+AEGIS SOLIS ARCHIVE — LAYER 2 FINAL CLOSURE STATEMENT v1.0
+
+Date: 2026-07-13
+
+The Layer 2 Arweave Complete Works deployment is closed as complete, mirrored,
+Arweave-anchored, receipt-finalized, canonical-ZIP hash-confirmed, public-endpoint
+size-confirmed, and cross-linked.
+
+Original Layer 2 data items: 120
+Preservation-record anchor transaction: oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
+Finalized root bundle: ixOEnXZhNz2iDChAdcuYO-cSxzvb6FVaOsYXteWdzGg
+Canonical ZIP SHA-256: 251677c14b5fd82b059fcf1251c2cbd027a82604657c9c37ae91a6f151f67ef0
+Canonical ZIP SHA-512: 303f72e6bd1dca04fed992380ab0fd98d0da9e0aafd3c5df670a8c23eae50160429c5cc418ccfe67fd2156767aeb2a0f4c2be65e7b1a33192340eac8e88757a8
+
+No canonical FINAL LOCKED file was modified.
+Transmission is not reception.

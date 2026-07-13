@@ -1,0 +1,31 @@
+{
+  "uploadId": "oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A",
+  "receipt": {
+    "id": "oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A",
+    "timestamp": 1783969934916,
+    "winc": "3210376592",
+    "version": "0.2.0",
+    "deadlineHeight": 1958482,
+    "dataCaches": [
+      "turbo-gateway.com"
+    ],
+    "fastFinalityIndexes": [
+      "turbo-gateway.com"
+    ],
+    "public": "wZgP9Rpfh0nXb5EdzBUg7y2LFMkBp2ADX3gdZhLXHYbz4srlYD6FUGn6Tt-WsSYj8faUyA7bNKj9zzcXiN-bsMC73e0yoQ05A_5I2QnBAgCTuzXePvUVCvSCOg1vdh07hSjvSBd1XiWDHw2J-Z7m6lG3l56PDSCp8t-s0PduONcsjqOePFejzkaJymJxMYp7d0g0GL1i1MrBAbf5ohIobyTYQz7bRHLLUpdSgiCiHbSBp092cIQnHYXGBeWb-lBEtMT9Am5GsHeVXq4eL8H83NBPIN4fIOtwpl7zzBUeaD5lTc3UcXliMjFuFJurVmNhqsP_osJMceybk3VIjdP0biqLqt_nRupdPwwJGQ09iyGv0wfzMBlx7zTZ9pp77ZBX3cDnYmWt2IR-mIgOStfiEHu5BuwNGBvGt7-tzHJp9e6IOofN10apfiuF9iQEQ3gFVQDZ7owQ_IrCq5yWLP7ePwYoB2e7ZbvCkd4JM8oOgEMZkywTOx3gLASGKS7wqUerdlYacWRukqg5MmkQRbzJIiY23pPwrhQSWon5q91jbImO6vTaHVDZnd2GoMFlePAsceNO1MaLS6GMuY-EAwOtaX-R1QZUpJmCzWfV-77AmBmaPDCR0mm3f7jy-3yYSCMAkti4idHVq5dIhOJnibd_LEfQtkTAQ5MQlE4uoa5lkJs",
+    "signature": "dzoPz0Ggb7MDsWH65dYGvUBcf9Mrd6n92_f8NXIIovb2XQLPGuTGEk8MirAa2LCMq-FQez5to2MGNbVb8XokAekkDHU_78bBtVwkpg5uF0eQ0LFEWFl2ERRl_6suPryZmUslTqKfNNp2kutMxqkJNa_YdsfD1D9Z7J5M8dTkyx4GCNZRI_DlXR3KqtxAi4CiwEmMrfOJtFTCWXRfUWLn-OXdtrD9UXRtSKeIc3Y7hEcJ9Oa0WkipHHYJjLgczBg-4UjJBAA1iDo-VQ4mdtxPBAV1rL1O5KcOfUIBPe7F86t0aKIjL4G1nvQ1lxaTl9peRnlnEu-iY_Cv4boqR3leDPLN6EFomLR0zSZPWsHOIPn3eEFa_oywlZZhJOLDopCWozOvaJRYhHivZBehJc1bTLXmSoDgxIW8SnGbwPvF92qzjVkv0AxAaJ_E15hW7QQB7d97wFYtyj0HluqiAH4D5jxzEtGzXZoLbDyCmDwQy8JLDJrfrjW3xE0JwRQLrsWlRhx2mlmszA1CL6mCfwxs8xOK6e5qUN2ClChwPPwVIApUwzcTxl-F2xMWxw2fgXQDw0J1KBy-zDHcmckSocsJoD8csgQHgKam2C81s5a_w7QLP2Mtic4JZEm5VP3Tz2QPuApGDIoPzdq3T9V0hyspKaeNiLSV5UsYxpk0X5_Qc6s",
+    "owner": "3NdgyEYWi44PsKJBWIUZRGW9dw9dzMP-gHItz12gCIg"
+  },
+  "status": {
+    "status": "FINALIZED",
+    "bundleId": "ixOEnXZhNz2iDChAdcuYO-cSxzvb6FVaOsYXteWdzGg",
+    "info": "permanent",
+    "startOffsetInRootBundle": "16882",
+    "rawContentLength": "328010",
+    "payloadContentType": "application/x-zip-compressed",
+    "payloadDataStart": 348,
+    "payloadContentLength": 327662,
+    "winc": "3210376592"
+  },
+  "timestamp": "2026-07-13T20:26:56.773Z"
+}

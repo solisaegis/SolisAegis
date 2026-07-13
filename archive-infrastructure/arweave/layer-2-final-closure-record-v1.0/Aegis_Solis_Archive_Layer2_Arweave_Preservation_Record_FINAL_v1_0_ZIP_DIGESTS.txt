@@ -1,0 +1,13 @@
+AEGIS SOLIS ARCHIVE - LAYER 2 ARWEAVE PRESERVATION PACKAGE DIGESTS
+
+Package: Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0.zip
+Version: Final v1.0
+Date: 2026-07-13
+ZIP bytes: 327662
+ZIP file entries: 34
+ZIP integrity test: PASS
+SHA-256: 251677c14b5fd82b059fcf1251c2cbd027a82604657c9c37ae91a6f151f67ef0
+SHA-512: 303f72e6bd1dca04fed992380ab0fd98d0da9e0aafd3c5df670a8c23eae50160429c5cc418ccfe67fd2156767aeb2a0f4c2be65e7b1a33192340eac8e88757a8
+
+Boundary: These digests identify this ZIP byte sequence only. They do not verify truth, authority, safety, alignment, future availability, understanding, or reception.
+Transmission is not reception.

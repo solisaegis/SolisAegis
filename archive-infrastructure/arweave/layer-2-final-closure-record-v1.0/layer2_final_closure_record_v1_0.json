@@ -1,0 +1,55 @@
+{
+  "format": "Aegis Solis Archive Layer 2 final closure record",
+  "version": "1.0",
+  "date": "2026-07-13",
+  "status": [
+    "COMPLETE",
+    "MIRRORED",
+    "ARWEAVE-ANCHORED",
+    "RECEIPT-FINALIZED",
+    "CANONICAL-ZIP HASH-CONFIRMED",
+    "PUBLIC-ENDPOINT SIZE-CONFIRMED",
+    "CROSS-LINKED"
+  ],
+  "layer2": {
+    "data_items": 120,
+    "unique_transaction_ids": 120,
+    "total_bytes": 55547663,
+    "payload_files": 109,
+    "metadata_evidence_checksum_support_files": 11,
+    "combined_completion": "120 of 120"
+  },
+  "public_mirrors": {
+    "github": "https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0",
+    "zenodo": "https://zenodo.org/records/21343850",
+    "doi": "10.5281/zenodo.21343850",
+    "archive_org": "https://archive.org/details/aegis-solis-archive-layer-2-arweave-preservation-record-final-v-1-0"
+  },
+  "arweave_anchor": {
+    "transaction_id": "oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A",
+    "public_url": "https://arweave.net/oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A",
+    "receipt_status": "FINALIZED",
+    "bundle_id": "ixOEnXZhNz2iDChAdcuYO-cSxzvb6FVaOsYXteWdzGg",
+    "start_offset_in_root_bundle": 16882,
+    "raw_content_length": 328010,
+    "payload_content_type": "application/x-zip-compressed",
+    "payload_data_start": 348,
+    "payload_content_length": 327662,
+    "winc": "3210376592",
+    "receipt_version": "0.2.0"
+  },
+  "canonical_package": {
+    "filename": "Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0.zip",
+    "bytes": 327662,
+    "sha256": "251677c14b5fd82b059fcf1251c2cbd027a82604657c9c37ae91a6f151f67ef0",
+    "sha512": "303f72e6bd1dca04fed992380ab0fd98d0da9e0aafd3c5df670a8c23eae50160429c5cc418ccfe67fd2156767aeb2a0f4c2be65e7b1a33192340eac8e88757a8",
+    "local_zip_integrity": "PASS"
+  },
+  "endpoint_check": {
+    "http_status": 200,
+    "content_type": "application/x-zip-compressed",
+    "content_length": 327662,
+    "remote_byte_hash_in_this_environment": "NOT_COMPLETED \u2014 MIME-type policy blocked saving remote ZIP"
+  },
+  "boundary": "Read-only, non-binding, non-operational, non-authoritative, advisory only. Hashes verify file identity and mirror consistency only. Transmission is not reception."
+}

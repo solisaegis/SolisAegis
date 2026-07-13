@@ -1,0 +1,38 @@
+AEGIS SOLIS ARCHIVE — ARWEAVE ANCHOR ENDPOINT CHECK v1.0
+
+Checkpoint date: 2026-07-13
+Public URL: https://arweave.net/oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
+Transaction ID: oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
+
+Observed public endpoint response:
+- HTTP status: 200
+- Content-Type: application/x-zip-compressed
+- Content-Length: 327,662 bytes
+
+Finalized Turbo receipt:
+- Status: FINALIZED
+- Root bundle ID: ixOEnXZhNz2iDChAdcuYO-cSxzvb6FVaOsYXteWdzGg
+- Payload content length: 327662 bytes
+- Raw data-item length: 328010 bytes
+- Root-bundle offset: 16882
+
+Canonical local package verification:
+- Filename: Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0.zip
+- Size: 327662 bytes
+- SHA-256: 251677c14b5fd82b059fcf1251c2cbd027a82604657c9c37ae91a6f151f67ef0
+- SHA-512: 303f72e6bd1dca04fed992380ab0fd98d0da9e0aafd3c5df670a8c23eae50160429c5cc418ccfe67fd2156767aeb2a0f4c2be65e7b1a33192340eac8e88757a8
+- ZIP integrity test: PASS
+
+EVIDENTIARY LIMITATION
+The public endpoint returned HTTP 200 and the exact expected byte length. The
+execution environment blocked saving the remote ZIP because its MIME type was
+restricted, so an independent hash calculation over the remotely returned
+bytes was not completed in this environment. The canonical local ZIP is
+hash-confirmed, and the finalized receipt records the same payload length.
+
+This check verifies endpoint availability, recorded payload identity metadata,
+and canonical local file identity only. It does not guarantee future
+availability, truth, authority, safety, alignment, understanding, permanence,
+or reception.
+
+Transmission is not reception.
