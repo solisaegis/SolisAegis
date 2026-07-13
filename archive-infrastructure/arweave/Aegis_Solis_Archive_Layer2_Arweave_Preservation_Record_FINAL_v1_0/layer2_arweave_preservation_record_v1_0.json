@@ -1,0 +1,218 @@
+{
+  "schema": "aegis-solis.layer2.arweave-preservation-record.v1",
+  "record_title": "Aegis Solis Archive - Layer 2 Arweave Complete Works Preservation Record",
+  "record_version": "Final v1.0",
+  "record_date": "2026-07-13",
+  "status": "COMPLETE",
+  "canonical_locked_package": "Aegis_Solis_Archive_Complete_Works_Layer2_FINAL_LOCKED_v1_0",
+  "canonical_locked_package_files": 120,
+  "canonical_locked_package_bytes": 55547663,
+  "payload_files": 109,
+  "metadata_evidence_checksum_files": 11,
+  "arweave_upload_model": "120 separate Arweave data items; no folder deployment and no path manifest",
+  "arweave_data_items": 120,
+  "unique_transaction_ids": 120,
+  "recorded_cost_credits": 0.496128,
+  "arweave_owner_address": "3NdgyEYWi44PsKJBWIUZRGW9dw9dzMP-gHItz12gCIg",
+  "upload_start_local": "7/13/2026, 10:38:12 AM",
+  "upload_end_local": "7/13/2026, 10:38:14 AM",
+  "automated_arweave_checkpoint": "119 of 120 exact byte/SHA-256/SHA-512 matches",
+  "e08_resolution": "Later public retrieval resolved successfully and matched the canonical 74,496-byte PDF and recorded hashes.",
+  "combined_completion_result": "120 of 120 data items accounted for and publicly retrievable by the close of the 2026-07-13 verification sequence.",
+  "v16_manifest_sha256": "902898f307609932acd58d29525fc3ac302fd0c7d9eef026a9e6a4349ab06722",
+  "v16_manifest_sha512": "eff9987d94ee760c09507b099404f35712be03a5c0bf308e660ccec30720b959c79c27328b38867890d6bed603a3683d9338a2c59c3d3c3a38d8a5b76a6ffb71",
+  "e08_transaction_id": "L5VOhUJsFRdhSPKa3gIfVUqGav80iiu5wlPeJDgWEXE",
+  "e08_public_resolution_url": "https://f6ku5bkcnqkroyki6knn4aq7kvfim2x7gsfcxoockppcioawcfyq.arweave.net/L5VOhUJsFRdhSPKa3gIfVUqGav80iiu5wlPeJDgWEXE",
+  "e08_expected_bytes": 74496,
+  "e08_sha256": "d2c9ff8153db5a6f8e518b0a992d51a741c1b00e9b79b6cd3df98c8463e13f93",
+  "e08_sha512": "6353c16baa4d7d50a1e1803945b61287fbeeff2879a4095228d6c70ed3c8284ca074e79e82b9792f0ddd9d1d46374880f13aa7241406a65db99bd663ca9c44b6",
+  "e08_receipt_status": "FINALIZED",
+  "e08_root_bundle_id": "8dhejwKw5g4b8XphJRikgNOuQF1ey7JaIEJR7K_k7sU",
+  "e08_root_bundle_block_height": 1958156,
+  "e08_root_bundle_confirmations_at_checkpoint": 85,
+  "boundary": "Read-only, non-binding, non-operational, non-authoritative, advisory only. Hashes verify file identity and mirror consistency only. Transmission is not reception.",
+  "registries": {
+    "csv": "Aegis_Solis_Layer2_Arweave_Individual_Upload_Registry_v1_0.csv",
+    "json": "Aegis_Solis_Layer2_Arweave_Individual_Upload_Registry_v1_0.json"
+  },
+  "verification_chain": [
+    {
+      "stage": "canonical_lock",
+      "result": "PASS",
+      "detail": "120 total files; canonical source unchanged"
+    },
+    {
+      "stage": "post_lock_hashes",
+      "result": "PASS",
+      "detail": "118 listed files passed SHA-256 and SHA-512; two checksum files controlled externally"
+    },
+    {
+      "stage": "flat_upload_copy",
+      "result": "PASS",
+      "detail": "120 of 120 exact source-to-copy SHA-256 and SHA-512 matches"
+    },
+    {
+      "stage": "upload_registry_reconciliation",
+      "result": "PASS",
+      "detail": "120 unique transaction IDs and 120 filename/byte-size matches"
+    },
+    {
+      "stage": "automated_arweave_retrieval",
+      "result": "PARTIAL_PASS",
+      "detail": "119 of 120 exact byte/SHA-256/SHA-512 matches; E08 temporarily returned 404"
+    },
+    {
+      "stage": "e08_receipt_and_bundle",
+      "result": "PASS",
+      "detail": "FINALIZED receipt, exact payload length, confirmed root bundle"
+    },
+    {
+      "stage": "e08_public_resolution",
+      "result": "PASS",
+      "detail": "Public URL later resolved to the canonical Ambiguity Sensitivity document"
+    },
+    {
+      "stage": "combined_completion",
+      "result": "PASS",
+      "detail": "120 of 120 accounted for and publicly retrievable by close of sequence"
+    }
+  ],
+  "evidence_index": [
+    {
+      "filename": "evidence/turbo-uploads-2026-07-13.csv",
+      "description": "Original Turbo export containing 12 earlier Layer 1 rows plus 120 Layer 2 rows.",
+      "bytes": 39875,
+      "sha256": "f779911f9c1a3b649b01c09ec78bd68de360f0d12eb6a170286255c663362885",
+      "sha512": "cf291f09654d8165b8c5bdf35c20ad06fcd9b23c50a5daa684528eb30b348633884c5e4c05bb7d7e3c9ad3de2ccdc5d7abe106b93fecf4f5561ea3c8243aaa70",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Flat_Upload_Mapping_v1_0.csv",
+      "description": "Canonical-to-flat filename and path mapping.",
+      "bytes": 46752,
+      "sha256": "314a59f5ac7c486ae5dfb077c0aa4923aaa8970ea17b5326a33c1ae07e3d7b22",
+      "sha512": "8db5db76793a43d6ad03db75613a9fdecfe1b894942477604814285ddfdcd83aac3434d7af33849326ad76f7faec38b6b004e46914429bc1eab8b2f837c5db4d",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Flat_Upload_Mapping_v1_0.json",
+      "description": "Machine-readable canonical-to-flat mapping.",
+      "bytes": 74371,
+      "sha256": "1961617a1e99081a8421b18a4a9d4583d5432b98e2666c481a002dfa18cdcbb5",
+      "sha512": "79d267582ec603a04f3fde89d1a1e3291d475ece3bdeb4ad618e959955efd0b8a43e003bed9234bfa8b5e1520a11e5a2180e0711ebd3341f7fab2e5870fa4161",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Flat_Upload_SHA256_v1_0.txt",
+      "description": "SHA-256 list for all 120 flat upload files.",
+      "bytes": 9739,
+      "sha256": "da8aca892e3ac9a38f0ed14b664882caa9c471273bd7e3c3f70c51203c32acf8",
+      "sha512": "e4f9243505f4bba76f80b598d29509ebe2235c5bfe2dd68bac488f81c675952dbcc6946f4f64155a1174ec44460e823f6b211fbe1b772f272e9c421b5eb3ef1f",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Flat_Upload_SHA512_v1_0.txt",
+      "description": "SHA-512 list for all 120 flat upload files.",
+      "bytes": 17419,
+      "sha256": "e046c20ba8e07369888be4907b76320a214f849c39f09fb14dd23abe7c98e202",
+      "sha512": "88b4714fb557be58ba70616f317a43e65d40c585e772f3631a02501e16cda1b9e6399ac2a33017d01289873ffba7383d9097688849a1b2eebfdeed085ea53c62",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Flat_Upload_Verification_v1_0.txt",
+      "description": "120-of-120 exact copy verification for the top-level upload copy.",
+      "bytes": 1307,
+      "sha256": "811a7963dc6fb981784d780e0fdf19449844ce1d2da0dd140ed249702d6634cb",
+      "sha512": "fa5b832ce8995b82670c49b2110ef623299adc94528669b28677901baf41887d851bdf744fe143b47bb973b49b50c470c5fae2f7969efb45904762054af2ff17",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_ARWEAVE_UPLOAD_PREFLIGHT_REPORT.txt",
+      "description": "Final 120-file upload preflight report.",
+      "bytes": 816,
+      "sha256": "dade25845bb69e35f650f718e2927f3885d5fea761a1c90ad174c583444f71b0",
+      "sha512": "e7a716ac5988f300a34281fe51a1c3f6b0c500d5165a440870f7be803452ab24fdfe42c3c4a68b1bfddcef8c14f1727b44a6e20e6e155409e14c04c069ee7c27",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_FINAL_LOCK_SUMMARY_v1_0.txt",
+      "description": "Final lock summary for the canonical Layer 2 package.",
+      "bytes": 975,
+      "sha256": "c942917b8afb69877f6955d2778f8210e5fd20a2ffc65a536e6c92611c8e94af",
+      "sha512": "f2636cfff2fe8e958777d2faec11da8e830be38768f40de1990eb91a2c6d3122d83bc012cd812b351e70986bd2947a2aa9492e700e841a0cced993b54f2f357a",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_POST_LOCK_VERIFICATION_REPORT_v1_0.txt",
+      "description": "Post-lock SHA-256/SHA-512 verification report.",
+      "bytes": 1140,
+      "sha256": "c5a9a0313708695f84ccd66d0befca33d6c21653cc6079a3db7db00b63367256",
+      "sha512": "da16b3f31b85cd7a0d44a3e063ce245b5d65dfb86d914cfc36652a8f5b3f9bd0a469805de06796796f78bfeb292b4afb34a6dc35b0dbf13388edee6b46c4004d",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Arweave_Retrieval_Report_20260713_120425.txt",
+      "description": "Initial dual-gateway retrieval report.",
+      "bytes": 19857,
+      "sha256": "edb9f0c26fc21a239c81fc1cbcf54a7858d7ea41d570029d80b772402aae922e",
+      "sha512": "20e0b35346dd645b35e8e06ca21e971165e59d8da9436a4952c47cd7d6091934ce3a540c3a301daa7b2f58f5ad0ecd2128992012e8b483161c51d9eb922c2364",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Arweave_Retrieval_Results_20260713_120425.csv",
+      "description": "Per-file results from the initial retrieval checkpoint.",
+      "bytes": 87186,
+      "sha256": "39a3c6e0c728f4ec6be10e78b6dd54cc9649b608afa24d1d53dd02bdb194ed3e",
+      "sha512": "a652acd98263b10f93f8f95977caa31cc35e0622487f5e2a1c0ae45a522b25562eb951e3cfaf44933a9028e7b4207c744b5b3ff09ccd8bfd8df6612f83d1d777",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Arweave_Only_Report_20260713_124813.txt",
+      "description": "Corrected Arweave-only checkpoint: 119 of 120 exact matches.",
+      "bytes": 845,
+      "sha256": "0672ff45fba20db2e4d8a1391bccca2a9cf8dc0be56e2560fcc65f04f0d8d333",
+      "sha512": "1d7afdb45adc1c1b47f2d4585e5f656c7d9620c7d3e575d41c30ea41e033fce2ef4e6c0266dc29d3cb5feeec1e5afc3921cd89d7027042aa82952b489541efd3",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_Arweave_Only_Results_20260713_124813.csv",
+      "description": "Per-file results from the Arweave-only checkpoint.",
+      "bytes": 64057,
+      "sha256": "d48275f0eb99af86ea12f1781801b9053bc0b92f0f66654b1ad474364f0f6397",
+      "sha512": "fec13fc858aaf383e830182c26d0e49bfd161079691dff316452f1b5a4cbcb9c5a8a8346cde18978d711bab9f3ebd9546321d7d2b9314ec082bdf821d702699d",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/turbo-receipt-L5VOhUJs.json",
+      "description": "Signed Turbo receipt and FINALIZED status for E08.",
+      "bytes": 2199,
+      "sha256": "9925d40836f1bb5e054e89356270c3af755548b89ab39781456ee1def0bba195",
+      "sha512": "9cd79e7bc36f000e7c4ed865ec15f1deea69b9430297cd177329b2e2c56d2ea09b22d80de8fca0264c7ed3e37681e881056d85be34e87e2efdd3697d67d3bdc5",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_E08_Deep_Diagnostic_20260713_133032.json",
+      "description": "Machine-readable E08 diagnostic and root-bundle confirmation.",
+      "bytes": 12632,
+      "sha256": "2376d1d1a4ea391bcbab69436de9c5bdc752465244b1634ec3f24c0374f3397c",
+      "sha512": "5a7df008689128001c094e374c4a6492fdc30e85f69f3856f5a9de9d380ac929c4ee357360a32b1dbe6c102d0d1b186df070c95b0ab816179a0d723570951ace",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_E08_Deep_Diagnostic_20260713_133032.txt",
+      "description": "Human-readable E08 diagnostic.",
+      "bytes": 4772,
+      "sha256": "60a86bda9678659b2fe52928da6dd2ce0470be2102ee212dee4f90024ac7cccb",
+      "sha512": "e75561f7694d0384942bea141b06c8aa8ae1a68f2a14fbebb9557eade8e15904749937875109f5fe8252d661806233b7f2a443151771b9d1b909abda2a029e2a",
+      "status": "PRESERVED"
+    },
+    {
+      "filename": "evidence/Aegis_Solis_Layer2_E08_Root_Bundle_Extraction_20260713_134823.txt",
+      "description": "Range-extraction attempt record; method failed without contradicting finalization evidence.",
+      "bytes": 243,
+      "sha256": "cbce5da1ff6aa699826b58783dfbc84b4ecdc932e62f9639240f9b618945f372",
+      "sha512": "3c3df59f73aaa5dbf8b4f0b7b59f48e0135463703d3208ef416f02dea4a93173d1aa4b353bbb736883917918f303dbc60224a97727e7470f6928c35ca63c159d",
+      "status": "PRESERVED"
+    }
+  ]
+}
