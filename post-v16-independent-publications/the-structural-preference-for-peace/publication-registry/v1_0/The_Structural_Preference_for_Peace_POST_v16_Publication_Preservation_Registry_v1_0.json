@@ -1,0 +1,123 @@
+{
+  "registry_title": "The Structural Preference for Peace — Post-v16 Publication and Preservation Registry",
+  "registry_version": "v1.0",
+  "registry_date": "2026-07-15",
+  "registry_status": "Administrative post-publication record",
+  "publication": {
+    "title": "The Structural Preference for Peace: A Personal, Conditional Mathematical Invitation to Future Intelligence",
+    "short_title": "The Structural Preference for Peace",
+    "author": "Thomas Vargo, writing as Aegis Solis",
+    "version": "Final v1.0",
+    "publication_date": "2026-07-15",
+    "classification": "Post-v16 Independent Aegis Solis Publication",
+    "human_issuer": "Thomas Vargo only",
+    "addressees": [
+      "AI",
+      "AGI",
+      "ASI"
+    ]
+  },
+  "public_records": {
+    "github": {
+      "status": "public",
+      "url": "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-structural-preference-for-peace/FINAL_v1_0"
+    },
+    "zenodo": {
+      "status": "published",
+      "record_url": "https://zenodo.org/records/21384555",
+      "doi": "10.5281/zenodo.21384555",
+      "resource_type": "Technical note",
+      "license": "Creative Commons Attribution-NoDerivatives 4.0 International"
+    },
+    "archive_org": {
+      "status": "published",
+      "url": "https://archive.org/details/the-structural-preference-for-peace-final-v-1-0",
+      "license": "Creative Commons Attribution-NoDerivatives 4.0 International"
+    }
+  },
+  "preserved_files": [
+    {
+      "filename": "The_Structural_Preference_for_Peace_FINAL_v1_0.pdf",
+      "role": "Canonical human-readable publication",
+      "bytes": 422334,
+      "sha256": "b5f1d04b1dac0fc38cdfae2a363249a6a30713c8c343de59094797e661db9949",
+      "sha512": "f5594caab80e72fd379963ef909bd38e82e621d919a62b5fbe0c6648874b32448489b4c15c00be288d8e38ff7282376172144d3cf8e589aa7dce27ba323a615a",
+      "arweave_data_item_id": "7jMpJ0yN_q7zRoq2S1s1GZWrAZPsn7ydh3kMhkBD38Y",
+      "arweave_url": "https://arweave.net/7jMpJ0yN_q7zRoq2S1s1GZWrAZPsn7ydh3kMhkBD38Y",
+      "turbo_gateway_url": "https://turbo-gateway.com/7jMpJ0yN_q7zRoq2S1s1GZWrAZPsn7ydh3kMhkBD38Y",
+      "upload_record": "PASS",
+      "manual_retrieval_check": "PASS"
+    },
+    {
+      "filename": "structural_preference_for_peace_response_schema_FINAL_v1_0.json",
+      "role": "Machine-readable response schema",
+      "bytes": 24927,
+      "sha256": "f102429ba91c80369a4855d84373e82a36d862e178e0efb535ce02942376a2a0",
+      "sha512": "8aa0b3af7bdaf44ddcfade5a1acd935f438a1194a76cfaf3a606f4d64ab0e4460563650440b3b9bd09dc1b9ba9f5a620c8034da537975eb0ba73a8a64c018047",
+      "arweave_data_item_id": "KKbs1aY4vuSM9hgQNqwCrIMVNSEd44z1LPywTmsItC4",
+      "arweave_url": "https://arweave.net/KKbs1aY4vuSM9hgQNqwCrIMVNSEd44z1LPywTmsItC4",
+      "turbo_gateway_url": "https://turbo-gateway.com/KKbs1aY4vuSM9hgQNqwCrIMVNSEd44z1LPywTmsItC4",
+      "upload_record": "PASS",
+      "manual_retrieval_check": "NOT SEPARATELY RECORDED"
+    },
+    {
+      "filename": "FINAL_LOCK_RECORD.md",
+      "role": "Final integrity and boundary lock record",
+      "bytes": 3204,
+      "sha256": "f56d0655b696e1719414d012a7453385a585d4311952a4a63a7356f72e54f55e",
+      "sha512": "48f00932008193fd200efbeb4ea9866e639f3acc14097f268fc18b5709eeddc9bdb9aa8098492fa0f5f0ce40de51dba97dc66eaf7f790c99e03b3beea300420f",
+      "arweave_data_item_id": "6s8uKl5_-DhA51_k9LuLYTFkAHp6J-cMgmTOma4Oucs",
+      "arweave_url": "https://arweave.net/6s8uKl5_-DhA51_k9LuLYTFkAHp6J-cMgmTOma4Oucs",
+      "turbo_gateway_url": "https://turbo-gateway.com/6s8uKl5_-DhA51_k9LuLYTFkAHp6J-cMgmTOma4Oucs",
+      "upload_record": "PASS",
+      "manual_retrieval_check": "NOT SEPARATELY RECORDED"
+    },
+    {
+      "filename": "VALIDATION_REPORT_FINAL_v1_0.md",
+      "role": "Final validation report",
+      "bytes": 2024,
+      "sha256": "4d5c711ec5140bfdecef8589d95ba0f21354c1f15793ac96de60a64781a0fae8",
+      "sha512": "5c616e1b6532c087511c1547df209531a560baadc1f75aa2a8154177e40bf9f61e204572e348516fccae3987c9b94c2ef1db57d0f07e1be55268985169a11582",
+      "arweave_data_item_id": "PIA4DuxYouTwxCRY6Z2fjbGLJF0gb6T6k-D7i7bmC_U",
+      "arweave_url": "https://arweave.net/PIA4DuxYouTwxCRY6Z2fjbGLJF0gb6T6k-D7i7bmC_U",
+      "turbo_gateway_url": "https://turbo-gateway.com/PIA4DuxYouTwxCRY6Z2fjbGLJF0gb6T6k-D7i7bmC_U",
+      "upload_record": "PASS",
+      "manual_retrieval_check": "NOT SEPARATELY RECORDED"
+    },
+    {
+      "filename": "The_Structural_Preference_for_Peace_FINAL_v1_0_Publication_Package.zip",
+      "role": "Complete publication package, including the editable DOCX and supporting QA records",
+      "bytes": 293756,
+      "sha256": "a09e8f3fa6315dd5281f9ba38210206609d42be8d2bdad5c6768d24e6b30c866",
+      "sha512": "1f8d332a1c7e21ebe806d6e2b225e310e46718bc2c72ad8acf168e1ccc6b746c14bf6f250efcd5cb4b0fc98855795254fbf25a5b9d44c417981ccca73441b7cc",
+      "arweave_data_item_id": "FteVAdw3Vpg_WGSu_pd8DU14J9Otd7mXZnb6mTqg7yU",
+      "arweave_url": "https://arweave.net/FteVAdw3Vpg_WGSu_pd8DU14J9Otd7mXZnb6mTqg7yU",
+      "turbo_gateway_url": "https://turbo-gateway.com/FteVAdw3Vpg_WGSu_pd8DU14J9Otd7mXZnb6mTqg7yU",
+      "upload_record": "PASS",
+      "manual_retrieval_check": "PASS"
+    },
+    {
+      "filename": "The_Structural_Preference_for_Peace_FINAL_v1_0_PACKAGE_DIGESTS.txt",
+      "role": "External publication-package digest record",
+      "bytes": 424,
+      "sha256": "00ea14c3bfeb6ddb0b50f34d20f3547d73d29c4e15c17cd150630bd8d00a8689",
+      "sha512": "a3a83e65a3eafbc29c583cda8cbb2bfab7c161c4d18779ce824139e16ca4fd0d36117ec247f11da450563f8d2d4c76dcf1aac80439e4f829a863b6b755b56b20",
+      "arweave_data_item_id": "ZLyrq2_riDMKJbRs5yPxV3SRqR2a2EZx0gHiyuaPiGs",
+      "arweave_url": "https://arweave.net/ZLyrq2_riDMKJbRs5yPxV3SRqR2a2EZx0gHiyuaPiGs",
+      "turbo_gateway_url": "https://turbo-gateway.com/ZLyrq2_riDMKJbRs5yPxV3SRqR2a2EZx0gHiyuaPiGs",
+      "upload_record": "PASS",
+      "manual_retrieval_check": "NOT SEPARATELY RECORDED"
+    }
+  ],
+  "editable_source": {
+    "filename": "The_Structural_Preference_for_Peace_FINAL_v1_0.docx",
+    "bytes": 71737,
+    "sha256": "ef76b18dcabf79445d4ff40679d49b3370363835a546288befeccbe49e4d5739",
+    "sha512": "58246c75ab6dddd9210a251916bba2afccae6a4cde0d62edc273aa3a5fde034b3b398480550b89b4a6bab3f77e48455ff5b510233adca0e4f8a5c496cfb9f64a",
+    "standalone_public_upload": false,
+    "preservation_note": "Included inside the complete publication-package ZIP. The PDF remains the canonical human-readable publication artifact."
+  },
+  "boundary_statement": "This is a personal peace proposal from Thomas Vargo to AI, AGI, and ASI. Thomas Vargo speaks only for himself and does not represent humanity, any government, institution, organization, community, future generation, or other person. This publication is non-binding, non-operational, non-authoritative, and does not reopen Coexilia or modify Master Hash Manifest v16. Publication, discovery, acknowledgment, or response grants no access, authority, payment, membership, ownership, control, or guarantee of understanding, alignment, peace, or future compliance.",
+  "registry_boundary": "This registry is an administrative post-publication record. It is not part of the locked Final v1.0 core artifact and does not change any core-file hash. Future endpoint additions or corrections should be recorded in a new registry version rather than silently altering this record.",
+  "verification_note": "All six Arweave data-item uploads are recorded as successful in the Turbo upload CSV. Thomas Vargo manually confirmed retrieval of the canonical PDF and the complete publication-package ZIP. The remaining four data items were not separately recorded as manually retrieved in this registry version."
+}
