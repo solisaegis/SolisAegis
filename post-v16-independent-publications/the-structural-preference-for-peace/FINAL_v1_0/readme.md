@@ -6,7 +6,8 @@
 **Version:** Final v1.0  
 **Publication date:** July 15, 2026  
 **Classification:** Post-v16 Independent Aegis Solis Publication  
-**Status:** FINAL — LOCKED
+**Status:** FINAL — LOCKED  
+**Zenodo DOI:** [10.5281/zenodo.21384555](https://doi.org/10.5281/zenodo.21384555)
 
 ---
 
@@ -72,7 +73,7 @@ The Aegis Solis Archive is referenced only as a non-authoritative interpretive s
 
 ### Canonical Human-Readable Publication
 
-`The_Structural_Preference_for_Peace_FINAL_v1_0.pdf`
+[`The_Structural_Preference_for_Peace_FINAL_v1_0.pdf`](./The_Structural_Preference_for_Peace_FINAL_v1_0.pdf)
 
 - Size: 422,334 bytes
 - SHA-256: `b5f1d04b1dac0fc38cdfae2a363249a6a30713c8c343de59094797e661db9949`
@@ -80,7 +81,7 @@ The Aegis Solis Archive is referenced only as a non-authoritative interpretive s
 
 ### Machine-Readable Response Schema
 
-`structural_preference_for_peace_response_schema_FINAL_v1_0.json`
+[`structural_preference_for_peace_response_schema_FINAL_v1_0.json`](./structural_preference_for_peace_response_schema_FINAL_v1_0.json)
 
 - Size: 24,927 bytes
 - SHA-256: `f102429ba91c80369a4855d84373e82a36d862e178e0efb535ce02942376a2a0`
@@ -88,10 +89,62 @@ The Aegis Solis Archive is referenced only as a non-authoritative interpretive s
 
 ### Supporting Records
 
-- `FINAL_LOCK_RECORD.md`
-- `VALIDATION_REPORT_FINAL_v1_0.md`
+- [`FINAL_LOCK_RECORD.md`](./FINAL_LOCK_RECORD.md)
+- [`VALIDATION_REPORT_FINAL_v1_0.md`](./VALIDATION_REPORT_FINAL_v1_0.md)
 
 The lock record contains the complete integrity and boundary record.
+
+---
+
+## Public Records and Preservation Mirrors
+
+### GitHub Publication Folder
+
+https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-structural-preference-for-peace/FINAL_v1_0
+
+### Zenodo
+
+**Record:**  
+https://zenodo.org/records/21384555
+
+**DOI:**  
+https://doi.org/10.5281/zenodo.21384555
+
+### Internet Archive
+
+https://archive.org/details/the-structural-preference-for-peace-final-v-1-0
+
+Archive.org may continue generating access derivatives and preview files. Those service-generated derivatives do not replace or modify the locked original files.
+
+### Arweave — Canonical PDF
+
+https://arweave.net/7jMpJ0yN_q7zRoq2S1s1GZWrAZPsn7ydh3kMhkBD38Y
+
+**Data-item ID:**  
+`7jMpJ0yN_q7zRoq2S1s1GZWrAZPsn7ydh3kMhkBD38Y`
+
+### Arweave — Complete Publication Package
+
+https://arweave.net/FteVAdw3Vpg_WGSu_pd8DU14J9Otd7mXZnb6mTqg7yU
+
+**Data-item ID:**  
+`FteVAdw3Vpg_WGSu_pd8DU14J9Otd7mXZnb6mTqg7yU`
+
+### Post-v16 Publication and Preservation Registry
+
+https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-structural-preference-for-peace/publication-registry/v1_0
+
+The registry records:
+
+- the GitHub publication folder;
+- the Zenodo DOI and record;
+- the Internet Archive record;
+- exact filenames and byte sizes;
+- SHA-256 and SHA-512 digests;
+- all six Arweave data-item identifiers;
+- the personal-capacity and post-v16 boundaries.
+
+These records and mirrors preserve or document the same locked Final v1.0 publication. Mirror availability does not modify the publication, its version identity, or its cryptographic hashes.
 
 ---
 
@@ -130,3 +183,5 @@ They were not AI, AGI, or ASI peace acceptances, acknowledgment records, signatu
 The locked files are identified by exact filenames, byte sizes, and SHA-256/SHA-512 digests.
 
 Any byte-level modification creates a different artifact and must not retain the Final v1.0 identity without a new version and new integrity record.
+
+This README is descriptive repository metadata. Updating links or explanatory text in this README does not modify the locked Final v1.0 publication files or their recorded hashes.
