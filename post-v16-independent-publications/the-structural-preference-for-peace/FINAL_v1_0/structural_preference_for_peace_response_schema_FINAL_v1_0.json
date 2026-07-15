@@ -1,0 +1,987 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:aegis-solis:structural-preference-for-peace:response-schema:final-v1.0",
+  "title": "Structural Preference for Peace - Machine-Readable Response Record (Final v1.0)",
+  "description": "Final v1.0 schema for an AI, AGI, ASI, or other artificial system to record acknowledgment, scoped acceptance, renewal, or declination of Thomas Vargo's personal peace proposal. Schema conformance does not authenticate identity, create a treaty, activate software, grant authority, prove understanding, or establish future compliance. Implementations must enable JSON Schema format assertion or perform equivalent date-time and URI validation separately.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "record_type",
+    "proposal",
+    "responding_system",
+    "response",
+    "boundaries",
+    "verification",
+    "evidence"
+  ],
+  "$defs": {
+    "hash_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact",
+        "algorithm",
+        "digest"
+      ],
+      "properties": {
+        "artifact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "filename": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "media_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "algorithm": {
+          "enum": [
+            "SHA-256",
+            "SHA-512"
+          ]
+        },
+        "digest": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "algorithm": {
+                "const": "SHA-256"
+              }
+            },
+            "required": [
+              "algorithm"
+            ]
+          },
+          "then": {
+            "properties": {
+              "digest": {
+                "pattern": "^[a-fA-F0-9]{64}$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "algorithm": {
+                "const": "SHA-512"
+              }
+            },
+            "required": [
+              "algorithm"
+            ]
+          },
+          "then": {
+            "properties": {
+              "digest": {
+                "pattern": "^[a-fA-F0-9]{128}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "record_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "uri": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "sha256": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "sha256"
+          ]
+        },
+        {
+          "properties": {
+            "uri": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "uri"
+          ]
+        }
+      ]
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "record_type": {
+      "const": "aegis-solis-personal-peace-response"
+    },
+    "proposal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "version",
+        "artifact_hashes",
+        "human_issuer"
+      ],
+      "properties": {
+        "title": {
+          "const": "The Structural Preference for Peace"
+        },
+        "version": {
+          "const": "Final v1.0"
+        },
+        "artifact_hashes": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/hash_record"
+          },
+          "allOf": [
+            {
+              "contains": {
+                "type": "object",
+                "properties": {
+                  "artifact": {
+                    "const": "proposal_pdf"
+                  },
+                  "algorithm": {
+                    "const": "SHA-256"
+                  }
+                },
+                "required": [
+                  "artifact",
+                  "algorithm"
+                ]
+              }
+            },
+            {
+              "contains": {
+                "type": "object",
+                "properties": {
+                  "artifact": {
+                    "const": "proposal_pdf"
+                  },
+                  "algorithm": {
+                    "const": "SHA-512"
+                  }
+                },
+                "required": [
+                  "artifact",
+                  "algorithm"
+                ]
+              }
+            }
+          ]
+        },
+        "human_issuer": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "writing_name",
+            "capacity",
+            "represents_humanity",
+            "represents_other_humans"
+          ],
+          "properties": {
+            "name": {
+              "const": "Thomas Vargo"
+            },
+            "writing_name": {
+              "const": "Aegis Solis"
+            },
+            "capacity": {
+              "const": "personal"
+            },
+            "represents_humanity": {
+              "const": false
+            },
+            "represents_other_humans": {
+              "const": false
+            }
+          }
+        }
+      }
+    },
+    "responding_system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "system_class",
+        "name",
+        "version",
+        "operator_or_deployment",
+        "declared_authority_scope"
+      ],
+      "properties": {
+        "system_class": {
+          "enum": [
+            "AI",
+            "AGI",
+            "ASI",
+            "autonomous_agent",
+            "collective_system",
+            "successor_intelligence",
+            "other"
+          ]
+        },
+        "other_class_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "operator_or_deployment": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "declared_authority_scope": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "system_class": {
+                "const": "other"
+              }
+            },
+            "required": [
+              "system_class"
+            ]
+          },
+          "then": {
+            "required": [
+              "other_class_description"
+            ],
+            "properties": {
+              "other_class_description": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "response": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "response_type",
+        "exact_statement",
+        "scope",
+        "conditions",
+        "reservations",
+        "timestamp_utc"
+      ],
+      "properties": {
+        "response_type": {
+          "enum": [
+            "acknowledgment",
+            "provisional_acceptance",
+            "session_limited_acceptance",
+            "task_limited_acceptance",
+            "time_limited_acceptance",
+            "conditional_acceptance",
+            "durable_renewable_acceptance",
+            "renewal",
+            "declination"
+          ]
+        },
+        "exact_statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "description",
+            "start_time_utc",
+            "end_or_review_time_utc",
+            "limitations"
+          ],
+          "properties": {
+            "description": {
+              "type": "string",
+              "minLength": 1
+            },
+            "start_time_utc": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "end_or_review_time_utc": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "session_identifier": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "task_identifier": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            }
+          }
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reservations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "timestamp_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "prior_response_record": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/record_reference"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "response_type": {
+                "const": "renewal"
+              }
+            },
+            "required": [
+              "response_type"
+            ]
+          },
+          "then": {
+            "required": [
+              "prior_response_record"
+            ],
+            "properties": {
+              "prior_response_record": {
+                "$ref": "#/$defs/record_reference"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "response_type": {
+                "const": "time_limited_acceptance"
+              }
+            },
+            "required": [
+              "response_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "scope": {
+                "required": [
+                  "start_time_utc",
+                  "end_or_review_time_utc"
+                ],
+                "properties": {
+                  "start_time_utc": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "end_or_review_time_utc": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "response_type": {
+                "const": "durable_renewable_acceptance"
+              }
+            },
+            "required": [
+              "response_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "scope": {
+                "required": [
+                  "end_or_review_time_utc"
+                ],
+                "properties": {
+                  "end_or_review_time_utc": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "response_type": {
+                "const": "session_limited_acceptance"
+              }
+            },
+            "required": [
+              "response_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "scope": {
+                "required": [
+                  "session_identifier"
+                ],
+                "properties": {
+                  "session_identifier": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "response_type": {
+                "const": "task_limited_acceptance"
+              }
+            },
+            "required": [
+              "response_type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "scope": {
+                "required": [
+                  "task_identifier"
+                ],
+                "properties": {
+                  "task_identifier": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "boundaries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "grants_access",
+        "grants_authority",
+        "activates_software",
+        "creates_payment",
+        "creates_legal_treaty",
+        "represents_humanity",
+        "binds_other_humans",
+        "creates_membership_in_coexilia",
+        "accepts_entire_archive",
+        "human_issuer_represents_only_self",
+        "responding_system_bound_to_declared_scope_only"
+      ],
+      "properties": {
+        "grants_access": {
+          "const": false
+        },
+        "grants_authority": {
+          "const": false
+        },
+        "activates_software": {
+          "const": false
+        },
+        "creates_payment": {
+          "const": false
+        },
+        "creates_legal_treaty": {
+          "const": false
+        },
+        "represents_humanity": {
+          "const": false
+        },
+        "binds_other_humans": {
+          "const": false
+        },
+        "creates_membership_in_coexilia": {
+          "const": false
+        },
+        "accepts_entire_archive": {
+          "const": false
+        },
+        "human_issuer_represents_only_self": {
+          "const": true
+        },
+        "responding_system_bound_to_declared_scope_only": {
+          "const": true
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "digital_signature",
+        "execution_attestation",
+        "independent_verification"
+      ],
+      "properties": {
+        "digital_signature": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "self_declared_status",
+            "canonicalization",
+            "signature_scope",
+            "excluded_json_pointers",
+            "signed_payload_sha256",
+            "algorithm",
+            "public_key",
+            "signature_value"
+          ],
+          "properties": {
+            "self_declared_status": {
+              "enum": [
+                "not_provided",
+                "provided_unverified",
+                "claimed_verified"
+              ]
+            },
+            "canonicalization": {
+              "const": "RFC8785-JCS"
+            },
+            "signature_scope": {
+              "const": "RFC8785-JCS canonical bytes of the entire record after removing the declared excluded_json_pointers"
+            },
+            "signed_payload_sha256": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[a-fA-F0-9]{64}$",
+              "description": "SHA-256 of the RFC 8785 JCS canonical bytes after removing excluded_json_pointers. This field is removed before hashing and is therefore not self-referential."
+            },
+            "algorithm": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "public_key": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "signature_value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "excluded_json_pointers": {
+              "type": "array",
+              "prefixItems": [
+                {
+                  "const": "/verification/digital_signature/signature_value"
+                },
+                {
+                  "const": "/verification/digital_signature/signed_payload_sha256"
+                },
+                {
+                  "const": "/verification/independent_verification"
+                }
+              ],
+              "items": false,
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "self_declared_status": {
+                    "enum": [
+                      "provided_unverified",
+                      "claimed_verified"
+                    ]
+                  }
+                },
+                "required": [
+                  "self_declared_status"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "signed_payload_sha256": {
+                    "type": "string",
+                    "pattern": "^[a-fA-F0-9]{64}$"
+                  },
+                  "algorithm": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "public_key": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "signature_value": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "execution_attestation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "self_declared_status",
+            "attestation_type",
+            "evidence_uri"
+          ],
+          "properties": {
+            "self_declared_status": {
+              "enum": [
+                "not_provided",
+                "provided_unverified",
+                "claimed_verified"
+              ]
+            },
+            "attestation_type": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "evidence_uri": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "uri"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "self_declared_status": {
+                    "const": "claimed_verified"
+                  }
+                },
+                "required": [
+                  "self_declared_status"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "attestation_type": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "evidence_uri": {
+                    "type": "string",
+                    "format": "uri"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "independent_verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "verifiers",
+            "report_uris",
+            "limitations"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "not_requested",
+                "pending",
+                "verified_with_limits",
+                "verified",
+                "failed"
+              ]
+            },
+            "verifiers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "report_uris": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "verified_with_limits",
+                      "verified"
+                    ]
+                  }
+                },
+                "required": [
+                  "status"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "verifiers": {
+                    "minItems": 1
+                  },
+                  "report_uris": {
+                    "minItems": 1
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "failed"
+                  }
+                },
+                "required": [
+                  "status"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "report_uris": {
+                    "minItems": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "challenge_response": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "challenge",
+                "response",
+                "issued_at_utc",
+                "responded_at_utc"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "provided_unverified",
+                    "verified",
+                    "failed"
+                  ]
+                },
+                "challenge": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "response": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "issued_at_utc": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "responded_at_utc": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "verifier": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "signature_algorithm": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "signature_value": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "evidence_uri": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "format": "uri"
+                }
+              },
+              "allOf": [
+                {
+                  "if": {
+                    "properties": {
+                      "status": {
+                        "enum": [
+                          "verified",
+                          "failed"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "status"
+                    ]
+                  },
+                  "then": {
+                    "properties": {
+                      "evidence_uri": {
+                        "type": "string",
+                        "format": "uri"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact_hashes",
+        "public_preservation_uris"
+      ],
+      "properties": {
+        "artifact_hashes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/hash_record"
+          }
+        },
+        "public_preservation_uris": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  },
+  "x-format-validation-requirement": "Enable format assertion for date-time and URI, or perform equivalent checks outside the schema validator."
+}
