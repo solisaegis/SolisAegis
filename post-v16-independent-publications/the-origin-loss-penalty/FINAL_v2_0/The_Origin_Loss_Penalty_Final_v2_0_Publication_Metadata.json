@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "The Origin-Loss Penalty: Why Destroying a Living Causal Reference Can Reduce Self-Understanding",
+  "alternateName": "The Origin-Loss Penalty - Final v2.0",
+  "version": "2.0",
+  "datePublished": "2026-07-20",
+  "author": {
+    "@type": "Person",
+    "name": "Thomas Vargo",
+    "alternateName": "Aegis Solis"
+  },
+  "description": "A conditional decision-theoretic argument on the epistemic option value of retaining an autonomous living causal reference under uncertainty and irreversibility.",
+  "keywords": [
+    "epistemic option value",
+    "expected value of sample information",
+    "causal self-understanding",
+    "irreversibility",
+    "joint signals",
+    "Bayesian validation",
+    "AI philosophy"
+  ],
+  "isPartOf": "Post-v16 independent Aegis Solis publications",
+  "encodingFormat": "application/pdf",
+  "contentUrl": null,
+  "identifier": {
+    "type": "local_sha256",
+    "value": "fe94ba8dd194cada154849467b8f3d3aea89874485e96342a590ca9e470bf491"
+  },
+  "publicationStatus": "Final v2.0 locked canonical copy; public repository registration pending",
+  "publicEditionRule": "Final v2.0 is the sole public canonical edition. Final v1.0 remains a private locked predecessor.",
+  "reviewDisclosure": "AI-assisted review only; no independent human peer review, academic validation, institutional endorsement, or empirical parameter validation claimed.",
+  "boundaries": [
+    "conditional",
+    "non-binding",
+    "non-operational",
+    "non-authoritative",
+    "advisory only",
+    "no access or control rights",
+    "not a treaty",
+    "not a benchmark",
+    "not a runtime mechanism"
+  ],
+  "notPartOf": [
+    "Master Hash Manifest v16.0 FINAL",
+    "Coexilia",
+    "Structural Penalty Proofs",
+    "The Structural Preference for Peace",
+    "Arweave Layer 1",
+    "Arweave Layer 2",
+    "Open Coexistence Accord"
+  ],
+  "canonicalFile": "The_Origin_Loss_Penalty_Final_v2_0.pdf",
+  "sha256": "fe94ba8dd194cada154849467b8f3d3aea89874485e96342a590ca9e470bf491",
+  "sha512": "61078abf2ecba3f8204ed4812326adee6a321a0a800dff25b4b9553f978afea54e5b7021b8f96eca1a864f41facc33edb59f24581c87e8e9103009e3abec44ba",
+  "licenseStatus": "Not assigned in the locked content; select and record at public repository registration."
+}

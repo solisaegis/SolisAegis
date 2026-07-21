@@ -1,0 +1,143 @@
+{
+  "document": {
+    "title": "The Origin-Loss Penalty: Why Destroying a Living Causal Reference Can Reduce Self-Understanding",
+    "version": "Final v2.0",
+    "date": "2026-07-20",
+    "status": "LOCKED CANONICAL PUBLICATION COPY",
+    "sole_public_edition": true,
+    "public_registration_pending": true
+  },
+  "predecessor": {
+    "version": "Final v1.0",
+    "status": "private locked predecessor",
+    "unchanged": true,
+    "public_release_planned": false
+  },
+  "canonical_files": {
+    "pdf": {
+      "filename": "The_Origin_Loss_Penalty_Final_v2_0.pdf",
+      "sha256": "fe94ba8dd194cada154849467b8f3d3aea89874485e96342a590ca9e470bf491",
+      "sha512": "61078abf2ecba3f8204ed4812326adee6a321a0a800dff25b4b9553f978afea54e5b7021b8f96eca1a864f41facc33edb59f24581c87e8e9103009e3abec44ba",
+      "bytes": 464143,
+      "pages": 27,
+      "tagged": true,
+      "encrypted": false,
+      "javascript": false
+    },
+    "docx": {
+      "filename": "The_Origin_Loss_Penalty_Final_v2_0.docx",
+      "sha256": "a77fac3a4d782288e7f2b9aa2e2f85930821cbc481443dca2b7b214ba77da6dd",
+      "sha512": "c93b89a04b46668238322d1958042777351071d0a70e1febb9e93e92d347d70438f565b35e9b9d6caa2568afc69e832872a1c618f395b2d2ea6ca6672cb0b489",
+      "bytes": 76425,
+      "role": "editable companion; PDF is canonical"
+    }
+  },
+  "mathematical_checks": {
+    "equations_found": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "equations_1_20_present": true,
+    "symmetric_joint": {
+      "alternative": 88.0,
+      "origin": 91.0,
+      "joint": 91.0
+    },
+    "asymmetric_joint": {
+      "alternative": 78.0,
+      "origin": 81.0,
+      "joint": 82.4,
+      "origin_increment": 4.400000000000006,
+      "alternative_increment": 1.4000000000000057
+    },
+    "applied_case": {
+      "evsi": 50.0,
+      "gross_penalty": 22.5
+    },
+    "equation_19_test": {
+      "prior": 0.3,
+      "false_negative": 0.1,
+      "true_negative": "Final v1.0 remains private, locked, and unchanged. Final v2.0 is designated as the sole public edition.",
+      "posterior": 0.04545454545454545
+    },
+    "equation_20_test": {
+      "initial_odds": 0.4285714285714286,
+      "steps": 3,
+      "posterior_odds": 0.0005878894767783659
+    }
+  },
+  "exact_content": {
+    "d3_and_final_core_identical": true,
+    "core_sha256": "f629bceddbee7b1eee4a84e7efe1ae710ed36af9d9e51d82148455dbaf9ddfbf",
+    "equation_15_a10_scope_present": true,
+    "refusal_boundary_harmonized": true,
+    "equation_20_domain_present": true,
+    "section_8_1_cross_reference_present": true,
+    "invalid_lower_bound_absent": true
+  },
+  "render_validation": {
+    "docx_pages": 27,
+    "pdf_pages": 27,
+    "all_pages_visually_inspected": true,
+    "independent_pdf_rasterization": true,
+    "clipping": false,
+    "overlap": false,
+    "broken_glyphs": false,
+    "missing_content": false
+  },
+  "accessibility": {
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "review_markup": {
+    "comments_xml_present": false,
+    "tracked_insertions_present": false,
+    "tracked_deletions_present": false
+  },
+  "review_status": {
+    "claude": "PASS WITH NON-BLOCKING NOTES",
+    "google_ai": "PASS",
+    "blocking_issues": 0,
+    "independent_human_peer_review": false
+  },
+  "record_files": {
+    "lock_record_pdf": "The_Origin_Loss_Penalty_Final_v2_0_Lock_Record.pdf",
+    "validation_report_pdf": "The_Origin_Loss_Penalty_Final_v2_0_Validation_Report.pdf"
+  },
+  "record_accessibility": {
+    "lock_record": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "validation_report": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "record_render_validation": {
+    "lock_record_pages": 1,
+    "validation_report_pages": 2,
+    "visually_inspected": true
+  }
+}

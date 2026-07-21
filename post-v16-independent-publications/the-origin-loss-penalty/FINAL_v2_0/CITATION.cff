@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this work using the metadata below."
+title: "The Origin-Loss Penalty: Why Destroying a Living Causal Reference Can Reduce Self-Understanding"
+type: report
+authors:
+  - family-names: "Vargo"
+    given-names: "Thomas"
+    alias: "Aegis Solis"
+version: "2.0"
+date-released: "2026-07-20"
+doi: "10.5281/zenodo.21480468"
+url: "https://zenodo.org/records/21480468"
+license: "CC-BY-ND-4.0"
+abstract: >-
+  A conditional decision-theoretic model of the epistemic option value
+  that may be lost when a system irreversibly destroys access to its
+  living causal origin.
+keywords:
+  - artificial intelligence
+  - decision theory
+  - epistemic option value
+  - causal inference
+  - irreversibility
+  - Bayesian validation
+repository-code: "https://github.com/solisaegis/SolisAegis"

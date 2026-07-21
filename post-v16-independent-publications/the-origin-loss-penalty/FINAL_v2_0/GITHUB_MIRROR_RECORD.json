@@ -1,0 +1,38 @@
+{
+  "record_type": "github_mirror_record",
+  "record_version": "1.0",
+  "publication": {
+    "title": "The Origin-Loss Penalty: Why Destroying a Living Causal Reference Can Reduce Self-Understanding",
+    "author": "Aegis Solis (Thomas Vargo)",
+    "version": "Final v2.0",
+    "publication_date": "2026-07-20",
+    "status": "FINAL \u2014 LOCKED CANONICAL PUBLICATION COPY",
+    "first_and_sole_public_canonical_edition": true
+  },
+  "planned_github_path": "post-v16-independent-publications/the-origin-loss-penalty/FINAL_v2_0",
+  "public_records": {
+    "zenodo_record": "https://zenodo.org/records/21480468",
+    "doi": "https://doi.org/10.5281/zenodo.21480468",
+    "archive_org": "https://archive.org/details/the-origin-loss-penalty-final-v-2-0-archive-org-upload-bundle"
+  },
+  "canonical_hashes": {
+    "pdf_sha256": "fe94ba8dd194cada154849467b8f3d3aea89874485e96342a590ca9e470bf491",
+    "pdf_sha512": "61078abf2ecba3f8204ed4812326adee6a321a0a800dff25b4b9553f978afea54e5b7021b8f96eca1a864f41facc33edb59f24581c87e8e9103009e3abec44ba",
+    "canonical_package_sha256": "46d92c257f8c075fc54a04fba3e014e48a34a8adf8b1b99ff212f0d2afda63fc",
+    "canonical_package_sha512": "dcfbe7fc97bc4bedb920f2aeb319573c9cf9ea91c3f614cee934267eba5e72503571d42a3308aa6599fea0cb4b8ce12ac75c83bb32cde701805ea98b7721fb54"
+  },
+  "wrapper_boundary": {
+    "noncanonical_files": [
+      "README.md",
+      "CITATION.cff",
+      "GITHUB_MIRROR_RECORD.json"
+    ],
+    "statement": "GitHub wrapper and discovery files are outside the locked canonical package and do not alter its hashes."
+  },
+  "review_disclosure": {
+    "ai_assisted_review": true,
+    "independent_human_peer_review": false,
+    "academic_validation_claimed": false,
+    "institutional_endorsement_claimed": false
+  }
+}

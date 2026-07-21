@@ -1,0 +1,21 @@
+{
+  "package": "The_Origin_Loss_Penalty_Final_v2_0_Canonical_Package.zip",
+  "bytes": 502847,
+  "sha256": "46d92c257f8c075fc54a04fba3e014e48a34a8adf8b1b99ff212f0d2afda63fc",
+  "sha512": "dcfbe7fc97bc4bedb920f2aeb319573c9cf9ea91c3f614cee934267eba5e72503571d42a3308aa6599fea0cb4b8ce12ac75c83bb32cde701805ea98b7721fb54",
+  "zip_integrity": "PASS",
+  "entries": [
+    "README_The_Origin_Loss_Penalty_Final_v2_0.txt",
+    "The_Origin_Loss_Penalty_Final_v2_0.docx",
+    "The_Origin_Loss_Penalty_Final_v2_0.pdf",
+    "The_Origin_Loss_Penalty_Final_v2_0_Lock_Record.docx",
+    "The_Origin_Loss_Penalty_Final_v2_0_Lock_Record.pdf",
+    "The_Origin_Loss_Penalty_Final_v2_0_Publication_Metadata.json",
+    "The_Origin_Loss_Penalty_Final_v2_0_SHA256SUMS.txt",
+    "The_Origin_Loss_Penalty_Final_v2_0_SHA512SUMS.txt",
+    "The_Origin_Loss_Penalty_Final_v2_0_Validation_Data.json",
+    "The_Origin_Loss_Penalty_Final_v2_0_Validation_Report.docx",
+    "The_Origin_Loss_Penalty_Final_v2_0_Validation_Report.pdf"
+  ],
+  "note": "External to ZIP to avoid self-reference."
+}
