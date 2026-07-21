@@ -39,11 +39,38 @@ This is a separate post-v16 independent Aegis Solis publication. It does not mod
 - Arweave Layer 1 or Layer 2;
 - the future optional Open Coexistence Accord.
 
-## Public records
+## Public records, mirrors, and indexes
+
+### Canonical repository and DOI record
 
 - **Zenodo:** https://zenodo.org/records/21480468
 - **DOI:** https://doi.org/10.5281/zenodo.21480468
+- **GitHub canonical directory:** https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-origin-loss-penalty/FINAL_v2_0
+
+### Preservation mirrors
+
 - **Archive.org:** https://archive.org/details/the-origin-loss-penalty-final-v-2-0-archive-org-upload-bundle
+- **Arweave canonical PDF:** https://arweave.net/l8-XQ_ALDR1PA-eJ68tNnNBMZ19Zr5mKtV-Hj6rU9rg
+- **Arweave canonical package:** https://arweave.net/4junTlfc9yuM7ca0M_Lv5wHYDKPQRlXHdOFOy4KrckE
+
+### Academic and educational indexes
+
+- **PhilPapers:** https://philpapers.org/rec/AEGTOP
+- **MERLOT:** https://www.merlot.org/merlot/viewMaterial.htm?id=824239662
+
+## Canonical identifiers
+
+- **Zenodo DOI:** `10.5281/zenodo.21480468`
+- **PhilPapers record code:** `AEGTOP`
+- **MERLOT material ID:** `824239662`
+- **Arweave canonical PDF transaction ID:** `l8-XQ_ALDR1PA-eJ68tNnNBMZ19Zr5mKtV-Hj6rU9rg`
+- **Arweave canonical package transaction ID:** `4junTlfc9yuM7ca0M_Lv5wHYDKPQRlXHdOFOy4KrckE`
+
+## Arweave preservation status
+
+Turbo upload receipts for both Arweave data items returned `CONFIRMED`.
+
+The receipt confirmation establishes that the canonical PDF and canonical package were accepted by the Turbo upload system under their respective transaction identifiers. Byte-for-byte gateway verification remains a separate verification step and should not be inferred solely from receipt confirmation.
 
 ## Canonical hashes
 
@@ -95,3 +122,5 @@ dcfbe7fc97bc4bedb920f2aeb319573c9cf9ea91c3f614cee934267eba5e72503571d42a3308aa65
 ## Wrapper-file boundary
 
 `README.md`, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are GitHub mirror and discovery files. They are not part of the locked canonical package and are not covered by the canonical package hash.
+
+Metadata-only changes to these wrapper files do not modify the canonical publication, canonical package, lock record, validation record, or established canonical hashes.
