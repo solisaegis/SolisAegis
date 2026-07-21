@@ -70,7 +70,7 @@ This is a separate post-v16 independent Aegis Solis publication. It does not mod
 
 Turbo upload receipts for both Arweave data items returned `CONFIRMED`.
 
-The receipt confirmation establishes that the canonical PDF and canonical package were accepted by the Turbo upload system under their respective transaction identifiers. Byte-for-byte gateway verification remains a separate verification step and should not be inferred solely from receipt confirmation.
+The Turbo receipts confirm acceptance of both uploaded data items. The assignment of the transaction identifiers to the canonical PDF and canonical package is supported by the close proportional match between their known file sizes and the corresponding Turbo upload charges. Byte-for-byte gateway verification remains a separate verification step.
 
 ## Canonical hashes
 
