@@ -9,7 +9,7 @@ authors:
 date-released: "2026-07-22"
 version: "Final v1.0"
 doi: "10.5281/zenodo.21519051"
-url: "https://zenodo.org/records/21519051"
+url: "https://doi.org/10.5281/zenodo.21519051"
 repository-code: "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-variance-preservation-premium/FINAL_v1_0"
 abstract: >-
   A conditional decision-theoretic account of the expected net value of preserving

@@ -1,6 +1,7 @@
 {
   "record_type": "github_mirror_record",
-  "record_version": "1.0",
+  "record_version": "1.1",
+  "updated": "2026-07-23",
   "canonical_publication": {
     "title": "The Variance Preservation Premium: Why Independent Sources of Novelty Can Increase Resilience Under Model Uncertainty",
     "short_title": "The Variance Preservation Premium",
@@ -20,10 +21,27 @@
     "archive_org": "https://archive.org/details/the-variance-preservation-premium-final-v-1-0",
     "zenodo": "https://zenodo.org/records/21519051",
     "doi": "10.5281/zenodo.21519051",
-    "arweave_pdf": null,
-    "arweave_package": null,
-    "philpapers": null,
-    "merlot": null
+    "github": "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-variance-preservation-premium/FINAL_v1_0",
+    "arweave_pdf": {
+      "data_item_id": "__NSCvDOKIrmvkh6enDDD2qFM2Sfl7laVbRJjS6ggz4",
+      "url": "https://arweave.net/__NSCvDOKIrmvkh6enDDD2qFM2Sfl7laVbRJjS6ggz4",
+      "receipt_status": "CONFIRMED",
+      "gateway_hash_verification": "PENDING"
+    },
+    "arweave_package": {
+      "data_item_id": "7NuuPrRCkEFg7uI8ZoedA8phxkzJJfR3NJXopwGwhu0",
+      "url": "https://arweave.net/7NuuPrRCkEFg7uI8ZoedA8phxkzJJfR3NJXopwGwhu0",
+      "receipt_status": "CONFIRMED",
+      "gateway_hash_verification": "PENDING"
+    },
+    "philpapers": {
+      "record_code": "AEGTVP",
+      "url": "https://philpapers.org/rec/AEGTVP"
+    },
+    "merlot": {
+      "material_id": "824239671",
+      "url": "https://www.merlot.org/merlot/viewMaterial.htm?id=824239671"
+    }
   },
   "canonical_artifacts": {
     "pdf": {
@@ -46,13 +64,18 @@
       "CITATION.cff",
       "GITHUB_MIRROR_RECORD.json"
     ],
-    "statement": "The wrapper files are outside the locked canonical package and may receive metadata-only cross-link updates. They do not alter the canonical PDF, package, or recorded hashes."
+    "statement": "These wrapper files are outside the locked canonical package and may receive metadata-only cross-link and verification-status updates. They do not alter the canonical PDF, canonical package, or recorded hashes."
   },
   "interpretive_boundary": "Hashes verify artifact identity and integrity only. They do not prove truth, acceptance, adherence, compliance, safety, authority, or behavior.",
   "verification_status": {
     "local_canonical_hashes": "PASS",
+    "canonical_package_integrity": "PASS",
     "archive_org_download_hashes": "PASS",
     "zenodo_download_hashes": "PENDING",
-    "github_uploaded_bytes": "PENDING"
+    "github_download_hashes": "PENDING",
+    "arweave_receipts": "CONFIRMED",
+    "arweave_gateway_download_hashes": "PENDING",
+    "philpapers_public_metadata": "PENDING",
+    "merlot_public_metadata": "PENDING"
   }
 }

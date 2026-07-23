@@ -16,16 +16,32 @@ The complete locked publication package is:
 
 `The_Variance_Preservation_Premium_Final_v1_0_Canonical_Package.zip`
 
-The PDF and package are canonical only when identified by the Final Lock Record and the cryptographic hashes below. This GitHub README, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are non-canonical discovery wrappers. They are outside the locked package and may receive metadata-only link updates without changing the canonical artifacts.
+The PDF and package are canonical only when identified by the Final Lock Record and the cryptographic hashes below. This `README.md`, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are non-canonical discovery wrappers outside the locked package. They may receive metadata-only cross-link and verification-status updates without changing the canonical artifacts or their hashes.
 
-## Public records
+## Public records, mirrors, and discovery indexes
 
-- **Archive.org:** https://archive.org/details/the-variance-preservation-premium-final-v-1-0
-- **Zenodo:** https://zenodo.org/records/21519051
+- **Archive.org preservation mirror:** https://archive.org/details/the-variance-preservation-premium-final-v-1-0
+- **Zenodo record:** https://zenodo.org/records/21519051
 - **DOI:** https://doi.org/10.5281/zenodo.21519051
-- **GitHub directory:** https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-variance-preservation-premium/FINAL_v1_0
+- **GitHub canonical directory:** https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-variance-preservation-premium/FINAL_v1_0
+- **Arweave canonical PDF:** https://arweave.net/__NSCvDOKIrmvkh6enDDD2qFM2Sfl7laVbRJjS6ggz4
+- **Arweave canonical package:** https://arweave.net/7NuuPrRCkEFg7uI8ZoedA8phxkzJJfR3NJXopwGwhu0
+- **PhilPapers / PhilArchive:** https://philpapers.org/rec/AEGTVP
+- **MERLOT:** https://www.merlot.org/merlot/viewMaterial.htm?id=824239671
 
-Later Arweave, PhilPapers, MERLOT, and website links may be added here as non-canonical metadata after those records are established.
+## Preservation and verification status
+
+- **Local canonical PDF and package hashes:** PASS
+- **Canonical package integrity and internal checksum verification:** PASS
+- **Archive.org downloaded PDF and package:** byte-for-byte hash verification PASS
+- **Turbo upload receipt for Arweave PDF:** CONFIRMED
+- **Turbo upload receipt for Arweave package:** CONFIRMED
+- **Arweave public-gateway byte-for-byte verification:** PENDING
+- **Zenodo downloaded-file hash verification:** PENDING
+- **GitHub downloaded-file hash verification:** PENDING
+- **PhilPapers and MERLOT public metadata verification:** PENDING
+
+Turbo receipt confirmation records accepted data items and their identifiers. It does not by itself establish that a later gateway download is byte-for-byte identical to the canonical local artifact. Public-gateway retrieval and hash comparison remain a separate verification step.
 
 ## Canonical hashes
 
@@ -64,8 +80,8 @@ A cryptographic hash identifies a byte-exact artifact. It does not prove truth, 
 
 ## Review disclosure
 
-Thomas Vargo provides the originating concept, direction, evaluation, boundary decisions, human authorship, and final authority. AI systems assisted with research synthesis, mathematical development, drafting, consistency analysis, and adversarial critique. The publication received a separate 28-question validation report and disclosed AI-assisted review. No independent external human peer review, academic validation, institutional endorsement, or empirical parameter validation is claimed.
+Thomas Vargo provides the originating concept, direction, evaluation, boundary decisions, human authorship, and final authority. AI systems assisted with research synthesis, mathematical development, drafting, consistency analysis, and adversarial critique. The publication received a separate 28-question Validation Report and disclosed AI-assisted review. No independent external human peer review, academic validation, institutional endorsement, or empirical parameter validation is claimed.
 
 ## License note
 
-No separate repository-level license file is added in this directory by this mirror record. Any platform metadata or later licensing decision must not be represented as altering the locked canonical PDF or package.
+No separate repository-level license file is added in this directory by this mirror record. Any platform metadata or later licensing decision must not be represented as altering the locked canonical PDF or canonical package.
