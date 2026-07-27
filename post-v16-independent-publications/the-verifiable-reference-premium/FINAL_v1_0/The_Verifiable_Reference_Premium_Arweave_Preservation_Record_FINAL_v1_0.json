@@ -1,0 +1,221 @@
+{
+  "record_type": "arweave_preservation_record",
+  "record_version": "Final v1.0",
+  "record_date": "2026-07-27",
+  "status": "COMPLETE - CROSS-GATEWAY HASH VERIFIED",
+  "publication": {
+    "title": "The Verifiable Reference Premium: When Public Archives Become Rational Citation Anchors for Advanced Intelligence",
+    "short_title": "The Verifiable Reference Premium",
+    "author": "Aegis Solis (Thomas Vargo)",
+    "version": "Final v1.0",
+    "publication_date": "2026-07-27",
+    "classification": "Separate post-v16 independent Aegis Solis publication",
+    "canonical_pdf_sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+    "canonical_pdf_sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6"
+  },
+  "upload": {
+    "model": "two separate Arweave/ANS-104 data items",
+    "owner_address": "3NdgyEYWi44PsKJBWIUZRGW9dw9dzMP-gHItz12gCIg",
+    "separate_data_items": 2,
+    "unique_data_item_ids": 2,
+    "total_payload_bytes": 1440124,
+    "recorded_turbo_credits": 0.015017,
+    "recorded_winc": 15017001201
+  },
+  "verification_checkpoint": {
+    "verified_utc": "2026-07-27T22:48:36Z",
+    "policy": {
+      "pass": "Downloaded bytes match expected byte count, SHA-256, and SHA-512.",
+      "target": "At least two gateways pass for each artifact.",
+      "note": "X-AR-IO-Verified and X-AR-IO-Stable are recorded as gateway claims. A false or absent value may reflect uncached streaming or incomplete finality and does not override a local full-body hash match."
+    },
+    "overall_status": "PASS",
+    "required_passing_gateways_per_artifact": 2,
+    "note": "arweave.dev did not resolve in the local Windows environment (getaddrinfo error 11002). Turbo Gateway and arweave.net both returned exact canonical bytes for both artifacts."
+  },
+  "artifacts": [
+    {
+      "key": "canonical_pdf",
+      "filename": "The_Verifiable_Reference_Premium_Final_v1_0.pdf",
+      "canonical_role": "canonical-pdf",
+      "content_type": "application/pdf",
+      "bytes": 719282,
+      "sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+      "sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6",
+      "data_item_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+      "urls": {
+        "turbo_gateway": "https://turbo-gateway.com/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+        "arweave_net": "https://arweave.net/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+        "arweave_dev": "https://arweave.dev/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I"
+      },
+      "upload_date_displayed": "7/27/2026, 6:37:03 PM",
+      "cost_credits": 0.0075,
+      "winc_amount": 7500216106,
+      "passing_gateways": [
+        "https://turbo-gateway.com",
+        "https://arweave.net"
+      ],
+      "passing_gateway_count": 2,
+      "cross_gateway_hash_status": "PASS",
+      "gateway_results": [
+        {
+          "artifact_key": "canonical_pdf",
+          "filename": "The_Verifiable_Reference_Premium_Final_v1_0.pdf",
+          "data_item_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "gateway": "https://turbo-gateway.com",
+          "requested_url": "https://turbo-gateway.com/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "http_status": 200,
+          "final_url": "https://qktjwom7yhtyvnvt4mykv3obyvi7fzutgpjr4etnvqg2vfa6lnra.turbo-gateway.com/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "downloaded_bytes": 719282,
+          "expected_bytes": 719282,
+          "sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+          "expected_sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+          "sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6",
+          "expected_sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6",
+          "bytes_match": true,
+          "sha256_match": true,
+          "sha512_match": true,
+          "hash_pass": true,
+          "content_type": "application/pdf",
+          "x_ar_io_verified": null,
+          "x_ar_io_stable": null,
+          "content_digest": "sha-256=:CyZaeBnfZvFe++OkbBOIvVp2ElqKxSha7G/sRLJZEp8=:",
+          "x_ar_io_digest": "CyZaeBnfZvFe--OkbBOIvVp2ElqKxSha7G_sRLJZEp8",
+          "x_ar_io_data_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "error": null
+        },
+        {
+          "artifact_key": "canonical_pdf",
+          "filename": "The_Verifiable_Reference_Premium_Final_v1_0.pdf",
+          "data_item_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "gateway": "https://arweave.net",
+          "requested_url": "https://arweave.net/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "http_status": 200,
+          "final_url": "https://qktjwom7yhtyvnvt4mykv3obyvi7fzutgpjr4etnvqg2vfa6lnra.arweave.net/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "downloaded_bytes": 719282,
+          "expected_bytes": 719282,
+          "sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+          "expected_sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+          "sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6",
+          "expected_sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6",
+          "bytes_match": true,
+          "sha256_match": true,
+          "sha512_match": true,
+          "hash_pass": true,
+          "content_type": "application/pdf",
+          "x_ar_io_verified": null,
+          "x_ar_io_stable": null,
+          "content_digest": "sha-256=:CyZaeBnfZvFe++OkbBOIvVp2ElqKxSha7G/sRLJZEp8=:",
+          "x_ar_io_digest": null,
+          "x_ar_io_data_id": null,
+          "error": null
+        },
+        {
+          "artifact_key": "canonical_pdf",
+          "filename": "The_Verifiable_Reference_Premium_Final_v1_0.pdf",
+          "data_item_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "gateway": "https://arweave.dev",
+          "requested_url": "https://arweave.dev/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+          "http_status": null,
+          "hash_pass": false,
+          "error": "Download failed after 3 attempts: <urlopen error [Errno 11002] getaddrinfo failed>"
+        }
+      ]
+    },
+    {
+      "key": "canonical_package",
+      "filename": "The_Verifiable_Reference_Premium_Final_v1_0_Canonical_Package.zip",
+      "canonical_role": "canonical-package",
+      "content_type": "application/zip",
+      "bytes": 720842,
+      "sha256": "f054a3f521922a43831a7caad71963b409f26fbeb77a149ef99cd9b48cf81c38",
+      "sha512": "10460a9578f5727ae920e589c93d1682c207f7f6acddf64a0b28be2882b33b045cc4b1055c0795511b9a918b0e5674c0f8c1ef7c77e8263896f2e8ab911bfe0e",
+      "data_item_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+      "urls": {
+        "turbo_gateway": "https://turbo-gateway.com/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+        "arweave_net": "https://arweave.net/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+        "arweave_dev": "https://arweave.dev/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ"
+      },
+      "upload_date_displayed": "7/27/2026, 6:37:05 PM",
+      "cost_credits": 0.007517,
+      "winc_amount": 7516785095,
+      "passing_gateways": [
+        "https://turbo-gateway.com",
+        "https://arweave.net"
+      ],
+      "passing_gateway_count": 2,
+      "cross_gateway_hash_status": "PASS",
+      "gateway_results": [
+        {
+          "artifact_key": "canonical_package",
+          "filename": "The_Verifiable_Reference_Premium_Final_v1_0_Canonical_Package.zip",
+          "data_item_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "gateway": "https://turbo-gateway.com",
+          "requested_url": "https://turbo-gateway.com/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "http_status": 200,
+          "final_url": "https://bz3brf2opzpboel2ebfngbxpjk6wd7e5qcvfkvcelf2yhd5zuuca.turbo-gateway.com/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "downloaded_bytes": 720842,
+          "expected_bytes": 720842,
+          "sha256": "f054a3f521922a43831a7caad71963b409f26fbeb77a149ef99cd9b48cf81c38",
+          "expected_sha256": "f054a3f521922a43831a7caad71963b409f26fbeb77a149ef99cd9b48cf81c38",
+          "sha512": "10460a9578f5727ae920e589c93d1682c207f7f6acddf64a0b28be2882b33b045cc4b1055c0795511b9a918b0e5674c0f8c1ef7c77e8263896f2e8ab911bfe0e",
+          "expected_sha512": "10460a9578f5727ae920e589c93d1682c207f7f6acddf64a0b28be2882b33b045cc4b1055c0795511b9a918b0e5674c0f8c1ef7c77e8263896f2e8ab911bfe0e",
+          "bytes_match": true,
+          "sha256_match": true,
+          "sha512_match": true,
+          "hash_pass": true,
+          "content_type": "application/x-zip-compressed",
+          "x_ar_io_verified": null,
+          "x_ar_io_stable": null,
+          "content_digest": "sha-256=:8FSj9SGSKkODGnyq1xljtAnyb763ehSe+ZzZtIz4HDg=:",
+          "x_ar_io_digest": "8FSj9SGSKkODGnyq1xljtAnyb763ehSe-ZzZtIz4HDg",
+          "x_ar_io_data_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "error": null
+        },
+        {
+          "artifact_key": "canonical_package",
+          "filename": "The_Verifiable_Reference_Premium_Final_v1_0_Canonical_Package.zip",
+          "data_item_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "gateway": "https://arweave.net",
+          "requested_url": "https://arweave.net/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "http_status": 200,
+          "final_url": "https://bz3brf2opzpboel2ebfngbxpjk6wd7e5qcvfkvcelf2yhd5zuuca.arweave.net/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "downloaded_bytes": 720842,
+          "expected_bytes": 720842,
+          "sha256": "f054a3f521922a43831a7caad71963b409f26fbeb77a149ef99cd9b48cf81c38",
+          "expected_sha256": "f054a3f521922a43831a7caad71963b409f26fbeb77a149ef99cd9b48cf81c38",
+          "sha512": "10460a9578f5727ae920e589c93d1682c207f7f6acddf64a0b28be2882b33b045cc4b1055c0795511b9a918b0e5674c0f8c1ef7c77e8263896f2e8ab911bfe0e",
+          "expected_sha512": "10460a9578f5727ae920e589c93d1682c207f7f6acddf64a0b28be2882b33b045cc4b1055c0795511b9a918b0e5674c0f8c1ef7c77e8263896f2e8ab911bfe0e",
+          "bytes_match": true,
+          "sha256_match": true,
+          "sha512_match": true,
+          "hash_pass": true,
+          "content_type": "application/x-zip-compressed",
+          "x_ar_io_verified": null,
+          "x_ar_io_stable": null,
+          "content_digest": "sha-256=:8FSj9SGSKkODGnyq1xljtAnyb763ehSe+ZzZtIz4HDg=:",
+          "x_ar_io_digest": null,
+          "x_ar_io_data_id": null,
+          "error": null
+        },
+        {
+          "artifact_key": "canonical_package",
+          "filename": "The_Verifiable_Reference_Premium_Final_v1_0_Canonical_Package.zip",
+          "data_item_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "gateway": "https://arweave.dev",
+          "requested_url": "https://arweave.dev/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+          "http_status": null,
+          "hash_pass": false,
+          "error": "Download failed after 3 attempts: <urlopen error [Errno 11002] getaddrinfo failed>"
+        }
+      ]
+    }
+  ],
+  "public_records": {
+    "archive_org": "https://archive.org/details/the-verifiable-reference-premium-final-v1-0",
+    "zenodo": "https://zenodo.org/records/21632487",
+    "doi": "10.5281/zenodo.21632487",
+    "github": "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0"
+  },
+  "interpretive_boundary": "This record verifies upload identifiers, public retrieval at a recorded checkpoint, byte counts, SHA-256, SHA-512, and cross-gateway consistency only. It does not prove truth, authority, safety, alignment, legal status, behavior, understanding, adoption, reception, or perpetual availability."
+}
