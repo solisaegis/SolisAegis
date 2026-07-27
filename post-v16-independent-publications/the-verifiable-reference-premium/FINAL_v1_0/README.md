@@ -18,7 +18,7 @@ The complete locked publication package is:
 
 The PDF and package are canonical only when identified by the Final Lock Record and the cryptographic hashes below.
 
-This `README.md`, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are non-canonical discovery wrappers outside the locked package. They may receive metadata-only cross-link and verification-status updates without changing the canonical artifacts or their hashes.
+This `README.md`, `CITATION.cff`, `GITHUB_MIRROR_RECORD.json`, and the separate Arweave preservation record are non-canonical discovery or infrastructure records outside the locked package. They may receive metadata-only cross-link and verification-status updates without changing the canonical artifacts or their hashes.
 
 ## Public records, mirrors, and discovery indexes
 
@@ -26,8 +26,8 @@ This `README.md`, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are non-canoni
 - Zenodo record: https://zenodo.org/records/21632487
 - DOI: https://doi.org/10.5281/zenodo.21632487
 - GitHub canonical directory: https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0
-- Arweave canonical PDF: PENDING
-- Arweave canonical package: PENDING
+- Arweave canonical PDF: https://arweave.net/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I
+- Arweave canonical package: https://arweave.net/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ
 - PhilPapers / PhilArchive: PENDING
 - MERLOT: PENDING
 
@@ -38,7 +38,7 @@ This `README.md`, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are non-canoni
 - Archive.org downloaded canonical PDF hash verification: PASS
 - Zenodo record file-integrity verification: PASS
 - GitHub downloaded-file hash verification: PENDING
-- Arweave upload and public-gateway verification: PENDING
+- Arweave upload and public-gateway verification: PASS - two matching gateways per artifact
 - PhilPapers and MERLOT public metadata verification: PENDING
 
 ## Canonical hashes
@@ -65,6 +65,7 @@ This `README.md`, `CITATION.cff`, and `GITHUB_MIRROR_RECORD.json` are non-canoni
 - Human Final Validation Authorization Record
 - Publication Metadata JSON
 - Canonical package ZIP hash record
+- Arweave Preservation and Gateway Verification Record Final v1.0 (separate non-canonical infrastructure record)
 
 ## Scope and boundaries
 

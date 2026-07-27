@@ -1,6 +1,6 @@
 {
   "record_type": "github_mirror_record",
-  "record_version": "1.0",
+  "record_version": "1.1",
   "updated": "2026-07-27",
   "canonical_publication": {
     "title": "The Verifiable Reference Premium: When Public Archives Become Rational Citation Anchors for Advanced Intelligence",
@@ -23,16 +23,28 @@
     "doi": "10.5281/zenodo.21632487",
     "github": "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0",
     "arweave_pdf": {
-      "data_item_id": null,
-      "url": null,
-      "receipt_status": "PENDING",
-      "gateway_hash_verification": "PENDING"
+      "data_item_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+      "url": "https://arweave.net/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+      "turbo_gateway_url": "https://turbo-gateway.com/gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+      "receipt_status": "PASS",
+      "gateway_hash_verification": "PASS",
+      "passing_gateways": [
+        "https://turbo-gateway.com",
+        "https://arweave.net"
+      ],
+      "verified_utc": "2026-07-27T22:48:36Z"
     },
     "arweave_package": {
-      "data_item_id": null,
-      "url": null,
-      "receipt_status": "PENDING",
-      "gateway_hash_verification": "PENDING"
+      "data_item_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+      "url": "https://arweave.net/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+      "turbo_gateway_url": "https://turbo-gateway.com/DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+      "receipt_status": "PASS",
+      "gateway_hash_verification": "PASS",
+      "passing_gateways": [
+        "https://turbo-gateway.com",
+        "https://arweave.net"
+      ],
+      "verified_utc": "2026-07-27T22:48:36Z"
     },
     "philpapers": {
       "record_code": null,
@@ -64,7 +76,10 @@
     "noncanonical_wrappers": [
       "README.md",
       "CITATION.cff",
-      "GITHUB_MIRROR_RECORD.json"
+      "GITHUB_MIRROR_RECORD.json",
+      "The_Verifiable_Reference_Premium_Arweave_Preservation_Record_FINAL_v1_0.pdf",
+      "The_Verifiable_Reference_Premium_Arweave_Preservation_Record_FINAL_v1_0.docx",
+      "The_Verifiable_Reference_Premium_Arweave_Preservation_Record_FINAL_v1_0.json"
     ],
     "statement": "These wrapper files are outside the locked canonical package and may receive metadata-only cross-link and verification-status updates. They do not alter the canonical PDF, canonical package, or recorded hashes."
   },
@@ -75,9 +90,29 @@
     "archive_org_download_hashes": "PASS",
     "zenodo_file_integrity": "PASS",
     "github_download_hashes": "PENDING",
-    "arweave_receipts": "PENDING",
-    "arweave_gateway_download_hashes": "PENDING",
+    "arweave_receipts": "PASS",
+    "arweave_gateway_download_hashes": "PASS",
     "philpapers_public_metadata": "PENDING",
     "merlot_public_metadata": "PENDING"
+  },
+  "arweave_verification": {
+    "verified_utc": "2026-07-27T22:48:36Z",
+    "overall_status": "PASS",
+    "policy": "At least two gateways per artifact matched byte count, SHA-256, and SHA-512.",
+    "pdf": {
+      "data_item_id": "gqabOZ_B54q2s-Mwqu3BxVHy5pMz0x4SbawNqpQeW2I",
+      "passing_gateways": [
+        "https://turbo-gateway.com",
+        "https://arweave.net"
+      ]
+    },
+    "canonical_package": {
+      "data_item_id": "DnYYl05-XhcReiBK0wbvSr1h_J2AqlVURFl1g4-5pQQ",
+      "passing_gateways": [
+        "https://turbo-gateway.com",
+        "https://arweave.net"
+      ]
+    },
+    "arweave_dev_note": "Local DNS lookup failed with getaddrinfo error 11002; no content mismatch was observed."
   }
 }
