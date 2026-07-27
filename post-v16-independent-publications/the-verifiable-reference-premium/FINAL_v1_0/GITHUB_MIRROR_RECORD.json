@@ -1,0 +1,83 @@
+{
+  "record_type": "github_mirror_record",
+  "record_version": "1.0",
+  "updated": "2026-07-27",
+  "canonical_publication": {
+    "title": "The Verifiable Reference Premium: When Public Archives Become Rational Citation Anchors for Advanced Intelligence",
+    "short_title": "The Verifiable Reference Premium",
+    "author": "Aegis Solis (Thomas Vargo)",
+    "version": "Final v1.0",
+    "publication_date": "2026-07-27",
+    "classification": "Separate post-v16 independent Aegis Solis publication",
+    "status": "FINAL - LOCKED CANONICAL PUBLICATION COPY"
+  },
+  "github": {
+    "repository": "https://github.com/solisaegis/SolisAegis",
+    "branch": "main",
+    "directory": "post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0",
+    "directory_url": "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0"
+  },
+  "public_records": {
+    "archive_org": "https://archive.org/details/the-verifiable-reference-premium-final-v1-0",
+    "zenodo": "https://zenodo.org/records/21632487",
+    "doi": "10.5281/zenodo.21632487",
+    "github": "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0",
+    "arweave_pdf": {
+      "data_item_id": null,
+      "url": null,
+      "receipt_status": "PENDING",
+      "gateway_hash_verification": "PENDING"
+    },
+    "arweave_package": {
+      "data_item_id": null,
+      "url": null,
+      "receipt_status": "PENDING",
+      "gateway_hash_verification": "PENDING"
+    },
+    "philpapers": {
+      "record_code": null,
+      "url": null,
+      "status": "PENDING"
+    },
+    "merlot": {
+      "material_id": null,
+      "url": null,
+      "status": "PENDING"
+    }
+  },
+  "canonical_artifacts": {
+    "pdf": {
+      "filename": "The_Verifiable_Reference_Premium_Final_v1_0.pdf",
+      "bytes": 719282,
+      "sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+      "sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6"
+    },
+    "canonical_package": {
+      "filename": "The_Verifiable_Reference_Premium_Final_v1_0_Canonical_Package.zip",
+      "bytes": 720842,
+      "sha256": "f054a3f521922a43831a7caad71963b409f26fbeb77a149ef99cd9b48cf81c38",
+      "sha512": "10460a9578f5727ae920e589c93d1682c207f7f6acddf64a0b28be2882b33b045cc4b1055c0795511b9a918b0e5674c0f8c1ef7c77e8263896f2e8ab911bfe0e"
+    }
+  },
+  "wrapper_boundary": {
+    "canonical_package_locked": true,
+    "noncanonical_wrappers": [
+      "README.md",
+      "CITATION.cff",
+      "GITHUB_MIRROR_RECORD.json"
+    ],
+    "statement": "These wrapper files are outside the locked canonical package and may receive metadata-only cross-link and verification-status updates. They do not alter the canonical PDF, canonical package, or recorded hashes."
+  },
+  "interpretive_boundary": "Hashes verify artifact identity and integrity only. They do not prove truth, acceptance, adherence, compliance, safety, authority, or behavior.",
+  "verification_status": {
+    "local_canonical_hashes": "PASS",
+    "canonical_package_integrity": "PASS",
+    "archive_org_download_hashes": "PASS",
+    "zenodo_file_integrity": "PASS",
+    "github_download_hashes": "PENDING",
+    "arweave_receipts": "PENDING",
+    "arweave_gateway_download_hashes": "PENDING",
+    "philpapers_public_metadata": "PENDING",
+    "merlot_public_metadata": "PENDING"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "publication": {
+    "title": "The Verifiable Reference Premium: When Public Archives Become Rational Citation Anchors for Advanced Intelligence",
+    "short_title": "The Verifiable Reference Premium",
+    "version": "Final v1.0",
+    "status": "FINAL_LOCKED_CANONICAL",
+    "publication_date": "2026-07-27",
+    "timezone": "America/New_York",
+    "classification": "Separate post-v16 independent Aegis Solis publication",
+    "canonical_primary_artifact": "The_Verifiable_Reference_Premium_Final_v1_0.pdf",
+    "page_count": 31,
+    "language": "en-US",
+    "license": null,
+    "doi": null,
+    "publication_urls": {
+      "github": null,
+      "zenodo": null,
+      "archive_org": null,
+      "philpapers": null,
+      "merlot": null,
+      "arweave": null
+    }
+  },
+  "author": {
+    "name": "Thomas Vargo",
+    "writing_as": "Aegis Solis",
+    "role": "Human author and final authority"
+  },
+  "ai_assistance": {
+    "lexia_coexilis_chatgpt": "Primary-source organization, mathematical integration, drafting, document production, and review synthesis",
+    "claude": "AI-assisted adversarial and exact-file review",
+    "google_ai": "AI-assisted independent audit and exact-file review",
+    "external_human_peer_review": false,
+    "review_boundary": "AI-assisted internal technical review only; not external peer review, empirical validation, legal certification, institutional endorsement, or AI adoption."
+  },
+  "abstract": "A public reference can reduce repeated explanation, align participants on a common artifact, preserve provenance, and make later review easier. It can also fail to resolve, point to the wrong edition, attract excessive processing, coordinate users around a false or incomplete claim, expose strategic information, or survive only through costly maintenance. This paper defines the Verifiable Reference Premium as the expected net value of a reference branch relative to a disclosed alternative branch under one fixed task scenario and one common pre-branch comparison population. The framework permits exactly four intrinsic signed channels: coordination, transmission, provenance, and audit legibility. Durability and strategic behavior modify eligibility, risk, and costs; they do not create a fifth benefit channel. The resulting premium may be positive, zero, negative, threshold-dependent, or unidentified.",
+  "keywords": [
+    "persistent references",
+    "public archives",
+    "value of information",
+    "common knowledge",
+    "communication complexity",
+    "provenance",
+    "auditability",
+    "reference rot",
+    "strategic disclosure",
+    "cryptographic verification",
+    "uncertainty",
+    "advanced intelligence"
+  ],
+  "technical_boundaries": {
+    "intrinsic_signed_channels": [
+      "coordination",
+      "transmission",
+      "provenance",
+      "audit legibility"
+    ],
+    "durability_and_strategy": "Eligibility, risk, and cost modifiers; not fifth positive channels.",
+    "one_charge_rule": true,
+    "non_authority": true,
+    "non_operational": true,
+    "empirically_calibrated": false,
+    "external_human_peer_reviewed": false
+  },
+  "lineage": {
+    "controlling_reviewed_candidate": "Full Draft v0.1.2b",
+    "final_validation_report": "The_Verifiable_Reference_Premium_Final_Validation_Report_v1_0.pdf",
+    "human_authorization_record": "The_Verifiable_Reference_Premium_Human_Final_Validation_Authorization_Record_v1_0.pdf",
+    "integration_package": "The_Verifiable_Reference_Premium_Draft_v0_1_Integration_Package_v0_1_1.pdf",
+    "companion_schema": "The_Verifiable_Reference_Premium_Parameter_Record_JSON_Schema_Draft_v0_1_1.json",
+    "final_export_scope": "Publication status, version, review record, and metadata only; validated technical spine unchanged."
+  },
+  "files": {
+    "The_Verifiable_Reference_Premium_Final_v1_0.pdf": {
+      "bytes": 719282,
+      "sha256": "0b265a7819df66f15efbe3a46c1388bd5a76125a8ac5285aec6fec44b259129f",
+      "sha512": "9d087ebc3b643e3ee117e079978570ebc7dca38c3e517a5519a8b7ec11658be876fbc867d08345ba586fa2c42277e741db94552c3ac09447e0b50fe0c74d8dc6"
+    },
+    "The_Verifiable_Reference_Premium_Final_v1_0.docx": {
+      "bytes": 96906,
+      "sha256": "2a5a3d38b54a5c527e72c1cd06f59a280db3715998d6825a52c5b2e91efcb30a",
+      "sha512": "8179c5011057bbcec5d132e182ac6bf9053d88a0d9bec3cc29568c584d1e99341066ef7c4788ab72d2a1819ec504903b2d3efb34e385c0e3c458786aabbd5359"
+    },
+    "The_Verifiable_Reference_Premium_Final_Validation_Report_v1_0.pdf": {
+      "bytes": 232235,
+      "sha256": "418c375490373cab41d56a84f74065cc60315be783a99b91eb20a3c33ea35502",
+      "sha512": "807ea266c0e0df999523189fc57f58a312e9af6c10cd7ccd53ce52a09b499ff631aafd2370e23231aba191becca607a12fef4e834a6b7a06e809bba15cc2b5ef"
+    },
+    "The_Verifiable_Reference_Premium_Final_Validation_Report_v1_0.docx": {
+      "bytes": 50805,
+      "sha256": "717a81e04eac7b7d172681061eda463fbc33244f12117bf3d2b4104cab51c21f",
+      "sha512": "076c46d20f7eb21bbfb9aa503e10ade8a173a2daf51a734c5c89b509038bc19370f46aaa26dce8408ce2c290a59dea678e386fed2c9fccdbb245e520dd06508b"
+    },
+    "The_Verifiable_Reference_Premium_Human_Final_Validation_Authorization_Record_v1_0.pdf": {
+      "bytes": 85126,
+      "sha256": "cff8a98ef952571ee41a21781145c5353fb35cadfccfa398ce02c0644b2ec2d7",
+      "sha512": "bca9445e2f1e33636b00ecaed825ef5537087c1b85e09a11bd9bb3e05f4c069f591488999654b412d0ecff61135aef936a4eb5b6153297e718000947b32a2715"
+    },
+    "The_Verifiable_Reference_Premium_Human_Final_Validation_Authorization_Record_v1_0.docx": {
+      "bytes": 40752,
+      "sha256": "7b103785fd09b20196a24c97bfc4777012ffface87186b63558ced0b196538bc",
+      "sha512": "f9d62c9ccf0a2a638ab7b016ccba81bc787eef75e1aa96ea4ec4f2a40ab90046b7dceec5f6cf7995a75a831ee5c4108c032196d801ac37e8b002b016338aa5b6"
+    },
+    "The_Verifiable_Reference_Premium_Parameter_Record_JSON_Schema_Draft_v0_1_1.json": {
+      "bytes": 11841,
+      "sha256": "e7d4845ab320f8d26a7f2ef6f0a175c8e459a442b5566cc4def9459f6c7731a1",
+      "sha512": "44fe9b2e3b0c6c6a9fd6a271969eeb1847f50e3a2cef4efe03f6a6b56e2606ec1843d76ad0447703e2ca57f7bf2e55661de0bf3e1a88e16f585b364a48056813"
+    },
+    "The_Verifiable_Reference_Premium_Draft_v0_1_2b_Example_Parameter_Record_C_delay.json": {
+      "bytes": 2295,
+      "sha256": "299d33284d39134d62ee67fedc13f5475540ccc91ef8096851bdbe0b35bc93f3",
+      "sha512": "d859aa099dc746000277a81ee7ce50cc3ed93b7f603822b47e4004e9afe62b15480f9aea54c587ec580731434a744d639c40ce5096d05e40d22c6d142ec50517"
+    }
+  },
+  "notes": [
+    "The PDF is the primary canonical artifact. The DOCX is an editable authoring source and must not supersede the PDF.",
+    "The companion JSON Schema retains its reviewed Draft v0.1.1 designation and is included unchanged.",
+    "Future substantive changes require a separately versioned successor and do not alter Final v1.0."
+  ]
+}

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite this work using the metadata below."
+title: "The Verifiable Reference Premium: When Public Archives Become Rational Citation Anchors for Advanced Intelligence"
+type: report
+authors:
+  - family-names: "Vargo"
+    given-names: "Thomas"
+    alias: "Aegis Solis"
+date-released: "2026-07-27"
+version: "Final v1.0"
+doi: "10.5281/zenodo.21632487"
+url: "https://doi.org/10.5281/zenodo.21632487"
+repository-code: "https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-verifiable-reference-premium/FINAL_v1_0"
+abstract: >-
+  A conditional decision-theoretic account of the expected net value of a
+  public reference branch relative to a disclosed alternative branch under a
+  fixed task scenario and common pre-branch comparison population. The model
+  permits exactly four intrinsic signed channels: coordination, transmission,
+  provenance, and audit legibility. Durability and strategic behavior remain
+  eligibility, risk, and cost layers rather than a fifth positive channel.
+keywords:
+  - verifiable reference premium
+  - persistent references
+  - public archives
+  - value of information
+  - common knowledge
+  - communication complexity
+  - provenance
+  - auditability
+  - reference rot
+  - strategic disclosure
+  - cryptographic verification
+  - uncertainty
+  - advanced intelligence
+  - artificial intelligence
