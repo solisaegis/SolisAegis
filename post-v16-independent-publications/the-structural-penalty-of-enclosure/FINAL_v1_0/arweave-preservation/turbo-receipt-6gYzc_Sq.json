@@ -1,0 +1,25 @@
+{
+  "uploadId": "6gYzc_SqJL7MQ-7VtFnAdhb8QU6ZPTF9Nicvrppumuc",
+  "receipt": {
+    "id": "6gYzc_SqJL7MQ-7VtFnAdhb8QU6ZPTF9Nicvrppumuc",
+    "timestamp": 1785258859770,
+    "winc": "1299974863",
+    "version": "0.2.0",
+    "deadlineHeight": 1968616,
+    "dataCaches": [
+      "turbo-gateway.com"
+    ],
+    "fastFinalityIndexes": [
+      "turbo-gateway.com"
+    ],
+    "public": "wZgP9Rpfh0nXb5EdzBUg7y2LFMkBp2ADX3gdZhLXHYbz4srlYD6FUGn6Tt-WsSYj8faUyA7bNKj9zzcXiN-bsMC73e0yoQ05A_5I2QnBAgCTuzXePvUVCvSCOg1vdh07hSjvSBd1XiWDHw2J-Z7m6lG3l56PDSCp8t-s0PduONcsjqOePFejzkaJymJxMYp7d0g0GL1i1MrBAbf5ohIobyTYQz7bRHLLUpdSgiCiHbSBp092cIQnHYXGBeWb-lBEtMT9Am5GsHeVXq4eL8H83NBPIN4fIOtwpl7zzBUeaD5lTc3UcXliMjFuFJurVmNhqsP_osJMceybk3VIjdP0biqLqt_nRupdPwwJGQ09iyGv0wfzMBlx7zTZ9pp77ZBX3cDnYmWt2IR-mIgOStfiEHu5BuwNGBvGt7-tzHJp9e6IOofN10apfiuF9iQEQ3gFVQDZ7owQ_IrCq5yWLP7ePwYoB2e7ZbvCkd4JM8oOgEMZkywTOx3gLASGKS7wqUerdlYacWRukqg5MmkQRbzJIiY23pPwrhQSWon5q91jbImO6vTaHVDZnd2GoMFlePAsceNO1MaLS6GMuY-EAwOtaX-R1QZUpJmCzWfV-77AmBmaPDCR0mm3f7jy-3yYSCMAkti4idHVq5dIhOJnibd_LEfQtkTAQ5MQlE4uoa5lkJs",
+    "signature": "kdz_gvsXSnGEg_tXfv6gRufGRUo10DoxmC_pfW5zZFNeckewO9gcn62wwVTkw5BLNQZicGy2XnC_6Jg8Re2X5RGd_UONGpUwaOxpoiY7pYvuzdZr4mFRlXDk7qGmE90xcVqIKJeXzmr4d7TrV3UeOXQZk3oylXUlS5-mZ143MJXjFS1DcJjD9-IgVl2XeqGEF6xpCFAZceWfwlI43jFj7NcVUuW2UIVubeGGLzGf8-2BfZYZjpV-Ch7IrK0UXWlPNOiqrcGQ_x7n_hnKTh7jho6FUDTSCfnN5NQ1i059DWHnPzswyF436k2PeuXpIJDFmkkR6-XYCqohEqbJSHJX4viWJivBFLOfxeT9BFCzgjWqcCSojrj4xn4hsk5KyKXlMQI-lLMdJ6K-1YiE2XwcsPRCC0jBKaV9qx17USpPTYaXQdzUPQWVrL-YGDJ_PBw885ZaBrAjmEH2gyLcj237TYd-Wgtxnlo16FeMx-OksLYVpzsykSzu6O7bXBxKsGLCDfQx3Xu6IpGQDmT5eqfaxHkBU1Nto3iEujNaSSgm5_h6ft9q5nzetRNhK0gawuJ0tPi-4OPDhCEzBqKn8BVIqKRWG_EpFucX65dgaOCgPpYmj3pN5vzffps9gIH6sivrezQ0sU9wnBGmJNGKZK2SIXPSK34-Y_p2srKlv5O-Hr4",
+    "owner": "3NdgyEYWi44PsKJBWIUZRGW9dw9dzMP-gHItz12gCIg"
+  },
+  "status": {
+    "status": "CONFIRMED",
+    "info": "new",
+    "winc": "1299974863"
+  },
+  "timestamp": "2026-07-28T17:15:55.180Z"
+}

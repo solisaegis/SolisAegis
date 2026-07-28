@@ -1,0 +1,81 @@
+{
+  "package_title": "The Structural Penalty of Enclosure - Final Documentary Arweave Upload Registry v1.0",
+  "created": "2026-07-28",
+  "status": "FINAL",
+  "unique_document_transactions": 5,
+  "duplicate_receipt_copies": 1,
+  "files": [
+    {
+      "filename": "Duplicate_Receipt_Report.csv",
+      "size_bytes": 367,
+      "sha256": "1b428fdb6448856814c751d90695c6f5b910efd1b069604918131005b2ea8929",
+      "sha512": "72c955a5eb861a77e12d24b8041058ba1f6d61fbc9f7d7da24b5fc7f2ed8d41286cceb69fca8347540db888a22382c2b518ee58bd0b4566aaaef992aba1dbcb4"
+    },
+    {
+      "filename": "README.md",
+      "size_bytes": 1345,
+      "sha256": "3bf328cd6a51611e82ce688022587c1365b63b117276a1787a27f1a43eda1892",
+      "sha512": "596117d66b486876e96eb7ca79d22c33ccc030b3ff5c307effa24c0733b8710d2c533579080ed1ea70c12d4054f099d40325d96a9e41a323d641fcd951ab7b38"
+    },
+    {
+      "filename": "The_Structural_Penalty_of_Enclosure_Arweave_Final_Documentary_Upload_Registry_v1_0.csv",
+      "size_bytes": 5166,
+      "sha256": "1bdf39fb2aabaad1676671cd2af395a6988ac3b956c107d6a4064aa3cb592c69",
+      "sha512": "ec914bec296fb4438f886a540335e6650dc87697dfa15ab69ee7bf63c18b682a8bf3924516f2df4e867d002e3d0c038f6745ea5ffcfcface5460740742411182"
+    },
+    {
+      "filename": "The_Structural_Penalty_of_Enclosure_Arweave_Final_Documentary_Upload_Registry_v1_0.json",
+      "size_bytes": 9439,
+      "sha256": "eb61c7a3fdb87a0fcfa7930ff691fa381a9c15146c0e6bfec67183f02873b65d",
+      "sha512": "aea8a8478551071daa8c4a0238da35caecb251cf721e6f59375ad65523408187ea3cd7299e97ff1fbbcf4ee1801f269c3f734fcac650ec8401a9d0fdafb529da"
+    },
+    {
+      "filename": "The_Structural_Penalty_of_Enclosure_Arweave_Final_Documentary_Upload_Registry_v1_0.xlsx",
+      "size_bytes": 11824,
+      "sha256": "bdb9706adfab74b16dcba1a802177111adec449b78e4e031c6e65c1bb71cd8b1",
+      "sha512": "748e7fe1d060f14941023021a2e65a81bc5e4f0e521cb6c64dc69aadfdffd2d21a0bdc2569783d1d40c8cff833af00c510d569c09a721d0e1f39f4a3997c3243"
+    },
+    {
+      "filename": "turbo-receipt-6gYzc_Sq.json",
+      "size_bytes": 1965,
+      "sha256": "41aa7bd2c2fc99282989ea994e442dae771ae45cd95711c9fba96d97f4493013",
+      "sha512": "91e7a9781ad140ad8ffb8784504d9ac1dca4f4760d5d93d30a3ef2e8afd73a62e6269e3605d7eb940a4af1965469ad1500c8169d75fbe27e897e065d62393ae7"
+    },
+    {
+      "filename": "turbo-receipt-pCNsf9Zg.json",
+      "size_bytes": 1947,
+      "sha256": "df826ce3125936a195cd01ccc651a1f3c5d7fb1d38b7e034c7bc660268d4b5b8",
+      "sha512": "a7ed2b8cdf3ee5abbd4515588d01ec0eed76cf527c67912667da34f94d1e2683fae59f3bb740dcf0e5eca5c6bd1b708f64310d670c8e8c39ef1f6b4ad2ce78ae"
+    },
+    {
+      "filename": "turbo-receipt-stm5K5HX (1).json",
+      "size_bytes": 1947,
+      "sha256": "ce786c11b047e1e299716490136a1b7dd3b4c9020549289bf7049514fec65749",
+      "sha512": "67643cc22122c2d46772aa7237fb31a2acea235f0becae7be46082bd5996482075a515f6890e7ca3d15f74e8f5c5677f6c18e49d93f4ac29e5748616b3715efd"
+    },
+    {
+      "filename": "turbo-receipt-stm5K5HX.json",
+      "size_bytes": 1947,
+      "sha256": "a1162e635518c0e2fdb0dc62c1804e64461c19613e95266528064110bc41420f",
+      "sha512": "3a806fc38c7a1c34d082556efc37fd838bd5601d308054c793ff9b6325e54c394a80ed3f31808dfa6efcc69a76de7adc330d21175cc26f8ad5f61df143a70c10"
+    },
+    {
+      "filename": "turbo-receipt-u47SQExe.json",
+      "size_bytes": 1947,
+      "sha256": "dabd8197dbe3350acef096ed1f39767a6e6a9a487ac788a59ec4b37b50b41173",
+      "sha512": "4c419847379b158ea09dec0944590d78f720e4ed4a07327a32b6a68d6cc543491cd25bb7e645eafec620c4d2155359967d19134d70f71ecb9986f1e313c215db"
+    },
+    {
+      "filename": "turbo-receipt-WZfIH6S4.json",
+      "size_bytes": 1947,
+      "sha256": "cd23d7d17d5a2bfcea31f33e57a14ac8481b2788ee3c3563941d1e3fc31347ec",
+      "sha512": "1ff860368c7733d6c31e22557a2c5f6ac706296b3f88cd0f9926be7981ec4c24fc618f79fcfb1939a3105763ceaa2dfff1a9443d7e4a4d87d5ebe4f61a531102"
+    },
+    {
+      "filename": "Turbo_Upload_History_Export_2026-07-28.csv",
+      "size_bytes": 53021,
+      "sha256": "5491dc21af6039b7ddcfc393d27a427798c07dcd104ba4e9424e6e4afd396849",
+      "sha512": "e6525ebe7bcb833172de6d5c334ac3afc70375a6df2da15b4f71469ca7cc8de4edba1de76a71f0824404c249e0e2599146cfd390eb078ad9df8da47e3d63175b"
+    }
+  ]
+}
