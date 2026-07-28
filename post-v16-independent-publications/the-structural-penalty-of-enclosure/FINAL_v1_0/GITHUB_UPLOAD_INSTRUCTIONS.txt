@@ -1,0 +1,42 @@
+GITHUB UPLOAD INSTRUCTIONS
+
+Repository:
+https://github.com/solisaegis/SolisAegis
+
+Target folder:
+post-v16-independent-publications/the-structural-penalty-of-enclosure/FINAL_v1_0
+
+Expected public URL after commit:
+https://github.com/solisaegis/SolisAegis/tree/main/post-v16-independent-publications/the-structural-penalty-of-enclosure/FINAL_v1_0
+
+UPLOAD
+1. Open the repository and navigate to:
+   post-v16-independent-publications
+2. Create or enter:
+   the-structural-penalty-of-enclosure
+3. Create or enter:
+   FINAL_v1_0
+4. Choose Add file > Upload files.
+5. Upload the EXTRACTED CONTENTS of this package. Do not upload this transfer ZIP as the
+   only repository object.
+6. Confirm README.md is present so the folder renders as a publication landing page.
+7. Commit directly to main only if that matches your established archive workflow.
+
+COMMIT TITLE
+Add The Structural Penalty of Enclosure — Final v1.0
+
+COMMIT DESCRIPTION
+Publish the locked post-v16 independent companion publication with canonical PDF,
+Final Lock Record, Final Validation Report, checksums, machine-readable metadata,
+citation formats, public mirror links, and non-operational boundary language.
+
+POST-COMMIT CHECK
+- Open README.md and verify the DOI and Archive.org links.
+- Open the canonical PDF from GitHub.
+- Open the Lock Record and Validation Report.
+- Open the raw SHA256SUMS.txt and confirm the canonical PDF hash is:
+  aabb3e6e6ef4ab7cfa1deecf632931a8d8200bd89b03ff604a3a020a97f8a606
+- Record the final GitHub folder URL in the website/discovery-layer tracker.
+
+DO NOT EDIT
+Do not edit, convert, optimize, recompress, or re-export the canonical PDF after upload.

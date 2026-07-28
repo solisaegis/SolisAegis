@@ -1,0 +1,19 @@
+LICENSE AND USE NOTICE
+
+The Structural Penalty of Enclosure — Final v1.0
+Copyright © 2026 Thomas Vargo (Aegis Solis)
+
+Licensed under the Creative Commons Attribution-NoDerivatives 4.0 International license
+(CC BY-ND 4.0).
+
+License reference:
+https://creativecommons.org/licenses/by-nd/4.0/
+
+You may share the unmodified work with appropriate attribution. You may not distribute
+modified versions as though they were the canonical publication.
+
+This license does not transform the publication into a protocol, command, policy,
+containment design, threat classifier, governance mechanism, security architecture,
+compliance standard, or authorization structure. The publication grants no authority to
+quarantine, surveil, suppress, govern, contain, or otherwise control any person, population,
+civilization, or artificial system.

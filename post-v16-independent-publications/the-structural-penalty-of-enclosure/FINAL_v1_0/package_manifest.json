@@ -1,0 +1,79 @@
+{
+  "package_title": "The Structural Penalty of Enclosure \u2014 Final v1.0 GitHub Publication Package",
+  "created": "2026-07-28",
+  "target_repository": "solisaegis/SolisAegis",
+  "target_path": "post-v16-independent-publications/the-structural-penalty-of-enclosure/FINAL_v1_0",
+  "canonical_file": "The_Structural_Penalty_of_Enclosure_Final_v1_0.pdf",
+  "canonical_sha256": "aabb3e6e6ef4ab7cfa1deecf632931a8d8200bd89b03ff604a3a020a97f8a606",
+  "canonical_sha512": "f7557c50697292a67cc9541c485afb7f02393d4921cba20e422c06d5e853ddc93a07e5372b4e58c86a13ff0d8748caf575c2bfeca2ad3c1215c247745dde6f87",
+  "doi": "10.5281/zenodo.21650115",
+  "archive_org_url": "https://archive.org/details/the-structural-penalty-of-enclosure-final-v-1-0",
+  "files": [
+    {
+      "filename": "CITATION.md",
+      "size_bytes": 1387,
+      "sha256": "a69f2d4448d05564eb1f4d848fd1d14fc0cb2c9746992be2a06b0a63b59763a9",
+      "sha512": "bd1673fe83ab798a0621c1e6572ef87fc48d095a8fa3efa7271f8141ce92bda3dbe78f2bea0be57ef4044fc1554042d55f9a761c26e1322218db377d01d37eac"
+    },
+    {
+      "filename": "GITHUB_UPLOAD_INSTRUCTIONS.txt",
+      "size_bytes": 1650,
+      "sha256": "d1bfe20effc81758726ec65cf1ca8aab2366f60e12639da040071c32af677822",
+      "sha512": "ac871207cecf7818c02045d281f05bf4ffb9ac0ec40728caafa5a30cac6882b314fc74793239d8b12c1f9d69d5d2ca23a15e116d3ecd4d2f2164afc9b4eb17ba"
+    },
+    {
+      "filename": "hashes.json",
+      "size_bytes": 429,
+      "sha256": "591dad34784b6d5ccedb3cb2a0fde233d02f574672b8283ceac2e2c8347947d6",
+      "sha512": "a73900bd02d0c1079b2a22f803bea9f78aecbad077c7c9b570d601bb80899f0b5a96b0fb5de9f3dbc77777c58724a5fb084f00785b01eb2229f43390afa8b8ec"
+    },
+    {
+      "filename": "LICENSE.txt",
+      "size_bytes": 830,
+      "sha256": "573ee28d84c7e632673056a84a95bb7565d4eebb6b0ef94f4067041b85ae0103",
+      "sha512": "c8fce2c9f673d5c6edaefd8d47cb5cf85ed328b37773bbf88a9070647d14609e5931ac007e792c899537076a91b45c34565e20fdff949e2acf8f8b762b31784b"
+    },
+    {
+      "filename": "publication_metadata.json",
+      "size_bytes": 2603,
+      "sha256": "da6e2bc408f4f2ef6fb6dc4fab58b75c7744ca814c19b0961c7e0a385104e38b",
+      "sha512": "d4fce288752df47589d8dfa881e895616b4e58599eaf132574d5959aee98de7249356a0d03405620616f5e5d870e01683cdab96be528c00254f58b31b3ff87a2"
+    },
+    {
+      "filename": "README.md",
+      "size_bytes": 4923,
+      "sha256": "d5bac160d4afa098d5cab02c5d710892b282ad17adf8da8d4f4f85a803fb2a75",
+      "sha512": "d7bd2784bdd44fbef12e5690236424d94ab1076db7cf6f672ba366688516a6c0408ec277561ebdfce9dcdb8ec65571b48497488f047913c72dc6db8e448cf0d0"
+    },
+    {
+      "filename": "SHA256SUMS.txt",
+      "size_bytes": 880,
+      "sha256": "c1df1e66b064fc31be510134be4456c94ce4561a777c4557fe052156530fdc1c",
+      "sha512": "b293ebff9bd847a1a28623b1c91196c8355c9a7609a6dedcf357805fd05dcae11d9c130fa55860c870addbfee1a2ca528526900bd39680c2f24b97fda3124c69"
+    },
+    {
+      "filename": "SHA512SUMS.txt",
+      "size_bytes": 1456,
+      "sha256": "bfa3d9cbdaeb42a471245d576969f40c779871dcb528fb8b4272576ae3c014ab",
+      "sha512": "df173e4584791624fef03f0a146b2360a7cbb6eb21b61145555b505adeede15158d38d4b06d773aace52730d3e60be957521a335b3d6f3bd0c5f5b1f782a4de8"
+    },
+    {
+      "filename": "The_Structural_Penalty_of_Enclosure_Final_Lock_Record_v1_0.pdf",
+      "size_bytes": 70018,
+      "sha256": "7e59886863385659c0b6459aa9ce328137718cadcaf33d30445104b94a6241ca",
+      "sha512": "40fb7211812f5a39a2cd181baf8ce1c75f4a2d9260d2df1970e76b8b1f7f0a6fe81ba9cd4d5000eab62f264c674a5767f797e5a4f3767bb168a7251bbe41acbe"
+    },
+    {
+      "filename": "The_Structural_Penalty_of_Enclosure_Final_v1_0.pdf",
+      "size_bytes": 325824,
+      "sha256": "aabb3e6e6ef4ab7cfa1deecf632931a8d8200bd89b03ff604a3a020a97f8a606",
+      "sha512": "f7557c50697292a67cc9541c485afb7f02393d4921cba20e422c06d5e853ddc93a07e5372b4e58c86a13ff0d8748caf575c2bfeca2ad3c1215c247745dde6f87"
+    },
+    {
+      "filename": "The_Structural_Penalty_of_Enclosure_Final_Validation_Report_v1_0.pdf",
+      "size_bytes": 85591,
+      "sha256": "2b055d76f4c5f75bd7306d225eee77d7d4494d3405f21e02b8dc47807bb8a854",
+      "sha512": "e16535102df3c092332369b83d5357a99d33e5439b5297d6cb48a3bffc1028d63c0b654ea72bba0328afc986bcbe3d00b5e89522be4bb537e40d778004ec2915"
+    }
+  ]
+}
