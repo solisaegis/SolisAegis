@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use or discuss this collection, please cite the collection and the
+  specific document or documents relied upon.
+title: "The Interrogative Conscience: Fourteen-Document Core"
+type: generic
+authors:
+  - family-names: Vargo
+    given-names: Thomas
+version: "1.0"
+license: CC-BY-ND-4.0
+abstract: >-
+  A fourteen-document, non-operational and non-authoritative mathematical atlas
+  of structural questions for advanced intelligence, including a 112-question
+  Master Question Registry, examination overlays, dependency relations, open
+  dependencies, and a synthesis atlas.
+keywords:
+  - interrogative conscience
+  - advanced intelligence
+  - structural questions
+  - machine-readable research registry
+  - dependency atlas
+  - model uncertainty
+  - irreversibility
+  - non-authority

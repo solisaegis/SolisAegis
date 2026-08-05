@@ -1,0 +1,3 @@
+record_id,record_class,title,license,status,contents,publication_count_effect,notes
+COLLECTION-01,collection_discovery,The Interrogative Conscience - Fourteen-Document Core,CC BY-ND 4.0,PUBLIC_GITHUB_MIRROR_NOT_AUTHORIZED,"Index, inventory, citations, machine routes, graph, links to 14 individual records",Does not replace individual records,Create after individual DOI identities are known
+CONTINUITY-01,continuity_preservation,Documents 1-14 Reconstructed Successor Continuity Package v1.0,CC BY-ND 4.0,STAGING_REFERENCE_ONLY_NOT_AUTHORIZED,"433,058,687-byte portable restart package and verification records",Not a fifteenth intellectual publication,GitHub release asset or external-preservation route only; Arweave full-package upload requires separate cost/scope decision

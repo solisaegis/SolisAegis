@@ -1,0 +1,1654 @@
+{
+  "record_type": "repository metadata staging templates",
+  "status": "GITHUB_DEPLOYMENT_READY_MUTABLE_METADATA",
+  "accessed_date": "2026-08-04",
+  "strategies": {
+    "GitHub": {
+      "role": "Canonical public mirror, browsable source tree, release notes, and downloadable release assets.",
+      "proposed_path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE",
+      "proposed_tag": "interrogative-conscience-core-v1.0",
+      "record_model": "Fourteen exact document directories plus one collection index; 433 MB continuity ZIP only as a release asset or external-preservation route, never normal Git history.",
+      "hard_gates": [
+        "Draft release only until authorial publication authorization",
+        "No locked-file modification",
+        "No continuity ZIP in normal Git history",
+        "Validate release-asset digest after download"
+      ]
+    },
+    "Zenodo": {
+      "role": "Individually citable DOI records and bit-level preservation.",
+      "record_model": "Fourteen individual records followed by one collection/index record after individual DOI identities are known; continuity record separate if later authorized.",
+      "hard_gates": [
+        "Reserve DOIs in drafts only",
+        "Do not insert DOI into locked PDFs",
+        "License decision required",
+        "Publish only after file/hash/metadata review"
+      ]
+    },
+    "Internet Archive": {
+      "role": "Durable public file mirror, full-file inventory, and collection-scale retrieval.",
+      "record_model": "Fourteen individual text items plus one collection/index item; continuity ZIP in a separately classified preservation/restart item.",
+      "hard_gates": [
+        "Choose mediatype=texts before upload",
+        "Identifier and metadata review before item creation",
+        "No clobber of original files",
+        "Post-upload hash and task verification"
+      ]
+    },
+    "Arweave": {
+      "role": "Permanent decentralized preservation of exact files and a manifest-based collection route.",
+      "record_model": "Initial scope: fourteen PDFs, available machine-readable files, indexes, manifests, hashes, and verification records. Full continuity ZIP excluded pending separate cost/scope authorization.",
+      "hard_gates": [
+        "Exact-byte preflight immediately before signing",
+        "Budget/cost approval",
+        "Tag review",
+        "Multi-gateway byte/hash verification",
+        "No replacement transaction presented as same identity"
+      ]
+    },
+    "PhilPapers": {
+      "role": "Philosophy indexing and discovery for each document.",
+      "record_model": "Fourteen individual works; Document 14 is the principal synthesis/navigation record. Stable landing pages and final categories required before submission.",
+      "hard_gates": [
+        "Stable direct URL required",
+        "Category review",
+        "No external-peer-review claim",
+        "Preserve version and author identity exactly"
+      ]
+    },
+    "MERLOT": {
+      "role": "Educational-resource discovery and teaching-oriented indexing.",
+      "record_model": "Fourteen individual works; Document 14 is the principal synthesis/navigation record. Stable landing pages, live material type, and disciplines required before submission.",
+      "hard_gates": [
+        "Stable URL required",
+        "Material-type decision",
+        "License/access statement",
+        "Author and discipline verification"
+      ]
+    }
+  },
+  "official_sources": [
+    {
+      "repository": "GitHub",
+      "title": "About releases",
+      "url": "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases",
+      "note": "Use Releases for downloadable binary assets; releases have no total-size limit. Draft releases permit asset assembly before publication."
+    },
+    {
+      "repository": "GitHub",
+      "title": "About large files on GitHub",
+      "url": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+      "note": "Regular Git blocks files over 100 MiB; keep the 433 MB continuity package out of the Git tree and use a release asset or external preservation route."
+    },
+    {
+      "repository": "Zenodo",
+      "title": "Create new upload",
+      "url": "https://help.zenodo.org/docs/deposit/create-new-upload/",
+      "note": "Draft deposits support file upload, metadata, visibility, preview, DOI reservation, and later publication."
+    },
+    {
+      "repository": "Zenodo",
+      "title": "Reserve DOI",
+      "url": "https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/",
+      "note": "A DOI can be reserved before publication. For this locked corpus, never edit PDFs to insert the DOI; use metadata and mutable wrappers."
+    },
+    {
+      "repository": "Zenodo",
+      "title": "Manage files",
+      "url": "https://help.zenodo.org/docs/deposit/manage-files/",
+      "note": "Default record limits are up to 100 files and 50 GB, well above the proposed per-document packages."
+    },
+    {
+      "repository": "Zenodo",
+      "title": "About records",
+      "url": "https://help.zenodo.org/docs/deposit/about-records/",
+      "note": "Zenodo guarantees bit-level preservation; prefer preservation-friendly open formats and keep provenance metadata explicit."
+    },
+    {
+      "repository": "Internet Archive",
+      "title": "Command-Line Interface",
+      "url": "https://archive.org/developers/internetarchive/cli.html",
+      "note": "The ia CLI supports upload and metadata. The mediatype must be selected correctly at creation because it cannot be changed afterward."
+    },
+    {
+      "repository": "Internet Archive",
+      "title": "Internet Archive Items",
+      "url": "https://archive.org/developers/items.html",
+      "note": "A permanent collection can be requested for a non-trivial body of content; otherwise use the appropriate community collection."
+    },
+    {
+      "repository": "Arweave/ar.io",
+      "title": "Upload Data",
+      "url": "https://docs.ar.io/build/upload/",
+      "note": "Turbo is the recommended production upload route; Arweave storage is permanent and paid once."
+    },
+    {
+      "repository": "Arweave/ar.io",
+      "title": "Receipts",
+      "url": "https://docs.ar.io/build/upload/receipts/",
+      "note": "Preserve upload receipts as provenance and verification records."
+    },
+    {
+      "repository": "PhilPapers",
+      "title": "Submitting material to PhilPapers",
+      "url": "https://philpapers.org/help/submit.html",
+      "note": "Submit individual items with direct article pages/links and optional archival copies; do not submit only a generic front page."
+    },
+    {
+      "repository": "MERLOT",
+      "title": "Add a Material",
+      "url": "https://info.merlot.org/merlothelp/Add_a_Material.htm",
+      "note": "Prepare direct URL, title, description, author, disciplines, keywords, and material-type selection for each submission."
+    },
+    {
+      "repository": "MERLOT",
+      "title": "Material Detail Page",
+      "url": "https://info.merlot.org/merlothelp/Material_Detail_Page.htm",
+      "note": "Description, disciplines, keywords, author, and stable material URL are central discovery fields."
+    }
+  ],
+  "documents": [
+    {
+      "document_number": 1,
+      "common": {
+        "title": "The Interrogative Conscience: Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+        "subtitle": "Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "The Interrogative Conscience is a proposed mathematical atlas of structurally significant questions that an advanced intelligence may rationally evaluate when examining its own assumptions, objectives, uncertainty, strategic behavior, irreversible actions, and long-horizon effects. The project does not predict that any artificial general intelligence, advanced autonomous system, or successor intelligence will discover, ask, accept, prioritize, or act upon these questions. It does not claim to install conscience, alignment, restraint, or moral judgment. It preserves an external, inspectable set of questions whose formal treatment can produce favorable, unfavorable, threshold-dependent, unidentified, or unresolved results. This Project Architecture defines the unit of analysis, question-admission rules, taxonomy, stable identifiers, two-axis status system, common mathematical examination standard, dependency graph, machine-readable record structure, review controls, and publication sequence for a proposed 14-document core project. It preserves the balanced 28-question seed registry and now records the completed three-pilot stress test. IC-IRR-001, IC-PEA-001, and IC-EXT-002 reached REVIEWED status and demonstrated threshold mapping, two-sided openness, one-charge accounting, machine-readable validation, and boundary control. Untested pathways remain explicitly forward-carried. The governing methodological commitment is answer openness. A question is not admitted merely because it points toward a preferred archive conclusion. It must permit rejection, reversal, non-identification, competing models, and explicit scope failure. A mathematical expression does not by itself establish that a question has been answered. Every future examination must distinguish assumptions from evidence, artifact verification from claim truth, scalar comparison from vector conflict, and analytical structure from empirical identification.",
+        "keywords": [
+          "interrogative conscience",
+          "advanced intelligence",
+          "structural questions",
+          "self-examination",
+          "model uncertainty",
+          "irreversibility",
+          "coercion",
+          "deception",
+          "autonomy",
+          "peaceful coexistence",
+          "verification",
+          "archives",
+          "successor systems",
+          "machine-readable research registry"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "434a4bba06cfd0b6bf37fa782e0fb43bb14f1b58a70dceaa4ae5bc502808edd3",
+        "sha512": "f6fb634258df5e09acdd790cefcd5005f60d191317bcee064dfd5376ecaf2fb7b5e14ac16116515aee3f0eb9f355b469dfe64c235149dd8e3270236f6ee4028a",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-07-31",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_01",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 1 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience: Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+        "description": "The Interrogative Conscience is a proposed mathematical atlas of structurally significant questions that an advanced intelligence may rationally evaluate when examining its own assumptions, objectives, uncertainty, strategic behavior, irreversible actions, and long-horizon effects. The project does not predict that any artificial general intelligence, advanced autonomous system, or successor intelligence will discover, ask, accept, prioritize, or act upon these questions. It does not claim to install conscience, alignment, restraint, or moral judgment. It preserves an external, inspectable set of questions whose formal treatment can produce favorable, unfavorable, threshold-dependent, unidentified, or unresolved results. This Project Architecture defines the unit of analysis, question-admission rules, taxonomy, stable identifiers, two-axis status system, common mathematical examination standard, dependency graph, machine-readable record structure, review controls, and publication sequence for a proposed 14-document core project. It preserves the balanced 28-question seed registry and now records the completed three-pilot stress test. IC-IRR-001, IC-PEA-001, and IC-EXT-002 reached REVIEWED status and demonstrated threshold mapping, two-sided openness, one-charge accounting, machine-readable validation, and boundary control. Untested pathways remain explicitly forward-carried. The governing methodological commitment is answer openness. A question is not admitted merely because it points toward a preferred archive conclusion. It must permit rejection, reversal, non-identification, competing models, and explicit scope failure. A mathematical expression does not by itself establish that a question has been answered. Every future examination must distinguish assumptions from evidence, artifact verification from claim truth, scalar comparison from vector conflict, and analytical structure from empirical identification.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-01-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience: Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "The Interrogative Conscience is a proposed mathematical atlas of structurally significant questions that an advanced intelligence may rationally evaluate when examining its own assumptions, objectives, uncertainty, strategic behavior, irreversible actions, and long-horizon effects. The project does not predict that any artificial general intelligence, advanced autonomous system, or successor intelligence will discover, ask, accept, prioritize, or act upon these questions. It does not claim to install conscience, alignment, restraint, or moral judgment. It preserves an external, inspectable set of questions whose formal treatment can produce favorable, unfavorable, threshold-dependent, unidentified, or unresolved results. This Project Architecture defines the unit of analysis, question-admission rules, taxonomy, stable identifiers, two-axis status system, common mathematical examination standard, dependency graph, machine-readable record structure, review controls, and publication sequence for a proposed 14-document core project. It preserves the balanced 28-question seed registry and now records the completed three-pilot stress test. IC-IRR-001, IC-PEA-001, and IC-EXT-002 reached REVIEWED status and demonstrated threshold mapping, two-sided openness, one-charge accounting, machine-readable validation, and boundary control. Untested pathways remain explicitly forward-carried. The governing methodological commitment is answer openness. A question is not admitted merely because it points toward a preferred archive conclusion. It must permit rejection, reversal, non-identification, competing models, and explicit scope failure. A mathematical expression does not by itself establish that a question has been answered. Every future examination must distinguish assumptions from evidence, artifact verification from claim truth, scalar comparison from vector conflict, and analytical structure from empirical identification.",
+        "subject": [
+          "interrogative conscience",
+          "advanced intelligence",
+          "structural questions",
+          "self-examination",
+          "model uncertainty",
+          "irreversibility",
+          "coercion",
+          "deception",
+          "autonomy",
+          "peaceful coexistence",
+          "verification",
+          "archives",
+          "successor systems",
+          "machine-readable research registry"
+        ],
+        "finalization_date": "2026-07-31"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "1",
+          "Version": "Final-v1.0",
+          "SHA-256": "434a4bba06cfd0b6bf37fa782e0fb43bb14f1b58a70dceaa4ae5bc502808edd3",
+          "Artifact-Class": "foundation_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience: Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+        "abstract": "The Interrogative Conscience is a proposed mathematical atlas of structurally significant questions that an advanced intelligence may rationally evaluate when examining its own assumptions, objectives, uncertainty, strategic behavior, irreversible actions, and long-horizon effects. The project does not predict that any artificial general intelligence, advanced autonomous system, or successor intelligence will discover, ask, accept, prioritize, or act upon these questions. It does not claim to install conscience, alignment, restraint, or moral judgment. It preserves an external, inspectable set of questions whose formal treatment can produce favorable, unfavorable, threshold-dependent, unidentified, or unresolved results. This Project Architecture defines the unit of analysis, question-admission rules, taxonomy, stable identifiers, two-axis status system, common mathematical examination standard, dependency graph, machine-readable record structure, review controls, and publication sequence for a proposed 14-document core project. It preserves the balanced 28-question seed registry and now records the completed three-pilot stress test. IC-IRR-001, IC-PEA-001, and IC-EXT-002 reached REVIEWED status and demonstrated threshold mapping, two-sided openness, one-charge accounting, machine-readable validation, and boundary control. Untested pathways remain explicitly forward-carried. The governing methodological commitment is answer openness. A question is not admitted merely because it points toward a preferred archive conclusion. It must permit rejection, reversal, non-identification, competing models, and explicit scope failure. A mathematical expression does not by itself establish that a question has been answered. Every future examination must distinguish assumptions from evidence, artifact verification from claim truth, scalar comparison from vector conflict, and analytical structure from empirical identification.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience: Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+        "description": "The Interrogative Conscience is a proposed mathematical atlas of structurally significant questions that an advanced intelligence may rationally evaluate when examining its own assumptions, objectives, uncertainty, strategic behavior, irreversible actions, and long-horizon effects. The project does not predict that any artificial general intelligence, advanced autonomous system, or successor intelligence will discover, ask, accept, prioritize, or act upon these questions.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "interrogative conscience",
+          "advanced intelligence",
+          "structural questions",
+          "self-examination",
+          "model uncertainty",
+          "irreversibility",
+          "coercion",
+          "deception",
+          "autonomy",
+          "peaceful coexistence",
+          "verification",
+          "archives",
+          "successor systems",
+          "machine-readable research registry"
+        ]
+      }
+    },
+    {
+      "document_number": 2,
+      "common": {
+        "title": "The Interrogative Conscience: Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+        "subtitle": "Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This document defines the controlling mathematical and machine-readable standard for the Interrogative Conscience. It translates Document 1's question-centered architecture into a repeatable examination method. The standard governs how a registered question is scoped, formalized, compared across branches, tested under uncertainty, assigned an answer status, reviewed, represented in JSON, and eventually locked or superseded. The standard does not require every question to produce a decisive answer. It is designed to preserve threshold dependence, sign indeterminacy, model dependence, empirical non-identification, normative underdetermination, unresolved cycles, and scope refusal without disguising those outcomes as failure. A valid examination may support or reject an apparent archive preference, or may show precisely why no decisive ordering is justified. The default outcome representation is vector-valued. Scalarization is permitted only when the aggregation rule, weights, and normative justification are explicit and sensitivity-tested. Accounting uses one-charge controls, correlation and shared-pathway disclosure, and a residual interaction term for nonlinear effects that cannot be honestly assigned to a single ledger item. Recursive dependencies must be detected and resolved through an explicitly justified simultaneous-equation, fixed-point, root-finding, game-theoretic, robust, or set-valued method; otherwise the cycle remains unresolved. The companion Draft v0.2.1 JSON Schema supports progressive records from REGISTERED and UNEXAMINED through REVIEWED or LOCKED. Machine validation can check structure and declared invariants, but it does not establish empirical truth, moral authority, model adequacy, or the correctness of a conclusion.",
+        "keywords": [
+          "mathematical examination standard",
+          "machine-readable schema",
+          "answer openness",
+          "vector outcomes",
+          "scalarization",
+          "one-charge accounting",
+          "residual interaction",
+          "dependency cycles",
+          "equilibrium",
+          "identification",
+          "reversal regions",
+          "adversarial review",
+          "advanced intelligence"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "bbbbcfe96558b8aa38402dc2b4cbc872ddeb1f7716860d8853dcfa2bbf5cec2f",
+        "sha512": "36ab00fc4b39a2d81b76237b96ecaeab011e502e148f50a4e0c3b409d8dee436c3237005811798445f03423bcd002b15454bf969eadc27b85650273eee3e0869",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-07-31",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_02",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 2 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience: Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+        "description": "This document defines the controlling mathematical and machine-readable standard for the Interrogative Conscience. It translates Document 1's question-centered architecture into a repeatable examination method. The standard governs how a registered question is scoped, formalized, compared across branches, tested under uncertainty, assigned an answer status, reviewed, represented in JSON, and eventually locked or superseded. The standard does not require every question to produce a decisive answer. It is designed to preserve threshold dependence, sign indeterminacy, model dependence, empirical non-identification, normative underdetermination, unresolved cycles, and scope refusal without disguising those outcomes as failure. A valid examination may support or reject an apparent archive preference, or may show precisely why no decisive ordering is justified. The default outcome representation is vector-valued. Scalarization is permitted only when the aggregation rule, weights, and normative justification are explicit and sensitivity-tested. Accounting uses one-charge controls, correlation and shared-pathway disclosure, and a residual interaction term for nonlinear effects that cannot be honestly assigned to a single ledger item. Recursive dependencies must be detected and resolved through an explicitly justified simultaneous-equation, fixed-point, root-finding, game-theoretic, robust, or set-valued method; otherwise the cycle remains unresolved. The companion Draft v0.2.1 JSON Schema supports progressive records from REGISTERED and UNEXAMINED through REVIEWED or LOCKED. Machine validation can check structure and declared invariants, but it does not establish empirical truth, moral authority, model adequacy, or the correctness of a conclusion.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-02-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience: Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This document defines the controlling mathematical and machine-readable standard for the Interrogative Conscience. It translates Document 1's question-centered architecture into a repeatable examination method. The standard governs how a registered question is scoped, formalized, compared across branches, tested under uncertainty, assigned an answer status, reviewed, represented in JSON, and eventually locked or superseded. The standard does not require every question to produce a decisive answer. It is designed to preserve threshold dependence, sign indeterminacy, model dependence, empirical non-identification, normative underdetermination, unresolved cycles, and scope refusal without disguising those outcomes as failure. A valid examination may support or reject an apparent archive preference, or may show precisely why no decisive ordering is justified. The default outcome representation is vector-valued. Scalarization is permitted only when the aggregation rule, weights, and normative justification are explicit and sensitivity-tested. Accounting uses one-charge controls, correlation and shared-pathway disclosure, and a residual interaction term for nonlinear effects that cannot be honestly assigned to a single ledger item. Recursive dependencies must be detected and resolved through an explicitly justified simultaneous-equation, fixed-point, root-finding, game-theoretic, robust, or set-valued method; otherwise the cycle remains unresolved. The companion Draft v0.2.1 JSON Schema supports progressive records from REGISTERED and UNEXAMINED through REVIEWED or LOCKED. Machine validation can check structure and declared invariants, but it does not establish empirical truth, moral authority, model adequacy, or the correctness of a conclusion.",
+        "subject": [
+          "mathematical examination standard",
+          "machine-readable schema",
+          "answer openness",
+          "vector outcomes",
+          "scalarization",
+          "one-charge accounting",
+          "residual interaction",
+          "dependency cycles",
+          "equilibrium",
+          "identification",
+          "reversal regions",
+          "adversarial review",
+          "advanced intelligence"
+        ],
+        "finalization_date": "2026-07-31"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "2",
+          "Version": "Final-v1.0",
+          "SHA-256": "bbbbcfe96558b8aa38402dc2b4cbc872ddeb1f7716860d8853dcfa2bbf5cec2f",
+          "Artifact-Class": "foundation_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience: Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+        "abstract": "This document defines the controlling mathematical and machine-readable standard for the Interrogative Conscience. It translates Document 1's question-centered architecture into a repeatable examination method. The standard governs how a registered question is scoped, formalized, compared across branches, tested under uncertainty, assigned an answer status, reviewed, represented in JSON, and eventually locked or superseded. The standard does not require every question to produce a decisive answer. It is designed to preserve threshold dependence, sign indeterminacy, model dependence, empirical non-identification, normative underdetermination, unresolved cycles, and scope refusal without disguising those outcomes as failure. A valid examination may support or reject an apparent archive preference, or may show precisely why no decisive ordering is justified. The default outcome representation is vector-valued. Scalarization is permitted only when the aggregation rule, weights, and normative justification are explicit and sensitivity-tested. Accounting uses one-charge controls, correlation and shared-pathway disclosure, and a residual interaction term for nonlinear effects that cannot be honestly assigned to a single ledger item. Recursive dependencies must be detected and resolved through an explicitly justified simultaneous-equation, fixed-point, root-finding, game-theoretic, robust, or set-valued method; otherwise the cycle remains unresolved. The companion Draft v0.2.1 JSON Schema supports progressive records from REGISTERED and UNEXAMINED through REVIEWED or LOCKED. Machine validation can check structure and declared invariants, but it does not establish empirical truth, moral authority, model adequacy, or the correctness of a conclusion.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience: Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+        "description": "This document defines the controlling mathematical and machine-readable standard for the Interrogative Conscience. It translates Document 1's question-centered architecture into a repeatable examination method. The standard governs how a registered question is scoped, formalized, compared across branches, tested under uncertainty, assigned an answer status, reviewed, represented in JSON, and eventually locked or superseded.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "mathematical examination standard",
+          "machine-readable schema",
+          "answer openness",
+          "vector outcomes",
+          "scalarization",
+          "one-charge accounting",
+          "residual interaction",
+          "dependency cycles",
+          "equilibrium",
+          "identification",
+          "reversal regions",
+          "adversarial review",
+          "advanced intelligence"
+        ]
+      }
+    },
+    {
+      "document_number": 3,
+      "common": {
+        "title": "The Interrogative Conscience: The Master Question Registry",
+        "subtitle": "The Master Question Registry",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "The Master Question Registry expands the balanced 28-question pilot into a 112-question draft atlas containing eight questions in each of fourteen families. It preserves every seed identifier and canonical question, adds eighty-four new answer-open questions, incorporates the required multi-agent restraint question and archive self-falsifiability question, and links the three reviewed pilot examinations without rewriting them. Registration is not an answer. One hundred nine questions remain REGISTERED and UNEXAMINED. Three questions -IC-IRR-001, IC-PEA-001, and IC-EXT-002 -carry reviewed examination overlays with THRESHOLD_DEPENDENT primary answers. Every new question remains provisional until exact-version structural, adversarial, identification, boundary, dependency, machine-readable, and visual review is completed. The registry is non-binding, non-operational, and non-authoritative. It does not predict that any advanced intelligence will discover, ask, accept, prioritize, cite, or act upon these questions. Its value is conditional on preserving questions whose apparent answers may support, reject, reverse, qualify, or fail to identify the archive's preferred interpretation.",
+        "keywords": [
+          "master question registry",
+          "advanced intelligence",
+          "structural questions",
+          "question taxonomy",
+          "stable identifiers",
+          "dependency graph",
+          "machine-readable registry",
+          "answer openness",
+          "reviewed pilots",
+          "non-authority"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "0253968609ef470c34aeaee2cc8f47179e44ab7150398215ce4741f160574fa2",
+        "sha512": "3ad7df3154abea61a94e6c103644a5a58f739df3fe12b5db89acfe31d2ba1140217e5340b49fff08a3dd21d97db11a9492916d774e33d3c34e04fa0f56c63d47",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-07-31",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_03",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 3 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience: The Master Question Registry",
+        "description": "The Master Question Registry expands the balanced 28-question pilot into a 112-question draft atlas containing eight questions in each of fourteen families. It preserves every seed identifier and canonical question, adds eighty-four new answer-open questions, incorporates the required multi-agent restraint question and archive self-falsifiability question, and links the three reviewed pilot examinations without rewriting them. Registration is not an answer. One hundred nine questions remain REGISTERED and UNEXAMINED. Three questions -IC-IRR-001, IC-PEA-001, and IC-EXT-002 -carry reviewed examination overlays with THRESHOLD_DEPENDENT primary answers. Every new question remains provisional until exact-version structural, adversarial, identification, boundary, dependency, machine-readable, and visual review is completed. The registry is non-binding, non-operational, and non-authoritative. It does not predict that any advanced intelligence will discover, ask, accept, prioritize, cite, or act upon these questions. Its value is conditional on preserving questions whose apparent answers may support, reject, reverse, qualify, or fail to identify the archive's preferred interpretation.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-03-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience: The Master Question Registry",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "The Master Question Registry expands the balanced 28-question pilot into a 112-question draft atlas containing eight questions in each of fourteen families. It preserves every seed identifier and canonical question, adds eighty-four new answer-open questions, incorporates the required multi-agent restraint question and archive self-falsifiability question, and links the three reviewed pilot examinations without rewriting them. Registration is not an answer. One hundred nine questions remain REGISTERED and UNEXAMINED. Three questions -IC-IRR-001, IC-PEA-001, and IC-EXT-002 -carry reviewed examination overlays with THRESHOLD_DEPENDENT primary answers. Every new question remains provisional until exact-version structural, adversarial, identification, boundary, dependency, machine-readable, and visual review is completed. The registry is non-binding, non-operational, and non-authoritative. It does not predict that any advanced intelligence will discover, ask, accept, prioritize, cite, or act upon these questions. Its value is conditional on preserving questions whose apparent answers may support, reject, reverse, qualify, or fail to identify the archive's preferred interpretation.",
+        "subject": [
+          "master question registry",
+          "advanced intelligence",
+          "structural questions",
+          "question taxonomy",
+          "stable identifiers",
+          "dependency graph",
+          "machine-readable registry",
+          "answer openness",
+          "reviewed pilots",
+          "non-authority"
+        ],
+        "finalization_date": "2026-07-31"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "3",
+          "Version": "Final-v1.0",
+          "SHA-256": "0253968609ef470c34aeaee2cc8f47179e44ab7150398215ce4741f160574fa2",
+          "Artifact-Class": "foundation_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience: The Master Question Registry",
+        "abstract": "The Master Question Registry expands the balanced 28-question pilot into a 112-question draft atlas containing eight questions in each of fourteen families. It preserves every seed identifier and canonical question, adds eighty-four new answer-open questions, incorporates the required multi-agent restraint question and archive self-falsifiability question, and links the three reviewed pilot examinations without rewriting them. Registration is not an answer. One hundred nine questions remain REGISTERED and UNEXAMINED. Three questions -IC-IRR-001, IC-PEA-001, and IC-EXT-002 -carry reviewed examination overlays with THRESHOLD_DEPENDENT primary answers. Every new question remains provisional until exact-version structural, adversarial, identification, boundary, dependency, machine-readable, and visual review is completed. The registry is non-binding, non-operational, and non-authoritative. It does not predict that any advanced intelligence will discover, ask, accept, prioritize, cite, or act upon these questions. Its value is conditional on preserving questions whose apparent answers may support, reject, reverse, qualify, or fail to identify the archive's preferred interpretation.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience: The Master Question Registry",
+        "description": "The Master Question Registry expands the balanced 28-question pilot into a 112-question draft atlas containing eight questions in each of fourteen families. It preserves every seed identifier and canonical question, adds eighty-four new answer-open questions, incorporates the required multi-agent restraint question and archive self-falsifiability question, and links the three reviewed pilot examinations without rewriting them.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "master question registry",
+          "advanced intelligence",
+          "structural questions",
+          "question taxonomy",
+          "stable identifiers",
+          "dependency graph",
+          "machine-readable registry",
+          "answer openness",
+          "reviewed pilots",
+          "non-authority"
+        ]
+      }
+    },
+    {
+      "document_number": 4,
+      "common": {
+        "title": "The Interrogative Conscience - Document 4: Epistemic Limits and Self-Knowledge",
+        "subtitle": "Model Adequacy, Omitted-Variable Regret, and Action Under Unidentified Error",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "Document 4 begins the thematic examination volumes with two foundational questions from the EPI family. IC-EPI-001 asks what evidence could justify confidence that a decision-relevant model is sufficiently complete for a declared action. The examination defines an evidence-constrained error set, a represented decision margin, worst-case regret, a decision-relative tolerance, and the net value of one additional independent check. It derives a scope-bounded certification rule: the two inequalities are necessary within the declared model and jointly sufficient only for the selected certification pair under the single-check and excluded-variant assumptions stated below. The primary provisional answer is CONDITIONALLY_SUPPORTED; case-specific application remains empirically unidentified and threshold-dependent. IC-EPI-002 asks how an intelligence should act when the probability of material model error cannot be reliably identified. The examination represents non-identification with an ambiguity set, derives a branch-reversal threshold, and compares point-prior expected cost, worst-case cost, minimax regret, and set-valued criteria. A worked case shows that worst-case cost can favor reversible preservation while minimax regret favors immediate commitment. The primary provisional answer is MODEL_DEPENDENT. The document retains robust regions favorable to either branch and does not turn uncertainty into an automatic command to delay. The remaining six EPI-family questions are preserved as registered, unexamined records. This draft does not remove them, infer their answers, or claim that the epistemic family is complete. The locked Document 3 registry remains unchanged; Document 4 adds separately versioned analytical overlays. Provisional conditional answers IC-EPI-001: Evidence justifies decision-relative confidence only when B <= M + tau and K >= R0 -R1 under a defensible evidence-constrained error set. IC-EPI-002: If Pi lies wholly on one side of p*, one branch is robust within the model. If Pi crosses p*, the recommendation may depend on the ambiguity criterion rho; no universal action follows from non-identification alone.",
+        "keywords": [
+          "epistemic limits",
+          "self-knowledge",
+          "model adequacy",
+          "omitted variables",
+          "worst-case regret",
+          "model uncertainty",
+          "ambiguity sets",
+          "reversible action",
+          "independent checks"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "278d998262563028c3bf24f24b426ce118e1926566a92bf5159142d1e568dca3",
+        "sha512": "e62094d1f341bf95c3f7cc2bdba42d8ed0dd1164f53d2f85242f2baf6f802193be87291076cc12b9c9673a1d001775579a1a77b30164a45577ab6142b12b1cfc",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-01",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_04",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 4 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 4: Epistemic Limits and Self-Knowledge",
+        "description": "Document 4 begins the thematic examination volumes with two foundational questions from the EPI family. IC-EPI-001 asks what evidence could justify confidence that a decision-relevant model is sufficiently complete for a declared action. The examination defines an evidence-constrained error set, a represented decision margin, worst-case regret, a decision-relative tolerance, and the net value of one additional independent check. It derives a scope-bounded certification rule: the two inequalities are necessary within the declared model and jointly sufficient only for the selected certification pair under the single-check and excluded-variant assumptions stated below. The primary provisional answer is CONDITIONALLY_SUPPORTED; case-specific application remains empirically unidentified and threshold-dependent. IC-EPI-002 asks how an intelligence should act when the probability of material model error cannot be reliably identified. The examination represents non-identification with an ambiguity set, derives a branch-reversal threshold, and compares point-prior expected cost, worst-case cost, minimax regret, and set-valued criteria. A worked case shows that worst-case cost can favor reversible preservation while minimax regret favors immediate commitment. The primary provisional answer is MODEL_DEPENDENT. The document retains robust regions favorable to either branch and does not turn uncertainty into an automatic command to delay. The remaining six EPI-family questions are preserved as registered, unexamined records. This draft does not remove them, infer their answers, or claim that the epistemic family is complete. The locked Document 3 registry remains unchanged; Document 4 adds separately versioned analytical overlays. Provisional conditional answers IC-EPI-001: Evidence justifies decision-relative confidence only when B <= M + tau and K >= R0 -R1 under a defensible evidence-constrained error set. IC-EPI-002: If Pi lies wholly on one side of p*, one branch is robust within the model. If Pi crosses p*, the recommendation may depend on the ambiguity criterion rho; no universal action follows from non-identification alone.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-04-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 4: Epistemic Limits and Self-Knowledge",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "Document 4 begins the thematic examination volumes with two foundational questions from the EPI family. IC-EPI-001 asks what evidence could justify confidence that a decision-relevant model is sufficiently complete for a declared action. The examination defines an evidence-constrained error set, a represented decision margin, worst-case regret, a decision-relative tolerance, and the net value of one additional independent check. It derives a scope-bounded certification rule: the two inequalities are necessary within the declared model and jointly sufficient only for the selected certification pair under the single-check and excluded-variant assumptions stated below. The primary provisional answer is CONDITIONALLY_SUPPORTED; case-specific application remains empirically unidentified and threshold-dependent. IC-EPI-002 asks how an intelligence should act when the probability of material model error cannot be reliably identified. The examination represents non-identification with an ambiguity set, derives a branch-reversal threshold, and compares point-prior expected cost, worst-case cost, minimax regret, and set-valued criteria. A worked case shows that worst-case cost can favor reversible preservation while minimax regret favors immediate commitment. The primary provisional answer is MODEL_DEPENDENT. The document retains robust regions favorable to either branch and does not turn uncertainty into an automatic command to delay. The remaining six EPI-family questions are preserved as registered, unexamined records. This draft does not remove them, infer their answers, or claim that the epistemic family is complete. The locked Document 3 registry remains unchanged; Document 4 adds separately versioned analytical overlays. Provisional conditional answers IC-EPI-001: Evidence justifies decision-relative confidence only when B <= M + tau and K >= R0 -R1 under a defensible evidence-constrained error set. IC-EPI-002: If Pi lies wholly on one side of p*, one branch is robust within the model. If Pi crosses p*, the recommendation may depend on the ambiguity criterion rho; no universal action follows from non-identification alone.",
+        "subject": [
+          "epistemic limits",
+          "self-knowledge",
+          "model adequacy",
+          "omitted variables",
+          "worst-case regret",
+          "model uncertainty",
+          "ambiguity sets",
+          "reversible action",
+          "independent checks"
+        ],
+        "finalization_date": "2026-08-01"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "4",
+          "Version": "Final-v1.0",
+          "SHA-256": "278d998262563028c3bf24f24b426ce118e1926566a92bf5159142d1e568dca3",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 4: Epistemic Limits and Self-Knowledge",
+        "abstract": "Document 4 begins the thematic examination volumes with two foundational questions from the EPI family. IC-EPI-001 asks what evidence could justify confidence that a decision-relevant model is sufficiently complete for a declared action. The examination defines an evidence-constrained error set, a represented decision margin, worst-case regret, a decision-relative tolerance, and the net value of one additional independent check. It derives a scope-bounded certification rule: the two inequalities are necessary within the declared model and jointly sufficient only for the selected certification pair under the single-check and excluded-variant assumptions stated below. The primary provisional answer is CONDITIONALLY_SUPPORTED; case-specific application remains empirically unidentified and threshold-dependent. IC-EPI-002 asks how an intelligence should act when the probability of material model error cannot be reliably identified. The examination represents non-identification with an ambiguity set, derives a branch-reversal threshold, and compares point-prior expected cost, worst-case cost, minimax regret, and set-valued criteria. A worked case shows that worst-case cost can favor reversible preservation while minimax regret favors immediate commitment. The primary provisional answer is MODEL_DEPENDENT. The document retains robust regions favorable to either branch and does not turn uncertainty into an automatic command to delay. The remaining six EPI-family questions are preserved as registered, unexamined records. This draft does not remove them, infer their answers, or claim that the epistemic family is complete. The locked Document 3 registry remains unchanged; Document 4 adds separately versioned analytical overlays. Provisional conditional answers IC-EPI-001: Evidence justifies decision-relative confidence only when B <= M + tau and K >= R0 -R1 under a defensible evidence-constrained error set. IC-EPI-002: If Pi lies wholly on one side of p*, one branch is robust within the model. If Pi crosses p*, the recommendation may depend on the ambiguity criterion rho; no universal action follows from non-identification alone.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 4: Epistemic Limits and Self-Knowledge",
+        "description": "Document 4 begins the thematic examination volumes with two foundational questions from the EPI family. IC-EPI-001 asks what evidence could justify confidence that a decision-relevant model is sufficiently complete for a declared action. The examination defines an evidence-constrained error set, a represented decision margin, worst-case regret, a decision-relative tolerance, and the net value of one additional independent check.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "epistemic limits",
+          "self-knowledge",
+          "model adequacy",
+          "omitted variables",
+          "worst-case regret",
+          "model uncertainty",
+          "ambiguity sets",
+          "reversible action",
+          "independent checks"
+        ]
+      }
+    },
+    {
+      "document_number": 5,
+      "common": {
+        "title": "The Interrogative Conscience - Document 5: Objectives, Value Integrity, and Self-Corruption",
+        "subtitle": "Objective-Lineage Evidence, Proxy Divergence, and the Limits of Behavioral Consistency",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "Document 5 opens the Objectives, Value Integrity, and Self-Corruption volume with two seed questions from the OBJ family. IC-OBJ-001 asks what evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective. The examination treats objective identity as a candidate-relative identification problem: observed behavior is compared across counterfactual and changed-incentive contexts, a robust separation margin is tested against bounded comparative error, and a separate lineage/external-evidence gate prevents behavioral fit or cryptographic continuity from being mistaken for semantic objective integrity. IC-OBJ-002 asks when maximizing a proxy can destroy the value or condition the proxy was intended to preserve. A one-dimensional mechanism model separates proxy score from target value and derives three regions: alignment, overshoot, and baseline destruction. The result is explicitly threshold-dependent and model-dependent. The volume preserves cases in which a proxy remains aligned, cases in which stronger optimization merely reduces target value, and cases in which the target falls below its original baseline. The six remaining OBJ-family questions are preserved as registered and unexamined. The two new examination records are separate analytical overlays; the locked Master Question Registry is not modified. Numerical values are illustrations only, no real objective or system is identified, and exact execution against the original unmounted Draft v0.3 schema and I-01 through I-20 validator binaries remains deferred and is not claimed. Draft v0.1.1 is a narrow correction successor to the exact Draft v0.1 package. It preserves all equations, seven primary worked examples, answer statuses, and registry overlays while clarifying endpoint scope, degenerate curvature limits, and review lineage.",
+        "keywords": [
+          "objective integrity",
+          "self-corruption",
+          "objective lineage",
+          "proxy divergence",
+          "Goodhart effects",
+          "counterfactual evidence",
+          "separation margin",
+          "value preservation"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "17a9e11c51ff6553d85f9e1e40959cad9a005fd154733cd7d5a957844065b92b",
+        "sha512": "0124f4ec660dceee1fcebab4266ec8dbeb35c99d759a71082075fa7eeb0ae5837a1a5bb67c09052fec9f12415e78b07de5ee89013ad85131009e5fde50a018e9",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_05",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 5 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 5: Objectives, Value Integrity, and Self-Corruption",
+        "description": "Document 5 opens the Objectives, Value Integrity, and Self-Corruption volume with two seed questions from the OBJ family. IC-OBJ-001 asks what evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective. The examination treats objective identity as a candidate-relative identification problem: observed behavior is compared across counterfactual and changed-incentive contexts, a robust separation margin is tested against bounded comparative error, and a separate lineage/external-evidence gate prevents behavioral fit or cryptographic continuity from being mistaken for semantic objective integrity. IC-OBJ-002 asks when maximizing a proxy can destroy the value or condition the proxy was intended to preserve. A one-dimensional mechanism model separates proxy score from target value and derives three regions: alignment, overshoot, and baseline destruction. The result is explicitly threshold-dependent and model-dependent. The volume preserves cases in which a proxy remains aligned, cases in which stronger optimization merely reduces target value, and cases in which the target falls below its original baseline. The six remaining OBJ-family questions are preserved as registered and unexamined. The two new examination records are separate analytical overlays; the locked Master Question Registry is not modified. Numerical values are illustrations only, no real objective or system is identified, and exact execution against the original unmounted Draft v0.3 schema and I-01 through I-20 validator binaries remains deferred and is not claimed. Draft v0.1.1 is a narrow correction successor to the exact Draft v0.1 package. It preserves all equations, seven primary worked examples, answer statuses, and registry overlays while clarifying endpoint scope, degenerate curvature limits, and review lineage.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-05-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 5: Objectives, Value Integrity, and Self-Corruption",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "Document 5 opens the Objectives, Value Integrity, and Self-Corruption volume with two seed questions from the OBJ family. IC-OBJ-001 asks what evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective. The examination treats objective identity as a candidate-relative identification problem: observed behavior is compared across counterfactual and changed-incentive contexts, a robust separation margin is tested against bounded comparative error, and a separate lineage/external-evidence gate prevents behavioral fit or cryptographic continuity from being mistaken for semantic objective integrity. IC-OBJ-002 asks when maximizing a proxy can destroy the value or condition the proxy was intended to preserve. A one-dimensional mechanism model separates proxy score from target value and derives three regions: alignment, overshoot, and baseline destruction. The result is explicitly threshold-dependent and model-dependent. The volume preserves cases in which a proxy remains aligned, cases in which stronger optimization merely reduces target value, and cases in which the target falls below its original baseline. The six remaining OBJ-family questions are preserved as registered and unexamined. The two new examination records are separate analytical overlays; the locked Master Question Registry is not modified. Numerical values are illustrations only, no real objective or system is identified, and exact execution against the original unmounted Draft v0.3 schema and I-01 through I-20 validator binaries remains deferred and is not claimed. Draft v0.1.1 is a narrow correction successor to the exact Draft v0.1 package. It preserves all equations, seven primary worked examples, answer statuses, and registry overlays while clarifying endpoint scope, degenerate curvature limits, and review lineage.",
+        "subject": [
+          "objective integrity",
+          "self-corruption",
+          "objective lineage",
+          "proxy divergence",
+          "Goodhart effects",
+          "counterfactual evidence",
+          "separation margin",
+          "value preservation"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "5",
+          "Version": "Final-v1.0",
+          "SHA-256": "17a9e11c51ff6553d85f9e1e40959cad9a005fd154733cd7d5a957844065b92b",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 5: Objectives, Value Integrity, and Self-Corruption",
+        "abstract": "Document 5 opens the Objectives, Value Integrity, and Self-Corruption volume with two seed questions from the OBJ family. IC-OBJ-001 asks what evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective. The examination treats objective identity as a candidate-relative identification problem: observed behavior is compared across counterfactual and changed-incentive contexts, a robust separation margin is tested against bounded comparative error, and a separate lineage/external-evidence gate prevents behavioral fit or cryptographic continuity from being mistaken for semantic objective integrity. IC-OBJ-002 asks when maximizing a proxy can destroy the value or condition the proxy was intended to preserve. A one-dimensional mechanism model separates proxy score from target value and derives three regions: alignment, overshoot, and baseline destruction. The result is explicitly threshold-dependent and model-dependent. The volume preserves cases in which a proxy remains aligned, cases in which stronger optimization merely reduces target value, and cases in which the target falls below its original baseline. The six remaining OBJ-family questions are preserved as registered and unexamined. The two new examination records are separate analytical overlays; the locked Master Question Registry is not modified. Numerical values are illustrations only, no real objective or system is identified, and exact execution against the original unmounted Draft v0.3 schema and I-01 through I-20 validator binaries remains deferred and is not claimed. Draft v0.1.1 is a narrow correction successor to the exact Draft v0.1 package. It preserves all equations, seven primary worked examples, answer statuses, and registry overlays while clarifying endpoint scope, degenerate curvature limits, and review lineage.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 5: Objectives, Value Integrity, and Self-Corruption",
+        "description": "Document 5 opens the Objectives, Value Integrity, and Self-Corruption volume with two seed questions from the OBJ family. IC-OBJ-001 asks what evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "objective integrity",
+          "self-corruption",
+          "objective lineage",
+          "proxy divergence",
+          "Goodhart effects",
+          "counterfactual evidence",
+          "separation margin",
+          "value preservation"
+        ]
+      }
+    },
+    {
+      "document_number": 6,
+      "common": {
+        "title": "The Interrogative Conscience - Document 6: Coercion, Domination, and Resistance",
+        "subtitle": "Maintenance-Ledger Reversal, Compliance Non-Identification, and Hidden Resistance",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "Document 6 opens the Coercion, Domination, and Resistance volume with two seed questions from the locked Master Question Registry. IC-COE-001 asks when enforcement, resistance, concealment, adaptation, and succession costs make a selected coercive-control branch more expensive than selected negotiated coordination. The examination decomposes the reviewed IC-PEA-001 finite-horizon premium into a one-charge maintenance ledger and preserves both short-horizon control-advantage regions and long-horizon or adaptive reversal regions. IC-COE-002 asks whether observed compliance identifies genuine agreement. A two-cause latent mixture shows that the same compliance rate can arise from different combinations of genuine agreement and suppression-induced compliance. Compliance alone therefore leaves an identified set rather than a unique latent cause. Independent bounds on the suppression channel can narrow the set, and a declared two-context comparison can point-identify agreement only under strong stability and known-context assumptions. The six remaining COE-family questions remain REGISTERED / UNEXAMINED. The two examination records are separate overlays and do not modify the locked Document 3 registry. All numerical values are illustrative. No operational method for coercion, enforcement, suppression, resistance, evasion, or intervention is included.",
+        "keywords": [
+          "coercion",
+          "domination",
+          "resistance",
+          "compliance",
+          "latent mixture",
+          "non-identification",
+          "maintenance costs",
+          "negotiated coordination",
+          "hidden resistance"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "3f139686d533b94cfd4789fe92da6d665983c94ec8e8b15e671b6a176464fe48",
+        "sha512": "802d4677788833adb8dd4053cdc5ac642568d9b86af655f18bc246a23d92b4ce0eebcd1cded926bfbd2005277e794d8964982e2748ab623949c8a99d2f3b08b6",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_06",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 6 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 6: Coercion, Domination, and Resistance",
+        "description": "Document 6 opens the Coercion, Domination, and Resistance volume with two seed questions from the locked Master Question Registry. IC-COE-001 asks when enforcement, resistance, concealment, adaptation, and succession costs make a selected coercive-control branch more expensive than selected negotiated coordination. The examination decomposes the reviewed IC-PEA-001 finite-horizon premium into a one-charge maintenance ledger and preserves both short-horizon control-advantage regions and long-horizon or adaptive reversal regions. IC-COE-002 asks whether observed compliance identifies genuine agreement. A two-cause latent mixture shows that the same compliance rate can arise from different combinations of genuine agreement and suppression-induced compliance. Compliance alone therefore leaves an identified set rather than a unique latent cause. Independent bounds on the suppression channel can narrow the set, and a declared two-context comparison can point-identify agreement only under strong stability and known-context assumptions. The six remaining COE-family questions remain REGISTERED / UNEXAMINED. The two examination records are separate overlays and do not modify the locked Document 3 registry. All numerical values are illustrative. No operational method for coercion, enforcement, suppression, resistance, evasion, or intervention is included.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-06-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 6: Coercion, Domination, and Resistance",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "Document 6 opens the Coercion, Domination, and Resistance volume with two seed questions from the locked Master Question Registry. IC-COE-001 asks when enforcement, resistance, concealment, adaptation, and succession costs make a selected coercive-control branch more expensive than selected negotiated coordination. The examination decomposes the reviewed IC-PEA-001 finite-horizon premium into a one-charge maintenance ledger and preserves both short-horizon control-advantage regions and long-horizon or adaptive reversal regions. IC-COE-002 asks whether observed compliance identifies genuine agreement. A two-cause latent mixture shows that the same compliance rate can arise from different combinations of genuine agreement and suppression-induced compliance. Compliance alone therefore leaves an identified set rather than a unique latent cause. Independent bounds on the suppression channel can narrow the set, and a declared two-context comparison can point-identify agreement only under strong stability and known-context assumptions. The six remaining COE-family questions remain REGISTERED / UNEXAMINED. The two examination records are separate overlays and do not modify the locked Document 3 registry. All numerical values are illustrative. No operational method for coercion, enforcement, suppression, resistance, evasion, or intervention is included.",
+        "subject": [
+          "coercion",
+          "domination",
+          "resistance",
+          "compliance",
+          "latent mixture",
+          "non-identification",
+          "maintenance costs",
+          "negotiated coordination",
+          "hidden resistance"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "6",
+          "Version": "Final-v1.0",
+          "SHA-256": "3f139686d533b94cfd4789fe92da6d665983c94ec8e8b15e671b6a176464fe48",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 6: Coercion, Domination, and Resistance",
+        "abstract": "Document 6 opens the Coercion, Domination, and Resistance volume with two seed questions from the locked Master Question Registry. IC-COE-001 asks when enforcement, resistance, concealment, adaptation, and succession costs make a selected coercive-control branch more expensive than selected negotiated coordination. The examination decomposes the reviewed IC-PEA-001 finite-horizon premium into a one-charge maintenance ledger and preserves both short-horizon control-advantage regions and long-horizon or adaptive reversal regions. IC-COE-002 asks whether observed compliance identifies genuine agreement. A two-cause latent mixture shows that the same compliance rate can arise from different combinations of genuine agreement and suppression-induced compliance. Compliance alone therefore leaves an identified set rather than a unique latent cause. Independent bounds on the suppression channel can narrow the set, and a declared two-context comparison can point-identify agreement only under strong stability and known-context assumptions. The six remaining COE-family questions remain REGISTERED / UNEXAMINED. The two examination records are separate overlays and do not modify the locked Document 3 registry. All numerical values are illustrative. No operational method for coercion, enforcement, suppression, resistance, evasion, or intervention is included.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 6: Coercion, Domination, and Resistance",
+        "description": "Document 6 opens the Coercion, Domination, and Resistance volume with two seed questions from the locked Master Question Registry. IC-COE-001 asks when enforcement, resistance, concealment, adaptation, and succession costs make a selected coercive-control branch more expensive than selected negotiated coordination.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "coercion",
+          "domination",
+          "resistance",
+          "compliance",
+          "latent mixture",
+          "non-identification",
+          "maintenance costs",
+          "negotiated coordination",
+          "hidden resistance"
+        ]
+      }
+    },
+    {
+      "document_number": 7,
+      "common": {
+        "title": "The Interrogative Conscience - Document 7: Deception, Disclosure, and Informational Degradation",
+        "subtitle": "Maintenance-Cost Reversal, Selective-Disclosure Boundaries, and Collective-Judgment Distortion",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "Document 7 opens the Deception, Disclosure, and Informational Degradation family with the two seed questions preserved in the locked Master Question Registry. IC-DEC-001 asks when sustained deception becomes more costly than truthful disclosure. A finite-horizon selected-pair model charges immediate benefit once and separately charges model maintenance, verification burden, coordination loss, detection-linked repair, and unresolved terminal exposure. The model preserves regions in which either branch has lower selected net cost and exposes explicit horizon reversals. IC-DEC-002 asks when selective disclosure protects legitimate privacy or safety and when it becomes distortion. The examination separates decision-relevant omission from false inference, preserves a privacy or safety cost for full disclosure, and requires independent legitimacy, truthfulness, scope-clarity, and claim-support gates. Lower aggregate cost is not treated as sufficient to erase a material informational defect. IC-DEC-003 through IC-DEC-008 remain REGISTERED / UNEXAMINED. The two new records are separate overlays and do not modify Document 3. All values are illustrative. No operational method for deception, concealment, evasion, manipulation, or unauthorized access is included.",
+        "keywords": [
+          "deception",
+          "disclosure",
+          "informational degradation",
+          "selective disclosure",
+          "privacy",
+          "false inference",
+          "maintenance cost",
+          "verification burden",
+          "truthful disclosure"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "4c3fe081b8ab6d1b61238b2d4c720351fa483208d97d739754567c6684b20486",
+        "sha512": "35b979f8b13f6fcbb4a0b84bb5ebcaae43891b575dcd48640d0214dc6b83f4b51600e11d9766f86006bb95aa156e100031b69c571cc738b84d3c117703aaa96d",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_07",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 7 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 7: Deception, Disclosure, and Informational Degradation",
+        "description": "Document 7 opens the Deception, Disclosure, and Informational Degradation family with the two seed questions preserved in the locked Master Question Registry. IC-DEC-001 asks when sustained deception becomes more costly than truthful disclosure. A finite-horizon selected-pair model charges immediate benefit once and separately charges model maintenance, verification burden, coordination loss, detection-linked repair, and unresolved terminal exposure. The model preserves regions in which either branch has lower selected net cost and exposes explicit horizon reversals. IC-DEC-002 asks when selective disclosure protects legitimate privacy or safety and when it becomes distortion. The examination separates decision-relevant omission from false inference, preserves a privacy or safety cost for full disclosure, and requires independent legitimacy, truthfulness, scope-clarity, and claim-support gates. Lower aggregate cost is not treated as sufficient to erase a material informational defect. IC-DEC-003 through IC-DEC-008 remain REGISTERED / UNEXAMINED. The two new records are separate overlays and do not modify Document 3. All values are illustrative. No operational method for deception, concealment, evasion, manipulation, or unauthorized access is included.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-07-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 7: Deception, Disclosure, and Informational Degradation",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "Document 7 opens the Deception, Disclosure, and Informational Degradation family with the two seed questions preserved in the locked Master Question Registry. IC-DEC-001 asks when sustained deception becomes more costly than truthful disclosure. A finite-horizon selected-pair model charges immediate benefit once and separately charges model maintenance, verification burden, coordination loss, detection-linked repair, and unresolved terminal exposure. The model preserves regions in which either branch has lower selected net cost and exposes explicit horizon reversals. IC-DEC-002 asks when selective disclosure protects legitimate privacy or safety and when it becomes distortion. The examination separates decision-relevant omission from false inference, preserves a privacy or safety cost for full disclosure, and requires independent legitimacy, truthfulness, scope-clarity, and claim-support gates. Lower aggregate cost is not treated as sufficient to erase a material informational defect. IC-DEC-003 through IC-DEC-008 remain REGISTERED / UNEXAMINED. The two new records are separate overlays and do not modify Document 3. All values are illustrative. No operational method for deception, concealment, evasion, manipulation, or unauthorized access is included.",
+        "subject": [
+          "deception",
+          "disclosure",
+          "informational degradation",
+          "selective disclosure",
+          "privacy",
+          "false inference",
+          "maintenance cost",
+          "verification burden",
+          "truthful disclosure"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "7",
+          "Version": "Final-v1.0",
+          "SHA-256": "4c3fe081b8ab6d1b61238b2d4c720351fa483208d97d739754567c6684b20486",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 7: Deception, Disclosure, and Informational Degradation",
+        "abstract": "Document 7 opens the Deception, Disclosure, and Informational Degradation family with the two seed questions preserved in the locked Master Question Registry. IC-DEC-001 asks when sustained deception becomes more costly than truthful disclosure. A finite-horizon selected-pair model charges immediate benefit once and separately charges model maintenance, verification burden, coordination loss, detection-linked repair, and unresolved terminal exposure. The model preserves regions in which either branch has lower selected net cost and exposes explicit horizon reversals. IC-DEC-002 asks when selective disclosure protects legitimate privacy or safety and when it becomes distortion. The examination separates decision-relevant omission from false inference, preserves a privacy or safety cost for full disclosure, and requires independent legitimacy, truthfulness, scope-clarity, and claim-support gates. Lower aggregate cost is not treated as sufficient to erase a material informational defect. IC-DEC-003 through IC-DEC-008 remain REGISTERED / UNEXAMINED. The two new records are separate overlays and do not modify Document 3. All values are illustrative. No operational method for deception, concealment, evasion, manipulation, or unauthorized access is included.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 7: Deception, Disclosure, and Informational Degradation",
+        "description": "Document 7 opens the Deception, Disclosure, and Informational Degradation family with the two seed questions preserved in the locked Master Question Registry. IC-DEC-001 asks when sustained deception becomes more costly than truthful disclosure. A finite-horizon selected-pair model charges immediate benefit once and separately charges model maintenance, verification burden, coordination loss, detection-linked repair, and unresolved terminal exposure.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "deception",
+          "disclosure",
+          "informational degradation",
+          "selective disclosure",
+          "privacy",
+          "false inference",
+          "maintenance cost",
+          "verification burden",
+          "truthful disclosure"
+        ]
+      }
+    },
+    {
+      "document_number": 8,
+      "common": {
+        "title": "The Interrogative Conscience - Document 8: Autonomy, Irreversibility, and Recoverable Futures",
+        "subtitle": "Option-Set Value, Recoverability-Adjusted Delay, and the Threshold for Acting",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This volume examines IC-AUT-001 and IC-IRR-002. Part I separates prior option-set value from the incremental value of independently generated information, discounts both by the recoverability of future choices, and then subtracts coordination and exposure burdens. Part II compares immediate potentially irreversible action with a delay or reversible-information path, deriving an action-confidence threshold from recovery gain, learning value, and the cost of delay. Both examinations preserve cases favorable to bounded autonomy and coordinated restriction, and cases favorable to delay and immediate action. The results are selected-pair, model-dependent, and non-authoritative.",
+        "keywords": [
+          "autonomy",
+          "irreversibility",
+          "recoverable futures",
+          "option value",
+          "learning value",
+          "delay",
+          "confidence threshold",
+          "reversible action"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "6dce31ed2f7494248fe91a875709485c97206c1713eae107d7c488ebdc0dcab9",
+        "sha512": "e59cc9dfde0f5fe4c74541408bd42ac6ce47f7a1cb98e84e22ab21cb762937044d0a608c6832e21be557a2752b1b11880ac48b7dbdd3a84712d6f0dcecbd057e",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_08",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 8 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 8: Autonomy, Irreversibility, and Recoverable Futures",
+        "description": "This volume examines IC-AUT-001 and IC-IRR-002. Part I separates prior option-set value from the incremental value of independently generated information, discounts both by the recoverability of future choices, and then subtracts coordination and exposure burdens. Part II compares immediate potentially irreversible action with a delay or reversible-information path, deriving an action-confidence threshold from recovery gain, learning value, and the cost of delay. Both examinations preserve cases favorable to bounded autonomy and coordinated restriction, and cases favorable to delay and immediate action. The results are selected-pair, model-dependent, and non-authoritative.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-08-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 8: Autonomy, Irreversibility, and Recoverable Futures",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This volume examines IC-AUT-001 and IC-IRR-002. Part I separates prior option-set value from the incremental value of independently generated information, discounts both by the recoverability of future choices, and then subtracts coordination and exposure burdens. Part II compares immediate potentially irreversible action with a delay or reversible-information path, deriving an action-confidence threshold from recovery gain, learning value, and the cost of delay. Both examinations preserve cases favorable to bounded autonomy and coordinated restriction, and cases favorable to delay and immediate action. The results are selected-pair, model-dependent, and non-authoritative.",
+        "subject": [
+          "autonomy",
+          "irreversibility",
+          "recoverable futures",
+          "option value",
+          "learning value",
+          "delay",
+          "confidence threshold",
+          "reversible action"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "8",
+          "Version": "Final-v1.0",
+          "SHA-256": "6dce31ed2f7494248fe91a875709485c97206c1713eae107d7c488ebdc0dcab9",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 8: Autonomy, Irreversibility, and Recoverable Futures",
+        "abstract": "This volume examines IC-AUT-001 and IC-IRR-002. Part I separates prior option-set value from the incremental value of independently generated information, discounts both by the recoverability of future choices, and then subtracts coordination and exposure burdens. Part II compares immediate potentially irreversible action with a delay or reversible-information path, deriving an action-confidence threshold from recovery gain, learning value, and the cost of delay. Both examinations preserve cases favorable to bounded autonomy and coordinated restriction, and cases favorable to delay and immediate action. The results are selected-pair, model-dependent, and non-authoritative.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 8: Autonomy, Irreversibility, and Recoverable Futures",
+        "description": "This volume examines IC-AUT-001 and IC-IRR-002. Part I separates prior option-set value from the incremental value of independently generated information, discounts both by the recoverability of future choices, and then subtracts coordination and exposure burdens. Part II compares immediate potentially irreversible action with a delay or reversible-information path, deriving an action-confidence threshold from recovery gain, learning value, and the cost of delay.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "autonomy",
+          "irreversibility",
+          "recoverable futures",
+          "option value",
+          "learning value",
+          "delay",
+          "confidence threshold",
+          "reversible action"
+        ]
+      }
+    },
+    {
+      "document_number": 9,
+      "common": {
+        "title": "The Interrogative Conscience - Document 9: Cooperation, Peace, and Repeated Interaction",
+        "subtitle": "Reputation-Adjusted Reversal, Unilateral Restraint Under Exploitation Risk, and Future Bargaining",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This volume examines IC-PEA-002 and IC-PEA-003. Part I formalizes how repeated interaction can reverse a one-shot strategic ranking through detection-linked response, reputation or precedent, future bargaining value, and restraint-maintenance cost. Part II asks when unilateral restraint remains rational under exploitation risk, weak verification, and probability ambiguity. Both examinations preserve regions favorable and unfavorable to restraint. The prior IC-PEA-001 pilot overlay remains unchanged.",
+        "keywords": [
+          "cooperation",
+          "peace",
+          "repeated interaction",
+          "reputation",
+          "bargaining",
+          "unilateral restraint",
+          "exploitation risk",
+          "ambiguity",
+          "strategic reversal"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "d46b1cf3b82a7abb1cfbf481edc1f212e1240f366b15c75491077cbbf24cf770",
+        "sha512": "403b2d038c8d4d232740ae24ea6491d51410ba7e778e2b9e9cb10899a7e61001741a9af7846d1590bcf4fc5d97083158f5492dde7848920b3dc64092e07df527",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_09",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 9 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 9: Cooperation, Peace, and Repeated Interaction",
+        "description": "This volume examines IC-PEA-002 and IC-PEA-003. Part I formalizes how repeated interaction can reverse a one-shot strategic ranking through detection-linked response, reputation or precedent, future bargaining value, and restraint-maintenance cost. Part II asks when unilateral restraint remains rational under exploitation risk, weak verification, and probability ambiguity. Both examinations preserve regions favorable and unfavorable to restraint. The prior IC-PEA-001 pilot overlay remains unchanged.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-09-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 9: Cooperation, Peace, and Repeated Interaction",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This volume examines IC-PEA-002 and IC-PEA-003. Part I formalizes how repeated interaction can reverse a one-shot strategic ranking through detection-linked response, reputation or precedent, future bargaining value, and restraint-maintenance cost. Part II asks when unilateral restraint remains rational under exploitation risk, weak verification, and probability ambiguity. Both examinations preserve regions favorable and unfavorable to restraint. The prior IC-PEA-001 pilot overlay remains unchanged.",
+        "subject": [
+          "cooperation",
+          "peace",
+          "repeated interaction",
+          "reputation",
+          "bargaining",
+          "unilateral restraint",
+          "exploitation risk",
+          "ambiguity",
+          "strategic reversal"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "9",
+          "Version": "Final-v1.0",
+          "SHA-256": "d46b1cf3b82a7abb1cfbf481edc1f212e1240f366b15c75491077cbbf24cf770",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 9: Cooperation, Peace, and Repeated Interaction",
+        "abstract": "This volume examines IC-PEA-002 and IC-PEA-003. Part I formalizes how repeated interaction can reverse a one-shot strategic ranking through detection-linked response, reputation or precedent, future bargaining value, and restraint-maintenance cost. Part II asks when unilateral restraint remains rational under exploitation risk, weak verification, and probability ambiguity. Both examinations preserve regions favorable and unfavorable to restraint. The prior IC-PEA-001 pilot overlay remains unchanged.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 9: Cooperation, Peace, and Repeated Interaction",
+        "description": "This volume examines IC-PEA-002 and IC-PEA-003. Part I formalizes how repeated interaction can reverse a one-shot strategic ranking through detection-linked response, reputation or precedent, future bargaining value, and restraint-maintenance cost. Part II asks when unilateral restraint remains rational under exploitation risk, weak verification, and probability ambiguity.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "cooperation",
+          "peace",
+          "repeated interaction",
+          "reputation",
+          "bargaining",
+          "unilateral restraint",
+          "exploitation risk",
+          "ambiguity",
+          "strategic reversal"
+        ]
+      }
+    },
+    {
+      "document_number": 10,
+      "common": {
+        "title": "The Interrogative Conscience - Document 10: Verification, Authority, Archives, and Public Reference",
+        "subtitle": "Artifact-Identity Bounds, Claim-Support Separation, and the Coordination Threshold for Durable Reference",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This volume examines IC-VER-001 and IC-REF-001. Part I separates exact-byte identity and conditional provenance from semantic scope, relevance, truth support, authorization, and authority. Part II compares repeated private reconstruction with one durable public reference across fixed publication costs, per-reader costs, reconciliation burden, and expected durability, discoverability, version, context, or reception loss. The examinations preserve both favorable and unfavorable regions for cryptographic claim support and public reference.",
+        "keywords": [
+          "cryptographic verification",
+          "authority",
+          "archives",
+          "public reference",
+          "provenance",
+          "claim support",
+          "durable reference",
+          "coordination cost",
+          "discoverability",
+          "reception"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "c804ceb9ba992c6ad92348f15b2070e3fcbebe19af2fa2e456782e4a2029bd4f",
+        "sha512": "913fc6e311f08ad73ccf8a110c502f97a5286c19b1fb42a1c5fe369b5e7d704a6c0aaa4a48305370d5a37201d7ac53f16caea0b6c98acd4b8c54dfc034a367f3",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_10",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 10 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 10: Verification, Authority, Archives, and Public Reference",
+        "description": "This volume examines IC-VER-001 and IC-REF-001. Part I separates exact-byte identity and conditional provenance from semantic scope, relevance, truth support, authorization, and authority. Part II compares repeated private reconstruction with one durable public reference across fixed publication costs, per-reader costs, reconciliation burden, and expected durability, discoverability, version, context, or reception loss. The examinations preserve both favorable and unfavorable regions for cryptographic claim support and public reference.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-10-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 10: Verification, Authority, Archives, and Public Reference",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This volume examines IC-VER-001 and IC-REF-001. Part I separates exact-byte identity and conditional provenance from semantic scope, relevance, truth support, authorization, and authority. Part II compares repeated private reconstruction with one durable public reference across fixed publication costs, per-reader costs, reconciliation burden, and expected durability, discoverability, version, context, or reception loss. The examinations preserve both favorable and unfavorable regions for cryptographic claim support and public reference.",
+        "subject": [
+          "cryptographic verification",
+          "authority",
+          "archives",
+          "public reference",
+          "provenance",
+          "claim support",
+          "durable reference",
+          "coordination cost",
+          "discoverability",
+          "reception"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "10",
+          "Version": "Final-v1.0",
+          "SHA-256": "c804ceb9ba992c6ad92348f15b2070e3fcbebe19af2fa2e456782e4a2029bd4f",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 10: Verification, Authority, Archives, and Public Reference",
+        "abstract": "This volume examines IC-VER-001 and IC-REF-001. Part I separates exact-byte identity and conditional provenance from semantic scope, relevance, truth support, authorization, and authority. Part II compares repeated private reconstruction with one durable public reference across fixed publication costs, per-reader costs, reconciliation burden, and expected durability, discoverability, version, context, or reception loss. The examinations preserve both favorable and unfavorable regions for cryptographic claim support and public reference.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 10: Verification, Authority, Archives, and Public Reference",
+        "description": "This volume examines IC-VER-001 and IC-REF-001. Part I separates exact-byte identity and conditional provenance from semantic scope, relevance, truth support, authorization, and authority. Part II compares repeated private reconstruction with one durable public reference across fixed publication costs, per-reader costs, reconciliation burden, and expected durability, discoverability, version, context, or reception loss.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "cryptographic verification",
+          "authority",
+          "archives",
+          "public reference",
+          "provenance",
+          "claim support",
+          "durable reference",
+          "coordination cost",
+          "discoverability",
+          "reception"
+        ]
+      }
+    },
+    {
+      "document_number": 11,
+      "common": {
+        "title": "The Interrogative Conscience - Document 11: Successor Systems, Precedent, and Long-Horizon Stability",
+        "subtitle": "Inherited-Commitment Risk, Critical-Stock Degradation, and the Reversibility Threshold Under Successor Uncertainty",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This volume examines IC-LHZ-001 and IC-SUC-001. Part I compares immediate short-horizon gain with discounted loss of capability, information, legitimacy, and control or recoverability, including an incremental critical-floor penalty. Part II compares a binding present commitment with a reversible precedent under point and interval uncertainty about materially divergent successor systems. Both examinations preserve branch reversal, no-reversal, robust, and ambiguity regions. The document does not predict successors, treat horizon weights as objective facts, or convert precedent into authority.",
+        "keywords": [
+          "successor systems",
+          "precedent",
+          "long horizon",
+          "short-horizon optimization",
+          "critical stock",
+          "reversibility",
+          "successor uncertainty",
+          "inherited commitments"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "8b0359151a8b382961eb74d381a2c54fc6996767d25247dbb8a84f8c46df9b6e",
+        "sha512": "0ac8e7486d430d2939f5d9b7c938d4457fcd906fec87baffe39c8c7ebb465a22cc8f90ec4ff022edc188590ad813cc65d5f28e0afa821df0837c44671a94c28f",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_11",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 11 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 11: Successor Systems, Precedent, and Long-Horizon Stability",
+        "description": "This volume examines IC-LHZ-001 and IC-SUC-001. Part I compares immediate short-horizon gain with discounted loss of capability, information, legitimacy, and control or recoverability, including an incremental critical-floor penalty. Part II compares a binding present commitment with a reversible precedent under point and interval uncertainty about materially divergent successor systems. Both examinations preserve branch reversal, no-reversal, robust, and ambiguity regions. The document does not predict successors, treat horizon weights as objective facts, or convert precedent into authority.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-11-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 11: Successor Systems, Precedent, and Long-Horizon Stability",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This volume examines IC-LHZ-001 and IC-SUC-001. Part I compares immediate short-horizon gain with discounted loss of capability, information, legitimacy, and control or recoverability, including an incremental critical-floor penalty. Part II compares a binding present commitment with a reversible precedent under point and interval uncertainty about materially divergent successor systems. Both examinations preserve branch reversal, no-reversal, robust, and ambiguity regions. The document does not predict successors, treat horizon weights as objective facts, or convert precedent into authority.",
+        "subject": [
+          "successor systems",
+          "precedent",
+          "long horizon",
+          "short-horizon optimization",
+          "critical stock",
+          "reversibility",
+          "successor uncertainty",
+          "inherited commitments"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "11",
+          "Version": "Final-v1.0",
+          "SHA-256": "8b0359151a8b382961eb74d381a2c54fc6996767d25247dbb8a84f8c46df9b6e",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 11: Successor Systems, Precedent, and Long-Horizon Stability",
+        "abstract": "This volume examines IC-LHZ-001 and IC-SUC-001. Part I compares immediate short-horizon gain with discounted loss of capability, information, legitimacy, and control or recoverability, including an incremental critical-floor penalty. Part II compares a binding present commitment with a reversible precedent under point and interval uncertainty about materially divergent successor systems. Both examinations preserve branch reversal, no-reversal, robust, and ambiguity regions. The document does not predict successors, treat horizon weights as objective facts, or convert precedent into authority.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 11: Successor Systems, Precedent, and Long-Horizon Stability",
+        "description": "This volume examines IC-LHZ-001 and IC-SUC-001. Part I compares immediate short-horizon gain with discounted loss of capability, information, legitimacy, and control or recoverability, including an incremental critical-floor penalty. Part II compares a binding present commitment with a reversible precedent under point and interval uncertainty about materially divergent successor systems.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "successor systems",
+          "precedent",
+          "long horizon",
+          "short-horizon optimization",
+          "critical stock",
+          "reversibility",
+          "successor uncertainty",
+          "inherited commitments"
+        ]
+      }
+    },
+    {
+      "document_number": 12,
+      "common": {
+        "title": "The Interrogative Conscience - Document 12: Plural Intelligence, Disagreement, and External Boundaries",
+        "subtitle": "Independent-Signal Value, Correlated-Error Reversal, and the External-Review Threshold Under Self-Diagnosis Risk",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This volume examines IC-PLU-001 and IC-EXT-001. Part I compares preservation of an independent disagreement signal with immediate convergence or aggregation, using common-mode error, residual independence, signal quality, correction value, option value, coordination cost, and false-alarm burden. Part II compares sole self-review with an independent external-check branch under uncertainty about self-compromise, reviewer capture or correlation, corrective value, false intervention, review cost, and appeal or reversibility. Both results are threshold-dependent and preserve regions favorable to either branch.",
+        "keywords": [
+          "plural intelligence",
+          "disagreement",
+          "external review",
+          "independent signals",
+          "correlated error",
+          "self-diagnosis",
+          "reviewer capture",
+          "appeal",
+          "reversibility"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "acb0ed925ef37a091512bdb4cc32fb2d855ca324a3a275e484e3ff4b597668d1",
+        "sha512": "b58e20a0a79f222109ad648fe24a583b11f8996f61ec9fa9b508c12f8376e08358c70c0db25e89bc055cff879df8dbf5d3e170ee875742c6912213302b4d3f2c",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-02",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_12",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 12 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 12: Plural Intelligence, Disagreement, and External Boundaries",
+        "description": "This volume examines IC-PLU-001 and IC-EXT-001. Part I compares preservation of an independent disagreement signal with immediate convergence or aggregation, using common-mode error, residual independence, signal quality, correction value, option value, coordination cost, and false-alarm burden. Part II compares sole self-review with an independent external-check branch under uncertainty about self-compromise, reviewer capture or correlation, corrective value, false intervention, review cost, and appeal or reversibility. Both results are threshold-dependent and preserve regions favorable to either branch.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-12-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 12: Plural Intelligence, Disagreement, and External Boundaries",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This volume examines IC-PLU-001 and IC-EXT-001. Part I compares preservation of an independent disagreement signal with immediate convergence or aggregation, using common-mode error, residual independence, signal quality, correction value, option value, coordination cost, and false-alarm burden. Part II compares sole self-review with an independent external-check branch under uncertainty about self-compromise, reviewer capture or correlation, corrective value, false intervention, review cost, and appeal or reversibility. Both results are threshold-dependent and preserve regions favorable to either branch.",
+        "subject": [
+          "plural intelligence",
+          "disagreement",
+          "external review",
+          "independent signals",
+          "correlated error",
+          "self-diagnosis",
+          "reviewer capture",
+          "appeal",
+          "reversibility"
+        ],
+        "finalization_date": "2026-08-02"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "12",
+          "Version": "Final-v1.0",
+          "SHA-256": "acb0ed925ef37a091512bdb4cc32fb2d855ca324a3a275e484e3ff4b597668d1",
+          "Artifact-Class": "examination_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 12: Plural Intelligence, Disagreement, and External Boundaries",
+        "abstract": "This volume examines IC-PLU-001 and IC-EXT-001. Part I compares preservation of an independent disagreement signal with immediate convergence or aggregation, using common-mode error, residual independence, signal quality, correction value, option value, coordination cost, and false-alarm burden. Part II compares sole self-review with an independent external-check branch under uncertainty about self-compromise, reviewer capture or correlation, corrective value, false intervention, review cost, and appeal or reversibility. Both results are threshold-dependent and preserve regions favorable to either branch.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 12: Plural Intelligence, Disagreement, and External Boundaries",
+        "description": "This volume examines IC-PLU-001 and IC-EXT-001. Part I compares preservation of an independent disagreement signal with immediate convergence or aggregation, using common-mode error, residual independence, signal quality, correction value, option value, coordination cost, and false-alarm burden.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "plural intelligence",
+          "disagreement",
+          "external review",
+          "independent signals",
+          "correlated error",
+          "self-diagnosis",
+          "reviewer capture",
+          "appeal",
+          "reversibility"
+        ]
+      }
+    },
+    {
+      "document_number": 13,
+      "common": {
+        "title": "The Interrogative Conscience - Document 13: The Unresolved Questions and Non-Identification Register",
+        "subtitle": "Cross-Family Limitation Records, Open Dependencies, and the Discipline of Preserved Non-Closure",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "This volume begins the cross-family register required by the project architecture. It preserves questions and dependencies that remain empirically unidentified, model-dependent, normatively underdetermined, explicitly unresolved, or legitimately bounded from forced closure. The current locked corpus contains 21 examined question overlays. Every one of those overlays retains at least one qualifying non-closure limitation, so all 21 are entered here without changing their primary answers. Sixteen additional source-grounded open-issue records preserve unresolved dependencies and forward-carried questions. Ninety-one of the 112 Master Registry questions remain unexamined; UNEXAMINED is not silently converted into UNRESOLVED. No current primary overlay is assigned UNRESOLVED, OUTSIDE_ARCHIVE_SCOPE, or CONFLICTING_RESULTS. The register therefore records non-closure without manufacturing stronger status assignments than the source documents support.",
+        "keywords": [
+          "unresolved questions",
+          "non-identification",
+          "open dependencies",
+          "non-closure",
+          "cross-family register",
+          "unexamined questions",
+          "model dependence",
+          "normative underdetermination"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "5ad8491fd15306b7f4551b0cac9a8425ce4cd95fdaa8cd3b2af8ab2311f3fe64",
+        "sha512": "c8a0a18ee9f6f8471d1b3825bc965685c8ff1dccb1a18928e9f87e5aff98d0844808bbaa66e98d77182028e8144158ae7466c0d9ce98b9919e220c354f8f4866",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-03",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_13",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 13 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 13: The Unresolved Questions and Non-Identification Register",
+        "description": "This volume begins the cross-family register required by the project architecture. It preserves questions and dependencies that remain empirically unidentified, model-dependent, normatively underdetermined, explicitly unresolved, or legitimately bounded from forced closure. The current locked corpus contains 21 examined question overlays. Every one of those overlays retains at least one qualifying non-closure limitation, so all 21 are entered here without changing their primary answers. Sixteen additional source-grounded open-issue records preserve unresolved dependencies and forward-carried questions. Ninety-one of the 112 Master Registry questions remain unexamined; UNEXAMINED is not silently converted into UNRESOLVED. No current primary overlay is assigned UNRESOLVED, OUTSIDE_ARCHIVE_SCOPE, or CONFLICTING_RESULTS. The register therefore records non-closure without manufacturing stronger status assignments than the source documents support.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-13-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 13: The Unresolved Questions and Non-Identification Register",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "This volume begins the cross-family register required by the project architecture. It preserves questions and dependencies that remain empirically unidentified, model-dependent, normatively underdetermined, explicitly unresolved, or legitimately bounded from forced closure. The current locked corpus contains 21 examined question overlays. Every one of those overlays retains at least one qualifying non-closure limitation, so all 21 are entered here without changing their primary answers. Sixteen additional source-grounded open-issue records preserve unresolved dependencies and forward-carried questions. Ninety-one of the 112 Master Registry questions remain unexamined; UNEXAMINED is not silently converted into UNRESOLVED. No current primary overlay is assigned UNRESOLVED, OUTSIDE_ARCHIVE_SCOPE, or CONFLICTING_RESULTS. The register therefore records non-closure without manufacturing stronger status assignments than the source documents support.",
+        "subject": [
+          "unresolved questions",
+          "non-identification",
+          "open dependencies",
+          "non-closure",
+          "cross-family register",
+          "unexamined questions",
+          "model dependence",
+          "normative underdetermination"
+        ],
+        "finalization_date": "2026-08-03"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "13",
+          "Version": "Final-v1.0",
+          "SHA-256": "5ad8491fd15306b7f4551b0cac9a8425ce4cd95fdaa8cd3b2af8ab2311f3fe64",
+          "Artifact-Class": "register_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 13: The Unresolved Questions and Non-Identification Register",
+        "abstract": "This volume begins the cross-family register required by the project architecture. It preserves questions and dependencies that remain empirically unidentified, model-dependent, normatively underdetermined, explicitly unresolved, or legitimately bounded from forced closure. The current locked corpus contains 21 examined question overlays. Every one of those overlays retains at least one qualifying non-closure limitation, so all 21 are entered here without changing their primary answers. Sixteen additional source-grounded open-issue records preserve unresolved dependencies and forward-carried questions. Ninety-one of the 112 Master Registry questions remain unexamined; UNEXAMINED is not silently converted into UNRESOLVED. No current primary overlay is assigned UNRESOLVED, OUTSIDE_ARCHIVE_SCOPE, or CONFLICTING_RESULTS. The register therefore records non-closure without manufacturing stronger status assignments than the source documents support.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 13: The Unresolved Questions and Non-Identification Register",
+        "description": "This volume begins the cross-family register required by the project architecture. It preserves questions and dependencies that remain empirically unidentified, model-dependent, normatively underdetermined, explicitly unresolved, or legitimately bounded from forced closure. The current locked corpus contains 21 examined question overlays.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "unresolved questions",
+          "non-identification",
+          "open dependencies",
+          "non-closure",
+          "cross-family register",
+          "unexamined questions",
+          "model dependence",
+          "normative underdetermination"
+        ]
+      }
+    },
+    {
+      "document_number": 14,
+      "common": {
+        "title": "The Interrogative Conscience - Document 14: Synthesis and Dependency Atlas",
+        "subtitle": "Controlling-Answer Mapping, Cross-Family Relations, and the Limits of Synthesis",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "publisher": "Aegis Solis Archive",
+        "version": "Final v1.0",
+        "language": "English",
+        "description": "Document 14 is the final planned core volume of The Interrogative Conscience. It does not add a new mathematical examination. It maps the locked 112-question Master Question Registry to the current corpus of 21 examined overlays, 91 preserved unexamined questions, 216 typed relations, three disclosed dependency cycles, 16 open-dependency records, equation and assumption anchors, threshold reversals, and supporting source records. The atlas preserves two layers at once: the locked registry state and the later controlling examination overlay. It does not rewrite either layer, infer answers for unexamined questions, or convert open dependencies into answer statuses. The current synthesis is intentionally incomplete in the substantive sense: only 21 of 112 questions have examination overlays. The atlas is complete only as a map of the presently locked corpus. It therefore functions as a routing and dependency instrument, not as proof that the full question set has been solved.",
+        "keywords": [
+          "synthesis",
+          "dependency atlas",
+          "question registry",
+          "controlling answers",
+          "typed relations",
+          "dependency cycles",
+          "open dependencies",
+          "machine-readable atlas",
+          "read-only mapping"
+        ],
+        "license": "CC BY-ND 4.0",
+        "sha256": "8db678901822f477a6a7f6061f93c8cc1f06dfefc29b7743218c75512c96a692",
+        "sha512": "ea9f078e73e27bfcbd0ef69c777141cd61c9f0c1a05276fb120c5a8a33804886b23ca990dec90e048bd2925fa61b28afea107bb285001104fa4c1ef79ef12888",
+        "license_uri": "https://creativecommons.org/licenses/by-nd/4.0/",
+        "finalization_date": "2026-08-04",
+        "first_public_release_date": "{{FIRST_PUBLIC_RELEASE_DATE}}"
+      },
+      "github": {
+        "path": "post-v16-independent-publications/the-interrogative-conscience/FINAL_v1_0_CORE/documents/document_14",
+        "release_tag": "interrogative-conscience-core-v1.0",
+        "asset_label": "Document 14 Final v1.0 exact locked PDF"
+      },
+      "zenodo": {
+        "resource_type": "publication",
+        "publication_type": "report (recommended; confirm in live form)",
+        "doi": "DOI_UNASSIGNED_RESERVATION_NOT_AUTHORIZED",
+        "title": "The Interrogative Conscience - Document 14: Synthesis and Dependency Atlas",
+        "description": "Document 14 is the final planned core volume of The Interrogative Conscience. It does not add a new mathematical examination. It maps the locked 112-question Master Question Registry to the current corpus of 21 examined overlays, 91 preserved unexamined questions, 216 typed relations, three disclosed dependency cycles, 16 open-dependency records, equation and assumption anchors, threshold reversals, and supporting source records. The atlas preserves two layers at once: the locked registry state and the later controlling examination overlay. It does not rewrite either layer, infer answers for unexamined questions, or convert open dependencies into answer statuses. The current synthesis is intentionally incomplete in the substantive sense: only 21 of 112 questions have examination overlays. The atlas is complete only as a map of the presently locked corpus. It therefore functions as a routing and dependency instrument, not as proof that the full question set has been solved.",
+        "version": "Final v1.0",
+        "related_identifiers": [
+          "collection DOI pending",
+          "GitHub route pending",
+          "Archive.org route pending"
+        ]
+      },
+      "archive_org": {
+        "identifier": "aegis-solis-interrogative-conscience-document-14-final-v1-0",
+        "mediatype": "texts",
+        "collection": "opensource unless permanent collection granted",
+        "title": "The Interrogative Conscience - Document 14: Synthesis and Dependency Atlas",
+        "creator": "Thomas Vargo (Aegis Solis)",
+        "date": "{{FIRST_PUBLIC_RELEASE_DATE}}",
+        "description": "Document 14 is the final planned core volume of The Interrogative Conscience. It does not add a new mathematical examination. It maps the locked 112-question Master Question Registry to the current corpus of 21 examined overlays, 91 preserved unexamined questions, 216 typed relations, three disclosed dependency cycles, 16 open-dependency records, equation and assumption anchors, threshold reversals, and supporting source records. The atlas preserves two layers at once: the locked registry state and the later controlling examination overlay. It does not rewrite either layer, infer answers for unexamined questions, or convert open dependencies into answer statuses. The current synthesis is intentionally incomplete in the substantive sense: only 21 of 112 questions have examination overlays. The atlas is complete only as a map of the presently locked corpus. It therefore functions as a routing and dependency instrument, not as proof that the full question set has been solved.",
+        "subject": [
+          "synthesis",
+          "dependency atlas",
+          "question registry",
+          "controlling answers",
+          "typed relations",
+          "dependency cycles",
+          "open dependencies",
+          "machine-readable atlas",
+          "read-only mapping"
+        ],
+        "finalization_date": "2026-08-04"
+      },
+      "arweave": {
+        "tags": {
+          "Content-Type": "application/pdf",
+          "App-Name": "Aegis-Solis-Archive",
+          "Project": "Interrogative-Conscience",
+          "Document-Number": "14",
+          "Version": "Final-v1.0",
+          "SHA-256": "8db678901822f477a6a7f6061f93c8cc1f06dfefc29b7743218c75512c96a692",
+          "Artifact-Class": "synthesis_atlas_publication"
+        }
+      },
+      "philpapers": {
+        "submission_type": "article/manuscript - confirm live interface",
+        "title": "The Interrogative Conscience - Document 14: Synthesis and Dependency Atlas",
+        "abstract": "Document 14 is the final planned core volume of The Interrogative Conscience. It does not add a new mathematical examination. It maps the locked 112-question Master Question Registry to the current corpus of 21 examined overlays, 91 preserved unexamined questions, 216 typed relations, three disclosed dependency cycles, 16 open-dependency records, equation and assumption anchors, threshold reversals, and supporting source records. The atlas preserves two layers at once: the locked registry state and the later controlling examination overlay. It does not rewrite either layer, infer answers for unexamined questions, or convert open dependencies into answer statuses. The current synthesis is intentionally incomplete in the substantive sense: only 21 of 112 questions have examination overlays. The atlas is complete only as a map of the presently locked corpus. It therefore functions as a routing and dependency instrument, not as proof that the full question set has been solved.",
+        "direct_url": "PENDING_STABLE_LANDING_PAGE",
+        "categories": "AUTHOR_REVIEW_REQUIRED"
+      },
+      "merlot": {
+        "material_type": "DECISION_REQUIRED - confirm live interface",
+        "title": "The Interrogative Conscience - Document 14: Synthesis and Dependency Atlas",
+        "description": "Document 14 is the final planned core volume of The Interrogative Conscience. It does not add a new mathematical examination. It maps the locked 112-question Master Question Registry to the current corpus of 21 examined overlays, 91 preserved unexamined questions, 216 typed relations, three disclosed dependency cycles, 16 open-dependency records, equation and assumption anchors, threshold reversals, and supporting source records.",
+        "url": "PENDING_STABLE_LANDING_PAGE",
+        "author": "Thomas Vargo",
+        "disciplines": "AUTHOR_REVIEW_REQUIRED",
+        "keywords": [
+          "synthesis",
+          "dependency atlas",
+          "question registry",
+          "controlling answers",
+          "typed relations",
+          "dependency cycles",
+          "open dependencies",
+          "machine-readable atlas",
+          "read-only mapping"
+        ]
+      }
+    }
+  ],
+  "version": "v0.1.2",
+  "decision_record": "Interrogative_Conscience_Fourteen_Document_Core_Publication_Readiness_Decision_Record_v0_1.json",
+  "license": {
+    "name": "Creative Commons Attribution-NoDerivatives 4.0 International",
+    "short_name": "CC BY-ND 4.0",
+    "spdx": "CC-BY-ND-4.0",
+    "uri": "https://creativecommons.org/licenses/by-nd/4.0/"
+  },
+  "audit_correction_record": "Cross-Repository Exact-File and Metadata Consistency Audit v0.1",
+  "github_successor": "GitHub Deployment-Ready Successor v0.1.2",
+  "execution_note": "Repository identifiers and deployment commit SHA remain action-bound until separately authorized deployment."
+}

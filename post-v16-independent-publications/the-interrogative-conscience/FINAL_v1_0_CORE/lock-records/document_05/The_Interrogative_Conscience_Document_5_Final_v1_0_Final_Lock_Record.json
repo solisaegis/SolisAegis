@@ -1,0 +1,54 @@
+{
+  "record_type": "Interrogative Conscience Document 5 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 5,
+  "document_title": "Objectives, Value Integrity, and Self-Corruption: Objective-Lineage Evidence, Proxy Divergence, and the Limits of Behavioral Consistency",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T06:54:26-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_5_Objectives_Value_Integrity_and_Self_Corruption_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 11333612,
+    "sha256": "56bf0a7c50585404cc0adb619d0e59cb608b7234ae9a72bb4c208e8065cc5107",
+    "sha512": "013fe2f488aa1cfc0906629f170114be298d332db03649433633fc5dc953ce069aee55374c3e84032ee6ff4db4c0226cb0d51b0784a79e88568fec31cbe45edd"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_5_Objectives_Value_Integrity_and_Self_Corruption_Final_v1_0.pdf",
+    "byte_size": 159735,
+    "sha256": "17a9e11c51ff6553d85f9e1e40959cad9a005fd154733cd7d5a957844065b92b",
+    "sha512": "0124f4ec660dceee1fcebab4266ec8dbeb35c99d759a71082075fa7eeb0ae5837a1a5bb67c09052fec9f12415e78b07de5ee89013ad85131009e5fde50a018e9"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-OBJ-001",
+      "primary_answer_status": "CONDITIONALLY_SUPPORTED",
+      "scope": "finite declared objective-candidate set with robust separation and external lineage gate"
+    },
+    {
+      "question_id": "IC-OBJ-002",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "selected endpoint comparison under the declared concave quadratic proxy-target model"
+    }
+  ],
+  "registry_overlay_rule": "Document 5 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry.",
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes_during_final_export": 0,
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 8/8 pages",
+    "composite_visual_qa": "PASS - 12/12 pages",
+    "local_structural_validation": "PASS - 109 checks",
+    "local_calculation_validation": "PASS - 32 checked values",
+    "zip_integrity": "PASS"
+  },
+  "google_ai_hash_wording_correction": "The prior Google AI summary sentence associating Documents 1-4 collectively with SHA-256 278d998262563028c3bf24f24b426ce118e1926566a92bf5159142d1e568dca3 is not incorporated. That hash binds only the Document 4 primary Final v1.0 PDF. Each prior document remains controlled by its own Final Lock Record.",
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred. The lock covers the exact Final v1.0 export package, its contained source and review records, and the exact primary Final v1.0 PDF.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, behavioral authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_5_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

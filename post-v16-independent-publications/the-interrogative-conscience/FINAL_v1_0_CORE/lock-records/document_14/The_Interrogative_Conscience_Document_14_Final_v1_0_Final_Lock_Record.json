@@ -1,0 +1,133 @@
+{
+  "record_type": "INTERROGATIVE_CONSCIENCE_FINAL_LOCK_RECORD",
+  "record_version": "1.0",
+  "document_number": 14,
+  "document_title": "The Interrogative Conscience - Synthesis and Dependency Atlas",
+  "document_subtitle": "Controlling-Answer Mapping, Cross-Family Relations, and the Limits of Synthesis",
+  "final_version": "Final v1.0",
+  "lock_timestamp": "2026-08-04T17:54:28-04:00",
+  "lock_status": "FINAL v1.0 - CRYPTOGRAPHICALLY LOCKED",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "authorial_lock_authorization": {
+    "response": "Full explicit authorization",
+    "context": "Separate cryptographic-lock gate following completion and validation of the exact Final v1.0 export.",
+    "authorization_record": "Thomas_Vargo_Document_14_Cryptographic_Lock_Authorization_2026-08-04.json"
+  },
+  "primary_final_artifacts": {
+    "human_readable_pdf": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0.pdf",
+      "bytes": 197919,
+      "sha256": "8db678901822f477a6a7f6061f93c8cc1f06dfefc29b7743218c75512c96a692",
+      "sha512": "ea9f078e73e27bfcbd0ef69c777141cd61c9f0c1a05276fb120c5a8a33804886b23ca990dec90e048bd2925fa61b28afea107bb285001104fa4c1ef79ef12888"
+    },
+    "machine_readable_json_atlas": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0.json",
+      "bytes": 223103,
+      "sha256": "9c6fb5bbb693e153a9f98899e5151fe44733dd12feb00487f5613f4b035b8dd4",
+      "sha512": "ec95f782ee26de7e7f2e78944e9fd4ed3903035488363effceafdec507daacab8b25da9b80289493aae2ae229e615b56b1eaec0d54998965576465b7045568a8"
+    },
+    "question_atlas_csv": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0_Question_Atlas.csv",
+      "bytes": 51997,
+      "sha256": "cf2bf3fbe17025b02d26a55e909ba51c0295783acd290ca6ea58a9503a6fa733",
+      "sha512": "a6cb67ab67ae1d17cab48aaa16014e4e216ddcc719b455ea4dd2e5611063292247eb483ac3419145fda9dcca7459db5ccd699ef377b8784040511839d30b8d23"
+    },
+    "relations_csv": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0_Relations.csv",
+      "bytes": 7526,
+      "sha256": "fcfbec0311af4bf61e571665ec1ad680c054019bd16263f7fa6e2b2e9189c609",
+      "sha512": "5d9e641c46ff4db7ee88ae428ab039c8c56b9734bc8a8599cfeff2c42ec68783582afb7b439b5bdfd7c1cae5b6b2a998346d155a95846588d3efc907cb6b33ab"
+    },
+    "examined_answer_map_csv": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0_Examined_Answer_Map.csv",
+      "bytes": 11642,
+      "sha256": "8f0e145b203c04fcc8fc46e407f8f3331c0d98b3a8058d1f1ef3c2afe0394a60",
+      "sha512": "a1a89c33f8fc701ab200c37c92cb521931b32b9ca37eeb1a077888fe5f2f4f3d61f9998a7b75e13528aff87e55150c179b52d192ee37116c11be3fcbd076b8de"
+    }
+  },
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0_Exact_Export_Package.zip",
+    "bytes": 1760033,
+    "sha256": "511b3154ee4478fccc93a0870d87c218a6a6b0502f5777134c882a9cc4b961a6",
+    "sha512": "46f80a85e60fe86b8c58e429b3c77602bb67c436c29eaf47b86905a818d487a7ffda93407f4d48c01d7af87ec2418c510f1cbd62bde2b34f37c2d8b2a7067f67"
+  },
+  "exact_export_zip_entries": 62,
+  "review_lineage": {
+    "draft_v0_1_exact_review_package": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Draft_v0_1_Exact_Review_Package.zip",
+      "bytes": 470408,
+      "sha256": "092df82ceeb48170ebcb76f5d8eec352f41bea63ad0c509e5026cea58b73757a",
+      "sha512": "58ac68ee0df934d2dde9779b3765db071a34246787661d5ae6f39bbf5877395d30421431b8aa31b4c8c3842835399e52ba609605c7ded4f6c006a86a8aae5028"
+    },
+    "claude_disposition": "PASS WITH NON-BLOCKING NOTES",
+    "claude_blocking_defects": 0,
+    "claude_required_corrections": 0,
+    "claude_notes": [
+      "UTF-8 BOM on CSV first headers",
+      "IC-SUC-001 threshold represented in equation anchors",
+      "carried linked_canonical_questions dictionary shape"
+    ],
+    "google_ai_disposition": "PASS WITH NON-BLOCKING NOTES",
+    "google_ai_blocking_defects": 0,
+    "google_ai_required_corrections": 0,
+    "google_ai_note": "Pilot equation and assumption anchors are mirrored through locked registry summaries.",
+    "final_v1_0_candidate_exact_review_package": {
+      "filename": "The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0_Candidate_Exact_Review_Package.zip",
+      "bytes": 481981,
+      "sha256": "54a978fa352534f4201baf1bb0e9d9c22742e8ffd5c3d35b36c4d721701b8ad0",
+      "sha512": "a575ac4664b1fd2c888c0cfa4360daf7742a28cf1cdfcf706aae6f595892a4cc621b83c8d77e9858d17bf2d5e0328e49fed7934e0bd9a0fe77bee4190765abf6"
+    },
+    "candidate_exact_version_review": "SKIPPED_UNDER_LEAN_PROMOTION_PROTOCOL_AFTER_DUAL_REVIEW_AND_ZERO_DRIFT_VALIDATION",
+    "authorial_human_review_complete": true,
+    "promotion_only_candidate_authorized": true,
+    "exact_final_v1_0_construction_authorized": true,
+    "cryptographic_lock_authorized": true
+  },
+  "content_integrity": {
+    "source_body_pixel_identity": "PASS - 16/16 pages",
+    "final_pdf_pages": 19,
+    "source_content_changes_after_dual_review": 0,
+    "substantive_json_section_changes": 0,
+    "csv_byte_changes": 0,
+    "final_pdf_preflight": "PASS",
+    "final_pdf_visual_QA": "PASS - 19/19 pages",
+    "structural_validation": "PASS - 40/40 checks",
+    "exact_export_manifest_failures": 0,
+    "exact_export_zip_integrity": "PASS"
+  },
+  "scope": {
+    "registry_questions": 112,
+    "families": 14,
+    "examined_overlays": 21,
+    "unexamined_questions": 91,
+    "typed_relations": 216,
+    "disclosed_dependency_cycles": 3,
+    "open_dependency_records": 16,
+    "registered_conflicts_with_edges": 0,
+    "master_question_registry_modified": false,
+    "documents_1_13_modified": false
+  },
+  "semantic_boundary": "Locked registry state remains separate from later examination overlays. UNEXAMINED is not converted into UNRESOLVED. The atlas maps registered relations and does not infer unregistered CONFLICTS_WITH edges or resolve disclosed dependency cycles.",
+  "controlling_predecessor_continuity": {
+    "filename": "Aegis_Solis_Interrogative_Conscience_Documents_1_13_Reconstructed_Successor_Continuity_Package_v1_0.zip",
+    "bytes": 424118379,
+    "sha256": "67c0772c07c0030a263477c42cad53bb8106b40a6f55c755ff1ed8c1ce7b6daa",
+    "sha512": "6bc4e1c894d3d89640cdd45d81466b531fc5b18c6ca7ed40a226e479952caa8745e07dabd5bedccd1fb2ff9e2ce0152fe4255723a84ef65af3ab1516013d0ff0",
+    "embedded": false,
+    "reason_not_embedded": "Size; identity is carried by reference only."
+  },
+  "deferred": "Independent empirical resolution of conditional parameters and execution against any original unmounted external validator binaries remain outside this atlas lock and are not claimed.",
+  "publication_and_preservation": {
+    "publication_authorized": false,
+    "publication_complete": false,
+    "external_preservation_authorized": false,
+    "external_preservation_complete": false,
+    "successor_master_hash_manifest_authorized": false,
+    "tracker_update_authorized": false,
+    "intake_update_authorized": false,
+    "documents_1_14_continuity_successor_authorized": false,
+    "post_core_work_authorized": false
+  },
+  "future_change_rule": "No post-lock edit is authorized. Any substantive or administrative change to the locked Final v1.0 artifacts requires a separately versioned successor and must not overwrite or silently replace this locked identity.",
+  "authority_boundary": "The lock establishes artifact identity and lifecycle finality only. It does not establish empirical truth, mathematical authority, governance authority, intervention authority, operational authority, or external independent human peer review."
+}

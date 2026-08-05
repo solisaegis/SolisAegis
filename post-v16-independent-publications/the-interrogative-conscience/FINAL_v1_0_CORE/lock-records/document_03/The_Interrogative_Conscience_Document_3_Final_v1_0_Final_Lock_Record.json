@@ -1,0 +1,33 @@
+{
+  "record_type": "Interrogative Conscience Document 3 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 3,
+  "document_title": "The Master Question Registry",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-07-31T22:54:21-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_3_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 2405388,
+    "sha256": "40a67ca7942bfdf95b5943c49415571412fa9389439474ba344a7eeec02dba98",
+    "sha512": "f75d6a5b4cabd04d3c8f5ef85024a5aa3b31201601621ce66c0a0e5c35f3dcc8df354d9db1692a56767718d896ac35aea1df0a9c86d4312b998b5e352fb439aa"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_The_Master_Question_Registry_Final_v1_0.pdf",
+    "sha256": "0253968609ef470c34aeaee2cc8f47179e44ab7150398215ce4741f160574fa2",
+    "sha512": "3ad7df3154abea61a94e6c103644a5a58f739df3fe12b5db89acfe31d2ba1140217e5340b49fff08a3dd21d97db11a9492916d774e33d3c34e04fa0f56c63d47"
+  },
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes": 0,
+    "exact_authorized_package_hashes_reverified": true
+  },
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, or independent peer review.",
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, addition, or replacement must be issued as a separately versioned successor record.",
+  "external_independent_human_peer_review": false,
+  "document_2_companion_binary_qualification": null,
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Foundation_Lock_Authorization_2026-07-31.txt"
+}

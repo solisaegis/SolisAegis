@@ -1,0 +1,20 @@
+check_id,check,classification,status
+PRE-01,All 14 primary PDFs match locked SHA-256/SHA-512,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+PRE-02,All machine-readable companions match locked sources,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+PRE-03,License selected explicitly,hard stop,PASS - CC BY-ND 4.0 SELECTED
+PRE-04,No DOI or URL inserted into locked source bytes,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+PRE-05,"D2, D9, D10 qualifications visible",required,PENDING - NO PLATFORM ACTION AUTHORIZED
+PRE-06,Repository metadata snapshot author-approved,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+PRE-07,Arweave cost and tags author-approved,hard stop,PENDING - NO PLATFORM ACTION AUTHORIZED
+POST-01,Download each public file and recompute SHA-256/SHA-512,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+POST-02,Resolve every DOI and public landing page,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+POST-03,Verify Archive.org tasks and mediatype,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+POST-04,Verify Arweave through at least two gateways and preserve receipts,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+POST-05,Open every PhilPapers and MERLOT link manually,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+POST-06,Record failures without overwriting locked files,required,PENDING - NO PLATFORM ACTION AUTHORIZED
+DEC-01,Fourteen individual record model recorded,decision,PASS
+DEC-02,Separate collection/discovery record recorded,decision,PASS
+DEC-03,Continuity package excluded from normal Git history,decision,PASS
+DEC-04,Initial Arweave scope excludes 433 MB continuity ZIP,decision,PASS
+DEC-05,Locked-artifact identifier insertion prohibited,decision,PASS
+AUTH-01,No upload/deposit/DOI reservation/transaction/submission authorization,hard boundary,PASS

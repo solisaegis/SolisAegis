@@ -1,0 +1,8 @@
+collection/release_inventory.json
+collection/repository_metadata_templates.json
+collection/atlas/graph.json
+machine-readable/document_03/
+machine-readable/document_13/
+machine-readable/document_14/
+
+License: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)

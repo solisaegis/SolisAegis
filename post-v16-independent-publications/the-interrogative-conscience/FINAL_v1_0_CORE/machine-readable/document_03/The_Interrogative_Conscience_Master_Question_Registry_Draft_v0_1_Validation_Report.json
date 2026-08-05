@@ -1,0 +1,114 @@
+{
+  "report_name": "Interrogative Conscience Document 3 Draft v0.1 Master Registry Validation",
+  "date": "2026-07-31",
+  "result": "PASS",
+  "schema_validation": {
+    "status": "PASS",
+    "errors": 0,
+    "schema": "The_Interrogative_Conscience_Master_Question_Registry_JSON_Schema_Draft_v0_1.json"
+  },
+  "identity": {
+    "question_count": 112,
+    "unique_question_ids": 112,
+    "family_count": 14,
+    "family_counts": {
+      "AUT": 8,
+      "COE": 8,
+      "DEC": 8,
+      "EPI": 8,
+      "EXT": 8,
+      "IRR": 8,
+      "LHZ": 8,
+      "OBJ": 8,
+      "PEA": 8,
+      "PLU": 8,
+      "REF": 8,
+      "SUC": 8,
+      "UNR": 8,
+      "VER": 8
+    },
+    "questions_per_family": [
+      8
+    ]
+  },
+  "lineage": {
+    "seed_questions_expected": 28,
+    "seed_questions_present": 28,
+    "seed_preservation_errors": [],
+    "new_questions": 84
+  },
+  "status_counts": {
+    "priority": {
+      "HIGH": 67,
+      "FOUNDATIONAL": 27,
+      "MEDIUM": 18
+    },
+    "work_state": {
+      "REGISTERED": 109,
+      "REVIEWED": 3
+    },
+    "answer_status": {
+      "UNEXAMINED": 109,
+      "THRESHOLD_DEPENDENT": 3
+    }
+  },
+  "relations": {
+    "relation_count": 216,
+    "unresolved_or_invalid_relations": [],
+    "dependency_cycle_policy": "PERMITTED_IF_DISCLOSED",
+    "strongly_connected_components": [
+      [
+        "IC-EPI-002",
+        "IC-IRR-001"
+      ],
+      [
+        "IC-EXT-001",
+        "IC-OBJ-001"
+      ],
+      [
+        "IC-COE-001",
+        "IC-PEA-001"
+      ]
+    ],
+    "component_count": 3,
+    "cycle_resolution_claimed": false
+  },
+  "required_document_3_questions": {
+    "multi_agent_restraint_present": true,
+    "self_falsifiability_present": true
+  },
+  "pilot_status_overlay": {
+    "IC-IRR-001": {
+      "work_state": "REVIEWED",
+      "answer_status": "THRESHOLD_DEPENDENT",
+      "examination_link_present": true
+    },
+    "IC-PEA-001": {
+      "work_state": "REVIEWED",
+      "answer_status": "THRESHOLD_DEPENDENT",
+      "examination_link_present": true
+    },
+    "IC-EXT-002": {
+      "work_state": "REVIEWED",
+      "answer_status": "THRESHOLD_DEPENDENT",
+      "examination_link_present": true
+    }
+  },
+  "admission": {
+    "all_questions_pass_all_ten_criteria": true,
+    "questions_not_reviewed_as_document_3_records": 112
+  },
+  "boundary": {
+    "restricted_operational_detail_detected": false,
+    "non_authority_boundary_present": true,
+    "finalization_authorized": false,
+    "cryptographic_lock_authorized": false
+  },
+  "forward_carried": [
+    "The 112 question records require exact-version substantive, adversarial, identification, boundary, dependency, and machine-readable review.",
+    "Question admission remains provisional until Draft v0.1 review is complete.",
+    "The disclosed dependency cycles require later Document 2 treatment if any dependent examination proceeds.",
+    "Only three questions currently have reviewed examinations; the remaining 109 remain UNEXAMINED.",
+    "External independent human peer review has not been performed."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "record_type": "GitHub designated release-asset identity record",
+  "status": "DESIGNATED_RELEASE_ASSET_PENDING_SEPARATE_UPLOAD_AUTHORIZATION",
+  "asset_filename": "Aegis_Solis_Interrogative_Conscience_Documents_1_14_Reconstructed_Successor_Continuity_Package_v1_0.zip",
+  "bytes": 433058687,
+  "sha256": "5783cc465d74ff8f09c28890a970b9bebea2f268f8d2861138929b7c8627845e",
+  "sha512": "1577573dbef4ce0f84281763479abc6f6bdeb57b9f937a13b46f4ac54c10efc125d047693be45b6beb7e1ba6d691a39ba8057d050a67ce1132d4ba0691508b5e",
+  "classification": "PORTABLE_CONTINUITY_AND_RESTART_ARTIFACT_NOT_A_FIFTEENTH_SUBSTANTIVE_DOCUMENT",
+  "proposed_release_tag": "interrogative-conscience-core-v1.0",
+  "normal_git_history": false,
+  "proposed_handling": "GITHUB_RELEASE_ASSET_OR_EXTERNAL_PRESERVATION_ONLY",
+  "github_current_constraint_basis": {
+    "normal_git_hard_block_bytes": 104857600,
+    "release_asset_individual_limit_bytes": 2147483648,
+    "release_asset_count_limit": 1000,
+    "total_release_size_limit": "NONE_STATED_BY_GITHUB",
+    "official_sources": [
+      "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+      "https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases"
+    ]
+  },
+  "upload_authorized": false,
+  "publication_authorized": false,
+  "boundaries": [
+    "asset not embedded in this staging package",
+    "asset must not be committed to normal Git history",
+    "release upload requires separate explicit authorization",
+    "permanent Document 9/10 and v5.65 loss qualifications remain controlling"
+  ],
+  "availability_note": "Verify the live GitHub Release before relying on asset availability.",
+  "action_binding": "Upload may occur only under a separate explicit GitHub action authorization."
+}

@@ -1,0 +1,33 @@
+{
+  "record_type": "Interrogative Conscience Document 2 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 2,
+  "document_title": "Mathematical Examination and Machine-Readable Standard",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-07-31T22:54:21-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_2_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 454830,
+    "sha256": "c5dc54957277e3bc5379ea43a1bf45291b891c58bcfacf950a4eb245a0579085",
+    "sha512": "d7550de0d854653dbb36bd4c5035ca5a574e7c6b01522f08af8396eebb2816d6c922724e38e9e1c2c0417dd282870d7074882a35d0d86deed45eff3a757e7964"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Mathematical_Examination_and_Machine_Readable_Standard_Final_v1_0.pdf",
+    "sha256": "bbbbcfe96558b8aa38402dc2b4cbc872ddeb1f7716860d8853dcfa2bbf5cec2f",
+    "sha512": "36ab00fc4b39a2d81b76237b96ecaeab011e502e148f50a4e0c3b409d8dee436c3237005811798445f03423bcd002b15454bf969eadc27b85650273eee3e0869"
+  },
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes": 0,
+    "exact_authorized_package_hashes_reverified": true
+  },
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, or independent peer review.",
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, addition, or replacement must be issued as a separately versioned successor record.",
+  "external_independent_human_peer_review": false,
+  "document_2_companion_binary_qualification": "This lock covers the exact human-readable Final v1.0 export package and the supporting artifacts contained within it. It does not claim that the unmounted Draft v0.3 machine-readable companion binaries (schema, progressive template, I-01 through I-20 validator, and cross-pilot reports) are embedded or separately hash-locked. Their complete companion-bundle preservation remains a separate supporting-artifact task.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Foundation_Lock_Authorization_2026-07-31.txt"
+}

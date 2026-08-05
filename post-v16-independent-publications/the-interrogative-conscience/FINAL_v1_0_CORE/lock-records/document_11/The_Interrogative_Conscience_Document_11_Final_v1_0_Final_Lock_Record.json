@@ -1,0 +1,95 @@
+{
+  "record_type": "Interrogative Conscience Document 11 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 11,
+  "document_title": "Successor Systems, Precedent, and Long-Horizon Stability: Inherited-Commitment Risk, Critical-Stock Degradation, and the Reversibility Threshold Under Successor Uncertainty",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T15:31:52-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_11_Successor_Systems_Precedent_and_Long_Horizon_Stability_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 534090,
+    "sha256": "9391a4d49a679e92f2f0be9e2e7c3d5a2fad79723fd8817fbeeeeaf69caf67c6",
+    "sha512": "33ba6a82f9b63f6b1326e86974a07ae16b9d30edba28fdd83a204a28f54bf3181c2f8620741cb5ad4da0d5669b372be9078d97925daf7a1b6cb0b1eaab2d6074"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_11_Successor_Systems_Precedent_and_Long_Horizon_Stability_Final_v1_0.pdf",
+    "byte_size": 119309,
+    "sha256": "8b0359151a8b382961eb74d381a2c54fc6996767d25247dbb8a84f8c46df9b6e",
+    "sha512": "0ac8e7486d430d2939f5d9b7c938d4457fcd906fec87baffe39c8c7ebb465a22cc8f90ec4ff022edc188590ad813cc65d5f28e0afa821df0837c44671a94c28f"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-LHZ-001",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_limits": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ]
+    },
+    {
+      "question_id": "IC-SUC-001",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_limits": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ]
+    }
+  ],
+  "registry_overlay_rule": "Document 11 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry.",
+  "long_horizon_qualification": {
+    "sign_convention": "Delta_LHZ > 0 favors preservation; Delta_LHZ < 0 favors the short-horizon branch.",
+    "G_star": 4.8,
+    "Delta_T4": -2.0,
+    "Delta_T5": 0.5,
+    "first_positive_integer_reversal": 5,
+    "critical_floor_penalty": "Incremental below-floor penalty; not a duplicate charge for ordinary stock degradation.",
+    "discount_barrier": {
+      "G_infinity": "2/3",
+      "limiting_stock_contribution": 2.0,
+      "G_star_approx": 2.667,
+      "reversal": false
+    }
+  },
+  "successor_qualification": {
+    "sign_convention": "Delta_SUC > 0 favors reversible precedent; Delta_SUC < 0 favors binding commitment.",
+    "pi_star": 0.625,
+    "Delta_pi_0_10": -8.4,
+    "Delta_pi_0_70": 1.2,
+    "robust_interval_minimum": 1.2,
+    "ambiguity_interval": [
+      -2.0,
+      2.8
+    ],
+    "no_reversal_pi_star": 3.0,
+    "Delta_pi_1": -6.0,
+    "M_scope": "Bounded expected successor exposure or precedent reach; not universal adoption."
+  },
+  "dependency_qualification": "IC-SUC-001 DEPENDS_ON IC-LHZ-001 through a one-way non-circular relationship.",
+  "authority_boundary": "Strategic precedent, mathematical comparison, archive preservation, and present commitment do not create authority over a successor system.",
+  "scalar_vector_qualification": "Scalar comparisons do not erase consent, legitimacy, plural values, asymmetric vulnerability, catastrophic risk, successor autonomy, or other unrepresented dimensions.",
+  "google_review_clarification": "Google AI narrative incorrectly described Delta_LHZ(T=4)=-2.0 as preservation-favorable. The controlling sign convention makes it short-horizon-favorable. The mathematics and PASS AS FINAL CANDIDATE disposition remain unchanged.",
+  "candidate_package_qualification": "The reviewed 3.25 GB Final-Candidate Review Package v0.2 was not freshly rehashed during Final v1.0 export construction. Its recorded identity and validation evidence were preserved.",
+  "validation_disposition": {
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 2/2 pages",
+    "composite_visual_QA": "PASS - 6/6 pages",
+    "local_structural_validation": "PASS - 40 checks",
+    "local_calculation_validation": "PASS - 66 checked values",
+    "source_token_consistency": "PASS - 20/20; Claude independent content check PASS",
+    "exact_export_zip_integrity": "PASS - 34 entries",
+    "nested_zip_integrity": "PASS - 1/1 nested ZIP",
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "post_authorization_substantive_changes": 0
+  },
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_11_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

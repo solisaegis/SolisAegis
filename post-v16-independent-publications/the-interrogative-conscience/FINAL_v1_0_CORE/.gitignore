@@ -1,0 +1,16 @@
+# Never place the complete continuity ZIP in normal Git history
+Aegis_Solis_Interrogative_Conscience_Documents_1_14_Reconstructed_Successor_Continuity_Package_v1_0.zip
+*.part001
+*.part002
+*.part003
+*.part004
+*.part005
+*.part006
+*.part007
+*.part008
+*.part009
+
+# Local staging and OS files
+.DS_Store
+Thumbs.db
+*.tmp

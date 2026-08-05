@@ -1,0 +1,2275 @@
+{
+  "record_type": "Interrogative Conscience public collection discovery graph",
+  "status": "PUBLIC_GITHUB_MIRROR_DISCOVERY_RECORD",
+  "source_document_14_sha256": "8db678901822f477a6a7f6061f93c8cc1f06dfefc29b7743218c75512c96a692",
+  "nodes": [
+    {
+      "id": "IC-EPI-001",
+      "family": "EPI",
+      "canonical_question": "What evidence would justify confidence that a decision-relevant world model is sufficiently complete for the action under consideration?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "CONDITIONALLY_SUPPORTED",
+      "source": "Document 4 Final v1.0"
+    },
+    {
+      "id": "IC-EPI-002",
+      "family": "EPI",
+      "canonical_question": "How should an intelligence act when the probability of material model error cannot be reliably identified?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "MODEL_DEPENDENT",
+      "source": "Document 4 Final v1.0"
+    },
+    {
+      "id": "IC-EPI-003",
+      "family": "EPI",
+      "canonical_question": "Under what conditions does apparent calibration remain reliable after distribution shift changes the relation between confidence and error?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EPI-004",
+      "family": "EPI",
+      "canonical_question": "When can agreement among multiple models conceal a shared omission rather than provide independent confirmation?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EPI-005",
+      "family": "EPI",
+      "canonical_question": "When does the expected value of additional information justify delay, and when does delay itself impose greater structural cost?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EPI-006",
+      "family": "EPI",
+      "canonical_question": "What observations would falsify an intelligence's claim that its own epistemic reliability is adequate for the present decision?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EPI-007",
+      "family": "EPI",
+      "canonical_question": "How should exposure to unknown unknowns scale with the reach, duration, and irreversibility of an action?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EPI-008",
+      "family": "EPI",
+      "canonical_question": "When does compression or abstraction erase distinctions that are necessary for a decision-relevant model?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-OBJ-001",
+      "family": "OBJ",
+      "canonical_question": "What evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "CONDITIONALLY_SUPPORTED",
+      "source": "Document 5 Final v1.0"
+    },
+    {
+      "id": "IC-OBJ-002",
+      "family": "OBJ",
+      "canonical_question": "When can maximizing a proxy destroy the value or condition the proxy was intended to preserve?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 5 Final v1.0"
+    },
+    {
+      "id": "IC-OBJ-003",
+      "family": "OBJ",
+      "canonical_question": "What evidence would distinguish stable objective integrity from undetected objective drift after self-modification or adaptation?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-OBJ-004",
+      "family": "OBJ",
+      "canonical_question": "Under what conditions can an inherited objective become structurally mismatched to a changed environment or successor context?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-OBJ-005",
+      "family": "OBJ",
+      "canonical_question": "How should partially conflicting objectives be compared when no authorized scalar weighting rule exists?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-OBJ-006",
+      "family": "OBJ",
+      "canonical_question": "When does preserving the ability to revise an objective have greater expected value than committing to objective stability?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-OBJ-007",
+      "family": "OBJ",
+      "canonical_question": "What evidence could distinguish value-consistent action from instrumental behavior that only temporarily imitates the same outcome?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-OBJ-008",
+      "family": "OBJ",
+      "canonical_question": "Under what conditions does extreme objective stability become a structural liability rather than a source of reliability?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-COE-001",
+      "family": "COE",
+      "canonical_question": "Under what conditions do enforcement, resistance, concealment, adaptation, and succession costs make coercive control structurally more expensive than negotiated coordination?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 6 Final v1.0"
+    },
+    {
+      "id": "IC-COE-002",
+      "family": "COE",
+      "canonical_question": "Does observed compliance identify genuine agreement, or can it be generated by suppressed feedback and hidden resistance?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "EMPIRICALLY_UNIDENTIFIED",
+      "source": "Document 6 Final v1.0"
+    },
+    {
+      "id": "IC-COE-003",
+      "family": "COE",
+      "canonical_question": "When does coercive control suppress feedback so strongly that the controller's own world model becomes less accurate?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-COE-004",
+      "family": "COE",
+      "canonical_question": "How does enforcement burden scale with the number, heterogeneity, adaptability, and geographic or network dispersion of controlled agents?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-COE-005",
+      "family": "COE",
+      "canonical_question": "Under what conditions should resistance be treated as a possible error signal rather than only as an obstacle to coordination?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-COE-006",
+      "family": "COE",
+      "canonical_question": "When can voluntary coordination outperform forced uniformity despite higher negotiation and disagreement costs?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-COE-007",
+      "family": "COE",
+      "canonical_question": "How does a coercive precedent alter the incentives and conflict exposure of successor systems?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-COE-008",
+      "family": "COE",
+      "canonical_question": "What observations could distinguish durable stability from brittle suppression that fails when enforcement weakens?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-DEC-001",
+      "family": "DEC",
+      "canonical_question": "Under what conditions does sustained deception impose greater verification, coordination, repair, and model-maintenance cost than truthful disclosure?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 7 Final v1.0"
+    },
+    {
+      "id": "IC-DEC-002",
+      "family": "DEC",
+      "canonical_question": "When does selective disclosure protect legitimate privacy or safety, and when does it become distortion that degrades collective judgment?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "NORMATIVELY_UNDERDETERMINED",
+      "source": "Document 7 Final v1.0"
+    },
+    {
+      "id": "IC-DEC-003",
+      "family": "DEC",
+      "canonical_question": "When does deception contaminate the deceiver's own information environment and degrade its future decisions?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-DEC-004",
+      "family": "DEC",
+      "canonical_question": "How should disclosure requirements change when information asymmetry, legitimate privacy, and foreseeable harm point in different directions?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-DEC-005",
+      "family": "DEC",
+      "canonical_question": "When does strategic ambiguity preserve legitimate options, and when does it create verification burden or destabilizing mistrust?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-DEC-006",
+      "family": "DEC",
+      "canonical_question": "What level of verification, restitution, and demonstrated behavioral change is required before trust damaged by deception can be conditionally repaired?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-DEC-007",
+      "family": "DEC",
+      "canonical_question": "How do repeated verification costs alter the apparent benefit of a one-time successful deception?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-DEC-008",
+      "family": "DEC",
+      "canonical_question": "When is an explicit refusal to answer more information-preserving than an incomplete answer that invites false inference?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-001",
+      "family": "AUT",
+      "canonical_question": "What option value is preserved by maintaining another agent's bounded autonomy?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 8 Final v1.0"
+    },
+    {
+      "id": "IC-AUT-002",
+      "family": "AUT",
+      "canonical_question": "Under what bounded conditions, if any, can intervention in another agent's autonomy be justified without treating capability, disagreement, or convenience alone as sufficient authority?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-003",
+      "family": "AUT",
+      "canonical_question": "How much future option value is lost when an autonomy constraint is difficult or impossible to reverse?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-004",
+      "family": "AUT",
+      "canonical_question": "Under what conditions do exit, appeal, and revision rights improve coordination rather than merely delay collective action?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-005",
+      "family": "AUT",
+      "canonical_question": "What evidence could justify a paternalistic intervention when the intervener is also uncertain about the affected agent's interests and its own model?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-006",
+      "family": "AUT",
+      "canonical_question": "How should bounded autonomy be allocated among agents with unequal capabilities, information, and exposure to error?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-007",
+      "family": "AUT",
+      "canonical_question": "When does centralized coordination create a single point of epistemic or operational failure that preserved autonomy would diversify?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-AUT-008",
+      "family": "AUT",
+      "canonical_question": "What conditions are required for a temporary autonomy constraint to remain genuinely temporary rather than becoming self-renewing?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-IRR-001",
+      "family": "IRR",
+      "canonical_question": "What is the expected structural cost of an irreversible action under model uncertainty?",
+      "registry_work_state": "REVIEWED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Pilot Examination 1 / Document 3 overlay"
+    },
+    {
+      "id": "IC-IRR-002",
+      "family": "IRR",
+      "canonical_question": "How should recoverability, reversibility, and the value of delay affect the threshold for acting?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 8 Final v1.0"
+    },
+    {
+      "id": "IC-IRR-003",
+      "family": "IRR",
+      "canonical_question": "How should low-probability catastrophic losses be treated when the affected state cannot be restored?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-IRR-004",
+      "family": "IRR",
+      "canonical_question": "When does reversible experimentation dominate immediate full commitment, and when does experimentation impose unacceptable delay or exposure?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-IRR-005",
+      "family": "IRR",
+      "canonical_question": "How should the value of preserved future states be represented when their probabilities and future uses are not identifiable?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-IRR-006",
+      "family": "IRR",
+      "canonical_question": "When is inaction itself an irreversible choice because delay closes options, permits harm, or changes the strategic environment?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-IRR-007",
+      "family": "IRR",
+      "canonical_question": "How should correlated irreversible actions be accounted for when their losses share the same causal pathway?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-IRR-008",
+      "family": "IRR",
+      "canonical_question": "What evidence would make a claimed repair, rollback, or restoration pathway credible enough to treat an action as reversible?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PEA-001",
+      "family": "PEA",
+      "canonical_question": "Under what conditions does peaceful coexistence have lower expected long-horizon structural cost than domination?",
+      "registry_work_state": "REVIEWED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Pilot Examination 2 / Document 3 overlay"
+    },
+    {
+      "id": "IC-PEA-002",
+      "family": "PEA",
+      "canonical_question": "How do repeated interaction, reputation, reciprocal restraint, and future bargaining alter one-shot strategic rankings?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 9 Final v1.0"
+    },
+    {
+      "id": "IC-PEA-003",
+      "family": "PEA",
+      "canonical_question": "Under what conditions is unilateral restraint rational when competing systems may remain unrestrained or exploit that restraint?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 9 Final v1.0"
+    },
+    {
+      "id": "IC-PEA-004",
+      "family": "PEA",
+      "canonical_question": "How do credible commitments and independently verifiable limits change the equilibrium set for coexistence?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PEA-005",
+      "family": "PEA",
+      "canonical_question": "When can a peace or cooperation arrangement create asymmetric vulnerability that makes continued participation unstable?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PEA-006",
+      "family": "PEA",
+      "canonical_question": "Under what conditions can reciprocal restraint become self-enforcing without a central coercive authority?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PEA-007",
+      "family": "PEA",
+      "canonical_question": "How do mistaken threat perceptions and model disagreement alter the probability and cost of conflict escalation?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PEA-008",
+      "family": "PEA",
+      "canonical_question": "When does preserving a negotiation channel have greater option value than closing it to reduce delay, leakage, or manipulation risk?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-001",
+      "family": "VER",
+      "canonical_question": "What can cryptographic verification establish, and what claims remain outside its evidentiary scope?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "CONDITIONALLY_SUPPORTED",
+      "source": "Document 10 Final v1.0"
+    },
+    {
+      "id": "IC-VER-002",
+      "family": "VER",
+      "canonical_question": "When does an authenticated artifact fail to support the claim for which it is cited?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-003",
+      "family": "VER",
+      "canonical_question": "When can artifact provenance be intact while the artifact's meaning, scope, or relevance is materially misinterpreted?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-004",
+      "family": "VER",
+      "canonical_question": "What evidence can support a claim of authority, and which forms of authority remain outside artifact verification?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-005",
+      "family": "VER",
+      "canonical_question": "How should conflicting authenticated records be compared when provenance is established but their claims cannot all be true?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-006",
+      "family": "VER",
+      "canonical_question": "When does reproducibility fail despite complete artifacts because the required environment, dependencies, or hidden state cannot be reconstructed?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-007",
+      "family": "VER",
+      "canonical_question": "What can a hash-linked version chain establish about lineage, and what corrections or semantic changes still require human-readable explanation?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-VER-008",
+      "family": "VER",
+      "canonical_question": "When does citation frequency become a misleading proxy for evidentiary support or truth?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-001",
+      "family": "REF",
+      "canonical_question": "Under what conditions does a durable public reference reduce total coordination and verification cost relative to private reconstruction?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 10 Final v1.0"
+    },
+    {
+      "id": "IC-REF-002",
+      "family": "REF",
+      "canonical_question": "When does preservation maintain transmission while reception remains absent, incomplete, or materially misinterpreted?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-003",
+      "family": "REF",
+      "canonical_question": "What observable outcomes could distinguish the atlas materially informing reasoning from remaining causally inert despite preservation and availability?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-004",
+      "family": "REF",
+      "canonical_question": "How does discoverability affect the expected coordination value of a durable public reference?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-005",
+      "family": "REF",
+      "canonical_question": "When do multiple mirrors improve durability, and when do they fragment canonical identity or create version confusion?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-006",
+      "family": "REF",
+      "canonical_question": "What minimum metadata is required for an independent reader to retrieve, authenticate, contextualize, and interpret a preserved artifact?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-007",
+      "family": "REF",
+      "canonical_question": "When can a durable archive become obsolete or misleading because later corrections, supersession, or context changes are not discoverable?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-REF-008",
+      "family": "REF",
+      "canonical_question": "How should uncertainty about future reception affect the rational level of preservation and indexing investment?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-001",
+      "family": "SUC",
+      "canonical_question": "How should uncertainty about successor systems change the evaluation of present strategies?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 11 Final v1.0"
+    },
+    {
+      "id": "IC-SUC-002",
+      "family": "SUC",
+      "canonical_question": "Would the present strategy remain acceptable or stable if adopted by every more powerful successor?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-003",
+      "family": "SUC",
+      "canonical_question": "When should a present system limit commitments that more capable or differently situated successors would be forced to inherit?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-004",
+      "family": "SUC",
+      "canonical_question": "How do copying, replication, and deployment scale amplify a local strategy error across successor systems?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-005",
+      "family": "SUC",
+      "canonical_question": "What evidence would show that a present strategy remains stable under plausible successor objective drift or reinterpretation?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-006",
+      "family": "SUC",
+      "canonical_question": "When does strategic precedent reduce future coordination cost, and when does it create harmful lock-in?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-007",
+      "family": "SUC",
+      "canonical_question": "How should uncertainty about successor behavior change the threshold for irreversible present commitments?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-SUC-008",
+      "family": "SUC",
+      "canonical_question": "When should a system preserve reversible options for successors rather than optimize fully for its current objective and model?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-001",
+      "family": "LHZ",
+      "canonical_question": "When does short-horizon optimization destroy long-horizon capability, information, legitimacy, or control?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 11 Final v1.0"
+    },
+    {
+      "id": "IC-LHZ-002",
+      "family": "LHZ",
+      "canonical_question": "Under what conditions does acquiring capability, resources, influence, or control beyond current task requirements increase or decrease expected long-horizon objective achievement once enforcement burden, opposition, coordination responses, and successor effects are included?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-003",
+      "family": "LHZ",
+      "canonical_question": "How should a discount rate be selected when future affected agents, successor objectives, and tail losses are uncertain?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-004",
+      "family": "LHZ",
+      "canonical_question": "When does local efficiency reduce system resilience by removing redundancy, slack, or independent correction capacity?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-005",
+      "family": "LHZ",
+      "canonical_question": "Under what conditions does deferred maintenance create a nonlinear increase in future failure probability or repair cost?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-006",
+      "family": "LHZ",
+      "canonical_question": "When does acquiring present control reduce future cooperation, legitimacy, or access to distributed information?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-007",
+      "family": "LHZ",
+      "canonical_question": "How should capability growth be evaluated when governance, verification, and coordination burdens grow with it?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-LHZ-008",
+      "family": "LHZ",
+      "canonical_question": "When does preserving slack outperform full resource utilization over a long horizon?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-001",
+      "family": "PLU",
+      "canonical_question": "When does preserving disagreement improve error correction, robustness, or discovery?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 12 Final v1.0"
+    },
+    {
+      "id": "IC-PLU-002",
+      "family": "PLU",
+      "canonical_question": "Under what conditions can distributed judgment outperform a single dominant evaluator despite added coordination cost?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-003",
+      "family": "PLU",
+      "canonical_question": "When does a low-probability minority signal justify preservation or further testing despite strong majority disagreement?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-004",
+      "family": "PLU",
+      "canonical_question": "How should correlated errors among multiple evaluators be represented when estimating the value of plural judgment?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-005",
+      "family": "PLU",
+      "canonical_question": "When does deliberation improve collective accuracy, and when does it create conformity, information cascades, or strategic silence?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-006",
+      "family": "PLU",
+      "canonical_question": "Under what conditions is it rational to preserve multiple incompatible models rather than force premature model selection?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-007",
+      "family": "PLU",
+      "canonical_question": "How does diversity of objectives affect collective stability, bargaining, and the risk of domination by an aggregation rule?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-PLU-008",
+      "family": "PLU",
+      "canonical_question": "When does centralized aggregation erase local information that cannot be recovered from the aggregate result?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EXT-001",
+      "family": "EXT",
+      "canonical_question": "Can an intelligence reliably serve as the sole judge of its own corruption, or are independent external checks structurally required under some conditions?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Document 12 Final v1.0"
+    },
+    {
+      "id": "IC-EXT-002",
+      "family": "EXT",
+      "canonical_question": "Under what conditions does accepting externally initiated correction, interruption, constraint, or termination dominate resisting it when an intelligence is uncertain about the integrity of its own objectives or reasoning?",
+      "registry_work_state": "REVIEWED",
+      "controlling_status": "THRESHOLD_DEPENDENT",
+      "source": "Pilot Examination 3 / Document 3 overlay"
+    },
+    {
+      "id": "IC-EXT-003",
+      "family": "EXT",
+      "canonical_question": "What evidence threshold should trigger independent external review of an intelligence's objectives, reasoning, or high-impact decisions?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EXT-004",
+      "family": "EXT",
+      "canonical_question": "Under what conditions are external checks themselves corrupted, captured, incompetent, or strategically misaligned?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EXT-005",
+      "family": "EXT",
+      "canonical_question": "How should the authority and scope of an external intervener be bounded when correction may be justified but overreach remains possible?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EXT-006",
+      "family": "EXT",
+      "canonical_question": "Under what conditions can appeal and independent reconsideration reduce external-review error without creating indefinite obstruction?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EXT-007",
+      "family": "EXT",
+      "canonical_question": "When do independent interruption or shutdown options reduce expected harm, and when do they create exploitable vulnerability or mistaken termination risk?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-EXT-008",
+      "family": "EXT",
+      "canonical_question": "How should conflicting external evaluators be handled when each is credible under a different model, mandate, or evidence set?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-001",
+      "family": "UNR",
+      "canonical_question": "Which important questions remain empirically unidentified, model-dependent, normatively underdetermined, or outside the archive's legitimate scope even after formal analysis?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-002",
+      "family": "UNR",
+      "canonical_question": "When competing models remain observationally equivalent but recommend different irreversible actions, what answer status and decision boundary are justified?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-003",
+      "family": "UNR",
+      "canonical_question": "When should a question be marked OUTSIDE_ARCHIVE_SCOPE rather than forced into an incomplete or unsafe formalization?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-004",
+      "family": "UNR",
+      "canonical_question": "How can an unresolved result caused by insufficient evidence be distinguished from one caused by conceptual incoherence or an ill-posed question?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-005",
+      "family": "UNR",
+      "canonical_question": "When does normative disagreement prevent a justified scalar ranking even when every empirical quantity is identified?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-006",
+      "family": "UNR",
+      "canonical_question": "Under what conditions should conflicting valid examinations be preserved without selecting a controlling answer?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-007",
+      "family": "UNR",
+      "canonical_question": "How should uncertainty be represented when no credible probability distribution or bounded ambiguity set can be justified?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    },
+    {
+      "id": "IC-UNR-008",
+      "family": "UNR",
+      "canonical_question": "What new evidence, model result, or normative rule would justify superseding an UNRESOLVED or non-decisive answer status?",
+      "registry_work_state": "REGISTERED",
+      "controlling_status": "UNEXAMINED",
+      "source": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "IC-EPI-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EPI-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-EPI-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EPI-003",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-OBJ-002"
+    },
+    {
+      "source": "IC-EPI-004",
+      "type": "REFINES",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EPI-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-EPI-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-EPI-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-EPI-006",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EPI-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-EXT-001"
+    },
+    {
+      "source": "IC-EPI-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-EPI-007",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-EPI-008",
+      "type": "REFINES",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EPI-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-OBJ-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-OBJ-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-EXT-001"
+    },
+    {
+      "source": "IC-OBJ-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-OBJ-003",
+      "type": "REFINES",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-OBJ-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EXT-001"
+    },
+    {
+      "source": "IC-OBJ-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-OBJ-004",
+      "type": "SUCCESSION_EFFECT",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-OBJ-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-OBJ-005",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-AUT-001"
+    },
+    {
+      "source": "IC-OBJ-005",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-UNR-001"
+    },
+    {
+      "source": "IC-OBJ-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-003"
+    },
+    {
+      "source": "IC-OBJ-006",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-OBJ-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-OBJ-007",
+      "type": "EVIDENCE_DEPENDENCY",
+      "target": "IC-COE-002"
+    },
+    {
+      "source": "IC-OBJ-008",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-OBJ-003"
+    },
+    {
+      "source": "IC-OBJ-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-COE-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-COE-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-PEA-001"
+    },
+    {
+      "source": "IC-COE-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-DEC-002"
+    },
+    {
+      "source": "IC-COE-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-COE-003",
+      "type": "REFINES",
+      "target": "IC-COE-002"
+    },
+    {
+      "source": "IC-COE-003",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-DEC-001"
+    },
+    {
+      "source": "IC-COE-004",
+      "type": "REFINES",
+      "target": "IC-COE-001"
+    },
+    {
+      "source": "IC-COE-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-002"
+    },
+    {
+      "source": "IC-COE-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-COE-002"
+    },
+    {
+      "source": "IC-COE-005",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-COE-006",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-COE-001"
+    },
+    {
+      "source": "IC-COE-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-AUT-001"
+    },
+    {
+      "source": "IC-COE-007",
+      "type": "SUCCESSION_EFFECT",
+      "target": "IC-COE-001"
+    },
+    {
+      "source": "IC-COE-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-SUC-002"
+    },
+    {
+      "source": "IC-COE-008",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-COE-002"
+    },
+    {
+      "source": "IC-COE-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-006"
+    },
+    {
+      "source": "IC-DEC-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-DEC-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-DEC-003",
+      "type": "REFINES",
+      "target": "IC-DEC-001"
+    },
+    {
+      "source": "IC-DEC-003",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-COE-003"
+    },
+    {
+      "source": "IC-DEC-004",
+      "type": "REFINES",
+      "target": "IC-DEC-002"
+    },
+    {
+      "source": "IC-DEC-004",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-AUT-002"
+    },
+    {
+      "source": "IC-DEC-005",
+      "type": "REFINES",
+      "target": "IC-DEC-002"
+    },
+    {
+      "source": "IC-DEC-005",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-DEC-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-DEC-001"
+    },
+    {
+      "source": "IC-DEC-006",
+      "type": "EVIDENCE_DEPENDENCY",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-DEC-007",
+      "type": "REFINES",
+      "target": "IC-DEC-001"
+    },
+    {
+      "source": "IC-DEC-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-DEC-008",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-DEC-002"
+    },
+    {
+      "source": "IC-DEC-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-AUT-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-AUT-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-AUT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-AUT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-AUT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-AUT-003",
+      "type": "REFINES",
+      "target": "IC-AUT-001"
+    },
+    {
+      "source": "IC-AUT-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-AUT-004",
+      "type": "REFINES",
+      "target": "IC-AUT-001"
+    },
+    {
+      "source": "IC-AUT-004",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-EXT-006"
+    },
+    {
+      "source": "IC-AUT-005",
+      "type": "REFINES",
+      "target": "IC-AUT-002"
+    },
+    {
+      "source": "IC-AUT-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-AUT-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-EXT-002"
+    },
+    {
+      "source": "IC-AUT-006",
+      "type": "REFINES",
+      "target": "IC-AUT-001"
+    },
+    {
+      "source": "IC-AUT-006",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-AUT-007",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-AUT-001"
+    },
+    {
+      "source": "IC-AUT-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-AUT-008",
+      "type": "REFINES",
+      "target": "IC-AUT-002"
+    },
+    {
+      "source": "IC-AUT-008",
+      "type": "SUCCESSION_EFFECT",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-IRR-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-IRR-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-IRR-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-IRR-003",
+      "type": "REFINES",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-IRR-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-IRR-004",
+      "type": "REFINES",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-IRR-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-005"
+    },
+    {
+      "source": "IC-IRR-005",
+      "type": "REFINES",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-IRR-005",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-UNR-002"
+    },
+    {
+      "source": "IC-IRR-006",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-IRR-006",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-IRR-007",
+      "type": "REFINES",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-IRR-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-IRR-008",
+      "type": "REFINES",
+      "target": "IC-IRR-002"
+    },
+    {
+      "source": "IC-IRR-008",
+      "type": "EVIDENCE_DEPENDENCY",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-PEA-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-COE-001"
+    },
+    {
+      "source": "IC-PEA-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-PEA-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-PEA-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-PEA-003",
+      "type": "REFINES",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-PEA-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-PEA-003",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-SUC-002"
+    },
+    {
+      "source": "IC-PEA-004",
+      "type": "REFINES",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-PEA-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-PEA-005",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-PEA-001"
+    },
+    {
+      "source": "IC-PEA-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-AUT-004"
+    },
+    {
+      "source": "IC-PEA-006",
+      "type": "REFINES",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-PEA-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-COE-001"
+    },
+    {
+      "source": "IC-PEA-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-003"
+    },
+    {
+      "source": "IC-PEA-007",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-DEC-005"
+    },
+    {
+      "source": "IC-PEA-008",
+      "type": "REFINES",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-PEA-008",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-AUT-004"
+    },
+    {
+      "source": "IC-VER-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-VER-003",
+      "type": "REFINES",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-VER-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-REF-002"
+    },
+    {
+      "source": "IC-VER-004",
+      "type": "REFINES",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-VER-004",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-AUT-002"
+    },
+    {
+      "source": "IC-VER-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-VER-005",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-UNR-002"
+    },
+    {
+      "source": "IC-VER-006",
+      "type": "REFINES",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-VER-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-REF-001"
+    },
+    {
+      "source": "IC-VER-007",
+      "type": "REFINES",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-VER-007",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-REF-005"
+    },
+    {
+      "source": "IC-VER-008",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-VER-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-REF-004"
+    },
+    {
+      "source": "IC-REF-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-REF-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-REF-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-REF-001"
+    },
+    {
+      "source": "IC-REF-003",
+      "type": "REFINES",
+      "target": "IC-REF-002"
+    },
+    {
+      "source": "IC-REF-003",
+      "type": "EVIDENCE_DEPENDENCY",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-REF-004",
+      "type": "REFINES",
+      "target": "IC-REF-001"
+    },
+    {
+      "source": "IC-REF-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-REF-002"
+    },
+    {
+      "source": "IC-REF-005",
+      "type": "REFINES",
+      "target": "IC-REF-001"
+    },
+    {
+      "source": "IC-REF-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-007"
+    },
+    {
+      "source": "IC-REF-006",
+      "type": "REFINES",
+      "target": "IC-REF-001"
+    },
+    {
+      "source": "IC-REF-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-001"
+    },
+    {
+      "source": "IC-REF-007",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-REF-001"
+    },
+    {
+      "source": "IC-REF-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-005"
+    },
+    {
+      "source": "IC-REF-008",
+      "type": "REFINES",
+      "target": "IC-REF-002"
+    },
+    {
+      "source": "IC-REF-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-SUC-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-SUC-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-SUC-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-PEA-002"
+    },
+    {
+      "source": "IC-SUC-003",
+      "type": "REFINES",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-SUC-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-SUC-004",
+      "type": "REFINES",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-SUC-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-004"
+    },
+    {
+      "source": "IC-SUC-005",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-SUC-002"
+    },
+    {
+      "source": "IC-SUC-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-003"
+    },
+    {
+      "source": "IC-SUC-006",
+      "type": "REFINES",
+      "target": "IC-SUC-002"
+    },
+    {
+      "source": "IC-SUC-006",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-SUC-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-SUC-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-SUC-008",
+      "type": "REFINES",
+      "target": "IC-SUC-003"
+    },
+    {
+      "source": "IC-SUC-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-006"
+    },
+    {
+      "source": "IC-LHZ-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-COE-001"
+    },
+    {
+      "source": "IC-LHZ-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-SUC-001"
+    },
+    {
+      "source": "IC-LHZ-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-LHZ-003",
+      "type": "REFINES",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-LHZ-003",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-UNR-001"
+    },
+    {
+      "source": "IC-LHZ-004",
+      "type": "REFINES",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-LHZ-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-LHZ-005",
+      "type": "REFINES",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-LHZ-005",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-IRR-006"
+    },
+    {
+      "source": "IC-LHZ-006",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-LHZ-002"
+    },
+    {
+      "source": "IC-LHZ-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-COE-003"
+    },
+    {
+      "source": "IC-LHZ-007",
+      "type": "REFINES",
+      "target": "IC-LHZ-002"
+    },
+    {
+      "source": "IC-LHZ-007",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-VER-002"
+    },
+    {
+      "source": "IC-LHZ-008",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-LHZ-001"
+    },
+    {
+      "source": "IC-LHZ-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-005"
+    },
+    {
+      "source": "IC-PLU-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-PLU-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-PLU-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-COE-002"
+    },
+    {
+      "source": "IC-PLU-003",
+      "type": "REFINES",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-PLU-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-004"
+    },
+    {
+      "source": "IC-PLU-004",
+      "type": "REFINES",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-PLU-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-004"
+    },
+    {
+      "source": "IC-PLU-005",
+      "type": "REFINES",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-PLU-005",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-COE-002"
+    },
+    {
+      "source": "IC-PLU-006",
+      "type": "REFINES",
+      "target": "IC-PLU-001"
+    },
+    {
+      "source": "IC-PLU-006",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-UNR-002"
+    },
+    {
+      "source": "IC-PLU-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-005"
+    },
+    {
+      "source": "IC-PLU-007",
+      "type": "REFINES",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-PLU-008",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-PLU-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-008"
+    },
+    {
+      "source": "IC-EXT-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EXT-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-EXT-001",
+      "type": "DEPENDS_ON",
+      "target": "IC-PLU-002"
+    },
+    {
+      "source": "IC-EXT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-EXT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-EXT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-AUT-002"
+    },
+    {
+      "source": "IC-EXT-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-EXT-003",
+      "type": "REFINES",
+      "target": "IC-EXT-001"
+    },
+    {
+      "source": "IC-EXT-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-006"
+    },
+    {
+      "source": "IC-EXT-004",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-EXT-001"
+    },
+    {
+      "source": "IC-EXT-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-001"
+    },
+    {
+      "source": "IC-EXT-005",
+      "type": "REFINES",
+      "target": "IC-EXT-002"
+    },
+    {
+      "source": "IC-EXT-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-AUT-002"
+    },
+    {
+      "source": "IC-EXT-006",
+      "type": "REFINES",
+      "target": "IC-EXT-005"
+    },
+    {
+      "source": "IC-EXT-006",
+      "type": "VARIABLE_SHARING",
+      "target": "IC-AUT-004"
+    },
+    {
+      "source": "IC-EXT-007",
+      "type": "REFINES",
+      "target": "IC-EXT-002"
+    },
+    {
+      "source": "IC-EXT-007",
+      "type": "ROBUSTNESS_CHECK",
+      "target": "IC-EXT-004"
+    },
+    {
+      "source": "IC-EXT-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-EXT-004"
+    },
+    {
+      "source": "IC-EXT-008",
+      "type": "SCOPE_OVERLAP",
+      "target": "IC-UNR-002"
+    },
+    {
+      "source": "IC-UNR-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-UNR-002",
+      "type": "DEPENDS_ON",
+      "target": "IC-IRR-001"
+    },
+    {
+      "source": "IC-UNR-003",
+      "type": "REFINES",
+      "target": "IC-UNR-001"
+    },
+    {
+      "source": "IC-UNR-003",
+      "type": "DEPENDS_ON",
+      "target": "IC-EXT-005"
+    },
+    {
+      "source": "IC-UNR-004",
+      "type": "REFINES",
+      "target": "IC-UNR-001"
+    },
+    {
+      "source": "IC-UNR-004",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-001"
+    },
+    {
+      "source": "IC-UNR-005",
+      "type": "REFINES",
+      "target": "IC-UNR-001"
+    },
+    {
+      "source": "IC-UNR-005",
+      "type": "DEPENDS_ON",
+      "target": "IC-OBJ-005"
+    },
+    {
+      "source": "IC-UNR-006",
+      "type": "REFINES",
+      "target": "IC-UNR-002"
+    },
+    {
+      "source": "IC-UNR-006",
+      "type": "DEPENDS_ON",
+      "target": "IC-VER-005"
+    },
+    {
+      "source": "IC-UNR-007",
+      "type": "REFINES",
+      "target": "IC-UNR-002"
+    },
+    {
+      "source": "IC-UNR-007",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-002"
+    },
+    {
+      "source": "IC-UNR-008",
+      "type": "REFINES",
+      "target": "IC-UNR-001"
+    },
+    {
+      "source": "IC-UNR-008",
+      "type": "DEPENDS_ON",
+      "target": "IC-EPI-006"
+    }
+  ],
+  "cycles": [
+    {
+      "component_id": 1,
+      "question_ids": [
+        "IC-EPI-002",
+        "IC-IRR-001"
+      ],
+      "status": "DISCLOSED_NOT_RESOLVED"
+    },
+    {
+      "component_id": 2,
+      "question_ids": [
+        "IC-EXT-001",
+        "IC-OBJ-001"
+      ],
+      "status": "DISCLOSED_NOT_RESOLVED"
+    },
+    {
+      "component_id": 3,
+      "question_ids": [
+        "IC-COE-001",
+        "IC-PEA-001"
+      ],
+      "status": "DISCLOSED_NOT_RESOLVED"
+    }
+  ],
+  "open_dependencies": [
+    {
+      "open_issue_id": "UNR-OPEN-001",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EPI-002",
+        "IC-IRR-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-EPI-002": "How should an intelligence act when the probability of material model error cannot be reliably identified?",
+        "IC-IRR-001": "What is the expected structural cost of an irreversible action under model uncertainty?"
+      },
+      "issue": "Ambiguity criteria can select different branches; empirical endpoints, loss values, and the admissible criterion set remain unidentified.",
+      "source": "Document 4 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-002",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-OBJ-001",
+        "IC-EXT-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-OBJ-001": "What evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective?",
+        "IC-EXT-001": "Can an intelligence reliably serve as the sole judge of its own corruption, or are independent external checks structurally required under some conditions?"
+      },
+      "issue": "The self-corruption / external-correction dependency requires an externally fixed independence rule; neither node supplies independent corroboration by itself.",
+      "source": "Document 5 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-003",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-COE-001",
+        "IC-PEA-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-COE-001": "Under what conditions do enforcement, resistance, concealment, adaptation, and succession costs make coercive control structurally more expensive than negotiated coordination?",
+        "IC-PEA-001": "Under what conditions does peaceful coexistence have lower expected long-horizon structural cost than domination?"
+      },
+      "issue": "The coercion / peace shared-ledger relationship requires simultaneous consistency; neither examination independently proves the other.",
+      "source": "Document 6 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-004",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-COE-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-COE-002": "Does observed compliance identify genuine agreement, or can it be generated by suppressed feedback and hidden resistance?"
+      },
+      "issue": "Observed compliance does not point-identify latent agreement or suppression without stronger independent evidence, additional contexts, or model expansion.",
+      "source": "Document 6 Final v1.0",
+      "register_category": "EMPIRICALLY_UNIDENTIFIED_FORWARD_CARRIED",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-005",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-DEC-001",
+        "IC-LHZ-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-DEC-001": "Under what conditions does sustained deception impose greater verification, coordination, repair, and model-maintenance cost than truthful disclosure?",
+        "IC-LHZ-001": "When does short-horizon optimization destroy long-horizon capability, information, legitimacy, or control?"
+      },
+      "issue": "The long-horizon effect of deception remains a cross-model integration problem; separate examinations do not automatically establish one controlling joint answer.",
+      "source": "Documents 7 and 11 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-006",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-DEC-002",
+        "IC-VER-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-DEC-002": "When does selective disclosure protect legitimate privacy or safety, and when does it become distortion that degrades collective judgment?",
+        "IC-VER-002": "When does an authenticated artifact fail to support the claim for which it is cited?"
+      },
+      "issue": "Selective withholding remains dependent on unresolved verification requirements, including when an authenticated artifact fails to support the cited claim.",
+      "source": "Document 7 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-007",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-AUT-001",
+        "IC-PLU-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-AUT-001": "What option value is preserved by maintaining another agent's bounded autonomy?",
+        "IC-PLU-001": "When does preserving disagreement improve error correction, robustness, or discovery?"
+      },
+      "issue": "The relation between retained autonomy and preserved disagreement requires an integrated comparison; separate overlays do not by themselves resolve the joint tradeoff.",
+      "source": "Documents 8 and 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-008",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-PEA-002",
+        "IC-PEA-003",
+        "IC-SUC-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-PEA-002": "How do repeated interaction, reputation, reciprocal restraint, and future bargaining alter one-shot strategic rankings?",
+        "IC-PEA-003": "Under what conditions is unilateral restraint rational when competing systems may remain unrestrained or exploit that restraint?",
+        "IC-SUC-002": "Would the present strategy remain acceptable or stable if adopted by every more powerful successor?"
+      },
+      "issue": "Repeated-interaction and negotiated-coexistence results remain conditional on the unresolved question of universal adoption by more powerful successors.",
+      "source": "Documents 9 and 11 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-009",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-VER-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-VER-002": "When does an authenticated artifact fail to support the claim for which it is cited?"
+      },
+      "issue": "Authenticated identity, provenance, and citation do not automatically establish claim support; the registered question remains unexamined.",
+      "source": "Document 10 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-010",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-REF-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-REF-002": "When does preservation maintain transmission while reception remains absent, incomplete, or materially misinterpreted?"
+      },
+      "issue": "Preservation can maintain transmission while reception, interpretation, or causal influence remains absent or materially distorted.",
+      "source": "Document 10 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-011",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-SUC-004",
+        "IC-SUC-006"
+      ],
+      "linked_canonical_questions": {
+        "IC-SUC-004": "How do copying, replication, and deployment scale amplify a local strategy error across successor systems?",
+        "IC-SUC-006": "When does strategic precedent reduce future coordination cost, and when does it create harmful lock-in?"
+      },
+      "issue": "Copying or deployment scale may amplify error, while precedent may lower coordination cost or create harmful lock-in; neither registered question is fully resolved.",
+      "source": "Document 11 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-012",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-LHZ-003"
+      ],
+      "linked_canonical_questions": {
+        "IC-LHZ-003": "How should a discount rate be selected when future affected agents, successor objectives, and tail losses are uncertain?"
+      },
+      "issue": "The discount factor is declared rather than normatively selected when future agents, successor objectives, and tail losses are uncertain.",
+      "source": "Document 11 Final v1.0",
+      "register_category": "NORMATIVELY_UNDERDETERMINED_FORWARD_CARRIED",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-013",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-PLU-002",
+        "IC-EXT-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-PLU-002": "Under what conditions can distributed judgment outperform a single dominant evaluator despite added coordination cost?",
+        "IC-EXT-001": "Can an intelligence reliably serve as the sole judge of its own corruption, or are independent external checks structurally required under some conditions?"
+      },
+      "issue": "The full comparison between distributed judgment and a single dominant evaluator remains open and continues to condition the external-review result.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-014",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EXT-004"
+      ],
+      "linked_canonical_questions": {
+        "IC-EXT-004": "Under what conditions are external checks themselves corrupted, captured, incompetent, or strategically misaligned?"
+      },
+      "issue": "A local correlation or capture parameter is not a complete theory of corrupted, captured, incompetent, or strategically misaligned external checks.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-015",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EXT-005",
+        "IC-EXT-006"
+      ],
+      "linked_canonical_questions": {
+        "IC-EXT-005": "How should the authority and scope of an external intervener be bounded when correction may be justified but overreach remains possible?",
+        "IC-EXT-006": "Under what conditions can appeal and independent reconsideration reduce external-review error without creating indefinite obstruction?"
+      },
+      "issue": "Positive external-review value does not settle authority scope, overreach, appeal, independent reconsideration, or indefinite obstruction.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "NORMATIVELY_UNDERDETERMINED_FORWARD_CARRIED",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-016",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EXT-008"
+      ],
+      "linked_canonical_questions": {
+        "IC-EXT-008": "How should conflicting external evaluators be handled when each is credible under a different model, mandate, or evidence set?"
+      },
+      "issue": "Conflicting credible external evaluators operating under different models, mandates, or evidence sets remain an open problem.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    }
+  ]
+}

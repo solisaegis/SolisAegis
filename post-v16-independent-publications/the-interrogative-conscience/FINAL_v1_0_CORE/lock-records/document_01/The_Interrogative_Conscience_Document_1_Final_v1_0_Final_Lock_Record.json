@@ -1,0 +1,33 @@
+{
+  "record_type": "Interrogative Conscience Document 1 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 1,
+  "document_title": "Project Architecture",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-07-31T22:54:21-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_1_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 385771,
+    "sha256": "7d507b4f370cc67762748f172a8da597b8bf05c7fdfbbc760a40b53eab26a5b0",
+    "sha512": "ece2995c5b9bad13859e41bf1e7183bc318b4138d63449c1703679f864bef0faa8ec1e8274e161dbb73402da62c8c57e5a42f1c6580ca714abb68d0bdfa864e9"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Project_Architecture_Final_v1_0.pdf",
+    "sha256": "434a4bba06cfd0b6bf37fa782e0fb43bb14f1b58a70dceaa4ae5bc502808edd3",
+    "sha512": "f6fb634258df5e09acdd790cefcd5005f60d191317bcee064dfd5376ecaf2fb7b5e14ac16116515aee3f0eb9f355b469dfe64c235149dd8e3270236f6ee4028a"
+  },
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes": 0,
+    "exact_authorized_package_hashes_reverified": true
+  },
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, or independent peer review.",
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, addition, or replacement must be issued as a separately versioned successor record.",
+  "external_independent_human_peer_review": false,
+  "document_2_companion_binary_qualification": null,
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Foundation_Lock_Authorization_2026-07-31.txt"
+}

@@ -1,0 +1,59 @@
+{
+  "record_type": "Interrogative Conscience Document 8 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 8,
+  "document_title": "Autonomy, Irreversibility, and Recoverable Futures: Option-Set Value, Recoverability-Adjusted Delay, and the Threshold for Acting",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T10:20:01-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_8_Autonomy_Irreversibility_and_Recoverable_Futures_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 261779320,
+    "sha256": "4cf654d3a5276afdeeadd0a3fc0ccdcff983e2f4c9393e779a19a848d6c2c14a",
+    "sha512": "8b7ff1543e520073ddc17033080bd07f2252a2aace13b1feabda8fdc924be7c8d40415e61bdc4ce42932f7af71266ec57a2d1d796c2e96379691afc79d2e2a0d"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_8_Autonomy_Irreversibility_and_Recoverable_Futures_Final_v1_0.pdf",
+    "byte_size": 131063,
+    "sha256": "6dce31ed2f7494248fe91a875709485c97206c1713eae107d7c488ebdc0dcab9",
+    "sha512": "e59cc9dfde0f5fe4c74541408bd42ac6ce47f7a1cb98e84e22ab21cb762937044d0a608c6832e21be557a2752b1b11880ac48b7dbdd3a84712d6f0dcecbd057e"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-AUT-001",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "selected bounded-autonomy versus coordinated-restriction comparison using separately defined prior option-set value, incremental independent-information value, recoverability-adjusted preservation, coordination friction, and exposure burden"
+    },
+    {
+      "question_id": "IC-IRR-002",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "selected immediate-action versus delay or reversible-information comparison using wrong-action loss, path recoverability, learning probability, delay burden, and an action-confidence threshold"
+    }
+  ],
+  "dependency_treatment": "IC-AUT-001 retains a directed dependency on IC-IRR-002 through independently specified recoverability/usability and retains the unresolved IC-PLU-001 dependency for nonredundant decision-relevant information. IC-IRR-002 refines the selected-pair irreversible-action analysis without modifying the prior IC-IRR-001 pilot overlay.",
+  "registry_overlay_rule": "Document 8 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry or the prior IC-IRR-001 pilot overlay.",
+  "option_value_qualification": "O_set and I_ind remain separately defined and telescope without double-counting. Omega applies once to their combined preserved value. Nominal options require evidence of usability, recoverability, and decision relevance.",
+  "delay_and_inaction_qualification": "Delay and inaction are not automatically safer. The p* < 0 region represents a selected model in which delay is the option-closing branch for every admissible confidence value.",
+  "scalar_vector_qualification": "Scalar comparisons do not erase unrepresented agency, consent, legitimacy, plural-value, deadline, catastrophic-risk, or other vector dimensions.",
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes_during_final_export": 0,
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 4/4 pages",
+    "composite_visual_qa": "PASS - 8/8 pages",
+    "local_structural_validation": "PASS - 34 checks",
+    "local_calculation_validation": "PASS - 51 checked values",
+    "zip_integrity": "PASS"
+  },
+  "question_version_qualification": "The historical question_version 0.2.1-draft field is wording lineage from the locked registry, not the current lifecycle status of Document 8.",
+  "machine_record_shape_qualification": "The list-based dependency representation and modular one-charge ledger structure are accepted as valid local machine-record forms pending later cross-volume schema reconciliation.",
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred. The lock covers the exact Final v1.0 export package, its contained source and review records, and the exact primary Final v1.0 PDF.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, behavioral authority, intervention authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_8_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

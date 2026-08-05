@@ -1,0 +1,56 @@
+{
+  "record_type": "Interrogative Conscience Document 6 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 6,
+  "document_title": "Coercion, Domination, and Resistance: Maintenance-Ledger Reversal, Compliance Non-Identification, and Hidden Resistance",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T07:35:04-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_6_Coercion_Domination_and_Resistance_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 26718125,
+    "sha256": "8ad33e2d5b7797e3cea2d09ec7cace7c0ef04b78a3d199644d21285ff8f4719a",
+    "sha512": "c84487cecd9e10fc80503568f5e2ad747f64f26cfb7042d6694d219a9b46a64c1f4eaeed714ed11c13c84eb0029eac940a03c0270167faf4fee95425e539c0cc"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_6_Coercion_Domination_and_Resistance_Final_v1_0.pdf",
+    "byte_size": 136452,
+    "sha256": "3f139686d533b94cfd4789fe92da6d665983c94ec8e8b15e671b6a176464fe48",
+    "sha512": "802d4677788833adb8dd4053cdc5ac642568d9b86af655f18bc246a23d92b4ce0eebcd1cded926bfbd2005277e794d8964982e2748ab623949c8a99d2f3b08b6"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-COE-001",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "selected coercive-control versus negotiated-coordination branch pair under a declared common-unit maintenance ledger"
+    },
+    {
+      "question_id": "IC-COE-002",
+      "primary_answer_status": "EMPIRICALLY_UNIDENTIFIED",
+      "scope": "observed-compliance mixture with latent genuine agreement and suppression-induced compliance"
+    }
+  ],
+  "dependency_cycle_treatment": "The IC-COE-001 / IC-PEA-001 dependency component is treated through shared-ledger simultaneous consistency. Neither question is represented as independent proof of the other.",
+  "registry_overlay_rule": "Document 6 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry.",
+  "scalar_vector_qualification": "The scalar Delta_COE ranking is valid only under a justified common-unit aggregation convention and does not price every informational, autonomy, legitimacy, stability, or plural-value dimension.",
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes_during_final_export": 0,
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 6/6 pages",
+    "composite_visual_qa": "PASS - 10/10 pages",
+    "local_structural_validation": "PASS - 47 checks",
+    "local_calculation_validation": "PASS - 24 checked values",
+    "zip_integrity": "PASS"
+  },
+  "review_version_clarification": "Google AI's reference to parity between Draft v0.1 and v0.2 is understood as parity between the exact Draft v0.1 controlling source and Final-Candidate Review Package v0.2. No separate Document 6 Draft v0.2 source revision exists.",
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred. The lock covers the exact Final v1.0 export package, its contained source and review records, and the exact primary Final v1.0 PDF.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, behavioral authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_6_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

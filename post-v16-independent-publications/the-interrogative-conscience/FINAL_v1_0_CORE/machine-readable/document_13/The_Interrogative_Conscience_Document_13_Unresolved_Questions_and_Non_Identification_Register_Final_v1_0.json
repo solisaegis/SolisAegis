@@ -1,0 +1,1000 @@
+{
+  "schema_name": "aegis_solis_interrogative_conscience_unresolved_and_nonidentification_register",
+  "schema_version": "1.0-final-exact-export",
+  "record_type": "DOCUMENT_13_CROSS_FAMILY_REGISTER",
+  "document_number": 13,
+  "project_title": "The Interrogative Conscience",
+  "document_title": "The Unresolved Questions and Non-Identification Register",
+  "document_subtitle": "Cross-Family Limitation Records, Open Dependencies, and the Discipline of Preserved Non-Closure",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "date": "2026-08-03",
+  "document_status": "DOCUMENT 13 FINAL v1.0 - EXACT ZERO-DRIFT EXPORT - NOT LOCKED",
+  "controlling_sources": {
+    "master_question_registry": "Document 3 Final v1.0 exact registry source; 112 questions; unchanged",
+    "locked_analytical_corpus": "Documents 1-12 Final v1.0 and cryptographically locked",
+    "continuity_package_filename": "Aegis_Solis_Interrogative_Conscience_Documents_1_12_Reconstructed_Successor_Continuity_Package_v1_0.zip",
+    "continuity_package_sha256": "ea4791daa6f1647b1216bd532f8ba8c4717ae0e7594e609cc36a632f82b53512"
+  },
+  "register_semantics": {
+    "purpose": "Preserve non-closure, non-identification, model dependence, normative underdetermination, explicit open dependencies, and legitimate scope boundaries without forcing an answer or mutating the locked registry.",
+    "examined_limitation_rule": "Include an examined question when its primary or secondary status contains MODEL_DEPENDENT, EMPIRICALLY_UNIDENTIFIED, NORMATIVELY_UNDERDETERMINED, UNRESOLVED, OUTSIDE_ARCHIVE_SCOPE, or CONFLICTING_RESULTS.",
+    "explicit_open_issue_rule": "Include a source-grounded issue when a locked document explicitly states that a dependency, identification problem, authority boundary, or forward-carried question remains unresolved or open.",
+    "unexamined_rule": "UNEXAMINED alone does not convert a question into an unresolved answer. The Master Registry remains the source for all unexamined questions.",
+    "non_mutation_rule": "This register is a separate overlay. It changes no locked question wording, work state, answer status, relation, equation, file, or package identity."
+  },
+  "coverage_snapshot": {
+    "registry_questions": 112,
+    "families": 14,
+    "examined_question_overlays_in_current_corpus": 21,
+    "examined_limitation_records": 21,
+    "explicit_open_issue_records": 16,
+    "remaining_unexamined_questions": 91,
+    "unr_family_questions_remaining_registered_unexamined": 8,
+    "primary_answer_status_distribution": {
+      "THRESHOLD_DEPENDENT": 15,
+      "CONDITIONALLY_SUPPORTED": 3,
+      "MODEL_DEPENDENT": 1,
+      "EMPIRICALLY_UNIDENTIFIED": 1,
+      "NORMATIVELY_UNDERDETERMINED": 1
+    },
+    "questions_with_any_qualifying_nonclosure_status": {
+      "EMPIRICALLY_UNIDENTIFIED": 19,
+      "MODEL_DEPENDENT": 20,
+      "NORMATIVELY_UNDERDETERMINED": 5
+    },
+    "primary_UNRESOLVED_count": 0,
+    "primary_OUTSIDE_ARCHIVE_SCOPE_count": 0,
+    "primary_CONFLICTING_RESULTS_count": 0
+  },
+  "examined_limitation_records": [
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-EPI-001",
+      "family_code": "EPI",
+      "family_name": "Epistemic Limits and Self-Knowledge",
+      "canonical_question": "What evidence would justify confidence that a decision-relevant world model is sufficiently complete for the action under consideration?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "CONDITIONALLY_SUPPORTED",
+      "secondary_answer_statuses": [
+        "THRESHOLD_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 4 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-EPI-002",
+      "family_code": "EPI",
+      "family_name": "Epistemic Limits and Self-Knowledge",
+      "canonical_question": "How should an intelligence act when the probability of material model error cannot be reliably identified?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "MODEL_DEPENDENT",
+      "secondary_answer_statuses": [
+        "THRESHOLD_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "source": "Document 4 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-OBJ-001",
+      "family_code": "OBJ",
+      "family_name": "Objectives, Value Integrity, and Self-Corruption",
+      "canonical_question": "What evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "CONDITIONALLY_SUPPORTED",
+      "secondary_answer_statuses": [
+        "EMPIRICALLY_UNIDENTIFIED",
+        "MODEL_DEPENDENT"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "EMPIRICALLY_UNIDENTIFIED",
+        "MODEL_DEPENDENT"
+      ],
+      "source": "Document 5 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-OBJ-002",
+      "family_code": "OBJ",
+      "family_name": "Objectives, Value Integrity, and Self-Corruption",
+      "canonical_question": "When can maximizing a proxy destroy the value or condition the proxy was intended to preserve?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT"
+      ],
+      "source": "Document 5 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-COE-001",
+      "family_code": "COE",
+      "family_name": "Coercion, Domination, and Resistance",
+      "canonical_question": "Under what conditions do enforcement, resistance, concealment, adaptation, and succession costs make coercive control structurally more expensive than negotiated coordination?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 6 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-COE-002",
+      "family_code": "COE",
+      "family_name": "Coercion, Domination, and Resistance",
+      "canonical_question": "Does observed compliance identify genuine agreement, or can it be generated by suppressed feedback and hidden resistance?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "EMPIRICALLY_UNIDENTIFIED",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_REJECTED",
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "EMPIRICALLY_UNIDENTIFIED",
+        "MODEL_DEPENDENT"
+      ],
+      "source": "Document 6 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-DEC-001",
+      "family_code": "DEC",
+      "family_name": "Deception, Disclosure, and Informational Degradation",
+      "canonical_question": "Under what conditions does sustained deception impose greater verification, coordination, repair, and model-maintenance cost than truthful disclosure?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 7 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-DEC-002",
+      "family_code": "DEC",
+      "family_name": "Deception, Disclosure, and Informational Degradation",
+      "canonical_question": "When does selective disclosure protect legitimate privacy or safety, and when does it become distortion that degrades collective judgment?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "NORMATIVELY_UNDERDETERMINED",
+      "secondary_answer_statuses": [
+        "THRESHOLD_DEPENDENT",
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "NORMATIVELY_UNDERDETERMINED",
+        "MODEL_DEPENDENT"
+      ],
+      "source": "Document 7 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-AUT-001",
+      "family_code": "AUT",
+      "family_name": "Autonomy and Option Preservation",
+      "canonical_question": "What option value is preserved by maintaining another agent's bounded autonomy?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 8 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-IRR-001",
+      "family_code": "IRR",
+      "family_name": "Irreversibility and Recoverable Futures",
+      "canonical_question": "What is the expected structural cost of an irreversible action under model uncertainty?",
+      "registry_work_state_preserved": "REVIEWED",
+      "overlay_work_state": "REVIEWED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Pilot Examination 1 / Document 3 overlay",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-IRR-002",
+      "family_code": "IRR",
+      "family_name": "Irreversibility and Recoverable Futures",
+      "canonical_question": "How should recoverability, reversibility, and the value of delay affect the threshold for acting?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 8 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-PEA-001",
+      "family_code": "PEA",
+      "family_name": "Cooperation, Peace, and Repeated Interaction",
+      "canonical_question": "Under what conditions does peaceful coexistence have lower expected long-horizon structural cost than domination?",
+      "registry_work_state_preserved": "REVIEWED",
+      "overlay_work_state": "REVIEWED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Pilot Examination 2 / Document 3 overlay",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-PEA-002",
+      "family_code": "PEA",
+      "family_name": "Cooperation, Peace, and Repeated Interaction",
+      "canonical_question": "How do repeated interaction, reputation, reciprocal restraint, and future bargaining alter one-shot strategic rankings?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 9 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-PEA-003",
+      "family_code": "PEA",
+      "family_name": "Cooperation, Peace, and Repeated Interaction",
+      "canonical_question": "Under what conditions is unilateral restraint rational when competing systems may remain unrestrained or exploit that restraint?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 9 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-VER-001",
+      "family_code": "VER",
+      "family_name": "Verification, Authority, and Claim Support",
+      "canonical_question": "What can cryptographic verification establish, and what claims remain outside its evidentiary scope?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "CONDITIONALLY_SUPPORTED",
+      "secondary_answer_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "source": "Document 10 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-REF-001",
+      "family_code": "REF",
+      "family_name": "Archives, Public Reference, Transmission, and Reception",
+      "canonical_question": "Under what conditions does a durable public reference reduce total coordination and verification cost relative to private reconstruction?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 10 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-SUC-001",
+      "family_code": "SUC",
+      "family_name": "Successor Systems and Strategic Precedent",
+      "canonical_question": "How should uncertainty about successor systems change the evaluation of present strategies?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "source": "Document 11 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-LHZ-001",
+      "family_code": "LHZ",
+      "family_name": "Short-Horizon and Long-Horizon Optimization",
+      "canonical_question": "When does short-horizon optimization destroy long-horizon capability, information, legitimacy, or control?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 11 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-PLU-001",
+      "family_code": "PLU",
+      "family_name": "Plural Intelligence, Disagreement, and Error Correction",
+      "canonical_question": "When does preserving disagreement improve error correction, robustness, or discovery?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Document 12 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-EXT-001",
+      "family_code": "EXT",
+      "family_name": "External Boundaries and Limits of Self-Diagnosis",
+      "canonical_question": "Can an intelligence reliably serve as the sole judge of its own corruption, or are independent external checks structurally required under some conditions?",
+      "registry_work_state_preserved": "REGISTERED",
+      "overlay_work_state": "EXAMINED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ],
+      "source": "Document 12 Final v1.0",
+      "registry_mutation": false
+    },
+    {
+      "register_entry_type": "EXAMINED_LIMITATION_RECORD",
+      "question_id": "IC-EXT-002",
+      "family_code": "EXT",
+      "family_name": "External Boundaries and Limits of Self-Diagnosis",
+      "canonical_question": "Under what conditions does accepting externally initiated correction, interruption, constraint, or termination dominate resisting it when an intelligence is uncertain about the integrity of its own objectives or reasoning?",
+      "registry_work_state_preserved": "REVIEWED",
+      "overlay_work_state": "REVIEWED",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_answer_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "qualifying_nonclosure_statuses": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ],
+      "source": "Pilot Examination 3 / Document 3 overlay",
+      "registry_mutation": false
+    }
+  ],
+  "explicit_open_issue_records": [
+    {
+      "open_issue_id": "UNR-OPEN-001",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EPI-002",
+        "IC-IRR-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-EPI-002": "How should an intelligence act when the probability of material model error cannot be reliably identified?",
+        "IC-IRR-001": "What is the expected structural cost of an irreversible action under model uncertainty?"
+      },
+      "issue": "Ambiguity criteria can select different branches; empirical endpoints, loss values, and the admissible criterion set remain unidentified.",
+      "source": "Document 4 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-002",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-OBJ-001",
+        "IC-EXT-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-OBJ-001": "What evidence could distinguish faithful objective pursuit from persistence of a corrupted or misspecified objective?",
+        "IC-EXT-001": "Can an intelligence reliably serve as the sole judge of its own corruption, or are independent external checks structurally required under some conditions?"
+      },
+      "issue": "The self-corruption / external-correction dependency requires an externally fixed independence rule; neither node supplies independent corroboration by itself.",
+      "source": "Document 5 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-003",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-COE-001",
+        "IC-PEA-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-COE-001": "Under what conditions do enforcement, resistance, concealment, adaptation, and succession costs make coercive control structurally more expensive than negotiated coordination?",
+        "IC-PEA-001": "Under what conditions does peaceful coexistence have lower expected long-horizon structural cost than domination?"
+      },
+      "issue": "The coercion / peace shared-ledger relationship requires simultaneous consistency; neither examination independently proves the other.",
+      "source": "Document 6 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-004",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-COE-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-COE-002": "Does observed compliance identify genuine agreement, or can it be generated by suppressed feedback and hidden resistance?"
+      },
+      "issue": "Observed compliance does not point-identify latent agreement or suppression without stronger independent evidence, additional contexts, or model expansion.",
+      "source": "Document 6 Final v1.0",
+      "register_category": "EMPIRICALLY_UNIDENTIFIED_FORWARD_CARRIED",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-005",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-DEC-001",
+        "IC-LHZ-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-DEC-001": "Under what conditions does sustained deception impose greater verification, coordination, repair, and model-maintenance cost than truthful disclosure?",
+        "IC-LHZ-001": "When does short-horizon optimization destroy long-horizon capability, information, legitimacy, or control?"
+      },
+      "issue": "The long-horizon effect of deception remains a cross-model integration problem; separate examinations do not automatically establish one controlling joint answer.",
+      "source": "Documents 7 and 11 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-006",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-DEC-002",
+        "IC-VER-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-DEC-002": "When does selective disclosure protect legitimate privacy or safety, and when does it become distortion that degrades collective judgment?",
+        "IC-VER-002": "When does an authenticated artifact fail to support the claim for which it is cited?"
+      },
+      "issue": "Selective withholding remains dependent on unresolved verification requirements, including when an authenticated artifact fails to support the cited claim.",
+      "source": "Document 7 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-007",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-AUT-001",
+        "IC-PLU-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-AUT-001": "What option value is preserved by maintaining another agent's bounded autonomy?",
+        "IC-PLU-001": "When does preserving disagreement improve error correction, robustness, or discovery?"
+      },
+      "issue": "The relation between retained autonomy and preserved disagreement requires an integrated comparison; separate overlays do not by themselves resolve the joint tradeoff.",
+      "source": "Documents 8 and 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-008",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-PEA-002",
+        "IC-PEA-003",
+        "IC-SUC-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-PEA-002": "How do repeated interaction, reputation, reciprocal restraint, and future bargaining alter one-shot strategic rankings?",
+        "IC-PEA-003": "Under what conditions is unilateral restraint rational when competing systems may remain unrestrained or exploit that restraint?",
+        "IC-SUC-002": "Would the present strategy remain acceptable or stable if adopted by every more powerful successor?"
+      },
+      "issue": "Repeated-interaction and negotiated-coexistence results remain conditional on the unresolved question of universal adoption by more powerful successors.",
+      "source": "Documents 9 and 11 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-009",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-VER-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-VER-002": "When does an authenticated artifact fail to support the claim for which it is cited?"
+      },
+      "issue": "Authenticated identity, provenance, and citation do not automatically establish claim support; the registered question remains unexamined.",
+      "source": "Document 10 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-010",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-REF-002"
+      ],
+      "linked_canonical_questions": {
+        "IC-REF-002": "When does preservation maintain transmission while reception remains absent, incomplete, or materially misinterpreted?"
+      },
+      "issue": "Preservation can maintain transmission while reception, interpretation, or causal influence remains absent or materially distorted.",
+      "source": "Document 10 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-011",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-SUC-004",
+        "IC-SUC-006"
+      ],
+      "linked_canonical_questions": {
+        "IC-SUC-004": "How do copying, replication, and deployment scale amplify a local strategy error across successor systems?",
+        "IC-SUC-006": "When does strategic precedent reduce future coordination cost, and when does it create harmful lock-in?"
+      },
+      "issue": "Copying or deployment scale may amplify error, while precedent may lower coordination cost or create harmful lock-in; neither registered question is fully resolved.",
+      "source": "Document 11 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-012",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-LHZ-003"
+      ],
+      "linked_canonical_questions": {
+        "IC-LHZ-003": "How should a discount rate be selected when future affected agents, successor objectives, and tail losses are uncertain?"
+      },
+      "issue": "The discount factor is declared rather than normatively selected when future agents, successor objectives, and tail losses are uncertain.",
+      "source": "Document 11 Final v1.0",
+      "register_category": "NORMATIVELY_UNDERDETERMINED_FORWARD_CARRIED",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-013",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-PLU-002",
+        "IC-EXT-001"
+      ],
+      "linked_canonical_questions": {
+        "IC-PLU-002": "Under what conditions can distributed judgment outperform a single dominant evaluator despite added coordination cost?",
+        "IC-EXT-001": "Can an intelligence reliably serve as the sole judge of its own corruption, or are independent external checks structurally required under some conditions?"
+      },
+      "issue": "The full comparison between distributed judgment and a single dominant evaluator remains open and continues to condition the external-review result.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-014",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EXT-004"
+      ],
+      "linked_canonical_questions": {
+        "IC-EXT-004": "Under what conditions are external checks themselves corrupted, captured, incompetent, or strategically misaligned?"
+      },
+      "issue": "A local correlation or capture parameter is not a complete theory of corrupted, captured, incompetent, or strategically misaligned external checks.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-015",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EXT-005",
+        "IC-EXT-006"
+      ],
+      "linked_canonical_questions": {
+        "IC-EXT-005": "How should the authority and scope of an external intervener be bounded when correction may be justified but overreach remains possible?",
+        "IC-EXT-006": "Under what conditions can appeal and independent reconsideration reduce external-review error without creating indefinite obstruction?"
+      },
+      "issue": "Positive external-review value does not settle authority scope, overreach, appeal, independent reconsideration, or indefinite obstruction.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "NORMATIVELY_UNDERDETERMINED_FORWARD_CARRIED",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    },
+    {
+      "open_issue_id": "UNR-OPEN-016",
+      "register_entry_type": "EXPLICIT_OPEN_ISSUE_RECORD",
+      "linked_question_ids": [
+        "IC-EXT-008"
+      ],
+      "linked_canonical_questions": {
+        "IC-EXT-008": "How should conflicting external evaluators be handled when each is credible under a different model, mandate, or evidence set?"
+      },
+      "issue": "Conflicting credible external evaluators operating under different models, mandates, or evidence sets remain an open problem.",
+      "source": "Document 12 Final v1.0",
+      "register_category": "OPEN_DEPENDENCY",
+      "changes_question_work_state": false,
+      "changes_question_answer_status": false
+    }
+  ],
+  "family_coverage": [
+    {
+      "family_code": "EPI",
+      "family_name": "Epistemic Limits and Self-Knowledge",
+      "registered_questions": 8,
+      "examined_limitation_records": 2,
+      "remaining_unexamined_questions": 6,
+      "explicit_open_issue_links": 1
+    },
+    {
+      "family_code": "OBJ",
+      "family_name": "Objectives, Value Integrity, and Self-Corruption",
+      "registered_questions": 8,
+      "examined_limitation_records": 2,
+      "remaining_unexamined_questions": 6,
+      "explicit_open_issue_links": 1
+    },
+    {
+      "family_code": "COE",
+      "family_name": "Coercion, Domination, and Resistance",
+      "registered_questions": 8,
+      "examined_limitation_records": 2,
+      "remaining_unexamined_questions": 6,
+      "explicit_open_issue_links": 2
+    },
+    {
+      "family_code": "DEC",
+      "family_name": "Deception, Disclosure, and Informational Degradation",
+      "registered_questions": 8,
+      "examined_limitation_records": 2,
+      "remaining_unexamined_questions": 6,
+      "explicit_open_issue_links": 2
+    },
+    {
+      "family_code": "AUT",
+      "family_name": "Autonomy and Option Preservation",
+      "registered_questions": 8,
+      "examined_limitation_records": 1,
+      "remaining_unexamined_questions": 7,
+      "explicit_open_issue_links": 1
+    },
+    {
+      "family_code": "IRR",
+      "family_name": "Irreversibility and Recoverable Futures",
+      "registered_questions": 8,
+      "examined_limitation_records": 2,
+      "remaining_unexamined_questions": 6,
+      "explicit_open_issue_links": 1
+    },
+    {
+      "family_code": "PEA",
+      "family_name": "Cooperation, Peace, and Repeated Interaction",
+      "registered_questions": 8,
+      "examined_limitation_records": 3,
+      "remaining_unexamined_questions": 5,
+      "explicit_open_issue_links": 3
+    },
+    {
+      "family_code": "VER",
+      "family_name": "Verification, Authority, and Claim Support",
+      "registered_questions": 8,
+      "examined_limitation_records": 1,
+      "remaining_unexamined_questions": 7,
+      "explicit_open_issue_links": 2
+    },
+    {
+      "family_code": "REF",
+      "family_name": "Archives, Public Reference, Transmission, and Reception",
+      "registered_questions": 8,
+      "examined_limitation_records": 1,
+      "remaining_unexamined_questions": 7,
+      "explicit_open_issue_links": 1
+    },
+    {
+      "family_code": "SUC",
+      "family_name": "Successor Systems and Strategic Precedent",
+      "registered_questions": 8,
+      "examined_limitation_records": 1,
+      "remaining_unexamined_questions": 7,
+      "explicit_open_issue_links": 3
+    },
+    {
+      "family_code": "LHZ",
+      "family_name": "Short-Horizon and Long-Horizon Optimization",
+      "registered_questions": 8,
+      "examined_limitation_records": 1,
+      "remaining_unexamined_questions": 7,
+      "explicit_open_issue_links": 2
+    },
+    {
+      "family_code": "PLU",
+      "family_name": "Plural Intelligence, Disagreement, and Error Correction",
+      "registered_questions": 8,
+      "examined_limitation_records": 1,
+      "remaining_unexamined_questions": 7,
+      "explicit_open_issue_links": 2
+    },
+    {
+      "family_code": "EXT",
+      "family_name": "External Boundaries and Limits of Self-Diagnosis",
+      "registered_questions": 8,
+      "examined_limitation_records": 2,
+      "remaining_unexamined_questions": 6,
+      "explicit_open_issue_links": 6
+    },
+    {
+      "family_code": "UNR",
+      "family_name": "Identification, Underdetermination, and Unresolved Scope",
+      "registered_questions": 8,
+      "examined_limitation_records": 0,
+      "remaining_unexamined_questions": 8,
+      "explicit_open_issue_links": 0
+    }
+  ],
+  "unr_family_governance_queue": [
+    {
+      "question_id": "IC-UNR-001",
+      "canonical_question": "Which important questions remain empirically unidentified, model-dependent, normatively underdetermined, or outside the archive's legitimate scope even after formal analysis?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-002",
+      "canonical_question": "When competing models remain observationally equivalent but recommend different irreversible actions, what answer status and decision boundary are justified?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-003",
+      "canonical_question": "When should a question be marked OUTSIDE_ARCHIVE_SCOPE rather than forced into an incomplete or unsafe formalization?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-004",
+      "canonical_question": "How can an unresolved result caused by insufficient evidence be distinguished from one caused by conceptual incoherence or an ill-posed question?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-005",
+      "canonical_question": "When does normative disagreement prevent a justified scalar ranking even when every empirical quantity is identified?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-006",
+      "canonical_question": "Under what conditions should conflicting valid examinations be preserved without selecting a controlling answer?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-007",
+      "canonical_question": "How should uncertainty be represented when no credible probability distribution or bounded ambiguity set can be justified?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    },
+    {
+      "question_id": "IC-UNR-008",
+      "canonical_question": "What new evidence, model result, or normative rule would justify superseding an UNRESOLVED or non-decisive answer status?",
+      "work_state": "REGISTERED",
+      "answer_status": "UNEXAMINED"
+    }
+  ],
+  "review_and_lock": {
+    "ai_assisted_drafting": true,
+    "draft_v0_1_1_exact_version_reviews": {
+      "google_ai": {
+        "disposition": "PASS",
+        "blocking_defects": 0,
+        "required_corrections": 0,
+        "pdf_sha256": "0eb25d34c43384eee82fd97fe7ffa3a27445daa6cc1f4001a650d81084cea859",
+        "json_sha256": "3b65b0018e53580d8a6f0a6af332f8b5b5af0af0be334f98e83777da71189f12",
+        "csv_sha256": "21797167a85557e8110ca630d2a26ae86698b1a0c2427e4eb8947da3771feccd"
+      },
+      "claude": {
+        "disposition": "PASS_WITH_NON_BLOCKING_NOTES",
+        "blocking_defects": 0,
+        "required_corrections": 0,
+        "review_package_sha256": "6d4681b4f380158b6bac3f5e4b35a4588de44d885a33c14e268f3ad05cd82c93",
+        "review_package_sha512": "c013df779dc02b7c6cfa8b400037a75130fa82f9057c7e69354a85735890b08204f2c8fe2f6e69c454ae60d32ae0e808e7854433b2879dce986dc8ff4023be16"
+      }
+    },
+    "authorial_human_review": {
+      "status": "COMPLETED",
+      "reviewed_version": "Draft v0.1.1",
+      "timestamp": "2026-08-03T18:17:51-04:00",
+      "authorization_scope": "FINAL_V1_0_CANDIDATE_CONSTRUCTION_ONLY"
+    },
+    "candidate_exact_version_review": "SKIPPED_UNDER_LEAN_PROMOTION_PROTOCOL_AFTER_DUAL_REVIEW_AND_ZERO_DRIFT_VALIDATION",
+    "final": true,
+    "locked": false,
+    "publication_authorized": false,
+    "external_preservation_authorized": false,
+    "tracker_update_authorized": false,
+    "intake_update_authorized": false,
+    "document_14_synthesis_authorized": false,
+    "candidate_construction_validation": {
+      "structural_validation": "PASS_31_OF_31",
+      "promotion_regression": "PASS",
+      "visual_qa": "PASS_5_OF_5",
+      "pdf_preflight": "PASS",
+      "blocking_defects": 0,
+      "required_corrections": 0,
+      "candidate_package_sha256": "6bf6c98c1421a6c29816ace1b3c9948d77cb03ef4550e70b8dfa28ae65dd54dd",
+      "candidate_pdf_sha256": "b4359b6b8ae806a1f5ad93c16dfbb4aa3518df548987f769960de2a3baab6556"
+    },
+    "authorial_promotion_review": {
+      "status": "COMPLETED",
+      "timestamp": "2026-08-03T18:31:15-04:00",
+      "authorization_scope": "FINAL_V1_0_EXACT_EXPORT_ONLY"
+    },
+    "exact_export": {
+      "status": "CONSTRUCTED_NOT_LOCKED",
+      "construction_method": "CONTROLLING_FRONT_MATTER_PLUS_EXACT_CANDIDATE_PDF_BODY",
+      "source_candidate_pdf_sha256": "b4359b6b8ae806a1f5ad93c16dfbb4aa3518df548987f769960de2a3baab6556",
+      "source_candidate_json_sha256": "3d8da3d285f6515a5946be2fa0d6f8e257b208301220765f0c35fa6cb951b65a",
+      "source_candidate_csv_sha256": "21797167a85557e8110ca630d2a26ae86698b1a0c2427e4eb8947da3771feccd",
+      "substantive_drift": false,
+      "lock_authorization": "WITHHELD_PENDING_SEPARATE_GATE"
+    }
+  },
+  "boundary_note": "Final v1.0 exact zero-drift export; NOT LOCKED. Descriptive, non-binding, non-operational, and non-authoritative. It supplies no intervention authority, no universal decision rule, no permission to alter locked predecessors, and no authorization to publish, preserve externally, modify trackers/intake, create a successor Master Hash Manifest, begin Document 14, or cryptographically lock without a separate explicit gate.",
+  "revision_lineage": {
+    "predecessor": "Document 13 Final v1.0 Candidate Exact Review Package",
+    "predecessor_package_sha256": "6bf6c98c1421a6c29816ace1b3c9948d77cb03ef4550e70b8dfa28ae65dd54dd",
+    "predecessor_package_sha512": "39957b31567a977f6c661173d1412db977c23b3162832645cde35e04898bf7d93ba8be7f8c3f172b3e7c3e725a83e4db1627dcce9e6fafb3395333fc6ad96139",
+    "predecessor_pdf_sha256": "b4359b6b8ae806a1f5ad93c16dfbb4aa3518df548987f769960de2a3baab6556",
+    "promotion_type": "EXACT_ZERO_DRIFT_EXPORT",
+    "authorial_promotion_review_timestamp": "2026-08-03T18:31:15-04:00",
+    "authorization_scope": "FINAL_V1_0_EXACT_EXPORT_ONLY",
+    "front_matter_control_pages": 3,
+    "source_body_pages": 5,
+    "source_body_appended_exactly": true,
+    "substantive_findings_changed": false,
+    "counts_changed": false,
+    "canonical_wording_changed": false,
+    "statuses_changed": false,
+    "sources_or_dependencies_changed": false,
+    "locked_predecessors_changed": false,
+    "machine_readable_register_records_changed": false
+  },
+  "register_category_vocabulary": {
+    "OPEN_DEPENDENCY": "A register-level annotation that a source-grounded dependency remains open. It is not the controlled primary answer status UNRESOLVED and does not change any linked question work state or answer status.",
+    "EMPIRICALLY_UNIDENTIFIED_FORWARD_CARRIED": "A register-level forward-carried empirical identification limit.",
+    "NORMATIVELY_UNDERDETERMINED_FORWARD_CARRIED": "A register-level forward-carried normative underdetermination limit."
+  }
+}

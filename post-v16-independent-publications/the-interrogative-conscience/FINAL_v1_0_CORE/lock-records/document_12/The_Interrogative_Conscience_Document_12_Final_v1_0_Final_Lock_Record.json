@@ -1,0 +1,104 @@
+{
+  "record_type": "INTERROGATIVE_CONSCIENCE_FINAL_LOCK_RECORD",
+  "record_version": "1.0",
+  "document_number": 12,
+  "document_title": "Plural Intelligence, Disagreement, and External Boundaries",
+  "document_subtitle": "Independent-Signal Value, Correlated-Error Reversal, and the External-Review Threshold Under Self-Diagnosis Risk",
+  "final_version": "Final v1.0",
+  "lock_timestamp": "2026-08-02T18:18:33-04:00",
+  "lock_status": "FINAL v1.0 - CRYPTOGRAPHICALLY LOCKED",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "authorial_lock_authorization": {
+    "response": "proceed",
+    "context": "Separate cryptographic-lock gate following completion of the exact Final v1.0 export.",
+    "authorization_record": "Thomas_Vargo_Document_12_Cryptographic_Lock_Authorization_2026-08-02.json"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_12_Plural_Intelligence_Disagreement_and_External_Boundaries_Final_v1_0.pdf",
+    "bytes": 140323,
+    "sha256": "acb0ed925ef37a091512bdb4cc32fb2d855ca324a3a275e484e3ff4b597668d1",
+    "sha512": "b58e20a0a79f222109ad648fe24a583b11f8996f61ec9fa9b508c12f8376e08358c70c0db25e89bc055cff879df8dbf5d3e170ee875742c6912213302b4d3f2c"
+  },
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_12_Plural_Intelligence_Disagreement_and_External_Boundaries_Final_v1_0_Exact_Export_Package.zip",
+    "bytes": 2208918,
+    "sha256": "58a9c75f6f5e8e70979a8b5ad74bf528990f04860077f23e321afb231a14fe10",
+    "sha512": "7b95b3c25bfb0e6dbe73b7be478fde42233e9e1b1cfc5b54cfc5d525c81bb894c3167e8f14953168232b31c35894454670449b97e30930c8e717c542855a10ef"
+  },
+  "exact_export_zip_entries": 40,
+  "review_lineage": {
+    "draft_v0_1_exact_review_package": {
+      "filename": "The_Interrogative_Conscience_Document_12_Plural_Intelligence_Disagreement_and_External_Boundaries_Draft_v0_1_Exact_Review_Package.zip",
+      "bytes": 196415,
+      "sha256": "5f31aeb74c4ad557e3d03ba1d1def801c5ce1afd65125913f54718c4be10b2b3",
+      "sha512": "82b15a07eb0ff0948c6f5e67ca0d25819cc308f5f46c4ad633f522da495210ed99ae8ca1f1146952763d9056217dc6d3fecb1c823ba8209e50f20476e8ba7650"
+    },
+    "claude_disposition": "PASS WITH NON-BLOCKING NOTES",
+    "claude_blocking_defects": 0,
+    "claude_required_corrections": 0,
+    "final_candidate_package_v0_2": {
+      "filename": "The_Interrogative_Conscience_Document_12_Final_Candidate_Review_Package_v0_2.zip",
+      "bytes": 697550,
+      "sha256": "68915ede1a77d128bba5d6da732fc7c1ec499b001244e9357fdf3d979ce31525",
+      "sha512": "73b0b9a9fa10225aa1087de421d7ce29a377193b6c2faa41f1942d6bc7a55dae5c436ce5f1c7ad14e5cafc56e0131a2d422d15b70b2da80ab93d6de419c6f219"
+    },
+    "google_ai_disposition": "PASS AS FINAL CANDIDATE",
+    "google_ai_blocking_defects": 0,
+    "google_ai_required_corrections": 0,
+    "authorial_review_package_v0_3": {
+      "filename": "The_Interrogative_Conscience_Document_12_Authorial_Review_Package_v0_3.zip",
+      "bytes": 888760,
+      "sha256": "0b43c5e15bff583fdc32b0c5c0ebcc3042dedf717a259f506e9a8330f30fa4a7",
+      "sha512": "84920ed4417185cca8316114f523ad30402652cb47a911eba57402317defcc09479739083eeb6620e13a1c5acf37e7f28415e21108b8a78d08ec15e47182b1e2"
+    },
+    "authorial_human_review_complete": true,
+    "exact_final_v1_0_construction_authorized": true,
+    "cryptographic_lock_authorized": true
+  },
+  "content_integrity": {
+    "source_body_pixel_identity": "PASS - 4/4 pages",
+    "final_pdf_pages": 8,
+    "source_content_changes_after_review": 0,
+    "registry_changes": 0,
+    "machine_readable_source_changes": 0,
+    "final_pdf_preflight": "PASS",
+    "final_pdf_visual_QA": "PASS - 8/8 pages"
+  },
+  "scope": {
+    "examined_questions": [
+      "IC-PLU-001",
+      "IC-EXT-001"
+    ],
+    "forward_carried_unexamined": [
+      "IC-PLU-002",
+      "IC-PLU-003",
+      "IC-PLU-004",
+      "IC-PLU-005",
+      "IC-PLU-006",
+      "IC-PLU-007",
+      "IC-PLU-008",
+      "IC-EXT-002",
+      "IC-EXT-003",
+      "IC-EXT-004",
+      "IC-EXT-005",
+      "IC-EXT-006",
+      "IC-EXT-007",
+      "IC-EXT-008"
+    ],
+    "registry_modified": false
+  },
+  "dependency_qualification": "IC-EXT-001 formally depends on IC-EPI-001, IC-OBJ-001, and IC-PLU-002. IC-PLU-002 remains REGISTERED / UNEXAMINED. IC-PLU-001 supplies only a limited independent-signal component and does not replace or close IC-PLU-002.",
+  "report_language_clarifications": [
+    "Google AI's displayed f_EW notation is interpreted as multiplication f_E times W according to the unchanged source and verified values.",
+    "THRESHOLD_DEPENDENT is earned by mathematical ranking reversal around p*. The open IC-PLU-002 dependency is an additional qualification, not the cause of the status."
+  ],
+  "deferred": "Exact execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries remains deferred and is not claimed.",
+  "publication_and_preservation": {
+    "publication_authorized": false,
+    "publication_complete": false,
+    "external_preservation_authorized": false,
+    "external_preservation_complete": false
+  },
+  "future_change_rule": "No post-lock edit is authorized. Any substantive or administrative change to the locked Final v1.0 artifact requires a separately versioned successor and must not overwrite or silently replace this locked identity.",
+  "authority_boundary": "The lock establishes artifact identity and lifecycle finality only. It does not establish empirical truth, mathematical authority, governance authority, intervention authority, or external independent human peer review."
+}

@@ -1,0 +1,12 @@
+sequence,phase,action,required_state,status,rollback
+1,LIVE_RECHECK,"Recheck repository HEAD, default branch, target path absence, tag availability, release availability, and authenticated branch/ruleset state.",MATCHES_PREFLIGHT_OR_REAUTHORIZE,PENDING_ACTION_AUTHORIZATION,STOP_WITHOUT_CHANGES
+2,SOURCE_VERIFY,Verify v0.1.2 repository-tree ZIP and all 14 locked PDFs against controlling SHA-256/SHA-512 values.,PASS,READY,STOP_WITHOUT_CHANGES
+3,CLONE,Clone solisaegis/SolisAegis and check out current main at the reverified baseline.,CLEAN_WORKTREE,PENDING_ACTION_AUTHORIZATION,DELETE_LOCAL_CLONE
+4,MERGE,Copy the v0.1.2 FINAL_v1_0_CORE directory into the approved destination path.,NO_PATH_CONFLICTS,PENDING_ACTION_AUTHORIZATION,REMOVE_UNCOMMITTED_PATH
+5,LOCAL_VERIFY,Run verification/verify_repository.py and independent hashes before commit.,PASS,READY,STOP_BEFORE_COMMIT
+6,COMMIT,Create one atomic commit with the approved message.,EXACT_TREE_ONLY,PENDING_ACTION_AUTHORIZATION,RESET_LOCAL_COMMIT_BEFORE_PUSH
+7,PUSH,Push the exact commit to main only after all checks pass.,REMOTE_ACCEPTS_EXACT_COMMIT,PENDING_ACTION_AUTHORIZATION,FOLLOW_APPROVED_REVERT_PLAN; DO_NOT FORCE_PUSH
+8,POST_PUSH_VERIFY,Record exact deployment commit SHA and verify public paths and hashes from GitHub.,PASS,PENDING_ACTION_AUTHORIZATION,REVERT_COMMIT_IF MATERIAL DEFECT
+9,DRAFT_RELEASE,Create draft tag/release interrogative-conscience-core-v1.0 targeting the exact deployment commit SHA.,TAG_UNUSED_AND_TARGET_EXACT,PENDING_ACTION_AUTHORIZATION,DELETE_DRAFT_RELEASE_AND_UNUSED_TAG
+10,ASSET_UPLOAD,"Upload the 433,058,687-byte continuity ZIP as a release asset and verify its exact identity.",SHA256_AND_SHA512_PASS,PENDING_ACTION_AUTHORIZATION,DELETE_BAD_ASSET; KEEP_RELEASE_DRAFT
+11,RELEASE_PUBLISH,Publish the final release only after repository and asset verification pass.,ALL_GATES_PASS,PENDING_ACTION_AUTHORIZATION,DOCUMENT_AND_CORRECT; DO_NOT SILENTLY REPLACE LOCKED FILES

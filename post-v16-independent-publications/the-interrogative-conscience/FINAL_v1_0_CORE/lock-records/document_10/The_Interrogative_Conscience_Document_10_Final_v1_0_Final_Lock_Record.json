@@ -1,0 +1,92 @@
+{
+  "record_type": "Interrogative Conscience Document 10 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 10,
+  "document_title": "Verification, Authority, Archives, and Public Reference: Artifact-Identity Bounds, Claim-Support Separation, and the Coordination Threshold for Durable Reference",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T13:22:05-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_10_Verification_Authority_Archives_and_Public_Reference_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 814012550,
+    "sha256": "caf46e8efd77c8dddc10f01b3b2ad0acad0b5b989aad5354b160eb4c380064fe",
+    "sha512": "04747e4145e1ad6f0ff191913073f24cc8e637c1f3e94cf385a3906c541f20bfb8974b582c608ed8d790ea948b5fe17b8b600fcdd3c9e412cf6cc4d4e8ff57ef"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_10_Verification_Authority_Archives_and_Public_Reference_Final_v1_0.pdf",
+    "byte_size": 117153,
+    "sha256": "c804ceb9ba992c6ad92348f15b2070e3fcbebe19af2fa2e456782e4a2029bd4f",
+    "sha512": "913fc6e311f08ad73ccf8a110c502f97a5286c19b1fb42a1c5fe369b5e7d704a6c0aaa4a48305370d5a37201d7ac53f16caea0b6c98acd4b8c54dfc034a367f3"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-VER-001",
+      "primary_answer_status": "CONDITIONALLY_SUPPORTED",
+      "secondary_limits": [
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED",
+        "NORMATIVELY_UNDERDETERMINED"
+      ]
+    },
+    {
+      "question_id": "IC-REF-001",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "secondary_limits": [
+        "CONDITIONALLY_SUPPORTED",
+        "MODEL_DEPENDENT",
+        "EMPIRICALLY_UNIDENTIFIED"
+      ]
+    }
+  ],
+  "registry_overlay_rule": "Document 10 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry.",
+  "verification_qualification": {
+    "V_id": "h; selected exact-byte identity only",
+    "V_prov": "h*s*k; conditional provenance only",
+    "V_claim": "V_prov*m*r*e; illustrative evidentiary discount architecture",
+    "authority_gate": "a remains independent and is not inferred from cryptographic or claim-support values",
+    "excluded_inferences": [
+      "truth",
+      "completeness",
+      "currentness",
+      "interpretation",
+      "authorization",
+      "authority"
+    ]
+  },
+  "public_reference_qualification": {
+    "C_private": "N*p + gamma*N*(N-1)/2",
+    "C_reference": "F + N*q + L",
+    "Delta_REF": "C_private - C_reference",
+    "linear_N_star": 2.4,
+    "linear_first_positive_integer_crossover": 3,
+    "quadratic_N_star_approx": 3.7158,
+    "quadratic_Delta_at_3": -4.5,
+    "quadratic_Delta_at_4": 2.0,
+    "quadratic_first_positive_integer_crossover": 4,
+    "linear_formula_scope": "gamma=0 and p>q only"
+  },
+  "availability_reception_qualification": "Public availability, durability, preservation, mirroring, indexing, citation, or discoverability do not establish truth, authority, interpretation, claim support, or guaranteed reception.",
+  "scalar_vector_qualification": "Scalar comparisons do not erase consent, agency, legitimacy, plural values, asymmetric access, catastrophic risks, supersession, reception, or other unrepresented vector dimensions.",
+  "google_scratch_code_status": "Excluded from formal review lineage because it was not part of the formal review disposition.",
+  "validation_disposition": {
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 4/4 pages",
+    "composite_visual_QA": "PASS - 8/8 pages",
+    "local_structural_validation": "PASS - 32 checks",
+    "local_calculation_validation": "PASS - 49 checked values",
+    "source_token_consistency": "PASS - 20/20; Claude independent 16/16",
+    "exact_export_zip_integrity": "PASS - 32 entries",
+    "nested_zip_integrity": "PASS - 2/2 nested ZIPs",
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "post_authorization_substantive_changes": 0
+  },
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, governance authority, behavioral authority, intervention authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_10_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

@@ -1,0 +1,57 @@
+{
+  "record_type": "Interrogative Conscience Document 7 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 7,
+  "document_title": "Deception, Disclosure, and Informational Degradation: Maintenance-Cost Reversal, Selective-Disclosure Boundaries, and Collective-Judgment Distortion",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T08:27:40-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_7_Deception_Disclosure_and_Informational_Degradation_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 87135054,
+    "sha256": "584c5826d55f003934aa57cd7888f3b0c29befe1c2ba20e3b0ac424d303a2070",
+    "sha512": "06ecbe1d50bf981d2e1066e2808177b39904402f08e0d1251f19bafadd6a3ea4a5a5b8b68f4343d56fe58ce792968ddb907e3898dbcf10e6581f7b03ed2e2b74"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_7_Deception_Disclosure_and_Informational_Degradation_Final_v1_0.pdf",
+    "byte_size": 136257,
+    "sha256": "4c3fe081b8ab6d1b61238b2d4c720351fa483208d97d739754567c6684b20486",
+    "sha512": "35b979f8b13f6fcbb4a0b84bb5ebcaae43891b575dcd48640d0214dc6b83f4b51600e11d9766f86006bb95aa156e100031b69c571cc738b84d3c117703aaa96d"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-DEC-001",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "selected sustained-deception versus truthful-disclosure branch pair under a declared maintenance, verification, coordination, detection-hazard, repair, and terminal-exposure ledger"
+    },
+    {
+      "question_id": "IC-DEC-002",
+      "primary_answer_status": "NORMATIVELY_UNDERDETERMINED",
+      "scope": "selected scoped-withholding versus full-disclosure comparison under independent legitimacy, truthfulness, claim-support, scope-clarity, total-loss, and false-inference gates"
+    }
+  ],
+  "dependency_treatment": "IC-DEC-001 retains its dependency on IC-LHZ-001 without claiming to solve general horizon selection. IC-DEC-002 retains its dependency on IC-VER-002 through an independently fixed claim-support and scope-match gate.",
+  "registry_overlay_rule": "Document 7 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry.",
+  "classification_gate_qualification": "A favorable scalar Delta_SEL does not override failed legitimacy, truthfulness, claim-support, scope-clarity, total-information-loss, or false-inference gates.",
+  "horizon_and_hazard_qualification": "Selected horizon reversals do not determine a universally correct horizon. The detection-hazard term is an expected-cost component and not an operational method for avoiding detection.",
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes_during_final_export": 0,
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 5/5 pages",
+    "composite_visual_qa": "PASS - 9/9 pages",
+    "local_structural_validation": "PASS - 26 checks",
+    "local_calculation_validation": "PASS - 45 checked values",
+    "zip_integrity": "PASS"
+  },
+  "review_phrase_clarification": "Google AI's phrase “hard-locked into MATERIAL DISTORTION” is recorded only as an analytical classification under the declared gates and not as a cryptographic lifecycle designation.",
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred. The lock covers the exact Final v1.0 export package, its contained source and review records, and the exact primary Final v1.0 PDF.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, behavioral authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_7_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

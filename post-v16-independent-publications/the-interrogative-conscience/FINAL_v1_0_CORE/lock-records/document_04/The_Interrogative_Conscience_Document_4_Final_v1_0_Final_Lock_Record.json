@@ -1,0 +1,53 @@
+{
+  "record_type": "Interrogative Conscience Document 4 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 4,
+  "document_title": "Epistemic Limits and Self-Knowledge: Model Adequacy, Omitted-Variable Regret, and Action Under Unidentified Error",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-01T08:53:51-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_4_Epistemic_Limits_and_Self_Knowledge_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 1351431,
+    "sha256": "a558bc96d9c0171dbd33880c50c19ee0f65714b9de413ab3ac784e6539793585",
+    "sha512": "c1cf7c7506659a8f86d5df5307701236e405c5ddf42944cafdbf02d19175ad9f48f32a7ef7729fdd7d441fe6d26707da924c445ec6219c06810baa62993f0754"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_4_Epistemic_Limits_and_Self_Knowledge_Final_v1_0.pdf",
+    "byte_size": 201299,
+    "sha256": "278d998262563028c3bf24f24b426ce118e1926566a92bf5159142d1e568dca3",
+    "sha512": "e62094d1f341bf95c3f7cc2bdba42d8ed0dd1164f53d2f85242f2baf6f802193be87291076cc12b9c9673a1d001775579a1a77b30164a45577ab6142b12b1cfc"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-EPI-001",
+      "primary_answer_status": "CONDITIONALLY_SUPPORTED",
+      "scope": "decision-relative selected-pair, single-check model"
+    },
+    {
+      "question_id": "IC-EPI-002",
+      "primary_answer_status": "MODEL_DEPENDENT",
+      "scope": "selected commitment/preservation pair under declared ambiguity criteria"
+    }
+  ],
+  "registry_overlay_rule": "Document 4 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry.",
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes_during_final_export": 0,
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 13/13 pages",
+    "composite_visual_qa": "PASS - 17/17 pages",
+    "local_structural_validation": "PASS",
+    "local_calculation_validation": "PASS - 8 checked example records",
+    "zip_integrity": "PASS"
+  },
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred. The lock covers the exact Final v1.0 export package, its contained source and review records, and the exact primary Final v1.0 PDF.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, behavioral authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_4_Final_v1_0_Lock_Authorization_2026-08-01.txt"
+}

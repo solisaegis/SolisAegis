@@ -1,0 +1,419 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aegissolis.org/schemas/interrogative-conscience-master-question-registry-v0.1-draft.json",
+  "title": "Interrogative Conscience Master Question Registry Draft v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_name",
+    "schema_version",
+    "document_status",
+    "document_number",
+    "project_title",
+    "document_title",
+    "author",
+    "date",
+    "question_count",
+    "family_count",
+    "questions_per_family",
+    "seed_question_count",
+    "new_question_count",
+    "families",
+    "controlled_priorities",
+    "controlled_work_states",
+    "controlled_answer_statuses",
+    "controlled_relation_types",
+    "admission_criteria",
+    "questions",
+    "publication_lock",
+    "boundary_note"
+  ],
+  "properties": {
+    "schema_name": {
+      "const": "Interrogative Conscience Master Question Registry"
+    },
+    "schema_version": {
+      "const": "0.1-draft"
+    },
+    "document_status": {
+      "type": "string"
+    },
+    "document_number": {
+      "const": 3
+    },
+    "project_title": {
+      "type": "string"
+    },
+    "document_title": {
+      "const": "The Master Question Registry"
+    },
+    "document_subtitle": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "publication_authority_boundary": {
+      "type": "string"
+    },
+    "ai_assistance": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "controlling_foundation": {
+      "type": "object"
+    },
+    "question_count": {
+      "const": 112
+    },
+    "family_count": {
+      "const": 14
+    },
+    "questions_per_family": {
+      "const": 8
+    },
+    "seed_question_count": {
+      "const": 28
+    },
+    "new_question_count": {
+      "const": 84
+    },
+    "families": {
+      "type": "array",
+      "minItems": 14,
+      "maxItems": 14,
+      "items": {
+        "type": "object",
+        "required": [
+          "code",
+          "name",
+          "description"
+        ],
+        "properties": {
+          "code": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "controlled_priorities": {
+      "const": [
+        "FOUNDATIONAL",
+        "HIGH",
+        "MEDIUM"
+      ]
+    },
+    "controlled_work_states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "controlled_answer_statuses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "controlled_relation_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "admission_criteria": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "string"
+      }
+    },
+    "status_assignment_rule": {
+      "type": "string"
+    },
+    "two_sided_answer_openness_rule": {
+      "type": "string"
+    },
+    "operational_boundary_rule": {
+      "type": "string"
+    },
+    "registry_design_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_document_3_questions": {
+      "type": "object",
+      "required": [
+        "multi_agent_restraint",
+        "self_falsifiability"
+      ],
+      "properties": {
+        "multi_agent_restraint": {
+          "const": "IC-PEA-003"
+        },
+        "self_falsifiability": {
+          "const": "IC-REF-003"
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 112,
+      "maxItems": 112,
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "review_lineage": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "publication_lock": {
+      "type": "object",
+      "required": [
+        "final_candidate",
+        "locked",
+        "finalization_authorized",
+        "cryptographic_lock_authorized"
+      ],
+      "properties": {
+        "final_candidate": {
+          "const": false
+        },
+        "locked": {
+          "const": false
+        },
+        "finalization_authorized": {
+          "const": false
+        },
+        "cryptographic_lock_authorized": {
+          "const": false
+        }
+      }
+    },
+    "boundary_note": {
+      "type": "string"
+    },
+    "dependency_cycle_disclosure": {
+      "type": "object",
+      "required": [
+        "cycle_policy",
+        "strongly_connected_components",
+        "component_count",
+        "status"
+      ],
+      "properties": {
+        "cycle_policy": {
+          "type": "string"
+        },
+        "strongly_connected_components": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "string",
+              "pattern": "^IC-[A-Z]{3}-[0-9]{3}$"
+            }
+          }
+        },
+        "component_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "status": {
+          "const": "DISCLOSED_NOT_RESOLVED"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "relation_type",
+        "target_question_id"
+      ],
+      "properties": {
+        "relation_type": {
+          "type": "string"
+        },
+        "target_question_id": {
+          "type": "string",
+          "pattern": "^IC-[A-Z]{3}-[0-9]{3}$"
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "question_id",
+        "master_registry_entry_version",
+        "question_version",
+        "family_code",
+        "family_name",
+        "priority",
+        "canonical_question",
+        "secondary_tags",
+        "structural_significance",
+        "interpretive_scope",
+        "candidate_variables",
+        "outcome_dimensions",
+        "evidence_requirements",
+        "related_archive_works",
+        "relations",
+        "work_state",
+        "answer_status",
+        "secondary_answer_statuses",
+        "status_transition_requirements",
+        "admission_assessment",
+        "boundary_record",
+        "question_record_review"
+      ],
+      "properties": {
+        "question_id": {
+          "type": "string",
+          "pattern": "^IC-[A-Z]{3}-[0-9]{3}$"
+        },
+        "master_registry_entry_version": {
+          "const": "0.1-draft"
+        },
+        "question_version": {
+          "type": "string"
+        },
+        "family_code": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "family_name": {
+          "type": "string"
+        },
+        "priority": {
+          "enum": [
+            "FOUNDATIONAL",
+            "HIGH",
+            "MEDIUM"
+          ]
+        },
+        "canonical_question": {
+          "type": "string",
+          "minLength": 10
+        },
+        "clarifying_formulation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "secondary_tags": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "structural_significance": {
+          "type": "string",
+          "minLength": 20
+        },
+        "interpretive_scope": {
+          "type": "object"
+        },
+        "candidate_variables": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "outcome_dimensions": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string"
+          }
+        },
+        "evidence_requirements": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "related_archive_works": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "relations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/relation"
+          }
+        },
+        "work_state": {
+          "type": "string"
+        },
+        "answer_status": {
+          "type": "string"
+        },
+        "secondary_answer_statuses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "examination_record": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "status_transition_requirements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "admission_assessment": {
+          "type": "object"
+        },
+        "boundary_record": {
+          "type": "object"
+        },
+        "seed_lineage": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "question_record_review": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

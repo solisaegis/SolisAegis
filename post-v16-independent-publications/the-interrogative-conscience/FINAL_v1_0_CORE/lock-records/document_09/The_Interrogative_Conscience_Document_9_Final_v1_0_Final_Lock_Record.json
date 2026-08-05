@@ -1,0 +1,68 @@
+{
+  "record_type": "Interrogative Conscience Document 9 Final v1.0 Final Lock Record",
+  "record_version": "1.0",
+  "document_number": 9,
+  "document_title": "Cooperation, Peace, and Repeated Interaction: Reputation-Adjusted Reversal, Unilateral Restraint Under Exploitation Risk, and Future Bargaining",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "lock_timestamp": "2026-08-02T12:23:39-04:00",
+  "lock_method": "AUTHORIAL EXACT-BYTE SHA-256 AND SHA-512 HASH LOCK",
+  "lock_status": "LOCKED",
+  "publication_status": "AUTHORIZED; EXTERNAL PUBLICATION AND PRESERVATION RECORDS PENDING",
+  "exact_export_package": {
+    "filename": "The_Interrogative_Conscience_Document_9_Cooperation_Peace_and_Repeated_Interaction_Final_v1_0_Exact_Export_Package.zip",
+    "byte_size": 416943868,
+    "sha256": "637bc252a7c1d024d9dfa5aaf233fa8a914c8febb6a083dd2fe88b3f5eab6a49",
+    "sha512": "6bcee29d5449431e74c1032d6361713da765f4195a05fa9cec2474088091546244383a9f74f2137aa548fd3ef01477700b357859259638fc1a2c8e5a10ae2379"
+  },
+  "primary_final_pdf": {
+    "filename": "The_Interrogative_Conscience_Document_9_Cooperation_Peace_and_Repeated_Interaction_Final_v1_0.pdf",
+    "byte_size": 119491,
+    "sha256": "d46b1cf3b82a7abb1cfbf481edc1f212e1240f366b15c75491077cbbf24cf770",
+    "sha512": "403b2d038c8d4d232740ae24ea6491d51410ba7e778e2b9e9cb10899a7e61001741a9af7846d1590bcf4fc5d97083158f5492dde7848920b3dc64092e07df527"
+  },
+  "analytical_overlays": [
+    {
+      "question_id": "IC-PEA-002",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "finite-horizon repeated interaction comparing reciprocal restraint with a selected exploitation branch through immediate advantage, expected response cost, future bargaining value, reputation effect, successor persistence, restraint cost, horizon, and discounting"
+    },
+    {
+      "question_id": "IC-PEA-003",
+      "primary_answer_status": "THRESHOLD_DEPENDENT",
+      "scope": "unilateral restraint under exploitation risk using option preservation, verification-weighted signaling and future reciprocity, restraint cost, exploitation loss, decline value, point-probability thresholds, and ambiguity intervals"
+    }
+  ],
+  "registry_provenance": {
+    "IC_PEA_003_path": "/questions/50",
+    "pre_examination_status": "REGISTERED / UNEXAMINED",
+    "admission_result": "PASS",
+    "controlling_registry": "Document 3 Final v1.0 Master Question Registry",
+    "claude_R1_status": "WITHDRAWN_NOT_SUSTAINED",
+    "registry_modified_by_document_9": false,
+    "source_successor_required": false
+  },
+  "repeated_interaction_qualification": "The selected paired undiscounted example has tie T*=5.76 and first positive integer reversal T=6. The closed-form T* expression is limited to delta=1. Nonpositive future premiums or weak successor persistence can prevent reversal.",
+  "unilateral_restraint_qualification": "The exploitation-risk model preserves restraint-favorable, decline-favorable, robust, and ambiguity-dependent regions. An interval spanning pi* remains AMBIGUITY_DEPENDENT. Verification-dependent benefits require independently supported verification reliability.",
+  "dependency_treatment": "Dependencies on IC-SUC-001, IC-SUC-002, IC-LHZ-001, and IC-EPI-002 remain explicit without false resolution or circular proof.",
+  "registry_overlay_rule": "Document 9 is a separate analytical overlay and does not modify the locked Document 3 Master Question Registry or the prior IC-PEA-001 pilot overlay.",
+  "scalar_vector_qualification": "Scalar comparisons do not erase unrepresented consent, agency, legitimacy, plural values, catastrophic risks, deadlines, asymmetric vulnerability, successor uncertainty, or other vector dimensions.",
+  "validation_disposition": {
+    "blocking_defects": 0,
+    "required_corrections": 0,
+    "substantive_changes_during_final_export": 0,
+    "authorized_package_hashes_reverified": true,
+    "authorized_primary_pdf_hashes_reverified": true,
+    "source_body_pixel_identity": "PASS - 4/4 pages",
+    "composite_visual_qa": "PASS - 8/8 pages",
+    "local_structural_validation": "PASS - 26 checks",
+    "local_calculation_validation": "PASS - 53 checked values",
+    "exact_export_zip_integrity": "PASS - 36 entries",
+    "nested_zip_integrity": "PASS - 3/3 nested ZIPs"
+  },
+  "machine_record_shape_qualification": "The list-based dependency representation is accepted as a valid local machine-record form pending optional later cross-volume schema reconciliation.",
+  "companion_binary_qualification": "This lock does not claim execution against the original unmounted Draft v0.3 JSON Schema and I-01 through I-20 validator binaries. That supporting-artifact validation remains separately deferred. The lock covers the exact Final v1.0 export package, its contained source, review, registry-provenance and validation records, and the exact primary Final v1.0 PDF.",
+  "authority_boundary": "The author controls authorship, versioning, archive inclusion, publication, and lock status only. This record does not establish empirical truth, mathematical authority, external governance authority, behavioral authority, intervention authority, or independent peer review.",
+  "external_independent_human_peer_review": false,
+  "post_lock_rule": "No substantive or administrative modification to the locked exact files is authorized. Any correction, expansion, or replacement must be issued as a separately versioned successor record.",
+  "authorial_authorization_record": "authorizations/Thomas_Vargo_Authorial_Document_9_Final_v1_0_Lock_Authorization_2026-08-02.txt"
+}

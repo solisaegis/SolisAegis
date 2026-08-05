@@ -1,0 +1,8 @@
+The Interrogative Conscience - Fourteen-Document Core
+Status: Final v1.0 core; GitHub mirror
+Primary index: collection/INDEX.md
+Machine inventory: collection/release_inventory.json
+Graph: collection/atlas/graph.json
+Machine-readable companions: machine-readable/
+Boundary: publication, verification, citation, mathematical form, or preservation do not confer authority.
+License: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)

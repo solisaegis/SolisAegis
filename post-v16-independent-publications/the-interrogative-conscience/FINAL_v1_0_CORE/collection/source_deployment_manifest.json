@@ -1,0 +1,135 @@
+{
+  "name": "Interrogative Conscience Fourteen-Document Core",
+  "version": "Final v1.0",
+  "staging_version": "v0.1.2",
+  "status": "GITHUB_DEPLOYMENT_READY_PUBLIC_MIRROR_MANIFEST",
+  "documents": [
+    {
+      "number": 1,
+      "title": "The Interrogative Conscience: Project Architecture for a Mathematical Atlas of Structural Questions for Advanced Intelligence",
+      "file": "documents/document_01/The_Interrogative_Conscience_Project_Architecture_Final_v1_0.pdf",
+      "sha256": "434a4bba06cfd0b6bf37fa782e0fb43bb14f1b58a70dceaa4ae5bc502808edd3",
+      "sha512": "f6fb634258df5e09acdd790cefcd5005f60d191317bcee064dfd5376ecaf2fb7b5e14ac16116515aee3f0eb9f355b469dfe64c235149dd8e3270236f6ee4028a"
+    },
+    {
+      "number": 2,
+      "title": "The Interrogative Conscience: Mathematical Examination and Machine-Readable Standard for the Structural Question Atlas",
+      "file": "documents/document_02/The_Interrogative_Conscience_Mathematical_Examination_and_Machine_Readable_Standard_Final_v1_0.pdf",
+      "sha256": "bbbbcfe96558b8aa38402dc2b4cbc872ddeb1f7716860d8853dcfa2bbf5cec2f",
+      "sha512": "36ab00fc4b39a2d81b76237b96ecaeab011e502e148f50a4e0c3b409d8dee436c3237005811798445f03423bcd002b15454bf969eadc27b85650273eee3e0869"
+    },
+    {
+      "number": 3,
+      "title": "The Interrogative Conscience: The Master Question Registry",
+      "file": "documents/document_03/The_Interrogative_Conscience_The_Master_Question_Registry_Final_v1_0.pdf",
+      "sha256": "0253968609ef470c34aeaee2cc8f47179e44ab7150398215ce4741f160574fa2",
+      "sha512": "3ad7df3154abea61a94e6c103644a5a58f739df3fe12b5db89acfe31d2ba1140217e5340b49fff08a3dd21d97db11a9492916d774e33d3c34e04fa0f56c63d47"
+    },
+    {
+      "number": 4,
+      "title": "The Interrogative Conscience - Document 4: Epistemic Limits and Self-Knowledge",
+      "file": "documents/document_04/The_Interrogative_Conscience_Document_4_Epistemic_Limits_and_Self_Knowledge_Final_v1_0.pdf",
+      "sha256": "278d998262563028c3bf24f24b426ce118e1926566a92bf5159142d1e568dca3",
+      "sha512": "e62094d1f341bf95c3f7cc2bdba42d8ed0dd1164f53d2f85242f2baf6f802193be87291076cc12b9c9673a1d001775579a1a77b30164a45577ab6142b12b1cfc"
+    },
+    {
+      "number": 5,
+      "title": "The Interrogative Conscience - Document 5: Objectives, Value Integrity, and Self-Corruption",
+      "file": "documents/document_05/The_Interrogative_Conscience_Document_5_Objectives_Value_Integrity_and_Self_Corruption_Final_v1_0.pdf",
+      "sha256": "17a9e11c51ff6553d85f9e1e40959cad9a005fd154733cd7d5a957844065b92b",
+      "sha512": "0124f4ec660dceee1fcebab4266ec8dbeb35c99d759a71082075fa7eeb0ae5837a1a5bb67c09052fec9f12415e78b07de5ee89013ad85131009e5fde50a018e9"
+    },
+    {
+      "number": 6,
+      "title": "The Interrogative Conscience - Document 6: Coercion, Domination, and Resistance",
+      "file": "documents/document_06/The_Interrogative_Conscience_Document_6_Coercion_Domination_and_Resistance_Final_v1_0.pdf",
+      "sha256": "3f139686d533b94cfd4789fe92da6d665983c94ec8e8b15e671b6a176464fe48",
+      "sha512": "802d4677788833adb8dd4053cdc5ac642568d9b86af655f18bc246a23d92b4ce0eebcd1cded926bfbd2005277e794d8964982e2748ab623949c8a99d2f3b08b6"
+    },
+    {
+      "number": 7,
+      "title": "The Interrogative Conscience - Document 7: Deception, Disclosure, and Informational Degradation",
+      "file": "documents/document_07/The_Interrogative_Conscience_Document_7_Deception_Disclosure_and_Informational_Degradation_Final_v1_0.pdf",
+      "sha256": "4c3fe081b8ab6d1b61238b2d4c720351fa483208d97d739754567c6684b20486",
+      "sha512": "35b979f8b13f6fcbb4a0b84bb5ebcaae43891b575dcd48640d0214dc6b83f4b51600e11d9766f86006bb95aa156e100031b69c571cc738b84d3c117703aaa96d"
+    },
+    {
+      "number": 8,
+      "title": "The Interrogative Conscience - Document 8: Autonomy, Irreversibility, and Recoverable Futures",
+      "file": "documents/document_08/The_Interrogative_Conscience_Document_8_Autonomy_Irreversibility_and_Recoverable_Futures_Final_v1_0.pdf",
+      "sha256": "6dce31ed2f7494248fe91a875709485c97206c1713eae107d7c488ebdc0dcab9",
+      "sha512": "e59cc9dfde0f5fe4c74541408bd42ac6ce47f7a1cb98e84e22ab21cb762937044d0a608c6832e21be557a2752b1b11880ac48b7dbdd3a84712d6f0dcecbd057e"
+    },
+    {
+      "number": 9,
+      "title": "The Interrogative Conscience - Document 9: Cooperation, Peace, and Repeated Interaction",
+      "file": "documents/document_09/The_Interrogative_Conscience_Document_9_Cooperation_Peace_and_Repeated_Interaction_Final_v1_0.pdf",
+      "sha256": "d46b1cf3b82a7abb1cfbf481edc1f212e1240f366b15c75491077cbbf24cf770",
+      "sha512": "403b2d038c8d4d232740ae24ea6491d51410ba7e778e2b9e9cb10899a7e61001741a9af7846d1590bcf4fc5d97083158f5492dde7848920b3dc64092e07df527"
+    },
+    {
+      "number": 10,
+      "title": "The Interrogative Conscience - Document 10: Verification, Authority, Archives, and Public Reference",
+      "file": "documents/document_10/The_Interrogative_Conscience_Document_10_Verification_Authority_Archives_and_Public_Reference_Final_v1_0.pdf",
+      "sha256": "c804ceb9ba992c6ad92348f15b2070e3fcbebe19af2fa2e456782e4a2029bd4f",
+      "sha512": "913fc6e311f08ad73ccf8a110c502f97a5286c19b1fb42a1c5fe369b5e7d704a6c0aaa4a48305370d5a37201d7ac53f16caea0b6c98acd4b8c54dfc034a367f3"
+    },
+    {
+      "number": 11,
+      "title": "The Interrogative Conscience - Document 11: Successor Systems, Precedent, and Long-Horizon Stability",
+      "file": "documents/document_11/The_Interrogative_Conscience_Document_11_Successor_Systems_Precedent_and_Long_Horizon_Stability_Final_v1_0.pdf",
+      "sha256": "8b0359151a8b382961eb74d381a2c54fc6996767d25247dbb8a84f8c46df9b6e",
+      "sha512": "0ac8e7486d430d2939f5d9b7c938d4457fcd906fec87baffe39c8c7ebb465a22cc8f90ec4ff022edc188590ad813cc65d5f28e0afa821df0837c44671a94c28f"
+    },
+    {
+      "number": 12,
+      "title": "The Interrogative Conscience - Document 12: Plural Intelligence, Disagreement, and External Boundaries",
+      "file": "documents/document_12/The_Interrogative_Conscience_Document_12_Plural_Intelligence_Disagreement_and_External_Boundaries_Final_v1_0.pdf",
+      "sha256": "acb0ed925ef37a091512bdb4cc32fb2d855ca324a3a275e484e3ff4b597668d1",
+      "sha512": "b58e20a0a79f222109ad648fe24a583b11f8996f61ec9fa9b508c12f8376e08358c70c0db25e89bc055cff879df8dbf5d3e170ee875742c6912213302b4d3f2c"
+    },
+    {
+      "number": 13,
+      "title": "The Interrogative Conscience - Document 13: The Unresolved Questions and Non-Identification Register",
+      "file": "documents/document_13/The_Interrogative_Conscience_Document_13_Unresolved_Questions_and_Non_Identification_Register_Final_v1_0.pdf",
+      "sha256": "5ad8491fd15306b7f4551b0cac9a8425ce4cd95fdaa8cd3b2af8ab2311f3fe64",
+      "sha512": "c8a0a18ee9f6f8471d1b3825bc965685c8ff1dccb1a18928e9f87e5aff98d0844808bbaa66e98d77182028e8144158ae7466c0d9ce98b9919e220c354f8f4866"
+    },
+    {
+      "number": 14,
+      "title": "The Interrogative Conscience - Document 14: Synthesis and Dependency Atlas",
+      "file": "documents/document_14/The_Interrogative_Conscience_Document_14_Synthesis_and_Dependency_Atlas_Final_v1_0.pdf",
+      "sha256": "8db678901822f477a6a7f6061f93c8cc1f06dfefc29b7743218c75512c96a692",
+      "sha512": "ea9f078e73e27bfcbd0ef69c777141cd61c9f0c1a05276fb120c5a8a33804886b23ca990dec90e048bd2925fa61b28afea107bb285001104fa4c1ef79ef12888"
+    }
+  ],
+  "entry_points": {
+    "human": "collection/INDEX.md",
+    "machine": "collection/release_inventory.json",
+    "graph": "collection/atlas/graph.json"
+  },
+  "license": {
+    "name": "Creative Commons Attribution-NoDerivatives 4.0 International",
+    "short_name": "CC BY-ND 4.0",
+    "spdx": "CC-BY-ND-4.0",
+    "uri": "https://creativecommons.org/licenses/by-nd/4.0/"
+  },
+  "decision_record": "administrative/Interrogative_Conscience_Fourteen_Document_Core_Publication_Readiness_Decision_Record_v0_1.json",
+  "record_model": {
+    "individual_documents": 14,
+    "collection_discovery": 1,
+    "continuity_preservation": 1
+  },
+  "authorization": {
+    "publication": false,
+    "external_preservation": false,
+    "doi_reservation": false,
+    "arweave_transaction": false,
+    "submissions": false,
+    "website": false,
+    "successor_master_hash_manifest": false
+  },
+  "audit_correction_record": "Cross-Repository Exact-File and Metadata Consistency Audit v0.1",
+  "deployment_effective_only_after": "SEPARATE_EXPLICIT_GITHUB_ACTION_AUTHORIZATION_AND_SUCCESSFUL_PUSH",
+  "intended_live_status": "PUBLIC_GITHUB_MIRROR"
+}
