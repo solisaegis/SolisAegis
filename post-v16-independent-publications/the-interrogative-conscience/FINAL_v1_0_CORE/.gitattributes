@@ -1,0 +1,3 @@
+# Preserve byte-exact CSV artifacts and mutable CSV verification records.
+# Git must not normalize line endings for any CSV under this collection.
+*.csv -text
