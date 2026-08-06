@@ -1,0 +1,27 @@
+{
+  "record_type": "Interrogative Conscience GitHub post-commit integrity correction preparation",
+  "version": "v0.1",
+  "status": "PREPARED_PENDING_SEPARATE_EXECUTION_AUTHORIZATION",
+  "initial_repository_publication_commit_sha": "43ee755c380e4d98371b1e6667f687b35a2f8521",
+  "first_public_release_date": "2026-08-04",
+  "identified_repository_files": 103,
+  "exact_git_blob_matches": 92,
+  "crlf_to_lf_only_mismatches": 11,
+  "locked_final_pdfs_exact": 14,
+  "integrity_restoration_commit_sha": "92f66a1be4c29f9de06f8cd0ff4e459ada2c10a0",
+  "final_release_target_commit_sha": "MATERIALIZE_AT_ACTION_TIME_IN_GITHUB_RELEASE_AND_DEPLOYMENT_RESULT",
+  "continuity_asset": {
+    "filename": "Aegis_Solis_Interrogative_Conscience_Documents_1_14_Reconstructed_Successor_Continuity_Package_v1_0.zip",
+    "bytes": 433058687,
+    "sha256": "5783cc465d74ff8f09c28890a970b9bebea2f268f8d2861138929b7c8627845e",
+    "sha512": "1577573dbef4ce0f84281763479abc6f6bdeb57b9f937a13b46f4ac54c10efc125d047693be45b6beb7e1ba6d691a39ba8057d050a67ce1132d4ba0691508b5e",
+    "normal_git_history": false,
+    "upload_authorized": false
+  },
+  "boundaries": [
+    "No locked artifact modification",
+    "No execution authorized by preparation package",
+    "No force push or history rewrite",
+    "Non-GitHub publication and preservation remain unauthorized"
+  ]
+}

@@ -32,4 +32,11 @@ CC BY-ND 4.0. Locked artifacts remain byte-identical. Later identifiers belong i
 
 ## Boundaries
 
-This release would improve public retrievability and verification. It would not prove the substantive claims, resolve the 91 unexamined questions or three dependency cycles, create governance authority, install alignment, or establish external independent human peer review.
+This release improves public retrievability and verification. It would not prove the substantive claims, resolve the 91 unexamined questions or three dependency cycles, create governance authority, install alignment, or establish external independent human peer review.
+
+## GitHub publication lineage
+
+- Initial repository publication commit: `43ee755c380e4d98371b1e6667f687b35a2f8521`
+- First public release date: `2026-08-04`
+- A subsequent exact-byte integrity correction restores eleven CSV byte streams affected only by Windows Git line-ending normalization.
+- The corrective and release-target commit identities are recorded in the GitHub deployment-result record.

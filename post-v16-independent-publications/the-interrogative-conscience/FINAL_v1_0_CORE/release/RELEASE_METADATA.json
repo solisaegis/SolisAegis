@@ -1,8 +1,8 @@
 {
   "record_type": "GitHub release execution template",
-  "status": "DEPLOYMENT_READY_TEMPLATE_PENDING_SEPARATE_ACTION_AUTHORIZATION",
+  "status": "RELEASE_COMPLETION_PREPARED_PENDING_SEPARATE_ACTION_AUTHORIZATION",
   "tag_name": "interrogative-conscience-core-v1.0",
-  "target_commitish": "{{EXACT_DEPLOYMENT_COMMIT_SHA}}",
+  "target_commitish": "MATERIALIZE_METADATA_BINDING_COMMIT_SHA_AT_ACTION_TIME",
   "name": "The Interrogative Conscience — Fourteen-Document Core, Final v1.0",
   "draft": true,
   "prerelease": false,
@@ -45,5 +45,8 @@
   "asset_upload_authorized": false,
   "publication_step": "Create draft release at exact deployment commit SHA, upload and verify continuity asset, then publish under the same separately authorized action.",
   "release_notes_file": "release/RELEASE_NOTES_v1_0.md",
-  "self_reference_note": "The exact deployment commit SHA cannot be embedded in the commit that creates it; materialize this placeholder in the action record or release command after the commit exists."
+  "self_reference_note": "The final metadata-binding commit cannot contain its own SHA. The exact integrity-restoration commit SHA is embedded here at action time; the exact metadata-binding/release-target SHA is materialized in the GitHub release command and deployment-result record.",
+  "initial_repository_publication_commit_sha": "43ee755c380e4d98371b1e6667f687b35a2f8521",
+  "first_public_release_date": "2026-08-04",
+  "integrity_correction_commit_sha": "92f66a1be4c29f9de06f8cd0ff4e459ada2c10a0"
 }

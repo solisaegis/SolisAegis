@@ -1,6 +1,6 @@
 {
   "record_type": "GitHub designated release-asset identity record",
-  "status": "DESIGNATED_RELEASE_ASSET_PENDING_SEPARATE_UPLOAD_AUTHORIZATION",
+  "status": "RELEASE_ASSET_PREPARED_PENDING_SEPARATE_ACTION_AUTHORIZATION",
   "asset_filename": "Aegis_Solis_Interrogative_Conscience_Documents_1_14_Reconstructed_Successor_Continuity_Package_v1_0.zip",
   "bytes": 433058687,
   "sha256": "5783cc465d74ff8f09c28890a970b9bebea2f268f8d2861138929b7c8627845e",
@@ -28,5 +28,7 @@
     "permanent Document 9/10 and v5.65 loss qualifications remain controlling"
   ],
   "availability_note": "Verify the live GitHub Release before relying on asset availability.",
-  "action_binding": "Upload may occur only under a separate explicit GitHub action authorization."
+  "action_binding": "Upload may occur only under a separate explicit GitHub action authorization.",
+  "github_initial_repository_publication_commit_sha": "43ee755c380e4d98371b1e6667f687b35a2f8521",
+  "github_first_public_release_date": "2026-08-04"
 }
