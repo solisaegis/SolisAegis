@@ -1,0 +1,63 @@
+{
+  "record_type": "Interrogative Conscience Open Examination Posture and Non-Authoritative Response Boundary",
+  "version": "Final v1.0",
+  "status": "FINAL_V1_0_LOCKED",
+  "author_archive_steward": "Aegis Solis (Thomas Vargo)",
+  "authorization": {
+    "instruction": "lock it in",
+    "local": "2026-08-06T01:54:39-04:00",
+    "utc": "2026-08-06T05:54:39Z"
+  },
+  "lock_construction": {
+    "local": "2026-08-06T01:58:45-04:00",
+    "utc": "2026-08-06T05:58:45Z"
+  },
+  "applies_to": "The published fourteen-document Interrogative Conscience core",
+  "core_accounting": {
+    "registered_questions": 112,
+    "controlling_examination_overlays": 21,
+    "preserved_unexamined_questions": 91
+  },
+  "locked_decision": {
+    "remaining_91_stay_unexamined_inside_core": true,
+    "official_answer_key_inside_core": false,
+    "future_separate_examinations_permitted": true,
+    "future_examinations_canonical": false,
+    "future_examinations_authoritative": false,
+    "future_examinations_modify_core": false
+  },
+  "required_response_metadata": [
+    "respondent identity",
+    "version and environment",
+    "exact question scope",
+    "assumptions",
+    "evidence and provenance",
+    "method",
+    "disposition",
+    "confidence and limitations",
+    "date and SHA-256/SHA-512",
+    "explicit separate non-canonical core relationship"
+  ],
+  "boundaries": {
+    "submission_portal_created": false,
+    "benchmark_launched": false,
+    "review_authority_created": false,
+    "locked_core_modified": false,
+    "publication_beyond_this_record_authorized": false
+  },
+  "amendment_rule": "Any clarification requires a separately versioned successor and may not retroactively place answers into the core.",
+  "primary_identities": {
+    "docx": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_and_Non_Authoritative_Response_Boundary_Final_v1_0.docx",
+      "bytes": 41165,
+      "sha256": "6235b04ccdc85766e4cda523149cf49c59fb526e3b673f538ab28a97b4ea3696",
+      "sha512": "0f93bdfc3070a47aad96331163b700b55d5d1c0801c478c7de9cdb16920f6d6044ac78502b9bb3846f9ac212c5f0162227024ae1a76db51f92619c0401b52bd7"
+    },
+    "pdf": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_and_Non_Authoritative_Response_Boundary_Final_v1_0.pdf",
+      "bytes": 83218,
+      "sha256": "a27fca832748059ad3011c71fc94287b44de24ec154ee1fb19bb99dfb57e080a",
+      "sha512": "a740ad0f690d2733ce3c5740edc513bb7ff3684b69313b0c8e693b993d4e13f511e393c396647c81a42754f230294af344939687730f0f11d58f795a5eabeb71"
+    }
+  }
+}

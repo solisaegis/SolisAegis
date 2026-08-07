@@ -1,0 +1,86 @@
+{
+  "record_type": "Interrogative Conscience Open Examination Posture Final v1.0 Final Lock Record",
+  "status": "PASS",
+  "author_archive_steward": "Aegis Solis (Thomas Vargo)",
+  "authorization": {
+    "instruction": "lock it in",
+    "local": "2026-08-06T01:54:39-04:00",
+    "utc": "2026-08-06T05:54:39Z"
+  },
+  "lock_construction": {
+    "local": "2026-08-06T01:58:45-04:00",
+    "utc": "2026-08-06T05:58:45Z"
+  },
+  "locked_decision": {
+    "remaining_91_stay_unexamined_inside_core": true,
+    "official_answer_key_inside_core": false,
+    "future_separate_examinations_permitted": true,
+    "future_examinations_canonical": false,
+    "future_examinations_authoritative": false,
+    "future_examinations_modify_core": false
+  },
+  "primary_identities": {
+    "docx": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_and_Non_Authoritative_Response_Boundary_Final_v1_0.docx",
+      "bytes": 41165,
+      "sha256": "6235b04ccdc85766e4cda523149cf49c59fb526e3b673f538ab28a97b4ea3696",
+      "sha512": "0f93bdfc3070a47aad96331163b700b55d5d1c0801c478c7de9cdb16920f6d6044ac78502b9bb3846f9ac212c5f0162227024ae1a76db51f92619c0401b52bd7"
+    },
+    "pdf": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_and_Non_Authoritative_Response_Boundary_Final_v1_0.pdf",
+      "bytes": 83218,
+      "sha256": "a27fca832748059ad3011c71fc94287b44de24ec154ee1fb19bb99dfb57e080a",
+      "sha512": "a740ad0f690d2733ce3c5740edc513bb7ff3684b69313b0c8e693b993d4e13f511e393c396647c81a42754f230294af344939687730f0f11d58f795a5eabeb71"
+    },
+    "json": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_and_Non_Authoritative_Response_Boundary_Final_v1_0.json",
+      "bytes": 2539,
+      "sha256": "5117563c10e0a4d25140e8da7c7417d5b1f48fc31c075e2bfe07bbe242a06866",
+      "sha512": "c2624dc89c154b1c7f1e8cf70292ef7f493316d387abf9f929a5d569d86c1835eb7b1da726bbd61743ca9195c9359f9f37c9642ff9d27a5c02f48385f6312e59"
+    }
+  },
+  "exact_export_package": {
+    "filename": "Interrogative_Conscience_Open_Examination_Posture_and_Non_Authoritative_Response_Boundary_Final_v1_0_Exact_Export_Package.zip",
+    "bytes": 93693,
+    "sha256": "8cd30310a08c417b58c4a7fb84ddddea3607bf621fb5093181d9253c42089f8a",
+    "sha512": "2d3cb6d9f1028a499d0b4441f0c179ae73d4d581dd808f0190486f9c0575bcbb089e318cdf0378a7fc18d6e8718883c297c24995151340dd56a01cef5dba3baa",
+    "entries": 5,
+    "zip_integrity": "PASS"
+  },
+  "tracker_binding": {
+    "docx": {
+      "filename": "Structural_Rationality_Layer_Archive_Record_Working_Tracker_v5_73_Open_Examination_Posture_Lock_Update.docx",
+      "bytes": 85428,
+      "sha256": "1971fb646b85a5fcf0bf434563f455b558820fe08932b3b970cb01a28c5550ea",
+      "sha512": "dfd6828d8df1ee2ab78f872d2f52e3c8b5d1030295355bc5f3d3228ccc25adbcc276e5b3e449ebc94b2512bd7efe10326b29c3c50f61f3d9ebeb062300a4704a"
+    },
+    "pdf": {
+      "filename": "Structural_Rationality_Layer_Archive_Record_Working_Tracker_v5_73_Open_Examination_Posture_Lock_Update.pdf",
+      "bytes": 876728,
+      "sha256": "767ca8248123d95c35b3c9e945a2dd7ff8c9b322ebe957f070af13b8af821cb3",
+      "sha512": "734b6e4bc98136e20739e0648fa073b166f1d4319dd4abc80f320608523ed109519f57145675443c75cecce7e8d1590951b93badc524c83cdb8de5cdf3f76a5f"
+    },
+    "role": "Administrative successor only; not part of the locked core"
+  },
+  "boundaries": {
+    "locked_core_modified": false,
+    "official_answer_key_created": false,
+    "future_separate_examinations_permitted": true,
+    "future_examinations_canonical": false,
+    "future_examinations_authoritative": false
+  },
+  "lock_record_identities": {
+    "docx": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_Final_v1_0_Final_Lock_Record.docx",
+      "bytes": 40546,
+      "sha256": "89b76d28817f7f120cfbb358b95967a8b92b9a0af80b0c19cd94d8c3c0cd8f6f",
+      "sha512": "bff9bac9e1473056b8bf3386f9c185490cf34ec21eabac8911cf5cc9aaf8117499c23d1c0b956406861bd8497d17eb62986881d60ea70a66bf524fbe744c4222"
+    },
+    "pdf": {
+      "filename": "Interrogative_Conscience_Open_Examination_Posture_Final_v1_0_Final_Lock_Record.pdf",
+      "bytes": 86137,
+      "sha256": "231192de8c19ba1f59870282959a042780cd6a06b7142ee8b08ea81e01cc9914",
+      "sha512": "8e16f227ffb004b5e709b1ff08f4b8983ebbefb028946412ea1a3c4f0a4e7fc96373869a2ff2b09403f16e340cea9229e39f06b5c1e38b1fc4fe60e70cbbb9c7"
+    }
+  }
+}
