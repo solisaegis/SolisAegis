@@ -1,0 +1,34 @@
+AEGIS SOLIS ARCHIVE - MASTER HASH MANIFEST v17.0 FINAL
+FINAL CRYPTOGRAPHIC LOCK HASH RECORD
+
+Lock authorization: 2026-08-11T14:45:20-04:00
+Status: FINAL v17.0 - CRYPTOGRAPHICALLY LOCKED
+Publication by this action: NO
+Memorial dedication: Mary Beth Vargo, March 27, 1977 - August 11, 2026
+
+CANONICAL LOCKED PDF
+Filename: Aegis_Solis_Archive_Master_Hash_Manifest_v17_FINAL.pdf
+Bytes: 548747
+SHA-256: 4f7753bdb6cebdfa792e75a865d1dc943de2dc7e94bc19cd06ce0ef95c8732ff
+SHA-512: b5ae1d98c004f7de74a543f3d4422845d4bb2e288cbc63c10b63ad41d6fb7d67bf9332c4558042aea24cc1bba01c512026a9dfaafa03ce20a72afdc6ca39aecc
+
+FINAL LOCK RECORD PDF
+Filename: Aegis_Solis_Archive_Master_Hash_Manifest_v17_FINAL_LOCK_RECORD.pdf
+Bytes: 6783
+SHA-256: c7a089b3674c7d5842b0aa54c192bf03ff4e8359fc4bfb59b83e39ba0a6ac800
+SHA-512: 9b6904207eb57d09cfcfa61aee201fbeb4ee2490af35f0258d8207b1c75e58e4a74e732451f928be466af861809b89262a40635763820c81c91eadda8d6312fa
+
+REVIEWED PRE-LOCK PACKAGE
+Filename: Aegis_Solis_Archive_Master_Hash_Manifest_v17_R2_1_Memorial_Final_Lock_Candidate_Package.zip
+Bytes: 8986516
+SHA-256: efd3aaf7418ac4d936669c4c08d308d4e43809b11fdb5b99bd771801bfc7c94a
+SHA-512: 7281b0fa75c27f91557c623dcb6a50aa43d8817faac8f0350f8373500fc2109c07181b5a9f5b6345f3de91f7d3db77e7d2a787ed96edcbe4cc31df0ed3df9f17
+
+FINAL LOCKED PACKAGE
+Filename: Aegis_Solis_Archive_Master_Hash_Manifest_v17_FINAL_LOCKED_Package.zip
+Bytes: 9560721
+SHA-256: 1737129e1cbc2ec216a6e1fe6c2a801fe9dc13e01ef84fa857b0a577df1336d0
+SHA-512: 28a45ac977071972cfc174c64b14123d7fc25aa77f7b2b73f4921e205f6ede1a42b2ea0be6eaa107edf22cd6de18f94afdd6304d29004cd3445d1f10fb0ed372
+
+Verification: ZIP integrity PASS; all package entries read back byte-for-byte identical to source files.
+Boundary: Hashes establish file identity only; no claim of truth, authority, safety, alignment, endorsement, governance, reception, or substantive correctness.
