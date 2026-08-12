@@ -31,6 +31,30 @@ This edition is dedicated to the memory of **Mary Beth Vargo**
 
 The lock record documents the authorial cryptographic-lock authorization, exact file identities, review gates, memorial-successor lineage, and publication boundary.
 
+## Public mirrors and discovery routes
+
+- **GitHub canonical publication folder:** https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17
+- **Zenodo:** https://zenodo.org/records/21894804
+- **Internet Archive:** https://archive.org/details/aegis-solis-archive-master-hash-manifest-v17-final
+- **Arweave — canonical FINAL PDF:** https://arweave.net/2p1JLN6H0dX5MgJdFo4kHjpp-TmuKtQUE85td-37-SE
+- **Arweave — FINAL LOCKED package:** https://arweave.net/-zXJD9_BXwD1zxXfhQ7h1z483jFY024zKRxFd8YB7X4
+- **PhilPapers / PhilArchive:** https://philpapers.org/rec/AEGTAS-4
+- **MERLOT:** https://www.merlot.org/merlot/viewMaterial.htm?id=824239862
+
+Additional v17 Arweave transaction routes, including the Final Lock Record, package hash record, and README, are carried in the post-v16 mirror and discovery index below and will also be documented in the separate formal v17 Arweave Preservation Record.
+
+## Post-v16 mirror and discovery index
+
+The post-v16 public routes are exposed through mutable discovery metadata kept beside the locked v17 artifacts:
+
+- [`Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.md`](./Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.md) — human-readable, copy-safe mirror and discovery index.
+- [`Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv`](./Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv) — full machine-readable route inventory.
+- [`Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv`](./Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv) — compact machine-readable route index.
+
+The index exposes retrieval routes for the admitted post-v16 publication set, including P01–P05 and the Interrogative Conscience fourteen-document core, across applicable GitHub, Zenodo, Internet Archive, Arweave, PhilPapers / PhilArchive, and MERLOT records.
+
+These index files are mutable discovery metadata only. They do not amend, reopen, replace, or change the byte identity of Master Hash Manifest v17.0 FINAL or any underlying locked publication.
+
 ## Boundary
 
 A cryptographic hash verifies file identity only. It does not verify truth, authority, wisdom, morality, safety, alignment, legal status, governance status, AI behavior, reader understanding, or reception.
