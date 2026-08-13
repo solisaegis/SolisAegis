@@ -1,7 +1,7 @@
 # Aegis Solis Archive — v17 / Post-v16 Mirror & Discovery Index
 
 **Status:** Mutable discovery metadata — not a canonical intellectual publication  
-**Prepared:** 2026-08-12  
+**Prepared:** 2026-08-13  
 **Purpose:** Copy-safe public retrieval routes for Master Hash Manifest v17.0 FINAL and the admitted post-v16 publication set.
 
 > Boundary: This index improves retrieval and cross-linking only. A link, mirror, discovery record, or cryptographic hash does not establish truth, authority, safety, alignment, endorsement, acceptance, governance status, reader understanding, or reception. Updating this index does not modify any locked publication or its hashes.
@@ -28,6 +28,29 @@
   - Status: `PUBLISHED_ROUTE_RECORDED_EXTERNAL_CRAWL_PENDING`
 - **MERLOT:** https://www.merlot.org/merlot/viewMaterial.htm?id=824239862
   - Status: `PUBLISHED_ROUTE_RECORDED_EXTERNAL_CRAWL_PENDING`
+
+## Formal v17 Arweave Preservation Record — Final v1.0
+
+This separate supporting preservation record is Final v1.0 and cryptographically locked. It documents the five original v17 Arweave preservation items and does not amend or reopen Master Hash Manifest v17.0 FINAL.
+
+- **GitHub preservation-record folder:** https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17/arweave-preservation-record/FINAL_v1_0
+  - Status: `PUBLISHED_FILESET_PRESENT_SIZE_MATCH`
+- **Zenodo record:** https://zenodo.org/records/21913516
+  - Status: `PUBLISHED_ROUTE_RECORDED_EXTERNAL_REDOWNLOAD_PENDING`
+- **Internet Archive:** https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-17-arweave-preservation-record-final-v-1-0-locked-package
+  - Status: `PUBLISHED_ROUTE_RECORDED_EXTERNAL_REDOWNLOAD_PENDING`
+- **Arweave — Preservation Record Final v1.0 PDF:** https://arweave.net/E_0FMcd3m5RQxd2Tt3wC-VXl9cXDlHqGHJKjJWuRG1s
+  - Status: `TURBO_RECEIPT_CONFIRMED_ARWEAVE_NET_RETRIEVAL_PENDING`
+- **Arweave — Preservation Record Final Lock Record:** https://arweave.net/q6WdrFukUYI35CpahVMQ_5CBD8E3xtpEZOdDVBuo9SA
+  - Status: `TURBO_RECEIPT_CONFIRMED_ARWEAVE_NET_RETRIEVAL_PENDING`
+- **Arweave — Preservation Record hash record:** https://arweave.net/i-6bHkOnmVCGswe13_YwQwX-pRm8N6tMo-jwNZr9wvQ
+  - Status: `TURBO_RECEIPT_CONFIRMED_ARWEAVE_NET_RETRIEVAL_PENDING`
+- **Arweave — Preservation Record FINAL LOCKED package:** https://arweave.net/yYNUSpw42jScjPDSar9jPBYZEPFkL2dhOmOO-RMWm3g
+  - Status: `TURBO_RECEIPT_CONFIRMED_ARWEAVE_NET_RETRIEVAL_PENDING`
+- **Arweave — Preservation Record locked-package hash record:** https://arweave.net/fJpJ0tlURsRHMiiAjMg-CVae1Gvq0q-XPY0uWK9NlbE
+  - Status: `TURBO_RECEIPT_CONFIRMED_ARWEAVE_NET_RETRIEVAL_PENDING`
+
+The five new Turbo uploads have CONFIRMED receipts. The first `arweave.net` retrieval attempt, run only minutes after upload, returned HTTP 404 for all five before any payload bytes were available. This is recorded as retrieval/propagation pending, not as a content or hash failure. The Turbo gateway leg remained not completed because of the previously observed local TLS/SSL handshake limitation.
 
 ## Admitted post-v16 publication routes
 

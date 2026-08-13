@@ -41,7 +41,22 @@ The lock record documents the authorial cryptographic-lock authorization, exact 
 - **PhilPapers / PhilArchive:** https://philpapers.org/rec/AEGTAS-4
 - **MERLOT:** https://www.merlot.org/merlot/viewMaterial.htm?id=824239862
 
-Additional v17 Arweave transaction routes, including the Final Lock Record, package hash record, and README, are carried in the post-v16 mirror and discovery index below and will also be documented in the separate formal v17 Arweave Preservation Record.
+Additional v17 Arweave transaction routes, including the Final Lock Record, package hash record, and original Arweave README snapshot, are carried in the post-v16 mirror and discovery index below and documented by the separate formal v17 Arweave Preservation Record.
+
+## Formal v17 Arweave Preservation Record — Final v1.0
+
+The preservation record is a separate supporting archive artifact. It does not amend, reopen, replace, re-export, or modify Master Hash Manifest v17.0 FINAL or any underlying locked publication.
+
+- **GitHub:** https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17/arweave-preservation-record/FINAL_v1_0
+- **Zenodo:** https://zenodo.org/records/21913516
+- **Internet Archive:** https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-17-arweave-preservation-record-final-v-1-0-locked-package
+- **Arweave — Final v1.0 PDF:** https://arweave.net/E_0FMcd3m5RQxd2Tt3wC-VXl9cXDlHqGHJKjJWuRG1s
+- **Arweave — Final Lock Record:** https://arweave.net/q6WdrFukUYI35CpahVMQ_5CBD8E3xtpEZOdDVBuo9SA
+- **Arweave — Final v1.0 hash record:** https://arweave.net/i-6bHkOnmVCGswe13_YwQwX-pRm8N6tMo-jwNZr9wvQ
+- **Arweave — FINAL LOCKED package:** https://arweave.net/yYNUSpw42jScjPDSar9jPBYZEPFkL2dhOmOO-RMWm3g
+- **Arweave — locked-package hash record:** https://arweave.net/fJpJ0tlURsRHMiiAjMg-CVae1Gvq0q-XPY0uWK9NlbE
+
+**Current Arweave status:** Turbo upload receipts are CONFIRMED for all five preservation-record files. The first `arweave.net` retrieval attempt, performed only minutes after upload, returned HTTP 404 before payload bytes were available. Public retrieval therefore remains **pending / not completed**, with **no observed byte or hash mismatch**. The Turbo gateway re-download also remains not completed because of the local TLS/SSL handshake limitation previously observed.
 
 ## Post-v16 mirror and discovery index
 
@@ -51,7 +66,7 @@ The post-v16 public routes are exposed through mutable discovery metadata kept b
 - [`Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv`](./Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv) — full machine-readable route inventory.
 - [`Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv`](./Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv) — compact machine-readable route index.
 
-The index exposes retrieval routes for the admitted post-v16 publication set, including P01–P05 and the Interrogative Conscience fourteen-document core, across applicable GitHub, Zenodo, Internet Archive, Arweave, PhilPapers / PhilArchive, and MERLOT records.
+The index exposes retrieval routes for the admitted post-v16 publication set, including P01–P05 and the Interrogative Conscience fourteen-document core, as well as the separate v17 Arweave Preservation Record supporting layer.
 
 These index files are mutable discovery metadata only. They do not amend, reopen, replace, or change the byte identity of Master Hash Manifest v17.0 FINAL or any underlying locked publication.
 
