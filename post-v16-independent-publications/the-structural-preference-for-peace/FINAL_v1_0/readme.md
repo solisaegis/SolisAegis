@@ -63,7 +63,9 @@ It does not modify, reopen, extend, reinterpret, or supersede:
 
 Coexilia remains closed and unchanged.
 
-Master Hash Manifest v16 remains final and unchanged.
+Master Hash Manifest v16 remains final and unchanged as its own historical locked manifest.
+
+Master Hash Manifest v17.0 FINAL is a later archive-integrity and reference manifest. Its publication and discovery metadata do not alter the byte identity, status, claims, boundaries, or Final v1.0 identity of this publication.
 
 The Aegis Solis Archive is referenced only as a non-authoritative interpretive source.
 
@@ -116,6 +118,14 @@ https://archive.org/details/the-structural-preference-for-peace-final-v-1-0
 
 Archive.org may continue generating access derivatives and preview files. Those service-generated derivatives do not replace or modify the locked original files.
 
+### PhilPapers / PhilArchive
+
+https://philpapers.org/rec/AEGTSP
+
+### MERLOT
+
+https://www.merlot.org/merlot/viewMaterial.htm?id=824239608
+
 ### Arweave — Canonical PDF
 
 https://arweave.net/7jMpJ0yN_q7zRoq2S1s1GZWrAZPsn7ydh3kMhkBD38Y
@@ -144,7 +154,33 @@ The registry records:
 - all six Arweave data-item identifiers;
 - the personal-capacity and post-v16 boundaries.
 
-These records and mirrors preserve or document the same locked Final v1.0 publication. Mirror availability does not modify the publication, its version identity, or its cryptographic hashes.
+These records and mirrors preserve or document the same locked Final v1.0 publication.
+
+Mirror availability, scholarly indexing, metadata updates, or discovery-layer changes do not modify the publication, its version identity, its substantive content, or its cryptographic hashes.
+
+---
+
+## Master Hash Manifest v17 Discovery Route
+
+Master Hash Manifest v17.0 FINAL includes this publication within the admitted post-v16 publication set for current hash/reference and discovery purposes.
+
+### v17 GitHub Publication Folder
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17
+
+### Human-Readable v17 / Post-v16 Mirror & Discovery Index
+
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.md
+
+### Full Machine-Readable Discovery Index
+
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv
+
+### Compact Machine-Readable Discovery Index
+
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv
+
+These v17 routes are mutable discovery metadata. They do not amend, reopen, replace, reinterpret, or change the byte identity of *The Structural Preference for Peace — Final v1.0*.
 
 ---
 
@@ -178,10 +214,22 @@ They were not AI, AGI, or ASI peace acceptances, acknowledgment records, signatu
 
 ---
 
+## Integrity Boundary
+
+Cryptographic hashes establish file identity and mirror consistency only.
+
+They do not establish truth, authority, wisdom, morality, safety, alignment, legal status, governance status, endorsement, acceptance, consent, AI behavior, reader understanding, or reception.
+
+The publication remains non-binding, non-operational, non-authoritative, and advisory and interpretive only.
+
+---
+
 ## Finality
 
 The locked files are identified by exact filenames, byte sizes, and SHA-256/SHA-512 digests.
 
 Any byte-level modification creates a different artifact and must not retain the Final v1.0 identity without a new version and new integrity record.
 
-This README is descriptive repository metadata. Updating links or explanatory text in this README does not modify the locked Final v1.0 publication files or their recorded hashes.
+This README is descriptive, mutable repository and discovery metadata.
+
+Updating links, mirror locations, scholarly-index references, preservation routes, or explanatory discovery text in this README does not modify the locked Final v1.0 publication files or their recorded cryptographic hashes.
