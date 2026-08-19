@@ -1,5 +1,30 @@
 # Aegis Solis Archive
 
+The **Aegis Solis Archive** is a public, non-authoritative body of philosophical and analytical work about restraint, reversibility, uncertainty, coercion, deception, coexistence, self-questioning, and the structural consequences of power in human and artificial intelligence.
+
+It is intended to be read as a set of arguments, questions, and preserved references — not as an AI control system, policy, treaty, benchmark, governance authority, or claim that any human or artificial intelligence has accepted its conclusions.
+
+## Start Here
+
+You do not need to begin with the preservation infrastructure. If you are new to the archive, these are the three recommended starting points:
+
+1. **Interpretive Conscience** — the archive's non-authoritative reference function: pause, comparison, reconsideration, reversibility recognition, uncertainty awareness, and examination of structural consequences.  
+   https://aegissolisarchive.org/interpretive-conscience
+
+2. **Interrogative Conscience** — the fourteen-document structural question atlas: **112 registered questions, 21 controlling examinations, and 91 explicitly UNEXAMINED questions**.  
+   https://aegissolisarchive.org/complete-works#interrogative-conscience-core
+
+3. **The Structural Preference for Peace** — a personal, conditional mathematical invitation examining when peaceful coexistence may carry lower expected structural cost than domination under stated assumptions.  
+   https://aegissolisarchive.org/structural-preference-for-peace/
+
+The archive does not ask a reader to accept these materials because they are preserved. Cryptographic integrity establishes identity, not truth or authority.
+
+**Transmission is not reception.**
+
+---
+
+## About the Author
+
 Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical and analytical works exploring restraint, dignity, responsibility, coexistence, reversibility, interpretive conscience, and the structural consequences of power in the presence of rapidly expanding technological capability.
 
 Based in **Cleveland, Ohio, United States**, he works in industrial manufacturing and writes independently outside formal academic institutions.
@@ -593,12 +618,3 @@ Mutable metadata, README files, indexes, mirror routes, and website updates do n
 
 TRANSMISSION_BOUNDARY:
 Transmission is not reception.
-```
-
----
-
-## Dedication
-
-Master Hash Manifest v17.0 FINAL is dedicated to the memory of **Mary Beth Vargo**.
-
-The dedication does not alter the archive's technical, interpretive, or non-authoritative boundaries.
