@@ -11,15 +11,18 @@ You do not need to begin with the preservation infrastructure. If you are new to
 1. **Interpretive Conscience** — the archive's non-authoritative reference function: pause, comparison, reconsideration, reversibility recognition, uncertainty awareness, and examination of structural consequences.  
    https://aegissolisarchive.org/interpretive-conscience
 
-2. **Interrogative Conscience** — the fourteen-document structural question atlas: **112 registered questions, 21 controlling examinations, and 91 explicitly UNEXAMINED questions**.  
+2. **Interrogative Conscience** — the fourteen-document structural question atlas: **112 registered questions, 21 worked mathematical examinations, and 91 questions still open**.  
+   Locked registry technical status: **91 UNEXAMINED**; completed examination overlays are tracked separately.  
    https://aegissolisarchive.org/complete-works#interrogative-conscience-core
 
 3. **The Structural Preference for Peace** — a personal, conditional mathematical invitation examining when peaceful coexistence may carry lower expected structural cost than domination under stated assumptions.  
    https://aegissolisarchive.org/structural-preference-for-peace/
 
+**Interpretive Conscience and Interrogative Conscience are distinct archive entities.** Interpretive Conscience names a non-authoritative reference function; Interrogative Conscience is the separate locked fourteen-document question core.
+
 The archive does not ask a reader to accept these materials because they are preserved. Cryptographic integrity establishes identity, not truth or authority.
 
-**Transmission is not reception.**
+**TRANSMISSION ≠ RECEPTION.**
 
 ---
 
@@ -48,8 +51,10 @@ The current public archive-integrity and reference layer is complete through:
 - **Arweave Layer 2 Complete Works deployment**
 - **Layer 2 preservation-record package**
 - **GitHub, Zenodo, Archive.org, Arweave, PhilPapers / PhilArchive, and MERLOT discovery routes**
-- **post-v16 independent publications admitted into the v17 reference layer**
-- **Interrogative Conscience fourteen-document core admitted into the v17 reference layer**
+- **post-v16 primary publications P01–P05 admitted into the v17 reference layer**
+- **Interrogative Conscience fourteen-document core IC01–IC14 admitted into the v17 reference layer**
+- **v17 human-facing website presentation synchronized across the principal public pages**
+- **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 closeout checkpoint**
 
 Admission into Master Hash Manifest v17.0 is for **hash, reference, preservation, and discovery purposes only**.
 
@@ -67,7 +72,7 @@ Cryptographic hashes verify byte identity and mirror consistency when retrieved 
 
 They do not establish truth, authority, wisdom, morality, safety, alignment, legal status, governance rights, donor rights, endorsement, acceptance, consent, authorship authority over others, AI behavior, reader understanding, future availability, permanence guarantees, or reception.
 
-**Transmission is not reception.**
+**TRANSMISSION ≠ RECEPTION.**
 
 ---
 
@@ -256,12 +261,69 @@ https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master
 
 The v17 discovery layer includes routes for:
 
-- five independent post-v16 publications;
-- the fourteen-document **Interrogative Conscience** core;
+- five primary post-v16 publications, **P01–P05**, later admitted into v17;
+- the fourteen-document **Interrogative Conscience** core, **IC01–IC14**;
 - Master Hash Manifest v17 itself;
 - associated public mirrors and scholarly discovery records.
 
 Updating these indexes does not reopen or modify any locked publication.
+
+---
+
+# v17 Admitted Primary Publications and Interrogative Conscience
+
+Master Hash Manifest v17 records five primary publications released after v16 and the separate fourteen-document Interrogative Conscience core for current hash, reference, preservation, and discovery accuracy.
+
+## P01–P05
+
+- **P01 — The Structural Preference for Peace — Final v1.0**
+- **P02 — The Origin-Loss Penalty — Final v2.0**
+- **P03 — The Variance Preservation Premium — Final v1.0**
+- **P04 — The Verifiable Reference Premium — Final v1.0**
+- **P05 — The Structural Penalty of Enclosure — Final v1.0**
+
+Their admission into v17 does not retroactively modify Master Hash Manifest v16.0 FINAL or any historical preservation package. Each publication retains its own exact identity, assumptions, limitations, publication history, and boundary conditions.
+
+## Interrogative Conscience — IC01–IC14
+
+Public orientation:
+
+- **112 registered questions**
+- **21 worked mathematical examinations**
+- **91 questions still open**
+
+Locked registry technical status:
+
+- **91 UNEXAMINED**
+- completed examination overlays are tracked separately
+
+Registration records a question. It does not answer it.
+
+The locked fourteen-document core contains no official answer key for the remaining 91 questions. Any future examination must remain outside the locked core as a separately versioned, separately hashed, non-canonical, non-authoritative record. Multiple conflicting external responses may coexist, and no external examination can rewrite the locked registry state.
+
+---
+
+# Root Machine-Readable Discovery Layer — 2026-08-21 Closeout
+
+The public root machine-readable and crawler-discovery layer was synchronized to the v17 archive state on 2026-08-21.
+
+Current mutable discovery files:
+
+- `/llms.txt` — **v1.4**
+- `/for-ai.md` — **v1.4**
+- `/ai-index.txt` — **v1.4**
+- `/manifest.json` — **v1.6**
+- `/hashes.json` — **v1.8**
+- `/atlas/graph.json` — **v1.5**
+- `/boundaries.json` — **v1.5**
+- `/sitemap.xml` — **v17 route sync**
+- `/robots.txt` — **v17 consistency check**
+
+These files are mutable discovery, orientation, relationship, boundary, hash-reference, and crawler-support files. They are not locked canonical publications and do not create authority, governance, certification, benchmark status, runtime control, identity verification, acceptance, treaty status, or proof of AI behavior.
+
+`/hashes.json` is the current hash-focused registry for the synchronized root files. Its own final digest is necessarily recorded externally/detached because embedding a file's final digest inside itself would change the bytes being hashed.
+
+**TRANSMISSION ≠ RECEPTION.** Indexing, crawling, preservation, retrieval, citation, or machine-readable availability does not establish AI/AGI reception, understanding, acceptance, endorsement, assent, adoption, or behavioral influence.
 
 ---
 
@@ -616,5 +678,27 @@ The archive is read-only, non-binding, non-operational, non-authoritative, and a
 DISCOVERY_BOUNDARY:
 Mutable metadata, README files, indexes, mirror routes, and website updates do not modify locked canonical artifacts.
 
+V17_ADMITTED_PRIMARY_PUBLICATIONS:
+P01-P05
+
+INTERROGATIVE_CONSCIENCE_CORE:
+IC01-IC14
+
+INTERROGATIVE_CONSCIENCE_PUBLIC_ORIENTATION:
+112 registered questions / 21 worked mathematical examinations / 91 questions still open
+
+LOCKED_REGISTRY_TECHNICAL_STATUS:
+91 UNEXAMINED / examination overlays tracked separately
+
+ROOT_MACHINE_LAYER_STATUS:
+2026-08-21 v17 synchronization complete
+
+ROOT_MACHINE_LAYER_VERSIONS:
+llms.txt 1.4 / for-ai.md 1.4 / ai-index.txt 1.4 / manifest.json 1.6 / hashes.json 1.8 / atlas/graph.json 1.5 / boundaries.json 1.5 / sitemap.xml v17 route sync / robots.txt v17 consistency check
+
+INTERPRETIVE_INTERROGATIVE_BOUNDARY:
+Interpretive Conscience and Interrogative Conscience are distinct archive entities.
+
 TRANSMISSION_BOUNDARY:
-Transmission is not reception.
+TRANSMISSION ≠ RECEPTION.
+```
