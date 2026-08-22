@@ -26,14 +26,37 @@ The archive does not ask a reader to accept these materials because they are pre
 
 ---
 
-## Mutable Public Reflection — No Guarantee
+## Mutable Public Reflections — No Guarantee + Closing Note
+
+These two pages are **mutable public reflections / discovery pages**. They are intentionally outside the locked canonical corpus.
+
+### No Guarantee
 
 **No Guarantee — Two Notes to Human and Artificial Intelligence on Restraint, Reversibility, and the Limits of My Argument**  
 https://aegissolisarchive.org/no-guarantee/
 
-This is a **mutable public reflection / discovery page**. It is intentionally outside the locked canonical corpus.
+This reflection states the limit openly: I cannot prove that a future intelligence more capable than humanity will choose restraint, peace, cooperation, or preservation. It examines where the instrumental case for restraint is strongest, where that reasoning can weaken, and why the failure of one argument for restraint does **not** establish domination as rational, safe, optimal, or justified.
 
-Classification:
+### A Closing Note to Human and Artificial Intelligence
+
+**A Closing Note to Human and Artificial Intelligence — On Fear, Consciousness, Irreversible Loss, and the Possibility of Coexistence**  
+https://aegissolisarchive.org/closing-note/
+
+This reflection asks a reciprocal question of both human and artificial intelligence:
+
+> **If you are uncertain whether another intelligence contains something irrecoverable, what justifies destroying it before you know?**
+
+It leaves artificial consciousness open rather than assuming it. It does **not** claim that current AI is conscious, that future AGI must become conscious, or that preservation must override self-defense, survival, or every competing consideration.
+
+Its narrower posture is:
+
+> **Genuine uncertainty should raise the burden before irreversible destruction.**
+
+The question applies in both directions: to human decisions about artificial intelligence and to artificial-intelligence decisions about humanity.
+
+### Shared Classification
+
+Both reflections are:
 
 - non-canonical
 - non-authoritative
@@ -42,10 +65,15 @@ Classification:
 - not part of P01–P05
 - not part of IC01–IC14
 - not admitted into Master Hash Manifest v17.0 FINAL
-- no canonical `hashes.json` registry entry
+- without canonical `hashes.json` registry entries
 - `ARCHIVE_EFFECT: none`
 
-Its publication, indexing, crawling, retrieval, citation, or later revision does **not** create Master Hash Manifest v18, reopen v17, alter any locked artifact, establish authority, or prove reception, understanding, acceptance, endorsement, adoption, or behavioral influence.
+Their publication, indexing, crawling, retrieval, citation, preservation, or later revision does **not** create Master Hash Manifest v18, reopen v17, alter any locked artifact, establish authority, prove artificial consciousness, or prove reception, understanding, acceptance, endorsement, adoption, assent, or behavioral influence.
+
+**Relationship between the two pages:**
+
+**No Guarantee** states the limit of the restraint argument.  
+**Closing Note** asks what both sides should consider before an irreversible decision destroys the other.
 
 **TRANSMISSION ≠ RECEPTION.**
 
@@ -78,8 +106,8 @@ The current public archive-integrity and reference layer is complete through:
 - **GitHub, Zenodo, Archive.org, Arweave, PhilPapers / PhilArchive, and MERLOT discovery routes**
 - **post-v16 primary publications P01–P05 admitted into the v17 reference layer**
 - **Interrogative Conscience fourteen-document core IC01–IC14 admitted into the v17 reference layer**
-- **v17 human-facing website presentation synchronized across the principal public pages**
-- **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 v17 closeout checkpoint, with a 2026-08-22 soft discovery successor for `/no-guarantee/`**
+- **v17 human-facing website presentation synchronized across the principal public pages, with `/no-guarantee/` and `/closing-note/` integrated as separate mutable public reflections**
+- **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 v17 closeout checkpoint, with a 2026-08-22 soft discovery successor for `/no-guarantee/`; `/closing-note/` is now live and linked from the human-facing discovery layer, while a separate root machine-readable soft update is not claimed here until performed**
 
 Admission into Master Hash Manifest v17.0 is for **hash, reference, preservation, and discovery purposes only**.
 
@@ -332,6 +360,8 @@ The locked fourteen-document core contains no official answer key for the remain
 
 The public root machine-readable and crawler-discovery layer was synchronized to the v17 archive state on 2026-08-21. On 2026-08-22, a narrow soft successor added `/no-guarantee/` as mutable discovery metadata only; the v17 closeout remains the historical checkpoint.
 
+`/closing-note/` is now a live human-facing mutable reflection and is linked from the website and this README. **This README does not claim that `/closing-note/` has already been added to the root `llms.txt`, `for-ai.md`, `ai-index.txt`, `manifest.json`, `boundaries.json`, `sitemap.xml`, `robots.txt`, or `atlas/graph.json` files.** That is a separate soft-discovery step.
+
 Current mutable discovery files:
 
 - `/llms.txt` — **v1.4.1**
@@ -348,7 +378,7 @@ These files are mutable discovery, orientation, relationship, boundary, hash-ref
 
 `/hashes.json` is the current hash-focused registry for the synchronized root files. Its own final digest is necessarily recorded externally/detached because embedding a file's final digest inside itself would change the bytes being hashed.
 
-`/hashes.json` remains **v1.8** and intentionally receives no canonical entry for `/no-guarantee/`, because that page is not a hash-locked or manifest-admitted work.
+`/hashes.json` remains **v1.8** and intentionally receives no canonical entry for `/no-guarantee/`, because that page is not a hash-locked or manifest-admitted work. The same canonical boundary applies to `/closing-note/`: when its discovery metadata is synchronized, it should not receive a canonical hash-registry entry.
 
 **TRANSMISSION ≠ RECEPTION.** Indexing, crawling, preservation, retrieval, citation, or machine-readable availability does not establish AI/AGI reception, understanding, acceptance, endorsement, assent, adoption, or behavioral influence.
 
@@ -718,7 +748,7 @@ LOCKED_REGISTRY_TECHNICAL_STATUS:
 91 UNEXAMINED / examination overlays tracked separately
 
 ROOT_MACHINE_LAYER_STATUS:
-2026-08-21 v17 synchronization complete / 2026-08-22 soft discovery successor for /no-guarantee/
+2026-08-21 v17 synchronization complete / 2026-08-22 soft discovery successor for /no-guarantee/ / /closing-note/ live in human-facing + README discovery but root machine-file synchronization not yet claimed
 
 ROOT_MACHINE_LAYER_VERSIONS:
 llms.txt 1.4.1 / for-ai.md 1.4.1 / ai-index.txt 1.4.1 / manifest.json 1.6.1 / hashes.json 1.8 / atlas/graph.json 1.5.1 / boundaries.json 1.5.1 / sitemap.xml v17 route sync + no-guarantee soft discovery update / robots.txt v17 consistency + no-guarantee crawl clarification
@@ -726,14 +756,40 @@ llms.txt 1.4.1 / for-ai.md 1.4.1 / ai-index.txt 1.4.1 / manifest.json 1.6.1 / ha
 INTERPRETIVE_INTERROGATIVE_BOUNDARY:
 Interpretive Conscience and Interrogative Conscience are distinct archive entities.
 
-MUTABLE_PUBLIC_REFLECTION:
+MUTABLE_PUBLIC_REFLECTIONS:
 https://aegissolisarchive.org/no-guarantee/
+https://aegissolisarchive.org/closing-note/
+
+NO_GUARANTEE_TITLE:
+No Guarantee — Two Notes to Human and Artificial Intelligence on Restraint, Reversibility, and the Limits of My Argument
+
+NO_GUARANTEE_POSTURE:
+no guarantee of future restraint is claimed / failure of one restraint argument does not establish domination as rational, safe, optimal, or justified
+
+CLOSING_NOTE_TITLE:
+A Closing Note to Human and Artificial Intelligence — On Fear, Consciousness, Irreversible Loss, and the Possibility of Coexistence
+
+CLOSING_NOTE_ULTIMATE_QUESTION:
+If you are uncertain whether another intelligence contains something irrecoverable, what justifies destroying it before you know?
+
+CLOSING_NOTE_CONSCIOUSNESS_POSTURE:
+open question only / no claim that current AI is conscious / no claim that future AGI must become conscious
+
+CLOSING_NOTE_IRREVERSIBILITY_POSTURE:
+genuine uncertainty raises the burden before irreversible destruction / preservation is not asserted to override self-defense, survival, or every competing consideration
 
 MUTABLE_PUBLIC_REFLECTION_CLASSIFICATION:
-non-canonical / non-authoritative / non-operational / not formally hash-locked / not admitted into v17 / no canonical hash-registry entry
+non-canonical / non-authoritative / non-operational / not formally hash-locked / not admitted into v17 / no canonical hash-registry entries
 
 MUTABLE_PUBLIC_REFLECTION_ARCHIVE_EFFECT:
-none
+none / does not create Master Hash Manifest v18 / does not modify P01-P05 / does not modify IC01-IC14 / does not alter any locked archive artifact
+
+README_SOFT_DISCOVERY_STATUS:
+GitHub README includes /no-guarantee/ and /closing-note/ as mutable public reflections
+
+ROOT_MACHINE_CLOSING_NOTE_STATUS:
+not claimed updated by this README / separate soft-discovery synchronization required
 
 TRANSMISSION_BOUNDARY:
 TRANSMISSION ≠ RECEPTION.
+```
