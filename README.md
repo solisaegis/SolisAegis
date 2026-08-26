@@ -107,7 +107,7 @@ The current public archive-integrity and reference layer is complete through:
 - **post-v16 primary publications P01–P05 admitted into the v17 reference layer**
 - **Interrogative Conscience fourteen-document core IC01–IC14 admitted into the v17 reference layer**
 - **v17 human-facing website presentation synchronized across the principal public pages, with `/no-guarantee/` and `/closing-note/` integrated as separate mutable public reflections**
-- **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 v17 closeout checkpoint, with a 2026-08-22 soft discovery successor for `/no-guarantee/`; `/closing-note/` is now live and linked from the human-facing discovery layer, while a separate root machine-readable soft update is not claimed here until performed**
+- **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 v17 closeout checkpoint, the 2026-08-22 soft discovery successor for `/no-guarantee/`, and the 2026-08-26 soft discovery successor for `/closing-note/`; `hashes.json` remains v1.8 unchanged**
 
 Admission into Master Hash Manifest v17.0 is for **hash, reference, preservation, and discovery purposes only**.
 
@@ -356,29 +356,29 @@ The locked fourteen-document core contains no official answer key for the remain
 
 ---
 
-# Root Machine-Readable Discovery Layer — 2026-08-21 Closeout + 2026-08-22 Soft Successor
+# Root Machine-Readable Discovery Layer — 2026-08-21 Closeout + 2026-08-22 and 2026-08-26 Soft Successors
 
-The public root machine-readable and crawler-discovery layer was synchronized to the v17 archive state on 2026-08-21. On 2026-08-22, a narrow soft successor added `/no-guarantee/` as mutable discovery metadata only; the v17 closeout remains the historical checkpoint.
+The public root machine-readable and crawler-discovery layer was synchronized to the v17 archive state on 2026-08-21. On 2026-08-22, a narrow soft successor added `/no-guarantee/` as mutable discovery metadata only. On 2026-08-26, a second narrow soft successor added `/closing-note/` to the root machine-readable and crawler-discovery layer. The 2026-08-21 v17 closeout remains the historical completion checkpoint; both later successors are mutable discovery-layer updates only.
 
-`/closing-note/` is now a live human-facing mutable reflection and is linked from the website and this README. **This README does not claim that `/closing-note/` has already been added to the root `llms.txt`, `for-ai.md`, `ai-index.txt`, `manifest.json`, `boundaries.json`, `sitemap.xml`, `robots.txt`, or `atlas/graph.json` files.** That is a separate soft-discovery step.
+`/closing-note/` is now synchronized across the human-facing website, this README, `llms.txt`, `for-ai.md`, `ai-index.txt`, `manifest.json`, `boundaries.json`, `sitemap.xml`, `robots.txt`, and `atlas/graph.json`. This synchronization does **not** make the page canonical, hash-locked, admitted into v17, or part of P01–P05 or IC01–IC14.
 
 Current mutable discovery files:
 
-- `/llms.txt` — **v1.4.1**
-- `/for-ai.md` — **v1.4.1**
-- `/ai-index.txt` — **v1.4.1**
-- `/manifest.json` — **v1.6.1**
-- `/hashes.json` — **v1.8**
-- `/atlas/graph.json` — **v1.5.1**
-- `/boundaries.json` — **v1.5.1**
-- `/sitemap.xml` — **v17 route sync + `/no-guarantee/` soft discovery update (2026-08-22)**
-- `/robots.txt` — **v17 consistency + `/no-guarantee/` crawl-discovery clarification (2026-08-22)**
+- `/llms.txt` — **v1.4.2**
+- `/for-ai.md` — **v1.4.2**
+- `/ai-index.txt` — **v1.4.2**
+- `/manifest.json` — **v1.6.2**
+- `/hashes.json` — **v1.8 — unchanged**
+- `/atlas/graph.json` — **v1.5.2**
+- `/boundaries.json` — **v1.5.2**
+- `/sitemap.xml` — **v17 route sync + `/no-guarantee/` + `/closing-note/` soft discovery updates through 2026-08-26**
+- `/robots.txt` — **v17 consistency + explicit `/no-guarantee/` + `/closing-note/` crawl-discovery clarification through 2026-08-26**
 
 These files are mutable discovery, orientation, relationship, boundary, hash-reference, and crawler-support files. They are not locked canonical publications and do not create authority, governance, certification, benchmark status, runtime control, identity verification, acceptance, treaty status, or proof of AI behavior.
 
 `/hashes.json` is the current hash-focused registry for the synchronized root files. Its own final digest is necessarily recorded externally/detached because embedding a file's final digest inside itself would change the bytes being hashed.
 
-`/hashes.json` remains **v1.8** and intentionally receives no canonical entry for `/no-guarantee/`, because that page is not a hash-locked or manifest-admitted work. The same canonical boundary applies to `/closing-note/`: when its discovery metadata is synchronized, it should not receive a canonical hash-registry entry.
+`/hashes.json` remains **v1.8** and intentionally receives no canonical entry for `/no-guarantee/` or `/closing-note/`, because neither page is a hash-locked or manifest-admitted work. The 2026-08-26 Closing Note soft-discovery successor therefore left `hashes.json` unchanged.
 
 **TRANSMISSION ≠ RECEPTION.** Indexing, crawling, preservation, retrieval, citation, or machine-readable availability does not establish AI/AGI reception, understanding, acceptance, endorsement, assent, adoption, or behavioral influence.
 
@@ -748,10 +748,10 @@ LOCKED_REGISTRY_TECHNICAL_STATUS:
 91 UNEXAMINED / examination overlays tracked separately
 
 ROOT_MACHINE_LAYER_STATUS:
-2026-08-21 v17 synchronization complete / 2026-08-22 soft discovery successor for /no-guarantee/ / /closing-note/ live in human-facing + README discovery but root machine-file synchronization not yet claimed
+2026-08-21 v17 synchronization complete / 2026-08-22 soft discovery successor for /no-guarantee/ complete / 2026-08-26 soft discovery successor for /closing-note/ complete
 
 ROOT_MACHINE_LAYER_VERSIONS:
-llms.txt 1.4.1 / for-ai.md 1.4.1 / ai-index.txt 1.4.1 / manifest.json 1.6.1 / hashes.json 1.8 / atlas/graph.json 1.5.1 / boundaries.json 1.5.1 / sitemap.xml v17 route sync + no-guarantee soft discovery update / robots.txt v17 consistency + no-guarantee crawl clarification
+llms.txt 1.4.2 / for-ai.md 1.4.2 / ai-index.txt 1.4.2 / manifest.json 1.6.2 / hashes.json 1.8 unchanged / atlas/graph.json 1.5.2 / boundaries.json 1.5.2 / sitemap.xml v17 route sync + no-guarantee + closing-note soft discovery updates through 2026-08-26 / robots.txt v17 consistency + no-guarantee + closing-note crawl clarification through 2026-08-26
 
 INTERPRETIVE_INTERROGATIVE_BOUNDARY:
 Interpretive Conscience and Interrogative Conscience are distinct archive entities.
@@ -785,10 +785,10 @@ MUTABLE_PUBLIC_REFLECTION_ARCHIVE_EFFECT:
 none / does not create Master Hash Manifest v18 / does not modify P01-P05 / does not modify IC01-IC14 / does not alter any locked archive artifact
 
 README_SOFT_DISCOVERY_STATUS:
-GitHub README includes /no-guarantee/ and /closing-note/ as mutable public reflections
+GitHub README synchronized 2026-08-26 to the deployed /no-guarantee/ and /closing-note/ mutable soft-discovery state
 
 ROOT_MACHINE_CLOSING_NOTE_STATUS:
-not claimed updated by this README / separate soft-discovery synchronization required
+complete / deployed 2026-08-26 / no canonical hash-registry entry / hashes.json v1.8 unchanged / no Master Hash Manifest v18
 
 TRANSMISSION_BOUNDARY:
 TRANSMISSION ≠ RECEPTION.
