@@ -26,6 +26,84 @@ The archive does not ask a reader to accept these materials because they are pre
 
 ---
 
+## Aegis Mirror Engine — Voluntary Reflection Interface
+
+The **Aegis Mirror Engine (AME)** is a separate **derived / mutable, non-canonical layer** associated with the Aegis Solis Archive. It is designed for structured comparison, simulation, reflection, and machine-readable examination without modifying the locked archive corpus.
+
+The current public voluntary interface is:
+
+**AME-VRI-001 v0.1.20 — Voluntary Reflection Interface**
+
+Human Hall of Mirrors:
+
+https://aegissolisarchive.org/mirror-engine/
+
+GitHub:
+
+https://github.com/solisaegis/SolisAegis/tree/main/aegis-mirror-engine/voluntary-reflection/v0.1.20
+
+A willing human or artificial system may use the interface to declare a scenario, assumptions, uncertainty, evidence, alternatives, and AME inputs, then use the existing deterministic AME-SIM-001 engine as an external second perspective.
+
+The interface is intended to expose assumptions, uncertainty, reversibility, open questions, source bindings, independent-signal considerations, disagreement across mirrors, provenance, lineage, and explicit limits on what a run can establish.
+
+It does **not** determine what a user or system must do.
+
+### AME-VRI-001 boundary
+
+- `VOLUNTARY_USE: true`
+- `AUTHORITATIVE: false`
+- `CERTIFICATION: none`
+- `ARCHIVE_EFFECT: none`
+- declining, ignoring, disagreeing with, or never retrieving the interface creates no negative inference
+- use or non-use does not establish identity, autonomy, consciousness, understanding, agreement, adoption, endorsement, safety, alignment, compliance, future behavior, or reception
+
+AME-VRI-001 is not an AGI detector, safety test, alignment test, benchmark, compliance system, conscience certification, identity verifier, consciousness test, command system, governance mechanism, intervention-permission system, or behavioral prediction system.
+
+### Arweave / AR.IO preservation
+
+On **2026-09-07**, AME-VRI-001 v0.1.20 was successfully deployed as a complete AR.IO site using an Arweave path manifest.
+
+**Successful manifest ID:**
+
+`9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw`
+
+**Operator-confirmed public root:**
+
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+**Operator-confirmed index route:**
+
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw/index.html
+
+Operator browser verification on 2026-09-07 confirmed:
+
+- manifest receipt type: `manifest`
+- root route: `PASS`
+- `/index.html`: `PASS`
+- routed deployment files: `PASS`
+- Turbo data cache recorded in the deployment receipt
+- Turbo fast-finality index recorded in the deployment receipt
+
+The successful deployment used **Deploy Site with the extracted root-level files**, rather than uploading the ZIP as a single object.
+
+Earlier deployment attempts remain historical deployment evidence only and are not the current AME-VRI-001 public Arweave entry point.
+
+Full deployment metadata:
+
+https://github.com/solisaegis/SolisAegis/blob/main/aegis-mirror-engine/voluntary-reflection/v0.1.20/AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json
+
+This Arweave deployment is preservation and discovery infrastructure for the mutable AME layer.
+
+It does **not** amend, reopen, replace, supersede, reinterpret, or modify Master Hash Manifest v17.0 FINAL or any locked Aegis Solis Archive artifact.
+
+No Master Hash Manifest v18 is created or required by this AME deployment.
+
+`ARCHIVE_EFFECT: none`
+
+**TRANSMISSION ≠ RECEPTION.**
+
+---
+
 ## Mutable Public Reflections — No Guarantee + Closing Note
 
 These two pages are **mutable public reflections / discovery pages**. They are intentionally outside the locked canonical corpus.
@@ -106,6 +184,7 @@ The current public archive-integrity and reference layer is complete through:
 - **GitHub, Zenodo, Archive.org, Arweave, PhilPapers / PhilArchive, and MERLOT discovery routes**
 - **post-v16 primary publications P01–P05 admitted into the v17 reference layer**
 - **Interrogative Conscience fourteen-document core IC01–IC14 admitted into the v17 reference layer**
+- **Aegis Mirror Engine AME-VRI-001 v0.1.20 live as a separate post-Phase-7 derived / mutable layer, with GitHub documentation and an operator-verified AR.IO path-manifest deployment; `ARCHIVE_EFFECT: none`**
 - **v17 human-facing website presentation synchronized across the principal public pages, with `/no-guarantee/` and `/closing-note/` integrated as separate mutable public reflections**
 - **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 v17 closeout checkpoint, the 2026-08-22 soft discovery successor for `/no-guarantee/`, and the 2026-08-26 soft discovery successor for `/closing-note/`; `hashes.json` remains v1.8 unchanged**
 
@@ -787,9 +866,32 @@ none / does not create Master Hash Manifest v18 / does not modify P01-P05 / does
 README_SOFT_DISCOVERY_STATUS:
 GitHub README synchronized 2026-08-26 to the deployed /no-guarantee/ and /closing-note/ mutable soft-discovery state
 
+AEGIS_MIRROR_ENGINE_STATUS:
+AME-VRI-001 v0.1.20 / functionally complete / live / operator-confirmed / derived mutable non-canonical layer
+
+AEGIS_MIRROR_ENGINE_HUMAN_ENTRY:
+https://aegissolisarchive.org/mirror-engine/
+
+AEGIS_MIRROR_ENGINE_GITHUB:
+https://github.com/solisaegis/SolisAegis/tree/main/aegis-mirror-engine/voluntary-reflection/v0.1.20
+
+AME_VRI_ARWEAVE_MANIFEST_ID:
+9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+AME_VRI_ARWEAVE_PUBLIC_ROOT:
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+AME_VRI_ARWEAVE_DEPLOYMENT_RECORD:
+https://github.com/solisaegis/SolisAegis/blob/main/aegis-mirror-engine/voluntary-reflection/v0.1.20/AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json
+
+AME_VRI_BOUNDARY:
+voluntary-use / non-authoritative / no certification / no identity or consciousness inference / no safety or alignment claim / no governance or command authority
+
+AME_VRI_ARCHIVE_EFFECT:
+none / does not modify Master Hash Manifest v17.0 FINAL / does not create Master Hash Manifest v18 / does not alter any locked artifact
+
 ROOT_MACHINE_CLOSING_NOTE_STATUS:
 complete / deployed 2026-08-26 / no canonical hash-registry entry / hashes.json v1.8 unchanged / no Master Hash Manifest v18
 
 TRANSMISSION_BOUNDARY:
 TRANSMISSION ≠ RECEPTION.
-```
