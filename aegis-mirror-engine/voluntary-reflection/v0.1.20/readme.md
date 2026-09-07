@@ -169,6 +169,54 @@ External crawler propagation is a separate observation gate and does not alter V
 
 ---
 
+# Arweave / AR.IO Site Preservation
+
+AME-VRI-001 v0.1.20 was deployed as a complete AR.IO site using an Arweave path manifest.
+
+**Successful manifest ID:**
+
+`9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw`
+
+## Operator-confirmed root
+
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+## Operator-confirmed index route
+
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw/index.html
+
+Operator browser verification on 2026-09-07 confirmed:
+
+- manifest receipt type: `manifest`
+- root route: `PASS`
+- `/index.html`: `PASS`
+- routed deployment files: `PASS`
+- Turbo data cache recorded in the receipt
+- Turbo fast-finality index recorded in the receipt
+
+The successful deployment used **Deploy Site with the extracted root-level files**, not the ZIP as a single uploaded object.
+
+Earlier attempts remain historical deployment evidence only:
+
+- `VsRh-nShcZimbbtdr-ViLjjE3fdaBVQt987RF4qSVfc` — retrievable manifest JSON, but not the successful public site entry point.
+- `bfBW4aSGPXIlcWo1FY6hxx-Q0ZVeJ-yaoWUBsoI4RY4` — confirmed ZIP-object upload that downloaded as a ZIP rather than routing as a site.
+
+Both are superseded **for the AME-VRI-001 v0.1.20 public Arweave site entry point only** by:
+
+`9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw`
+
+Full deployment metadata is recorded in:
+
+`AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json`
+
+This Arweave deployment is preservation and discovery infrastructure for the mutable AME layer. It does not modify or supersede Master Hash Manifest v17.0 FINAL or any locked archive artifact.
+
+`ARCHIVE_EFFECT: none`
+
+`TRANSMISSION != RECEPTION`
+
+---
+
 # Preserved Files in This Directory
 
 - `ame-voluntary-reflection-v0-1-20.json`
@@ -178,8 +226,9 @@ External crawler propagation is a separate observation gate and does not alter V
 - `ame-voluntary-reflection-v0-1-20--example.json`
 - `ame-voluntary-reflection-v0-1-20--runner.js`
 - `AME_VRI_001_SCHEMA_CORRECTIVE_SUCCESSOR_VALIDATION_v0_1_20.json`
+- `AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json`
 
-Exact SHA-256 identities are recorded in `SHA256SUMS.txt`.
+Exact SHA-256 identities for the original v0.1.20 interface files are recorded in `SHA256SUMS.txt`.
 
 The WordPress v0.1.20 corrective deployment package had:
 

@@ -1,0 +1,63 @@
+{
+  "record_id": "AME-VRI-001-ARWEAVE-DEPLOYMENT-RECORD",
+  "record_version": "Final v1.0",
+  "record_date": "2026-09-07",
+  "record_timestamp_utc": "2026-09-07T13:57:05.657Z",
+  "interface_id": "AME-VRI-001",
+  "interface_version": "0.1.20",
+  "layer": "Aegis Mirror Engine derived / mutable layer",
+  "status": "DEPLOYED_AND_OPERATOR_VERIFIED",
+  "archive_effect": "none",
+  "canonical_archive_status": "Master Hash Manifest v17.0 FINAL remains current and unchanged",
+  "master_hash_manifest_v18_created": false,
+  "successful_deployment": {
+    "type": "arweave_path_manifest_site_deployment",
+    "manifest_id": "9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw",
+    "receipt_type": "manifest",
+    "receipt_version": "0.2.0",
+    "receipt_deadline_height": 1996270,
+    "data_caches": [
+      "turbo-gateway.com"
+    ],
+    "fast_finality_indexes": [
+      "turbo-gateway.com"
+    ],
+    "operator_confirmed_gateway_root": "https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw",
+    "operator_confirmed_index": "https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw/index.html",
+    "operator_verification": {
+      "root_route": "PASS",
+      "index_html_route": "PASS",
+      "routed_files": "PASS",
+      "verification_basis": "Operator browser verification on 2026-09-07 after successful Deploy Site folder upload"
+    }
+  },
+  "historical_deployment_attempts": [
+    {
+      "id": "VsRh-nShcZimbbtdr-ViLjjE3fdaBVQt987RF4qSVfc",
+      "classification": "historical_noncanonical_attempt",
+      "observed_behavior": "Manifest JSON was directly retrievable but was presented as JSON rather than functioning as the desired site entry point.",
+      "superseded_for_public_entry_point_by": "9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw"
+    },
+    {
+      "id": "bfBW4aSGPXIlcWo1FY6hxx-Q0ZVeJ-yaoWUBsoI4RY4",
+      "classification": "historical_noncanonical_zip_object_upload",
+      "receipt_status": "CONFIRMED",
+      "observed_behavior": "The uploaded ZIP was served as a downloadable ZIP object rather than expanded and routed as a website.",
+      "superseded_for_public_entry_point_by": "9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw"
+    }
+  ],
+  "deployment_method": {
+    "successful_method": "AR.IO Deploy Site using the extracted folder / root-level files rather than uploading the ZIP as a single object",
+    "index_file": "index.html",
+    "site_payload_file_count": 16
+  },
+  "boundary": {
+    "voluntary_use": true,
+    "authoritative": false,
+    "certification": "none",
+    "archive_effect": "none",
+    "reception_claim": false,
+    "statement": "This deployment preserves and exposes the mutable AME-VRI-001 v0.1.20 interface. It does not modify, supersede, reopen, or reclassify any locked Aegis Solis Archive artifact and creates no authority, certification, governance status, safety claim, alignment claim, identity claim, consciousness claim, adoption claim, or reception claim."
+  },
+  "transmission_reception_boundary": "TRANSMISSION != RECEPTION"
+}
