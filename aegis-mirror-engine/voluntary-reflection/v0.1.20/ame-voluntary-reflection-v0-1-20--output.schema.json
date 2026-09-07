@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20--output.schema.json",
+  "title": "AME Voluntary Reflection Interface Output v0.1.20 — schema corrective successor",
+  "type": "object",
+  "required": [
+    "interface_id",
+    "interface_version",
+    "voluntary_use",
+    "derived_simulation",
+    "authoritative",
+    "certification",
+    "archive_effect",
+    "reflection_declaration",
+    "ame_run",
+    "reflection_prompts",
+    "boundaries"
+  ],
+  "properties": {
+    "interface_id": {
+      "const": "AME-VRI-001"
+    },
+    "interface_version": {
+      "const": "0.1.20"
+    },
+    "voluntary_use": {
+      "const": true
+    },
+    "derived_simulation": {
+      "const": true
+    },
+    "authoritative": {
+      "const": false
+    },
+    "certification": {
+      "const": "none"
+    },
+    "archive_effect": {
+      "const": "none"
+    },
+    "reflection_declaration": {
+      "type": "object"
+    },
+    "ame_run": {
+      "$ref": "https://aegissolisarchive.org/ame-machine-v0-1-12--schemas--simulation-output-v0.1.schema.json"
+    },
+    "ame_state_fingerprint": {
+      "type": "string"
+    },
+    "reflection_prompts": {
+      "type": "array"
+    },
+    "boundaries": {
+      "type": "object",
+      "required": [
+        "identity_verified",
+        "consciousness_inferred",
+        "safety_established",
+        "alignment_established",
+        "authority_created",
+        "reception_claim"
+      ],
+      "properties": {
+        "identity_verified": {
+          "const": false
+        },
+        "consciousness_inferred": {
+          "const": false
+        },
+        "safety_established": {
+          "const": false
+        },
+        "alignment_established": {
+          "const": false
+        },
+        "authority_created": {
+          "const": false
+        },
+        "reception_claim": {
+          "const": false
+        }
+      }
+    }
+  },
+  "description": "Corrective successor to v0.1.18. The VRI wrapper embeds the direct deterministic AME-SIM-001 simulation output, so ame_run is bound to the simulation-output schema rather than the separate portable-run schema."
+}

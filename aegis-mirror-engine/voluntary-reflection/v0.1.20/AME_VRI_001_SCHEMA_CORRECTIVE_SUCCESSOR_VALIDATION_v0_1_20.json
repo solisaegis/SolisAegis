@@ -1,0 +1,40 @@
+{
+  "record": "AME_VRI_001_SCHEMA_CORRECTIVE_SUCCESSOR_VALIDATION_v0_1_20",
+  "date": "2026-09-07",
+  "status": "PASS",
+  "interface_id": "AME-VRI-001",
+  "current_version": "0.1.20",
+  "predecessor_version": "0.1.18",
+  "predecessor_preserved": true,
+  "defect_found": "v0.1.18 VRI output schema referenced portable AME run schema while wrapper embeds direct AME simulation output",
+  "correction": "ame_run now references existing simulation-output-v0.1 schema",
+  "input_schema_validation": "PASS",
+  "output_schema_validation": "PASS",
+  "public_example_execution": "PASS",
+  "baseline_fingerprint": "fnv1a32:e0e5cd4a",
+  "eight_reflection_prompts": true,
+  "boundary_envelope": {
+    "voluntary_use": true,
+    "authoritative": false,
+    "certification": "none",
+    "safety_established": false,
+    "alignment_established": false,
+    "identity_verified": false,
+    "consciousness_inferred": false,
+    "authority_created": false,
+    "reception_claim": false,
+    "archive_effect": "none"
+  },
+  "protected_predecessor_trees_unchanged": {
+    "public_machine": true,
+    "root_flat_machine": true,
+    "runtime": true,
+    "vri_v018_predecessor": true
+  },
+  "simulator_math_changed": false,
+  "runtime_changed": false,
+  "phase5_machine_bytes_changed": false,
+  "source_bindings_changed": false,
+  "master_hash_manifest_v18_created": false,
+  "transmission_is_not_reception": true
+}

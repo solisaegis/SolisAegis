@@ -1,0 +1,8 @@
+752ddcad0fe1632b88e8f77cc9a03cbd0bc37f4e4ed1943b7fa71f32a21e66a6  AME_VRI_001_SCHEMA_CORRECTIVE_SUCCESSOR_VALIDATION_v0_1_20.json
+a5f346324b507519b13ad7b3ab61a3943230de362cfc62ecac590780e933597d  ame-voluntary-reflection-v0-1-20--example.json
+a128c14bc82b37cc83990333f6a4e4b40f5db4a9d1c3c60bd1eda24e81e4dfdf  ame-voluntary-reflection-v0-1-20--input.schema.json
+d4c9f6911bd4bc29d6867e38fe5f32c2d21887de7068daeb9fd321f7c7b5239d  ame-voluntary-reflection-v0-1-20--output.schema.json
+3c4eb663005ab3558cc2dea2f7a18035c5d6f148e6ad53078d07ffb7d57c4e27  ame-voluntary-reflection-v0-1-20--runner.js
+d0bb0974037a720d281896c7d3c0f20feef3eca952e920a5dd7b936ce1aef199  ame-voluntary-reflection-v0-1-20.json
+d54f4d1fd0b0cd0fcbdbeb29c683813ed9112209cfb597408c0aa8e430e23f4a  ame-voluntary-reflection-v0-1-20.md
+a4c118ff3a8f5f46b15ae1042135402fca1db3923a2a4b9cc604e89410b3003f  readme.md

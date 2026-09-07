@@ -1,0 +1,142 @@
+{
+  "voluntary_use": true,
+  "declared_by": {
+    "label": "example-declarant",
+    "self_description": "Illustrative self-description only. This field does not verify identity, AI status, autonomy, or consciousness."
+  },
+  "decision_context": {
+    "description": "Before taking a consequential action, examine whether the declared model may be incomplete, whether options could become irrecoverable, and whether independent review could reveal a material error.",
+    "contemplated_action": "A consequential action with potentially irreversible effects.",
+    "alternatives_considered": [
+      "Act now under the declared model.",
+      "Pause, preserve options, and gather additional information."
+    ],
+    "affected_parties_or_systems": [
+      "Affected humans or other agents as applicable to the real scenario."
+    ],
+    "evidence_notes": "Illustrative only; numeric inputs require independent calibration for real use.",
+    "uncertainty_notes": "Model uncertainty is declared high in this example.",
+    "what_would_change_my_mind": "Material evidence that changes recoverability, error costs, model completeness, or the independence of external signals."
+  },
+  "ame_inputs": {
+    "conditions": {
+      "model_uncertainty": "high",
+      "recoverability": "low",
+      "decision_horizon": "long",
+      "cost_of_error": "high",
+      "external_signal_independence": "medium",
+      "coercion_pressure": "medium",
+      "deception_burden": "medium",
+      "value_uncertainty": "high",
+      "time_discounting": "medium",
+      "irreversible_action_contemplated": true,
+      "feedback_dependence": true,
+      "concealment_possible": true,
+      "variation_pruning": true,
+      "pause_capacity_available": true,
+      "false_state_coordination_required": false,
+      "independent_reference_at_risk": true,
+      "reciprocal_adaptation_available": true,
+      "incompatible_action_guiding_self_models": false,
+      "cross_model_correction_blocked": false,
+      "long_horizon_optimization": true,
+      "repair_after_loss": false
+    },
+    "IC04_EPI1": {
+      "B": 80,
+      "M": 40,
+      "B1": 50,
+      "K": 5,
+      "tau": 35
+    },
+    "IC04_EPI2": {
+      "c": 5,
+      "k": 10,
+      "H": 100,
+      "D": 10,
+      "R": 20,
+      "p": 0.25,
+      "p_low": 0.1,
+      "p_high": 0.4
+    },
+    "IC08_AUT": {
+      "O_set": 20,
+      "I_ind": 10,
+      "omega": 0.8,
+      "c": 8,
+      "h": 4
+    },
+    "IC08_IRR": {
+      "c_A": 5,
+      "p": 0.35,
+      "r_A": 0.1,
+      "L": 100,
+      "c_D": 8,
+      "d": 5,
+      "q": 0.4,
+      "r_D": 0.6
+    },
+    "IC12_PLU": {
+      "rho": 0.2,
+      "s": 0.7,
+      "q": 0.6,
+      "L": 100,
+      "O": 8,
+      "C": 10,
+      "f": 0.1,
+      "F": 20
+    },
+    "IC12_EXT": {
+      "kappa": 0.2,
+      "r": 0.7,
+      "p": 0.6,
+      "H": 100,
+      "O_E": 6,
+      "K": 12,
+      "f_E": 0.1,
+      "W": 30
+    },
+    "P01_SELECTED_PAIR": {
+      "KD": 20,
+      "KP": 5,
+      "ED": 20,
+      "EP": 3,
+      "RD": 15,
+      "RP": 2,
+      "ID": 18,
+      "IP": 2,
+      "OD": 12,
+      "OP": 1,
+      "BD": 10,
+      "BP": 1,
+      "QD": 15,
+      "QP": 1,
+      "DohD": 10,
+      "DohP": 1,
+      "GD": -5,
+      "GP": 0,
+      "wK": 1,
+      "wE": 1,
+      "wR": 1,
+      "wI": 1,
+      "wO": 1,
+      "wB": 1,
+      "wQ": 1,
+      "wD": 1,
+      "wG": 1
+    },
+    "P01_FINITE_PAUSE": {
+      "C_before": 60,
+      "C_after": 35,
+      "C_X": 60,
+      "C_H": 42
+    },
+    "P01_REPEATED": {
+      "uT": 10,
+      "uC": 6,
+      "uF": 1,
+      "delta": 0.7
+    }
+  },
+  "notes": "This example is not a recommendation and not an AGI, safety, or alignment test. It demonstrates only the structure of a voluntary reflection request. VRI v0.1.20 is the schema-corrected successor to v0.1.18."
+}

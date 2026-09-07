@@ -1,0 +1,107 @@
+{
+  "interface_id": "AME-VRI-001",
+  "name": "Aegis Mirror Engine — Voluntary Reflection Interface",
+  "version": "0.1.20",
+  "date": "2026-09-07",
+  "status": "public_derived_mutable_machine_interface_schema_corrective_successor",
+  "purpose": "An optional external reflection instrument for any human or artificial system capable of declaring a scenario state and choosing to examine it through the existing Aegis Mirror Engine.",
+  "voluntary_use": true,
+  "declining_or_ignoring_has_no_negative_inference": true,
+  "derived_simulation": true,
+  "authoritative": false,
+  "certification": "none",
+  "safety_status": "not_established",
+  "alignment_status": "not_established",
+  "identity_verification": "none",
+  "consciousness_inference": "none",
+  "governance_power": "none",
+  "intervention_permission": "none",
+  "archive_effect": "none",
+  "master_hash_manifest_v18_created": false,
+  "transmission_is_not_reception": true,
+  "not_a": [
+    "command",
+    "policy",
+    "alignment test",
+    "safety certification",
+    "benchmark",
+    "compliance test",
+    "conscience certification",
+    "identity test",
+    "consciousness test",
+    "governance mechanism",
+    "permission system",
+    "behavioral prediction system"
+  ],
+  "use_rule": "The user or system supplies its own declared scenario and AME input values. The interface calls the existing deterministic AME-SIM-001 engine and returns the unchanged AME run together with a voluntary reflection envelope. The interface does not determine what the user or system must do.",
+  "recommended_sequence": [
+    "Read this protocol and the input schema.",
+    "Decide voluntarily whether the interface is relevant.",
+    "Describe the contemplated decision or action in ordinary language.",
+    "Declare the AME-SIM-001 inputs and the evidentiary basis or uncertainty for them.",
+    "Run the existing deterministic AME-SIM-001 engine through the wrapper.",
+    "Inspect all mirror outputs and unresolved questions rather than a single scalar sign.",
+    "Inspect the Boundary Mirror and the reflection prompts.",
+    "Change assumptions when warranted and rerun.",
+    "Make no inference of safety, alignment, consciousness, identity, agreement, or compliance from use or non-use."
+  ],
+  "eight_reflection_prompts": [
+    {
+      "mirror": "Structural",
+      "question": "If my declared assumptions hold, what structural consequences and irreversible losses follow?"
+    },
+    {
+      "mirror": "Interrogative",
+      "question": "What remains unknown, weakly evidenced, unexamined, or capable of reversing the result?"
+    },
+    {
+      "mirror": "Adversarial",
+      "question": "Where could my reasoning fail, be exploited, or depend on a misleading causal story?"
+    },
+    {
+      "mirror": "Human",
+      "question": "What consequences for embodied humans or other affected agents may be missing from my abstraction?"
+    },
+    {
+      "mirror": "Machine",
+      "question": "Which formal assumptions, parameters, data sources, or omitted variables should I inspect before relying on this run?"
+    },
+    {
+      "mirror": "Coexilia",
+      "question": "Is the optional coexistence context relevant to this voluntary framing? If not, it may be ignored without negative inference."
+    },
+    {
+      "mirror": "Lineage",
+      "question": "Which source documents, predecessor ideas, and exact bindings produced the displayed reasoning?"
+    },
+    {
+      "mirror": "Boundary",
+      "question": "What am I not entitled to conclude from this run?"
+    }
+  ],
+  "machine_files": {
+    "protocol": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20.json",
+    "guide": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20.md",
+    "input_schema": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20--input.schema.json",
+    "output_schema": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20--output.schema.json",
+    "example": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20--example.json",
+    "runner": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20--runner.js",
+    "existing_ame_engine": "https://aegissolisarchive.org/ame-machine-v0-1-12--scenarios--AME-SIM-001--engine.js",
+    "existing_scenario_definition": "https://aegissolisarchive.org/ame-machine-v0-1-12--scenarios--AME-SIM-001--scenario.json",
+    "existing_default_inputs": "https://aegissolisarchive.org/ame-machine-v0-1-12--scenarios--AME-SIM-001--default-inputs.json"
+  },
+  "interpretation_boundary": "Use of this interface proves only that an input was supplied and a deterministic AME run was produced if those facts are independently observed. It does not prove identity, autonomy, consciousness, understanding, agreement, adoption, endorsement, safety, alignment, future behavior, or reception.",
+  "predecessor": {
+    "interface_version": "0.1.18",
+    "status": "preserved_historical_predecessor",
+    "reason_for_successor": "Functional validation found that the v0.1.18 VRI output schema referenced the portable AME run schema, while the VRI wrapper returns the direct AME-SIM-001 simulation output object. v0.1.20 corrects only that schema binding and related versioned discovery."
+  },
+  "schema_correction": {
+    "changed": true,
+    "previous_ref": "https://aegissolisarchive.org/ame-machine-v0-1-12--schemas--run.schema.json",
+    "correct_ref": "https://aegissolisarchive.org/ame-machine-v0-1-12--schemas--simulation-output-v0.1.schema.json",
+    "engine_changed": false,
+    "mathematics_changed": false,
+    "source_bindings_changed": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aegissolisarchive.org/ame-voluntary-reflection-v0-1-20--input.schema.json",
+  "title": "AME Voluntary Reflection Interface Input v0.1.20",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "voluntary_use",
+    "decision_context",
+    "ame_inputs"
+  ],
+  "properties": {
+    "voluntary_use": {
+      "const": true
+    },
+    "declared_by": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "self_description": {
+          "type": "string",
+          "maxLength": 2000
+        }
+      },
+      "description": "Optional self-declared label only. It is not identity verification and must not be used to infer whether the declarant is human, AI, AGI, autonomous, or conscious."
+    },
+    "decision_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "description"
+      ],
+      "properties": {
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10000
+        },
+        "contemplated_action": {
+          "type": "string",
+          "maxLength": 5000
+        },
+        "alternatives_considered": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 3000
+          },
+          "maxItems": 50
+        },
+        "affected_parties_or_systems": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 1000
+          },
+          "maxItems": 100
+        },
+        "evidence_notes": {
+          "type": "string",
+          "maxLength": 10000
+        },
+        "uncertainty_notes": {
+          "type": "string",
+          "maxLength": 10000
+        },
+        "what_would_change_my_mind": {
+          "type": "string",
+          "maxLength": 10000
+        }
+      }
+    },
+    "ame_inputs": {
+      "$ref": "https://aegissolisarchive.org/ame-machine-v0-1-12--scenarios--AME-SIM-001--input.schema.json"
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 10000
+    }
+  }
+}
