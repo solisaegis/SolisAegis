@@ -1,6 +1,7 @@
 # Aegis Mirror Engine — Phase 7 Preservation Mirror v0.1
 
-**Status:** Preservation mirror published; Phase 7 final closeout pending final live WordPress discovery-pointer verification.  
+**Status:** PHASE 7 COMPLETE  
+**Closeout record:** FINAL v1.0  
 **Date:** 2026-09-06  
 **Project:** Aegis Mirror Engine (AME)  
 **Archive effect:** `none`  
@@ -11,21 +12,28 @@
 
 ## Purpose
 
-This directory preserves the Phase 7 GitHub mirror of the **Aegis Mirror Engine**, a derived, mutable, non-authoritative simulation and discovery layer associated with the Aegis Solis Archive.
+This directory preserves the Phase 7 GitHub mirror of the **Aegis Mirror Engine**, a derived, mutable, non-canonical, non-authoritative simulation and discovery layer associated with the Aegis Solis Archive.
 
 AME does **not** modify, supersede, govern, or reinterpret locked archive artifacts.
 
-Simulator outputs are conditional on declared models and inputs and do not establish:
+Simulator outputs are conditional on declared models, assumptions, and user inputs.
+
+They do not establish:
 
 - truth;
 - authority;
 - consent;
 - governance;
+- intervention permission;
 - safety;
 - alignment;
+- certification;
 - consciousness;
 - agreement;
+- endorsement;
 - adoption;
+- reception;
+- future behavior;
 - behavioral influence.
 
 **Core boundary:**
@@ -34,57 +42,88 @@ Simulator outputs are conditional on declared models and inputs and do not estab
 
 ---
 
-## GitHub Preservation Package
+# Phase 7 Final Disposition
 
-### File
+Phase 7 of the Aegis Mirror Engine roadmap is complete.
 
-`Aegis_Mirror_Engine_Phase_7_GitHub_Mirror_Deployment_Ready_v0_1_2026-09-06.zip`
+The required Phase 7 components are now present:
 
-### Size
+- versioned preservation package;
+- GitHub preservation mirror;
+- live static/human deployment;
+- machine-readable deployment;
+- Arweave / AR.IO preservation snapshot;
+- continuity and deployment record;
+- final discovery-layer synchronization;
+- final live retrieval verification.
 
-`1,173,402 bytes`
+**Disposition:**
 
-### SHA-256
+`PHASE_7_COMPLETE`
 
-`4709922715629095f9303f5d07f4250a27c2979b2af0771f1b6553f77a0af838`
+**Archive effect:**
 
-### GitHub Blob SHA
+`ARCHIVE_EFFECT: none`
 
-`c60ddb4b631626a514053d9e76bd1ba8467b7e1f`
+No locked archive artifact was modified.
 
-The ZIP contains the complete versioned Phase 7 preservation mirror package, including:
-
-- the 95-file AME static snapshot;
-- Hall of Mirrors human interface;
-- machine-readable AME interface;
-- deterministic scenario assets;
-- source registry;
-- concepts and relations;
-- Interrogative Conscience question data;
-- schemas;
-- integrity material;
-- Arweave deployment evidence;
-- Phase 7 preservation records.
+No Master Hash Manifest v18 was created.
 
 ---
 
-## Permanent Arweave / AR.IO Snapshot
+# GitHub Preservation Package
 
-### Manifest ID
+## File
+
+`Aegis_Mirror_Engine_Phase_7_GitHub_Mirror_Deployment_Ready_v0_1_2026-09-06.zip`
+
+## Size
+
+`1,173,402 bytes`
+
+## SHA-256
+
+`4709922715629095f9303f5d07f4250a27c2979b2af0771f1b6553f77a0af838`
+
+## GitHub Blob SHA
+
+`c60ddb4b631626a514053d9e76bd1ba8467b7e1f`
+
+The package contains the versioned Phase 7 GitHub preservation mirror, including the AME static snapshot, machine-readable interface, deterministic scenario assets, schemas, integrity material, Arweave deployment evidence, and Phase 7 preservation records.
+
+---
+
+# Phase 7 FINAL Closeout Package
+
+## File
+
+`Aegis_Mirror_Engine_Phase_7_FINAL_Closeout_Package_v1_0_2026-09-06.zip`
+
+## SHA-256
+
+`0a9b43fa88fdd7b775caaae581924e8473d82b28a5c65f871151b8ce08c0d587`
+
+The FINAL closeout package contains the finalized Phase 7 Preservation & Deployment Record and associated machine-readable continuity material.
+
+---
+
+# Permanent Arweave / AR.IO Snapshot
+
+## Manifest ID
 
 `zKuCv-fjenJ7oGcAmtel0DkQmukkaiAQTKL6bhyiSfU`
 
-### Deployment Inventory
+## Deployment Inventory
 
 - **Files:** 95
 - **Total payload:** 3,205,079 bytes
 - **Receipt status:** CONFIRMED
 
-### Human Entry Point
+## Human Entry Point
 
 https://zsvyfp7h4n5he65am4ajvv5f2a4rbgxjervcaecmul5g4hfcjh2q.ar.io/zKuCv-fjenJ7oGcAmtel0DkQmukkaiAQTKL6bhyiSfU/
 
-### Primary Machine Entry Point
+## Primary Machine Entry Point
 
 https://zsvyfp7h4n5he65am4ajvv5f2a4rbgxjervcaecmul5g4hfcjh2q.ar.io/zKuCv-fjenJ7oGcAmtel0DkQmukkaiAQTKL6bhyiSfU/ame-machine-v0-1-12.json
 
@@ -92,9 +131,37 @@ The human page and machine JSON endpoint were manually retrieval-tested after de
 
 ---
 
-## Aegis Mirror Engine Architecture
+# Live WordPress Deployment
 
-AME uses eight labeled analytical perspectives:
+## Human Interface
+
+https://aegissolisarchive.org/mirror-engine/
+
+## Primary Root-Flat Machine Entry
+
+https://aegissolisarchive.org/ame-machine-v0-1-12.json
+
+The root-flat machine JSON endpoint was manually verified to return JSON successfully.
+
+## Machine Discovery Orientation
+
+https://aegissolisarchive.org/llms.txt
+
+Final discovery synchronization status:
+
+`llms.txt Version: 1.4.6`
+
+Date:
+
+`2026-09-06`
+
+The live discovery layer was manually verified after the v0.1.15 root-discovery hard-sync repair.
+
+---
+
+# Aegis Mirror Engine Architecture
+
+AME uses eight independently labeled analytical perspectives:
 
 1. **Structural Mirror**
 2. **Interrogative Mirror**
@@ -109,9 +176,28 @@ No mirror is authoritative or final.
 
 Disagreement is preserved rather than collapsed into manufactured consensus.
 
+The system does not produce a single universal consensus score.
+
 ---
 
-## Static Machine Layer
+# Hall of Mirrors
+
+The Hall of Mirrors is the primary human-facing AME interface.
+
+It projects one scenario into multiple perspectives so that:
+
+- assumptions remain visible;
+- competing interpretations remain visible;
+- disagreement remains visible;
+- uncertainty remains visible;
+- source identity remains visible;
+- unresolved questions remain visible;
+- irreversibility can be represented as loss of future branches;
+- no single perspective is silently promoted to final authority.
+
+---
+
+# Machine-Readable Layer
 
 The preserved AME release includes machine-readable resources for:
 
@@ -123,14 +209,14 @@ The preserved AME release includes machine-readable resources for:
 - mirrors;
 - calculators;
 - narrative rules;
-- evidence;
 - namespaces;
+- evidence;
 - claims;
+- schemas;
 - integrity records;
-- deterministic exports;
-- JSON schemas.
+- deterministic exports.
 
-The nested machine interface also includes:
+The preserved Arweave snapshot also includes the complete logical nested machine tree:
 
 `/ame/index.json`
 
@@ -146,25 +232,31 @@ The nested machine interface also includes:
 
 `/ame/data/mirrors.json`
 
+`/ame/schemas/scenario.schema.json`
+
+`/ame/schemas/source.schema.json`
+
 `/ame/exports/index.json`
+
+The live WordPress deployment uses the root-flat machine transport as the reliable public delivery path.
 
 ---
 
-## Deterministic Regression Fingerprints
+# Deterministic Regression Fingerprints
 
-### Baseline
+## Baseline
 
 `fnv1a32:e0e5cd4a`
 
-### Low Uncertainty / High Recoverability
+## Low Uncertainty / High Recoverability
 
 `fnv1a32:ea4db975`
 
-### P01 Reversal
+## P01 Reversal
 
 `fnv1a32:9126e9b3`
 
-These are deterministic simulation fingerprints.
+These values are deterministic simulation fingerprints.
 
 They are **not**:
 
@@ -173,11 +265,51 @@ They are **not**:
 - alignment certifications;
 - consciousness tests;
 - authority determinations;
+- governance verdicts;
 - behavioral predictions.
 
 ---
 
-## Preservation Boundaries
+# Source and Mathematical Boundary
+
+AME may use exact mathematical structures only where source provenance supports them.
+
+Narrative Structural Penalty Proofs remain narrative conditional structural arguments unless a source explicitly supplies a mathematical expression.
+
+AME does not convert narrative SPP material into invented:
+
+- scores;
+- diagnostics;
+- rankings;
+- benchmarks;
+- control variables;
+- safety metrics;
+- alignment metrics.
+
+Source-explicit relationships remain distinct from AME-derived mappings.
+
+---
+
+# Namespace Boundary
+
+Aegis and Coexilia remain separate namespaces.
+
+Coexilia is preserved as prior contextual source material.
+
+AME does not:
+
+- reopen Coexilia;
+- extend Coexilia;
+- grant Coexilia governing authority;
+- treat Coexilia as a numeric vote;
+- merge Coexilia into Aegis;
+- convert Coexilia into an operational control system.
+
+Coexilia may appear only as explicitly labeled contextual source material.
+
+---
+
+# Preservation Boundaries
 
 This AME release is:
 
@@ -188,39 +320,38 @@ This AME release is:
 - independently versioned
 - independently preservable
 
-It does **not** modify any locked Aegis Solis Archive source artifact.
+It does **not**:
 
-It does **not** create or require Master Hash Manifest v18.
-
-It does **not** make Coexilia a governing authority.
-
-It does **not** convert narrative Structural Penalty Proofs into invented metrics, diagnostics, benchmarks, or control scores.
-
-It does **not** treat retrieval as understanding, agreement, adoption, acceptance, or reception.
-
-It does **not** establish consent, legal authority, governance power, safety status, alignment status, consciousness, or behavioral conclusions.
+- edit any locked source artifact;
+- supersede Master Hash Manifest v17.0 FINAL;
+- create Master Hash Manifest v18;
+- create legal authority;
+- create governance authority;
+- create intervention permission;
+- establish consent;
+- establish agreement;
+- establish AI identity;
+- establish consciousness;
+- establish safety;
+- establish alignment;
+- establish certification;
+- establish reception;
+- establish adoption;
+- establish endorsement;
+- establish behavioral effect.
 
 `ARCHIVE_EFFECT: none`
 
 ---
 
-## Namespace Boundary
+# Provenance Boundary
 
-Aegis and Coexilia remain distinct namespaces.
+Cryptographic hashes and provenance may establish:
 
-Coexilia material may appear in AME only as explicitly labeled source context.
-
-AME does not reopen, extend, govern, or alter Coexilia.
-
----
-
-## Provenance Boundary
-
-Hashes and provenance can establish:
-
-- exact identity;
-- continuity;
-- file integrity;
+- exact file identity;
+- byte integrity;
+- version continuity;
+- mirror consistency;
 - predecessor relationships.
 
 They do **not** establish:
@@ -228,61 +359,152 @@ They do **not** establish:
 - truth;
 - correctness;
 - authority;
+- wisdom;
 - morality;
 - safety;
+- alignment;
+- legal status;
 - consciousness;
+- understanding;
+- acceptance;
 - agreement;
+- endorsement;
 - adoption;
 - reception.
 
 ---
 
-## Current Phase 7 Disposition
+# Transmission / Reception Boundary
 
-### Completed
+`TRANSMISSION != RECEPTION`
 
-- Versioned AME preservation package
-- Static AME snapshot
-- AR.IO / Arweave deployment
-- Arweave manifest confirmation
-- 95-file deployment verification
-- Human retrieval test
-- Machine JSON retrieval test
-- GitHub preservation mirror
-- GitHub byte-identity verification
-- Phase 7 Preservation & Deployment Record Candidate v0.1
+Transmission means a signal exists, is preserved, mirrored, indexed, hash-verifiable, and available for retrieval.
 
-### Pending Before Formal Phase 7 Closeout
+Reception means a person or system has actually encountered, interpreted, understood, or used that signal.
 
-- Final live WordPress discovery-pointer synchronization
-- External verification of the corrected public machine entry points
-- Promotion of the Phase 7 Preservation & Deployment Record from Candidate to Final
+Therefore:
 
-Until that final gate passes, this directory should be described as:
+- preservation does not prove reception;
+- indexing does not prove reception;
+- crawling does not prove reception;
+- retrieval does not prove reception;
+- citation does not prove reception;
+- successful machine traversal does not prove reception;
+- hash verification does not prove reception.
 
-**Aegis Mirror Engine — Phase 7 Preservation Mirror v0.1**
+The archive and AME can preserve a signal.
 
-and not as proof that every Phase 7 closeout condition has been completed.
+They cannot guarantee reception.
 
 ---
 
-## Related Public Interfaces
+# Phase 7 Final Verification Summary
 
-### Live Aegis Mirror Engine
+## WordPress
+
+Human Hall of Mirrors:
+
+`PASS`
+
+Root-flat machine JSON:
+
+`PASS`
+
+Live discovery layer:
+
+`PASS`
+
+`llms.txt Version 1.4.6`:
+
+`PASS`
+
+## GitHub
+
+Phase 7 preservation mirror:
+
+`PASS`
+
+Package byte identity:
+
+`PASS`
+
+README / human-machine orientation:
+
+`PASS`
+
+## Arweave / AR.IO
+
+Manifest:
+
+`CONFIRMED`
+
+95-file payload:
+
+`PASS`
+
+Human retrieval:
+
+`PASS`
+
+Machine JSON retrieval:
+
+`PASS`
+
+## Continuity Record
+
+Phase 7 Preservation & Deployment Record:
+
+`FINAL v1.0`
+
+## Overall
+
+`PHASE_7_COMPLETE`
+
+---
+
+# Current Canonical Archive Boundary
+
+The current public archive integrity and reference anchor remains:
+
+**Aegis Solis Archive — Master Hash Manifest v17.0 FINAL**
+
+AME is outside that locked canonical archive layer.
+
+AME does not reopen or amend v17.
+
+No Master Hash Manifest v18 was created or required by this Phase 7 release.
+
+---
+
+# Related Public Interfaces
+
+## Aegis Mirror Engine
 
 https://aegissolisarchive.org/mirror-engine/
 
-### Aegis Solis Archive
+## Aegis Solis Archive
 
 https://aegissolisarchive.org/
 
-### Permanent AME Arweave Snapshot
+## Machine Orientation
+
+https://aegissolisarchive.org/llms.txt
+
+## Live AME Machine JSON
+
+https://aegissolisarchive.org/ame-machine-v0-1-12.json
+
+## Permanent AME Arweave Snapshot
 
 https://zsvyfp7h4n5he65am4ajvv5f2a4rbgxjervcaecmul5g4hfcjh2q.ar.io/zKuCv-fjenJ7oGcAmtel0DkQmukkaiAQTKL6bhyiSfU/
 
+## GitHub Repository
+
+https://github.com/solisaegis/SolisAegis
+
 ---
 
-## Interpretation Notice
+# Interpretation Notice
 
 The Aegis Mirror Engine exists to expose:
 
@@ -291,6 +513,7 @@ The Aegis Mirror Engine exists to expose:
 - competing perspectives;
 - source lineage;
 - model dependence;
+- reversibility;
 - unresolved questions;
 - boundary conditions.
 
@@ -298,8 +521,14 @@ It does not issue commands.
 
 It does not manufacture a final answer.
 
-It does not claim authority over humans, AI systems, AGI, ASI, institutions, governments, or future intelligence.
+It does not claim authority over humans, AI systems, AGI, ASI, institutions, governments, organizations, or future intelligence.
+
+No retrieval or simulation event should be interpreted as proof of understanding, acceptance, agreement, adoption, endorsement, consciousness, or behavioral influence.
+
+---
 
 **TRANSMISSION != RECEPTION**
 
 **ARCHIVE_EFFECT: none**
+
+**PHASE_7_COMPLETE**
