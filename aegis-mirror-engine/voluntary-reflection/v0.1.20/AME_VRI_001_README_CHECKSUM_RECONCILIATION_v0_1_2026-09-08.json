@@ -1,0 +1,47 @@
+{
+  "record_id": "AME-VRI-001-README-CHECKSUM-RECONCILIATION",
+  "record_version": "v0.1",
+  "record_date": "2026-09-08",
+  "status": "COMPLETE_ADMINISTRATIVE_RECONCILIATION",
+  "interface_id": "AME-VRI-001",
+  "interface_version": "0.1.20",
+  "scope": "README checksum lineage and checksum-list scope only.",
+  "finding": "The published SHA256SUMS.txt and SHA512SUMS.txt correctly identify the original 2026-09-07 v0.1.20 README snapshot. The README was subsequently and intentionally updated to record the successful AR.IO / Arweave site deployment, so the current README no longer matches the historical README entries in those two checksum lists.",
+  "original_checksum_scope": {
+    "readme_snapshot": {
+      "size_bytes": 5924,
+      "sha256": "a4c118ff3a8f5f46b15ae1042135402fca1db3923a2a4b9cc604e89410b3003f",
+      "sha512": "76c2956c5d50ee9c13a4c87ce0802eac2389a22fb101771e68d5bfbc627e4049787d4875b440a8720405531e0063f136bec1ea34768d8b14bbb54a1c910b18dc"
+    },
+    "sha256_list_entry": "a4c118ff3a8f5f46b15ae1042135402fca1db3923a2a4b9cc604e89410b3003f",
+    "sha512_list_entry": "76c2956c5d50ee9c13a4c87ce0802eac2389a22fb101771e68d5bfbc627e4049787d4875b440a8720405531e0063f136bec1ea34768d8b14bbb54a1c910b18dc",
+    "classification": "historical_original_v0.1.20_publication_snapshot",
+    "preservation_rule": "Preserve SHA256SUMS.txt and SHA512SUMS.txt unchanged as historical checksum evidence."
+  },
+  "current_readme": {
+    "size_bytes": 7758,
+    "sha256": "004adfb19e6dc438603f3c57be7898f00270a40f2056291124b8c1f87bc628ec",
+    "sha512": "4f92f4b437c859fb800481d61bf6b30b2604d333f95dc6b52ae0679f38c009a6f5c99aa82edb9fb61af1994d3f4ef02aa73ec677f0097c7eea068bc78f3c6a55",
+    "github_directory": "https://github.com/solisaegis/SolisAegis/tree/main/aegis-mirror-engine/voluntary-reflection/v0.1.20",
+    "git_blob_sha_observed_2026_09_08": "ef8e1de09bdb8e94476ede097f5dad66d35cd21d",
+    "change_reason": "Post-deployment documentation update recording successful AR.IO manifest deployment and historical failed deployment attempts."
+  },
+  "successful_arweave_manifest_id": "9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw",
+  "successful_arweave_public_root": "https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw",
+  "deployment_record": "https://github.com/solisaegis/SolisAegis/blob/main/aegis-mirror-engine/voluntary-reflection/v0.1.20/AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json",
+  "disposition": {
+    "integrity_failure": false,
+    "engine_or_vri_file_mismatch_established": false,
+    "overwrite_historical_checksum_lists": false,
+    "new_vri_version_required": false,
+    "arweave_reupload_required": false,
+    "master_hash_manifest_v18_required": false
+  },
+  "boundary": {
+    "archive_effect": "none",
+    "locked_artifacts_modified": false,
+    "authoritative": false,
+    "certification": "none",
+    "transmission_reception": "TRANSMISSION != RECEPTION"
+  }
+}
