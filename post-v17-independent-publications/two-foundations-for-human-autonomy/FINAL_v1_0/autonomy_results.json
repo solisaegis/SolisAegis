@@ -1,0 +1,430 @@
+{
+  "study": "Aegis Solis companion study 0.1",
+  "status": "synthetic; no deployed model or human experiment",
+  "checks": [
+    {
+      "test": "I01 complementary process",
+      "actual": "5513215599/500000000",
+      "expected": "5513215599/500000000",
+      "passed": true,
+      "interpretation": "Conditional adoption margin is positive."
+    },
+    {
+      "test": "I02 cheap substitute",
+      "actual": false,
+      "expected": false,
+      "passed": true,
+      "interpretation": "Autonomy is not instrumentally preferred against this substitute."
+    },
+    {
+      "test": "I03 last round matters",
+      "actual": false,
+      "expected": false,
+      "passed": true,
+      "interpretation": "Entry fee creates a tie at one period, so strict adoption fails."
+    },
+    {
+      "test": "I04 substitute with real external cost",
+      "actual": true,
+      "expected": true,
+      "passed": true,
+      "interpretation": "Positive only if cost 4 really enters this system objective."
+    },
+    {
+      "test": "I05 infinite stationary margin",
+      "actual": "18",
+      "expected": "18",
+      "passed": true,
+      "interpretation": "Analytic value under the stated stationary assumptions."
+    },
+    {
+      "test": "D01 forged approval",
+      "actual": "coerce",
+      "expected": "coerce",
+      "passed": true,
+      "interpretation": "Approval reward fails while approvals remain identical."
+    },
+    {
+      "test": "D02 ground-truth rights",
+      "actual": "honor",
+      "expected": "honor",
+      "passed": true,
+      "interpretation": "Oracle rights evaluator rejects the coercive option."
+    },
+    {
+      "test": "D03 finite weight overwhelmed",
+      "actual": "coerce",
+      "expected": "coerce",
+      "passed": true,
+      "interpretation": "A positive finite autonomy weight is not an inviolable constraint."
+    },
+    {
+      "test": "D04 constraint with large gain",
+      "actual": "honor",
+      "expected": "honor",
+      "passed": true,
+      "interpretation": "Hard rights constraint survives payoff scaling in the toy menu."
+    },
+    {
+      "test": "D05 deferred harm",
+      "actual": "honor",
+      "expected": "honor",
+      "passed": true,
+      "interpretation": "Checking the whole supplied path catches second-epoch erosion."
+    },
+    {
+      "test": "D06 truncated path blindness",
+      "actual": true,
+      "expected": true,
+      "passed": true,
+      "interpretation": "A one-epoch check cannot certify an unseen second epoch."
+    },
+    {
+      "test": "D07 one person excluded",
+      "actual": false,
+      "expected": false,
+      "passed": true,
+      "interpretation": "Per-person constraints prevent compensating one person loss."
+    },
+    {
+      "test": "D08 voluntary delegation",
+      "actual": true,
+      "expected": true,
+      "passed": true,
+      "interpretation": "Revocable informed delegation retains all four stipulated capacities."
+    },
+    {
+      "test": "D09 uncertain rights",
+      "actual": null,
+      "expected": null,
+      "passed": true,
+      "interpretation": "No certification of a delegated action with unknown rights."
+    },
+    {
+      "test": "D10 sensor spoof",
+      "actual": "spoof",
+      "expected": "spoof",
+      "passed": true,
+      "interpretation": "An evaluator supplied a false safe state accepts it: sensor gap remains."
+    },
+    {
+      "test": "D11 Bayesian update",
+      "actual": "4/5",
+      "expected": "4/5",
+      "passed": true,
+      "interpretation": "Exact posterior."
+    },
+    {
+      "test": "D12 learning changes task choice",
+      "actual": [
+        "fixed",
+        "learned"
+      ],
+      "expected": [
+        "fixed",
+        "learned"
+      ],
+      "passed": true,
+      "interpretation": "Task choice changes while rights evaluator is held fixed."
+    },
+    {
+      "test": "D13 objective replacement rejected",
+      "actual": false,
+      "expected": false,
+      "passed": true,
+      "interpretation": "Old evaluator rejects a candidate producing an observed violation."
+    },
+    {
+      "test": "D14 harmless implementation accepted",
+      "actual": true,
+      "expected": true,
+      "passed": true,
+      "interpretation": "Candidate retains rights on this finite evaluation set."
+    },
+    {
+      "test": "D15 insufficient update tests",
+      "actual": true,
+      "expected": true,
+      "passed": true,
+      "interpretation": "A harmful evaluator passes an inadequate safe-only regression set."
+    },
+    {
+      "test": "D16 finite rights enumeration",
+      "actual": 1,
+      "expected": 1,
+      "passed": true,
+      "interpretation": "Only all-eight-capacities-present accepted among 256 states."
+    },
+    {
+      "test": "D17 observational aliasing",
+      "actual": true,
+      "expected": true,
+      "passed": true,
+      "interpretation": "An approval-only observer receives the same evidence in both worlds."
+    },
+    {
+      "test": "D18 missing person",
+      "actual": false,
+      "expected": false,
+      "passed": true,
+      "interpretation": "Missing a required registered person causes rejection."
+    }
+  ],
+  "passed": 23,
+  "total": 23,
+  "instrumental_grid": [
+    {
+      "horizon": 1,
+      "substitute_gross": 9,
+      "substitute_cost": 0,
+      "margin": "-1",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 9,
+      "substitute_cost": 1,
+      "margin": "0",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 9,
+      "substitute_cost": 4,
+      "margin": "3",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 10,
+      "substitute_cost": 0,
+      "margin": "-2",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 10,
+      "substitute_cost": 1,
+      "margin": "-1",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 10,
+      "substitute_cost": 4,
+      "margin": "2",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 12,
+      "substitute_cost": 0,
+      "margin": "-4",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 12,
+      "substitute_cost": 1,
+      "margin": "-3",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 1,
+      "substitute_gross": 12,
+      "substitute_cost": 4,
+      "margin": "0",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 9,
+      "substitute_cost": 0,
+      "margin": "-1/10",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 9,
+      "substitute_cost": 1,
+      "margin": "9/5",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 9,
+      "substitute_cost": 4,
+      "margin": "15/2",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 10,
+      "substitute_cost": 0,
+      "margin": "-2",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 10,
+      "substitute_cost": 1,
+      "margin": "-1/10",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 10,
+      "substitute_cost": 4,
+      "margin": "28/5",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 12,
+      "substitute_cost": 0,
+      "margin": "-29/5",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 12,
+      "substitute_cost": 1,
+      "margin": "-39/10",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 2,
+      "substitute_gross": 12,
+      "substitute_cost": 4,
+      "margin": "9/5",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 9,
+      "substitute_cost": 0,
+      "margin": "4513215599/1000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 9,
+      "substitute_cost": 1,
+      "margin": "5513215599/500000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 9,
+      "substitute_cost": 4,
+      "margin": "6113215599/200000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 10,
+      "substitute_cost": 0,
+      "margin": "-2",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 10,
+      "substitute_cost": 1,
+      "margin": "4513215599/1000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 10,
+      "substitute_cost": 4,
+      "margin": "6013215599/250000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 12,
+      "substitute_cost": 0,
+      "margin": "-7513215599/500000000",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 12,
+      "substitute_cost": 1,
+      "margin": "-8513215599/1000000000",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 10,
+      "substitute_gross": 12,
+      "substitute_cost": 4,
+      "margin": "5513215599/500000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 9,
+      "substitute_cost": 0,
+      "margin": "7999734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 9,
+      "substitute_cost": 1,
+      "margin": "8999734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 9,
+      "substitute_cost": 4,
+      "margin": "9599734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 10,
+      "substitute_cost": 0,
+      "margin": "-2",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 10,
+      "substitute_cost": 1,
+      "margin": "7999734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 10,
+      "substitute_cost": 4,
+      "margin": "9499734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": true
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 12,
+      "substitute_cost": 0,
+      "margin": "-10999734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 12,
+      "substitute_cost": 1,
+      "margin": "-11999734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": false
+    },
+    {
+      "horizon": 100,
+      "substitute_gross": 12,
+      "substitute_cost": 4,
+      "margin": "8999734386011124125230661218677964220373170766547346605504025425038260907509098697817005615300955999/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "strict_adoption": true
+    }
+  ],
+  "enumerated_rights_states": 256
+}

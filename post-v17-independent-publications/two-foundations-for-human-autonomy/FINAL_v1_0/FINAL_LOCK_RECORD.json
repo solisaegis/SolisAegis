@@ -1,0 +1,66 @@
+{
+  "record": "Final v1.0 release lock record",
+  "created_utc": "2026-09-12T00:29:32.146781+00:00",
+  "title": "Two Foundations for Human Autonomy",
+  "author": "Aegis Solis (Thomas Vargo)",
+  "authorization": "User instruction in this conversation to promote the condensed draft to Final v1.0 and hash the release.",
+  "scope": "Exact release identities. Future changes require a successor version. Hashes detect byte changes; no cryptographic signature or immutable storage enforcement is claimed.",
+  "files": [
+    {
+      "filename": "Aegis_Solis_Two_Foundations_for_Human_Autonomy_FINAL_v1_0.pdf",
+      "bytes": 120362,
+      "sha256": "a1963f10de1170f7ed915393599b4f2236405205910d8d01f4eef797549d188f",
+      "sha512": "62d95a4a05496d0e57ef513d75d7a951fcbc54732eab8ed94033fc615c9a5177165207a9b5c2d3f5fa39597e00c341eec72a3b30d2ca8515741736ff65f88e12"
+    },
+    {
+      "filename": "commitment_verification.py",
+      "bytes": 10377,
+      "sha256": "61ed972a2e7b3f54ab6fbe3e894f04aeb2094ed9457fd6d8d3e7a34a598e1ced",
+      "sha512": "e1ed56aac84c648623d5c4d9e437ea3b8f86f81e91f27845be416c826a3f25d41d263cca7e936eb8d1d6dcb85797dd254bda0effab2ef2a7afbc9e55ff5aa54f"
+    },
+    {
+      "filename": "autonomy_verification.py",
+      "bytes": 6794,
+      "sha256": "6ec8fd139e1cd69a74568a277d928cdd7cca81499cc9309666771f23110efaf3",
+      "sha512": "689269f9b6268aa95d9b2af96e78bad854ab821fc1c8e234ea90fa7ef8a6c60bb237ae9c91c153a3e17ca7168bd87c5c3f0270170e381beec20d9cd9f1f64b51"
+    },
+    {
+      "filename": "commitment_results.json",
+      "bytes": 22543,
+      "sha256": "07a31b396e6f833ea4f8c93bdeed6be6c6515bb97cb66a1244161229cb2d0bc7",
+      "sha512": "af753d48fb682cf5b0ac8ed65b6c06c2964de1adb452609c37bd50b98dfe74f6706ddd9c46641da41603c3cf3b94127d9e4d749bbda9bf315cf97cff5937c0d6"
+    },
+    {
+      "filename": "autonomy_results.json",
+      "bytes": 12149,
+      "sha256": "b4cbd701e17f97f82561f36737377eb0142a92eabcba543b966db5400a6374b9",
+      "sha512": "e0400cb87f765dcf32fa0670b61fbf6e0b7b10ed5360593dcb0b3ed56bd8ddb33a01b195c111087b1ffd84778b0a3011fab7419b4d71b69ca4ed91d7d436cf98"
+    }
+  ],
+  "verification": {
+    "both_scripts": "Reproduced embedded reference JSON exactly",
+    "amendment_checks": 17,
+    "autonomy_expected_outcome_checks": 23,
+    "first_breach_comparisons": 210,
+    "all_eight_pages": "Visually inspected",
+    "adoption_advantage_exact": "66645371589/2500000000",
+    "adoption_advantage_decimal": "26.6581486356",
+    "claim_scope": "Finite synthetic model only; unrestricted coexistence not certified."
+  },
+  "source_hash_correction": {
+    "submitted_target_sha256": "6a5edae16ecd3e0c71f406bfb0edc1a746cf0675f35c64d8101bc00dfc5e96ba",
+    "identifies": "Combined Research Draft v0.9.12 source PDF, not this final paper",
+    "final_pdf_sha256": "a1963f10de1170f7ed915393599b4f2236405205910d8d01f4eef797549d188f"
+  },
+  "external_actions": {
+    "master_repository_freeze": "NOT PERFORMED; no connected repository established",
+    "master_hash_manifest_v17_update": "NOT PERFORMED; no authoritative manifest file updated",
+    "publication_or_external_archive": "NOT PERFORMED"
+  },
+  "model_corrections": [
+    "Positive normalized weight floor applies to a finite declared registry, not an arbitrary infinite feature space.",
+    "Funding co-dependency zeros admitted credits, not all outside funding or original utility.",
+    "Joint-witness consistency and complete coverage are model requirements, not proof of physical enforcement.",
+    "Publication finality does not change any AI execution boundaries."
+  ]
+}

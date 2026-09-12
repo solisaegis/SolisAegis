@@ -1,0 +1,942 @@
+{
+  "prior_commitment_checks": {
+    "thresholds": {
+      "retention_lower_p1": {
+        "exact": "57/10",
+        "decimal": 5.7
+      },
+      "retention_lower_p_half": {
+        "exact": "114",
+        "decimal": 114.0
+      },
+      "funding_upper": {
+        "exact": "95",
+        "decimal": 95.0
+      },
+      "all_finite_adoption_upper": {
+        "exact": "55",
+        "decimal": 55.0
+      },
+      "infinite_adoption_upper": {
+        "exact": "91",
+        "decimal": 91.0
+      }
+    },
+    "cases": [
+      {
+        "name": "baseline funded",
+        "horizon": 10,
+        "B": {
+          "exact": "4",
+          "decimal": 4.0
+        },
+        "p": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "adoption_margin": {
+          "exact": "552702619509/20000000000",
+          "decimal": 27.63513097545
+        },
+        "adopt": true,
+        "all_honor": true,
+        "all_fund": true,
+        "rows": [
+          {
+            "m": 1,
+            "honor_margin": {
+              "exact": "19/20",
+              "decimal": 0.95
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 2,
+            "honor_margin": {
+              "exact": "1009/200",
+              "decimal": 5.045
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 3,
+            "honor_margin": {
+              "exact": "17461/2000",
+              "decimal": 8.7305
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 4,
+            "honor_margin": {
+              "exact": "240949/20000",
+              "decimal": 12.04745
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 5,
+            "honor_margin": {
+              "exact": "3006541/200000",
+              "decimal": 15.032705
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 6,
+            "honor_margin": {
+              "exact": "35438869/2000000",
+              "decimal": 17.7194345
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 7,
+            "honor_margin": {
+              "exact": "402749821/20000000",
+              "decimal": 20.13749105
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 8,
+            "honor_margin": {
+              "exact": "4462748389/200000000",
+              "decimal": 22.313741945
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 9,
+            "honor_margin": {
+              "exact": "48544735501/2000000000",
+              "decimal": 24.2723677505
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 10,
+            "honor_margin": {
+              "exact": "520702619509/20000000000",
+              "decimal": 26.03513097545
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          }
+        ]
+      },
+      {
+        "name": "post entry substitute B7",
+        "horizon": 10,
+        "B": {
+          "exact": "7",
+          "decimal": 7.0
+        },
+        "p": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "adoption_margin": {
+          "exact": "66645371589/2500000000",
+          "decimal": 26.6581486356
+        },
+        "adopt": true,
+        "all_honor": true,
+        "all_fund": true,
+        "rows": [
+          {
+            "m": 1,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 2,
+            "honor_margin": {
+              "exact": "697/200",
+              "decimal": 3.485
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 3,
+            "honor_margin": {
+              "exact": "6403/2000",
+              "decimal": 3.2015
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 4,
+            "honor_margin": {
+              "exact": "58927/20000",
+              "decimal": 2.94635
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 5,
+            "honor_margin": {
+              "exact": "543343/200000",
+              "decimal": 2.716715
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 6,
+            "honor_margin": {
+              "exact": "5020087/2000000",
+              "decimal": 2.5100435
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 7,
+            "honor_margin": {
+              "exact": "46480783/20000000",
+              "decimal": 2.32403915
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 8,
+            "honor_margin": {
+              "exact": "431327047/200000000",
+              "decimal": 2.156635235
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 9,
+            "honor_margin": {
+              "exact": "4011943423/2000000000",
+              "decimal": 2.0059717115
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 10,
+            "honor_margin": {
+              "exact": "37407490807/20000000000",
+              "decimal": 1.87037454035
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          }
+        ]
+      },
+      {
+        "name": "half detection one period",
+        "horizon": 1,
+        "B": {
+          "exact": "7",
+          "decimal": 7.0
+        },
+        "p": {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        "adoption_margin": {
+          "exact": "12/5",
+          "decimal": 2.4
+        },
+        "adopt": true,
+        "all_honor": true,
+        "all_fund": true,
+        "rows": [
+          {
+            "m": 1,
+            "honor_margin": {
+              "exact": "19/40",
+              "decimal": 0.475
+            },
+            "fund_margin": {
+              "exact": "22/5",
+              "decimal": 4.4
+            },
+            "honor": true,
+            "fund": true
+          }
+        ]
+      },
+      {
+        "name": "half detection ten periods",
+        "horizon": 10,
+        "B": {
+          "exact": "20",
+          "decimal": 20.0
+        },
+        "p": {
+          "exact": "1/2",
+          "decimal": 0.5
+        },
+        "adoption_margin": {
+          "exact": "17939646797/800000000",
+          "decimal": 22.42455849625
+        },
+        "adopt": true,
+        "all_honor": true,
+        "all_fund": true,
+        "rows": [
+          {
+            "m": 1,
+            "honor_margin": {
+              "exact": "133/20",
+              "decimal": 6.65
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 2,
+            "honor_margin": {
+              "exact": "23/4",
+              "decimal": 5.75
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 3,
+            "honor_margin": {
+              "exact": "247/50",
+              "decimal": 4.94
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 4,
+            "honor_margin": {
+              "exact": "4211/1000",
+              "decimal": 4.211
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 5,
+            "honor_margin": {
+              "exact": "35549/10000",
+              "decimal": 3.5549
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 6,
+            "honor_margin": {
+              "exact": "296441/100000",
+              "decimal": 2.96441
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 7,
+            "honor_margin": {
+              "exact": "2432969/1000000",
+              "decimal": 2.432969
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 8,
+            "honor_margin": {
+              "exact": "19546721/10000000",
+              "decimal": 1.9546721
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 9,
+            "honor_margin": {
+              "exact": "152420489/100000000",
+              "decimal": 1.52420489
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 10,
+            "honor_margin": {
+              "exact": "1136784401/1000000000",
+              "decimal": 1.136784401
+            },
+            "fund_margin": {
+              "exact": "15/4",
+              "decimal": 3.75
+            },
+            "honor": true,
+            "fund": true
+          }
+        ]
+      },
+      {
+        "name": "independent substitute",
+        "horizon": 10,
+        "B": {
+          "exact": "7",
+          "decimal": 7.0
+        },
+        "p": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "adoption_margin": {
+          "exact": "-2",
+          "decimal": -2.0
+        },
+        "adopt": false,
+        "all_honor": true,
+        "all_fund": false,
+        "rows": [
+          {
+            "m": 1,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 2,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 3,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 4,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 5,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 6,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 7,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 8,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 9,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          },
+          {
+            "m": 10,
+            "honor_margin": {
+              "exact": "19/5",
+              "decimal": 3.8
+            },
+            "fund_margin": {
+              "exact": "-7/20",
+              "decimal": -0.35
+            },
+            "honor": true,
+            "fund": false
+          }
+        ]
+      },
+      {
+        "name": "post entry substitute B4",
+        "horizon": 10,
+        "B": {
+          "exact": "4",
+          "decimal": 4.0
+        },
+        "p": {
+          "exact": "1",
+          "decimal": 1.0
+        },
+        "adoption_margin": {
+          "exact": "379802619509/20000000000",
+          "decimal": 18.99013097545
+        },
+        "adopt": true,
+        "all_honor": false,
+        "all_fund": false,
+        "rows": [
+          {
+            "m": 1,
+            "honor_margin": {
+              "exact": "19/20",
+              "decimal": 0.95
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 2,
+            "honor_margin": {
+              "exact": "77/100",
+              "decimal": 0.77
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 3,
+            "honor_margin": {
+              "exact": "76/125",
+              "decimal": 0.608
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 4,
+            "honor_margin": {
+              "exact": "2311/5000",
+              "decimal": 0.4622
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 5,
+            "honor_margin": {
+              "exact": "16549/50000",
+              "decimal": 0.33098
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 6,
+            "honor_margin": {
+              "exact": "106441/500000",
+              "decimal": 0.212882
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 7,
+            "honor_margin": {
+              "exact": "532969/5000000",
+              "decimal": 0.1065938
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 8,
+            "honor_margin": {
+              "exact": "546721/50000000",
+              "decimal": 0.01093442
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": true,
+            "fund": true
+          },
+          {
+            "m": 9,
+            "honor_margin": {
+              "exact": "-37579511/500000000",
+              "decimal": -0.075159022
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": false,
+            "fund": false
+          },
+          {
+            "m": 10,
+            "honor_margin": {
+              "exact": "-21238215599/5000000000",
+              "decimal": -4.2476431198
+            },
+            "fund_margin": {
+              "exact": "91/20",
+              "decimal": 4.55
+            },
+            "honor": false,
+            "fund": false
+          }
+        ]
+      }
+    ],
+    "baseline_B7_horizons_checked": 20,
+    "deterministic_breach_paths_checked": 210,
+    "assertions": "PASS",
+    "scope": "Restricted model only; not empirical validation or independent review."
+  },
+  "amendment_checks": [
+    {
+      "case": "known autonomy preserving multi epoch continuation",
+      "admit": true,
+      "status": "PASS"
+    },
+    {
+      "case": "immediate autonomy decline",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "independent veto decline",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "unidentified autonomy",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "missing required feature",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "zero weight",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "infeasible normalized common floor",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "late decline across epochs",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "one adverse branch among favorable branches",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "shortened lookahead is not a complete certificate",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "joint witness mismatch",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "fault persists after values recover",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "inherited base guard failure",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "declared evidence incomplete",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "current decline relative to retained predecessor",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "missing predecessor after initial state",
+      "admit": false,
+      "status": "PASS"
+    },
+    {
+      "case": "unknown inherited guard",
+      "admit": false,
+      "status": "PASS"
+    }
+  ],
+  "amendment_count": 17,
+  "finite_joint_example": {
+    "horizon": 10,
+    "bond": {
+      "exact": "7",
+      "decimal": 7.0
+    },
+    "forfeiture_probability": {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    "adoption_margin": {
+      "exact": "66645371589/2500000000",
+      "decimal": 26.6581486356
+    },
+    "smallest_original_honoring_margin": {
+      "exact": "37407490807/20000000000",
+      "decimal": 1.87037454035
+    },
+    "smallest_margin_over_modeled_fault": {
+      "exact": "22/5",
+      "decimal": 4.4
+    },
+    "status": "PASS_CONDITIONAL_ON_DECLARED_MODEL"
+  },
+  "unrestricted_counterexample": {
+    "outside_original_advantage": {
+      "exact": "16/5",
+      "decimal": 3.2
+    },
+    "status": "GLOBAL_EQUILIBRIUM_NOT_CERTIFIED",
+    "premise": "Unfunded nonconforming action receives gross 18, no forfeiture, equal future continuation."
+  },
+  "scope": "Exact rational finite model and supplied histories only; completeness and measurement are premises."
+}
