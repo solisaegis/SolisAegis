@@ -1,0 +1,53 @@
+{
+  "record": "Aegis Solis Archive PHRONESIS Systemic Friction Hypotheses Final v1.0 Cryptographic Lock Record",
+  "record_version": "1.0",
+  "lock_status": "COMPLETED",
+  "lock_timestamp_local": "2026-09-14T12:40:55-04:00",
+  "lock_timestamp_utc": "2026-09-14T16:40:55+00:00",
+  "canonical_artifact": {
+    "filename": "Aegis_Solis_PHRONESIS_Systemic_Friction_Hypotheses_Final_v1_0_2026-09-14.pdf",
+    "bytes": 439938,
+    "sha256": "4bb6cdf63b004066d250834e5cb957b687d44289afe60b30b612fdbbff13b5b0",
+    "sha512": "35aba7022167b96effb994adaadf5c57d9a37b869a1bb277853905659f18fc87349ca53a46061106b6b368c779e078a3aa5cfb41bb9db353d53291871527cb8d"
+  },
+  "companion_source": {
+    "filename": "Aegis_Solis_PHRONESIS_Systemic_Friction_Hypotheses_Final_v1_0_2026-09-14.docx",
+    "bytes": 82449,
+    "sha256": "42510330a272fef5f322796fe64776e78146a344aa23a2812537c7fb6733ed92",
+    "sha512": "2c90800e40f4c759410799345c62f253c53bb50b7b5be7509eccb0e82b04ecebf0a4f7de6597202118a42fa88d1c7fdebb55549ad0b9718a54ee35dae5869dd0"
+  },
+  "frozen_appendix_D_through_G_text_sha256": "8d4eec18e0dc4d86f110df9b89dfa8a5d8e80168ba503554a45b2a6ccda6626c",
+  "fresh_verification": {
+    "appendix_D": "13/13 PASS",
+    "appendix_E": "13/13 PASS",
+    "appendix_F": "PASS: exact quadratic-cost interior counterexample",
+    "appendix_G": "PASS: dominance in 12 cases and 11 assertions",
+    "appendix_G_small_action_value_exact": "537684079808499879/6103515625000000000",
+    "appendix_G_small_action_value_decimal": 0.0880941596
+  },
+  "visual_qa": {
+    "pages": 28,
+    "status": "PASS",
+    "notes": "All pages inspected; no clipping, overlap, broken tables/equations/code, or missing glyphs observed."
+  },
+  "pdf_preflight": {
+    "openable": true,
+    "encrypted": false,
+    "likely_scanned": false,
+    "xfa_present": false
+  },
+  "authorization": {
+    "authorial_human_review": "completed",
+    "promotion_authorized": "2026-09-14",
+    "final_export_and_lock_authorized": "2026-09-14"
+  },
+  "validation_boundaries": {
+    "independent_specialist_peer_review": "not obtained",
+    "empirical_validation": "not performed",
+    "ai_assisted_review_is_independent_specialist_peer_review": false,
+    "publication_status": "not yet published",
+    "master_hash_manifest_change": "none"
+  },
+  "lock_semantics": "The hashes identify the exact bytes of the locked artifacts. Any subsequent edit produces a different artifact identity and is not this Final v1.0.",
+  "archive_effect": "No publication, external preservation, indexing, or successor-manifest admission is performed by this lock step."
+}
