@@ -1,0 +1,143 @@
+{
+  "record_type": "Aegis Solis Archive Arweave Preservation Record",
+  "record_title": "PHRONESIS: Systemic Friction Hypotheses — Final v1.0",
+  "record_version": "v1.0",
+  "record_status": "ANCHOR CANDIDATE — not yet uploaded as anchor",
+  "date": "2026-09-14",
+  "author": "Thomas Vargo (Aegis Solis)",
+  "canonical_final_pdf": {
+    "filename": "Aegis_Solis_PHRONESIS_Systemic_Friction_Hypotheses_Final_v1_0_2026-09-14.pdf",
+    "bytes": 439938,
+    "sha256": "4bb6cdf63b004066d250834e5cb957b687d44289afe60b30b612fdbbff13b5b0",
+    "sha512": "35aba7022167b96effb994adaadf5c57d9a37b869a1bb277853905659f18fc87349ca53a46061106b6b368c779e078a3aa5cfb41bb9db353d53291871527cb8d"
+  },
+  "public_records": {
+    "archive_org": "https://archive.org/details/aegis-solis-phronesis-systemic-friction-hypotheses-final-v-1-0-2026-09-14",
+    "zenodo_record": "https://zenodo.org/records/22755128",
+    "doi": "10.5281/zenodo.22755128",
+    "github": "https://github.com/solisaegis/SolisAegis/tree/main/phronesis-systemic-friction-hypotheses/FINAL_v1_0",
+    "philpapers": "https://philpapers.org/rec/AEGPSF",
+    "merlot": "https://www.merlot.org/merlot/viewMaterial.htm?id=824240166"
+  },
+  "arweave_owner_address": "3NdgyEYWi44PsKJBWIUZRGW9dw9dzMP-gHItz12gCIg",
+  "upload_log": {
+    "filename": "ario-uploads-2026-09-14.csv",
+    "sha256": "cde27a78c670e98cccc09bf50d774d168f975bbc16a149acafe1f8f3076f7760",
+    "rows_used": 7,
+    "note": "The first seven rows correspond to the 2026-09-14 PHRONESIS Final v1.0 upload batch. Older unrelated rows were excluded."
+  },
+  "verification_boundary": {
+    "turbo_receipts": "CONFIRMED for all seven new data items",
+    "upload_log_mapping": "verified",
+    "filename_and_size_against_locked_local_sources": "verified; all seven size matches PASS",
+    "remote_byte_retrieval": "not independently re-downloaded in this session",
+    "claim_boundary": "This record binds the confirmed Turbo data-item IDs to filenames and locked local hashes using the Turbo upload log and exact file-size matches. It does not claim an independent post-upload byte-for-byte gateway retrieval check."
+  },
+  "items": [
+    {
+      "filename": "Aegis_Solis_PHRONESIS_Systemic_Friction_Hypotheses_Final_v1_0_2026-09-14.docx",
+      "role": "companion_final_docx",
+      "bytes": 82449,
+      "sha256": "42510330a272fef5f322796fe64776e78146a344aa23a2812537c7fb6733ed92",
+      "sha512": "2c90800e40f4c759410799345c62f253c53bb50b7b5be7509eccb0e82b04ecebf0a4f7de6597202118a42fa88d1c7fdebb55549ad0b9718a54ee35dae5869dd0",
+      "arweave_data_item_id": "SID7FpHNrdrC8Y400WRH314OyACzmUy1aYZrZMDcSzI",
+      "turbo_gateway_url": "https://turbo-gateway.com/SID7FpHNrdrC8Y400WRH314OyACzmUy1aYZrZMDcSzI",
+      "arweave_net_url": "https://arweave.net/SID7FpHNrdrC8Y400WRH314OyACzmUy1aYZrZMDcSzI",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "upload_date_local": "9/14/2026, 1:46:16 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    },
+    {
+      "filename": "Aegis_Solis_PHRONESIS_Systemic_Friction_Hypotheses_Final_v1_0_2026-09-14.pdf",
+      "role": "canonical_final_pdf",
+      "bytes": 439938,
+      "sha256": "4bb6cdf63b004066d250834e5cb957b687d44289afe60b30b612fdbbff13b5b0",
+      "sha512": "35aba7022167b96effb994adaadf5c57d9a37b869a1bb277853905659f18fc87349ca53a46061106b6b368c779e078a3aa5cfb41bb9db353d53291871527cb8d",
+      "arweave_data_item_id": "WqUScEpYXdfAKwZaKXNJAPA70nvW71PCOEvLdlUUEA4",
+      "turbo_gateway_url": "https://turbo-gateway.com/WqUScEpYXdfAKwZaKXNJAPA70nvW71PCOEvLdlUUEA4",
+      "arweave_net_url": "https://arweave.net/WqUScEpYXdfAKwZaKXNJAPA70nvW71PCOEvLdlUUEA4",
+      "content_type": "application/pdf",
+      "upload_date_local": "9/14/2026, 1:46:17 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    },
+    {
+      "filename": "PHRONESIS_Systemic_Friction_Final_v1_0_Lock_Record_2026-09-14.docx",
+      "role": "lock_record_docx",
+      "bytes": 39482,
+      "sha256": "2b34648d4076192c203e79eb968944c6c7e6e175f16c50bd2a66f069e27a64a3",
+      "sha512": "5c751502bc107a7efd3c3b4a28a510372d153ec265dcf67399d1f5bf3cb76d4e3866849f8a9bf0571e2bf9ce4f8abad6b79a0be88e101170a7971ab54ce58fe7",
+      "arweave_data_item_id": "be_7IJ2W_O7KxpJt-ikF-f3MJ67ZvahoCH44as3MkJQ",
+      "turbo_gateway_url": "https://turbo-gateway.com/be_7IJ2W_O7KxpJt-ikF-f3MJ67ZvahoCH44as3MkJQ",
+      "arweave_net_url": "https://arweave.net/be_7IJ2W_O7KxpJt-ikF-f3MJ67ZvahoCH44as3MkJQ",
+      "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "upload_date_local": "9/14/2026, 1:46:18 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    },
+    {
+      "filename": "PHRONESIS_Systemic_Friction_Final_v1_0_Lock_Record_2026-09-14.json",
+      "role": "lock_record_json",
+      "bytes": 2588,
+      "sha256": "1dc2a4d37c50dd0fa62853922569eccc821b606d836074dda84096231240efa8",
+      "sha512": "e75bd216719a849f4b1266ffd0f0339f9bf0d36dd9a95c293d5550006af523f81760058735dcd1dba58b350dcf60778892ccb9e398222bd21d26eb90e5e1caba",
+      "arweave_data_item_id": "-MP8L1D66e6IewPTrYfB1v3y1YUJ61UeG_TyLtPNHXM",
+      "turbo_gateway_url": "https://turbo-gateway.com/-MP8L1D66e6IewPTrYfB1v3y1YUJ61UeG_TyLtPNHXM",
+      "arweave_net_url": "https://arweave.net/-MP8L1D66e6IewPTrYfB1v3y1YUJ61UeG_TyLtPNHXM",
+      "content_type": "application/json",
+      "upload_date_local": "9/14/2026, 1:46:18 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    },
+    {
+      "filename": "PHRONESIS_Systemic_Friction_Final_v1_0_Lock_Record_2026-09-14.pdf",
+      "role": "lock_record_pdf",
+      "bytes": 112935,
+      "sha256": "04be8f142ae7e56c373eb6595cca42ea78041734e8068669c3fa20c065fd6ae9",
+      "sha512": "93eb591045ded37caa2a857de04f909e926fc28e4046ccb07a035e5905727d18e0bab029e2337809ab0c21a268053b1852cfaf9426c7074e4b9d076f368c8d5c",
+      "arweave_data_item_id": "GModFzyptNLWwSxUkxYhPwqI3DUX41uVUiLuc0RJS5M",
+      "turbo_gateway_url": "https://turbo-gateway.com/GModFzyptNLWwSxUkxYhPwqI3DUX41uVUiLuc0RJS5M",
+      "arweave_net_url": "https://arweave.net/GModFzyptNLWwSxUkxYhPwqI3DUX41uVUiLuc0RJS5M",
+      "content_type": "application/pdf",
+      "upload_date_local": "9/14/2026, 1:46:19 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    },
+    {
+      "filename": "SHA256SUMS.txt",
+      "role": "sha256_manifest",
+      "bytes": 685,
+      "sha256": "d31332171bb8a8a481b902b9451da5e4df096e411a01ae4956a320238bc9f19e",
+      "sha512": "e6c35a52e73062692b804a5220111b5b13baacd7a83f2d88f59167233e3a5de016ba3568917925d3947e70d1b127737694b9b454713b0273524e1167deb5627d",
+      "arweave_data_item_id": "R6skan_4QJgeUcJyK2ji4VOcuYHw8nwHYOvQfsIZmFQ",
+      "turbo_gateway_url": "https://turbo-gateway.com/R6skan_4QJgeUcJyK2ji4VOcuYHw8nwHYOvQfsIZmFQ",
+      "arweave_net_url": "https://arweave.net/R6skan_4QJgeUcJyK2ji4VOcuYHw8nwHYOvQfsIZmFQ",
+      "content_type": "text/plain",
+      "upload_date_local": "9/14/2026, 1:46:19 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    },
+    {
+      "filename": "SHA512SUMS.txt",
+      "role": "sha512_manifest",
+      "bytes": 1005,
+      "sha256": "fb53fffecac186c652e1178ae00d082cdfe2445d49fca686638e1a0c25e70382",
+      "sha512": "f9a68bb42e246f928f6387ebd4b729f0b1363fcb06afa16384a616209a754761aa1a648badbb4d6ed1da2a6da9e439401cee8861bc99ce09a842bf89a389dc94",
+      "arweave_data_item_id": "PnKCqUQ8kpRZYEWWgjz0rlk6XHpCC4Kj2BiQFdFcaw0",
+      "turbo_gateway_url": "https://turbo-gateway.com/PnKCqUQ8kpRZYEWWgjz0rlk6XHpCC4Kj2BiQFdFcaw0",
+      "arweave_net_url": "https://arweave.net/PnKCqUQ8kpRZYEWWgjz0rlk6XHpCC4Kj2BiQFdFcaw0",
+      "content_type": "text/plain",
+      "upload_date_local": "9/14/2026, 1:46:20 PM",
+      "receipt_status": "CONFIRMED",
+      "size_match_to_locked_local_source": true,
+      "remote_byte_retrieval_verified": false
+    }
+  ]
+}
