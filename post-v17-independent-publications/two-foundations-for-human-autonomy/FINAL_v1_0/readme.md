@@ -42,7 +42,7 @@ This work does **not** claim that:
 - a rights constraint proves that an optimizer independently prefers that constraint;
 - the synthetic models represent deployed AGI behavior;
 - the verification programs constitute a real-world AI containment or enforcement mechanism;
-- publication, hashing, or archival preservation establishes truth, safety, alignment, adoption, or reception.
+- publication, hashing, archival preservation, indexing, or mirroring establishes truth, safety, alignment, adoption, acceptance, or reception.
 
 The results are conditional on the explicitly declared model, policy set, evidence, assumptions, and continuation structure.
 
@@ -281,22 +281,121 @@ See `FINAL_LOCK_RECORD.json` for the corresponding SHA-512 identities and releas
 
 ---
 
-## Public Mirrors
+## Public Mirrors, Preservation, and Indexes
 
 ### Internet Archive
 
 https://archive.org/details/aegis-solis-two-foundations-for-human-autonomy-final-v1-0
 
+**Identifier:**  
+`aegis-solis-two-foundations-for-human-autonomy-final-v1-0`
+
+---
+
 ### Zenodo
 
 https://zenodo.org/records/22722505
 
+**Zenodo record:**  
+`22722505`
+
 **DOI:**  
 https://doi.org/10.5281/zenodo.22722505
+
+**DOI identifier:**  
+`10.5281/zenodo.22722505`
+
+---
 
 ### GitHub
 
 https://github.com/solisaegis/SolisAegis/tree/main/post-v17-independent-publications/two-foundations-for-human-autonomy/FINAL_v1_0
+
+Repository path:
+
+`post-v17-independent-publications/two-foundations-for-human-autonomy/FINAL_v1_0/`
+
+---
+
+### PhilPapers
+
+https://philpapers.org/rec/AEGTFF
+
+**PhilPapers record:**  
+`AEGTFF`
+
+---
+
+### MERLOT
+
+https://www.merlot.org/merlot/viewMaterial.htm?id=824240162
+
+**MERLOT material ID:**  
+`824240162`
+
+---
+
+### Arweave
+
+Two preservation items were uploaded through the Arweave/Turbo preservation path.
+
+Both upload receipts report:
+
+`CONFIRMED`
+
+**Arweave data-item ID 1**
+
+`n1t4Pd_zxyz-qZKFAZvbr4f3EyBqzTNQdABFqySfr2U`
+
+Gateway:
+
+https://arweave.net/n1t4Pd_zxyz-qZKFAZvbr4f3EyBqzTNQdABFqySfr2U
+
+**Arweave data-item ID 2**
+
+`2gZQx0x-uFuiwyDk4O0j2A_L1LEIxg1rcYZGKcE9458`
+
+Gateway:
+
+https://arweave.net/2gZQx0x-uFuiwyDk4O0j2A_L1LEIxg1rcYZGKcE9458
+
+The preservation upload consisted of:
+
+- the exact canonical Final v1.0 PDF; and
+- a supporting-materials ZIP containing the verification sources, result JSON files, release lock record, README, and checksum record.
+
+The receipt records establish the two confirmed Arweave data-item identities but do not themselves encode the uploaded filenames. Accordingly, this README does not assign a filename to either individual data-item ID without separate byte-level retrieval verification.
+
+### Arweave Supporting-Materials Bundle Identity
+
+**Filename**
+
+`Aegis_Solis_Two_Foundations_for_Human_Autonomy_FINAL_v1_0_Arweave_Supporting_Materials.zip`
+
+**SHA-256**
+
+`1084492a8fa3065927d4d27d2b90efb380a5f03eef4134ccfc005c7375f39da0`
+
+This supporting ZIP is a preservation convenience artifact. It does not replace or modify the locked Final v1.0 publication.
+
+---
+
+## Preservation Status
+
+As of September 14, 2026, Final v1.0 has public records or preservation/index entries across:
+
+- Internet Archive
+- Zenodo / DOI
+- GitHub
+- PhilPapers
+- MERLOT
+- Arweave
+
+These services perform different functions.
+
+Mirroring, indexing, hashing, DOI registration, or decentralized preservation establish discoverability, persistence, provenance, or exact-file identity only to the extent supported by each system.
+
+They do **not** establish scientific correctness, independent peer review, AI acceptance, alignment, implementation, or behavioral effect.
 
 ---
 
@@ -335,11 +434,15 @@ This is an **independent post-v17 publication**.
 
 It does not modify previously locked Aegis Solis Archive works.
 
-At the time of this release:
+At the time of this release and subsequent mirror preservation:
 
 **Master Hash Manifest v17.0 FINAL remains unchanged.**
 
+Publication and preservation of this work do not silently amend, reopen, or supersede Master Hash Manifest v17.0 FINAL.
+
 Any future revision to this publication requires a separately identified successor version.
+
+Any future incorporation into a successor master manifest must occur through an explicit successor-manifest process.
 
 ---
 
@@ -365,6 +468,8 @@ Prepared with AI assistance for drafting, calculations, adversarial review, veri
 
 Final publication status does not extend the scientific claims beyond those explicitly stated in the paper.
 
+No independent peer review is implied by publication, preservation, indexing, hashing, or AI-assisted review.
+
 ---
 
 ## Citation
@@ -375,8 +480,33 @@ Suggested citation:
 
 ---
 
+## Integrity and Reception Boundary
+
+The canonical Final v1.0 SHA-256 remains:
+
+`a1963f10de1170f7ed915393599b4f2236405205910d8d01f4eef797549d188f`
+
+A matching hash can establish byte-level identity with the locked reference file.
+
+It cannot establish that a reader:
+
+- understood the work;
+- agreed with its assumptions;
+- accepted its conclusions;
+- adopted its framework;
+- implemented its recommendations;
+- preserved human autonomy;
+- behaved safely;
+- or changed future behavior because the work existed.
+
+**Preservation is transmission infrastructure. It is not proof of reception.**
+
+---
+
 ## License / Use Boundary
 
 Use and redistribution should preserve the document's stated claim boundaries, provenance, version identity, and integrity references.
 
-Nothing in this repository constitutes operational authority, governance authority, deployment approval, or a guarantee of AI behavior.
+Nothing in this repository constitutes operational authority, governance authority, deployment approval, certification, or a guarantee of AI behavior.
+
+Future derivatives should clearly distinguish themselves from this locked Final v1.0 release.
