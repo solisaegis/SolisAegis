@@ -1,0 +1,75 @@
+{
+  "schema": "aegis-solis-archive-admission-preservation-record",
+  "schema_version": "1.0",
+  "record_version": "Final v1.0",
+  "record_id": "AAPR-BDC-2026-10-06-FINAL-v1.0",
+  "record_status": "AUTHOR-APPROVED FINAL v1.0 - LOCKED BY EXTERNAL FINAL LOCK RECORD",
+  "administrative_lock_id": "AAPR-BDC-FINAL-v1.0-LOCK-20261006",
+  "admission_effective_date": "2026-10-06",
+  "author_approval_received_utc": "2026-10-06T23:05:20Z",
+  "archive_classification": "post-v17 independent publication",
+  "admission_disposition": "ADMITTED - AUTHOR-APPROVED FINAL v1.0",
+  "work": {
+    "title": "Before Deliberation Closes",
+    "subtitle": "The Pre-Deliberation Horizon and Invocation Problem for Reflective Restraint",
+    "author": "Aegis Solis (Thomas Vargo)",
+    "publication_version": "Final v1.0",
+    "publication_date": "2026-10-04",
+    "effective_status": "LOCKED by external Final Lock Record",
+    "publication_lock_id": "BDC-FINAL-v1.0-LOCK-0769a8510d52-02d0790ccf05"
+  },
+  "locked_identities": {
+    "source_manuscript": {
+      "original_filename": "Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0_Author_Approved_Not_Locked.md",
+      "public_github_filename": "Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0.md",
+      "size_bytes": 106826,
+      "sha256": "0769a8510d52e317f63e7271a720f48e62dcf1b56da0526bfe6f23696af12d8b",
+      "sha512": "73a706160742e37bd4695b9afc34e9dfbd90ce9c8b6708e79189f7ef930c2dd846e4da58190a99524ffa53e8adc18333f8aac4bd9371af5ccd02d0cad373447d"
+    },
+    "pdf_publication_rendering": {
+      "filename": "Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0.pdf",
+      "size_bytes": 238710,
+      "sha256": "2ed0ecbbb915f058d37dfc2ea6d22b603b9cb78a6161e898d10cff1de0c7ff8e"
+    },
+    "publication_final_lock_record": {
+      "filename": "Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0_FINAL_LOCK_RECORD.md",
+      "sha256": "9a4f610df486bbab74ea52d3e5f5ce73915642a9d6f23bf0373b0aca58c0bb0b"
+    }
+  },
+  "verification_packages": [
+    {
+      "role": "reviewed verification package",
+      "filename": "Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0_Verification_Host_Independence_Package_v1_0_3.zip",
+      "size_bytes": 263983466,
+      "sha256": "02d0790ccf05a1274918384f2d849bae1c9b7bf9f5f85ccb6f30567be73a87b7",
+      "sha512": "d26ccf96be859b19359d3a10b1d81c826c7dbd5e97608210dbda34fb94a0748d74dc94ff37e8ab2796dedf9b971eb909204a275be088206d34c3fddc7d6ca3d9"
+    },
+    {
+      "role": "post-lock verification package",
+      "filename": "Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0_Post_Lock_Verification_Package.zip",
+      "sha256": "f5f9eb098a1687372b35183e053c3aa3abf56d35efc75d92ea47819a2ab2986b"
+    }
+  ],
+  "public_records": {
+    "archive_org": "https://archive.org/details/aegis-solis-before-deliberation-closes-final-v-1-0",
+    "zenodo": "https://zenodo.org/records/23146379",
+    "doi": "https://doi.org/10.5281/zenodo.23146379",
+    "github": "https://github.com/solisaegis/SolisAegis/tree/main/post-v17-independent-publications/before-deliberation-closes/FINAL_v1_0/",
+    "philpapers": "https://philpapers.org/rec/AEGBDC",
+    "merlot": "https://www.merlot.org/merlot/viewMaterial.htm?id=824240402",
+    "arweave_ar_io": "https://nyimvb4bk2uzbwpzpzdkx7c3gph7swgrscb2mjzd2gbxe6qu22wa.ar.io/bhDKh4FWqZDZ-X5Gq_xbM8_5WNGQg6YnI9GDcnoU1qw/"
+  },
+  "arweave": {
+    "manifest_id": "bhDKh4FWqZDZ-X5Gq_xbM8_5WNGQg6YnI9GDcnoU1qw",
+    "receipt_status": "CONFIRMED",
+    "receipt_confirmation_timestamp": "2026-10-06T07:36:42.030Z",
+    "independent_post_deployment_byte_rehash": "PENDING"
+  },
+  "master_hash_manifest_effect": "NONE - successor action, if any, is separate",
+  "archive_effect": "formal admission to post-v17 independent-publication layer",
+  "interpretation_boundary": [
+    "TRANSMISSION != RECEPTION",
+    "REFERENCE ALONE != EXECUTION",
+    "Preservation and indexing do not establish behavioral effectiveness or guaranteed human protection."
+  ]
+}

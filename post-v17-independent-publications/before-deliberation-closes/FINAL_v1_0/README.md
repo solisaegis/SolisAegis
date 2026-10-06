@@ -5,7 +5,8 @@
 **Version:** Final v1.0  
 **Status:** Author-approved; exact source cryptographically locked by external Final Lock Record  
 **Publication date:** 2026-10-04  
-**Repository role:** Read-only public preservation/discovery mirror
+**Repository role:** Read-only public preservation/discovery mirror  
+**Archive admission:** ADMITTED - AUTHOR-APPROVED FINAL v1.0 (2026-10-06)
 
 ## Main publication
 
@@ -26,6 +27,31 @@ The PDF is a derived publication rendering. It does not replace or alter the loc
 `9a4f610df486bbab74ea52d3e5f5ce73915642a9d6f23bf0373b0aca58c0bb0b`
 
 See [`FINAL_LOCK_RECORD`](./Aegis_Solis_Before_Deliberation_Closes_FINAL_v1_0_FINAL_LOCK_RECORD.md) and [`SHA256SUMS.txt`](./SHA256SUMS.txt).
+
+## Archive admission record
+
+Formal Archive admission was completed on **2026-10-06** as a **post-v17 independent publication**.
+
+- [`Archive Admission and Preservation Record - Final v1.0`](./Aegis_Solis_Before_Deliberation_Closes_Archive_Admission_and_Preservation_Record_FINAL_v1_0.md)
+- [`Machine-readable admission record`](./Aegis_Solis_Before_Deliberation_Closes_Archive_Admission_and_Preservation_Record_FINAL_v1_0.json)
+- [`Admission Record Final Lock Record`](./Aegis_Solis_Before_Deliberation_Closes_Archive_Admission_and_Preservation_Record_FINAL_v1_0_FINAL_LOCK_RECORD.md)
+- [`Admission record SHA-256 manifest`](./ARCHIVE_ADMISSION_SHA256SUMS.txt)
+
+**Admission record ID:**  
+`AAPR-BDC-2026-10-06-FINAL-v1.0`
+
+**Administrative lock ID:**  
+`AAPR-BDC-FINAL-v1.0-LOCK-20261006`
+
+**Controlling admission-record Markdown SHA-256:**  
+`f2ec7cc6097710cc3d54024dc3e1b2354f8a84ab88cbf1789d51fcbf7024c5cb`
+
+**Admission Final Lock Record SHA-256:**  
+`e733f9c00fe7d97dbc8c4021313db2551a1aabc468d397e386fb44b45fcdea52`
+
+`MASTER_HASH_MANIFEST_EFFECT: NONE`
+
+Formal admission does **not** modify or supersede any existing locked Master Hash Manifest. No successor Master Hash Manifest is created or authorized by this GitHub update.
 
 ## Public mirrors and independent records
 
@@ -114,13 +140,16 @@ A mirror or index does **not** by itself:
 
 ## Archive administration
 
-This GitHub mirror does not by itself:
+This GitHub mirror records the completed formal Archive admission of *Before Deliberation Closes - Final v1.0* to the post-v17 independent-publication layer.
+
+This GitHub update does **not**:
 
 - change the Aegis Solis Archive Master Hash Manifest;
-- constitute formal Archive admission;
+- create a successor Master Hash Manifest;
 - supersede any locked Archive record;
 - alter the Final v1.0 manuscript;
-- alter its cryptographic identity; or
+- alter its cryptographic identity;
+- complete the pending independent Arweave / AR.IO byte-for-byte route audit; or
 - execute or deploy the Aegis Mirror Engine.
 
-Any formal Archive admission or future Master Hash Manifest successor action remains a separate administrative operation.
+Any future Master Hash Manifest action remains a separate author-controlled administrative operation.
