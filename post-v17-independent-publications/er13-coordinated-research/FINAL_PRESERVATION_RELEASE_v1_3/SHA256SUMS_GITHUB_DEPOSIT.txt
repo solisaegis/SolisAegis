@@ -1,4 +1,11 @@
-# ER-13 v1.3 GitHub single-folder SHA-256 index (2026-10-11)
+# ER-13 v1.3 GitHub single-folder SHA-256 index (original 2026-10-11)
+# CURRENT README METADATA UPDATE (2026-10-13): Added dual-use reader-scope
+# notice and author-supplied mirror/discovery URLs, without modifying
+# frozen research package, PDFs, ZIPs, license or any non-README checksum.
+# Historical 2026-10-11 original README SHA-256:
+# cd72e5e4276c593cfde7ec26cf95324281f4a2a4b2aeb9072de04d112500a110
+# The historical README bytes are available in the earlier Git commit history;
+# the active README hash below is updated for the current GitHub-facing README.
 # Entries below apply to files actually in the er13-coordinated-research/ folder.
 # The checksum list does not checksum itself.
 # Separately distributed immutable GitHub Release asset (NOT in this folder):
@@ -16,4 +23,4 @@ f0047626eafa77490f26713ea2be688b61c9bb0e5c39b2dfe6c9d533c4caabdf  Aegis_Solis_ER
 ef12b78f9c5c33bf3c3c8b885ec10144956fedd842e5173bb57e29d8b4659731  ER13_v1_3_Dual_Use_Information_Hazard_Review_v0_1_2026-10-11.pdf
 1fe2851ac5fb84b393132762962be13c06c8c931d7d287a6aa048febbd2a9bea  ER13_v1_3_Preservation_Records_and_Author_Approved_Addendum_2026-10-11.zip
 ebf287af64846789369bb3e63440616104e14a862d8635c2ccb4d536c3dfec59  LICENSE-ER13-TEXT.md
-cd72e5e4276c593cfde7ec26cf95324281f4a2a4b2aeb9072de04d112500a110  README.md
+6064c578d629f46a0ce4cceb16c747ec72b97f334b17333f3806ccaa10f7ab90  README.md

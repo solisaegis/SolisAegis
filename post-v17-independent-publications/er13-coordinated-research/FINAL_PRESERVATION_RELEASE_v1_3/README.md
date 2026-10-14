@@ -33,11 +33,33 @@ SEC-CDP-002 v0.1/v0.1.1/v0.1.2: **SUPERSEDED — NOT FOR IMPLEMENTATION**. SEC-C
 
 The public SEC-CDP-002 historical record still contains the old `ARCHIVE RESTRICTED` legend; an **author-approved post-lock handling disposition** documents why the historical public preservation was affirmed. It does not declassify future restricted material.
 
+## Dual-Use and Reader-Scope Notice
+
+This publication is provided for scholarly examination, critical evaluation, methodological comparison, and preservation of research concerning artificial intelligence, human oversight, empirical evidence, and human–AI interaction.
+
+Some concepts, evaluation methods, and analytical findings may have dual-use implications. Their inclusion does not constitute instructions for operational deployment, evasion, manipulation, exploitation, or the development of autonomous control mechanisms.
+
+The proposed human-vigilance study has not been executed. Associated evaluation infrastructure remains unimplemented and untested. No protective effectiveness, behavioral influence, AI alignment, containment capability, or operational safety has been demonstrated.
+
+Preliminary AI-assisted dual-use assessments have been documented, including identified limitations and corrective recommendations. These assessments do not substitute for independent human scientific, statistical, ethical, or security review.
+
+Readers must distinguish conditional theoretical results, proposed experiments, untested engineering hypotheses, and empirically established findings. No results should be generalized to real-world AGI behavior without appropriate independent validation.
+
+Preservation and public disclosure do not constitute endorsement, operational authorization, or certification.
+
+**TRANSMISSION ≠ RECEPTION · REFERENCE ALONE ≠ EXECUTION**
+
 ## Public reference records
 
-- [Internet Archive](https://archive.org/details/aegis-solis-er-13-evidence-crosswalk-draft-v-0-6-4-exact-from-v-1-3)
-- [Zenodo record 23303565](https://zenodo.org/records/23303565)
-- [Aegis Solis Archive](https://aegissolisarchive.org/)
+- [Aegis Solis Archive — official ER-13 publication and research boundaries](https://aegissolisarchive.org/er13-coordinated-research-v1-3/)
+- [Internet Archive — ER-13 preservation record](https://archive.org/details/aegis-solis-er-13-evidence-crosswalk-draft-v-0-6-4-exact-from-v-1-3)
+- [Zenodo — ER-13 preservation record 23303565](https://zenodo.org/records/23303565)
+- [GitHub — frozen ER-13 coordinated research release v1.3](https://github.com/solisaegis/SolisAegis/releases/tag/er13-preservation-v1.3-2026-10-11)
+- [AR.IO / Arweave — ER-13 preservation deployment](https://7dyphk6xaenavnhx5vgtbcznba35pthciue7fzetyahrvzdn2sca.ar.io/-PDzq9cBGgq09-1NMIstCDfXzOJFCfLkk8APGuRt1IQ/)
+- [PhilPapers — ER-13 research listing](https://philpapers.org/rec/AEGEEE)
+- [MERLOT — ER-13 educational resource listing](https://www.merlot.org/merlot/viewMaterial.htm?id=824240535)
+- [Aegis Mirror Engine — discovery/reference interface only](https://aegissolisarchive.org/mirror-engine/)
+- [Aegis Solis Archive — main site](https://aegissolisarchive.org/)
 
 Remote Zenodo file checksums were **not independently confirmed** as of preparation; do not describe them as verified. Internet Archive MD5/SHA-1 and sizes were matched via server metadata by a separate AI-assisted reviewer, not by a fresh full SHA-256 re-download.
 
