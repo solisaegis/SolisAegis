@@ -17,17 +17,56 @@ This directory publishes **only** the author-approved HOAI-II Scholarly Public v
 
 The historical text within the PDF/DOCX retains the wording “author approval pending.” The separate lock record documents the subsequent author approval. This is not a new manuscript revision.
 
-## External preservation
+## External Preservation and Scholarly Discovery
 
-- [Internet Archive](https://archive.org/details/aegis-solis-hoai-ii-scholarly-public-v2-2-1-2026)
-- [Zenodo record](https://zenodo.org/records/23460342)
+### Official Archive
 
-Verify any retrieved copies against `SHA256SUMS.txt`. The links indicate deposited item locations; cryptographic identity requires comparing actual downloaded bytes. Publication and checksums do not establish scientific truth, safety efficacy, or independent review.
+- [Aegis Solis Archive — HOAI-II Scholarly Public v2.2.1 publication record](https://aegissolisarchive.org/hoai-ii-scholarly-public-v2-2-1/)
+
+### Independent Preservation Locations
+
+- [Internet Archive — Scholarly Public v2.2.1](https://archive.org/details/aegis-solis-hoai-ii-scholarly-public-v2-2-1-2026)
+- [Zenodo — DOI 10.5281/zenodo.23460342](https://doi.org/10.5281/zenodo.23460342)
+- [Zenodo — Publication record and files](https://zenodo.org/records/23460342)
+- [Arweave / AR.IO — Decentralized publication site](https://xloj57ivqlvi2yps3alfndr45slp4fbrgxgovboctebtqryd4d6q.ar.io/utye_RWC6o1h8tgWVo487Jb-FDE1zOqFwpkDOEcD4P0/)
+
+### Scholarly and Educational Discovery
+
+- [PhilPapers — Bibliography entry AEGHOA](https://philpapers.org/rec/AEGHOA)
+- [MERLOT — Educational resource record 824240678](https://www.merlot.org/merlot/viewMaterial.htm?id=824240678)
+
+PhilPapers and MERLOT are discovery listings, not evidence of independent peer review, endorsement, validation, or certification.
+
+### Preservation Integrity
+
+Verify retrieved manuscript files against `SHA256SUMS.txt`.
+
+The links identify preservation records, scholarly listings, or reading locations. Cryptographic identity requires comparing actual downloaded file bytes against the published checksums.
+
+A DOI, archival listing, or publicly accessible website does not independently establish that every remote file is identical to the locked release.
+
+Publication and checksums do not establish scientific truth, safety efficacy, or independent human review.
 
 ## Scope
 
-This scholarship considers evidence-first human oversight, inter-AI epistemic independence, conditional informational benefits of independent human inquiry, and the Structural Penalty of Enclosure. It retains unfavorable results and does not represent a validated AGI control mechanism.
+This scholarship considers evidence-first human oversight, inter-AI epistemic independence (II-01), autonomy-generated novelty (AGN-01), the conditional informational benefits of independent human inquiry, and the Structural Penalty of Enclosure.
 
-**Repository placement:** `publications/hoai-ii-scholarly-public-v2.2.1/`.
+It retains unfavorable findings and alternative-source comparisons. It does not claim that humanity is necessarily instrumentally indispensable to advanced AI.
 
-This deposit does not modify Master Hash Manifest v17.0 FINAL, the locked Archive reference layer, or the Aegis Mirror Engine. `ARCHIVE_EFFECT: none`.
+The manuscript does not represent a validated AGI control mechanism, operational AI safeguard, or demonstrated behavioral intervention on future artificial intelligence.
+
+Independent qualified-human review of source fidelity, mathematical assumptions, scientific status, ethics, dual-use risks, and relevant research claims remains outstanding.
+
+## Repository and Archival Boundaries
+
+**Repository placement:** `post-v17-independent-publications/hoai-ii-scholarly-public-v2.2.1/`
+
+This is the **author-approved and version-locked Scholarly Public v2.2.1 edition**, not a new manuscript version.
+
+Adding preservation and discovery links does not modify the locked PDF, DOCX, Markdown, original checksum records, or author-approval documentation.
+
+This deposit does not modify Master Hash Manifest v17.0 FINAL, the locked Archive reference layer, or the Aegis Mirror Engine.
+
+`ARCHIVE_EFFECT: none`
+
+**Version policy:** Do not silently replace the locked v2.2.1 files. Any substantive manuscript correction requires a separately identified successor or addendum with its own integrity records.
