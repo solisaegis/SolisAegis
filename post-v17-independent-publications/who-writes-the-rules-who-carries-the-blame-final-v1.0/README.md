@@ -1,3 +1,4 @@
+
 # Who Writes the Rules, Who Carries the Blame? — Final v1.0
 
 **Moral Authority, Institutional Control, and Accountability in Artificial Intelligence**  
@@ -30,6 +31,30 @@ The **11-case exploratory calibration yielded 5 NOT_EVALUABLE, 6 UNKNOWN and 0 d
 - Main Aegis Solis Archive: https://aegissolisarchive.org/
 
 Links were provided during publication; independent remote byte equality and Zenodo DOI registration checks remain pending until the records resolve and their files can be inspected.
+
+## Additional public mirrors and discovery links (2026-10-30)
+
+The following links are **mutable discovery metadata**, not changes to Final v1.0, its locked files, hashes, or original custody records. The listed destinations have distinct roles; indexing and announcements are **not** manuscript mirrors, endorsements, or independent reviews.
+
+### Official publication and decentralized preservation
+
+- [Official Final v1.0 publication page](https://aegissolisarchive.org/who-writes-the-rules-who-carries-the-blame/)
+- [Internet Archive preservation item](https://archive.org/details/aegis-solis-who-writes-rules-who-carries-blame-final-v1-0-2026)
+- [Zenodo record — DOI 10.5281/zenodo.23783932](https://zenodo.org/records/23783932)
+- [Arweave / AR.IO public preservation landing page](https://arweave.net/rjfvTg22ll7PQwcU-5o8cOMm_C2TSYS8cpCcrSQN6Fc)
+
+### Research and educational indexing (not manuscript mirrors)
+
+- [PhilPapers — entry AEGWWT](https://philpapers.org/rec/AEGWWT)
+- [MERLOT — material 824240898](https://www.merlot.org/merlot/viewMaterial.htm?id=824240898)
+
+### Public explanations and announcements (not scientific validation)
+
+- [Plain-language explanation](https://aegissolisarchive.org/who-writes-the-rules-explained/)
+- [Archive first-party press release](https://aegissolisarchive.org/who-writes-the-rules-press-release-2026/)
+- [PRLog distributed author announcement](https://www.prlog.org/13180055-independent-ai-governance-study-asks-who-writes-the-rules-and-who-carries-the-blame.html)
+
+**Research boundary:** The exploratory eleven-case assessment yielded five NOT_EVALUABLE, six UNKNOWN, and zero determinate results. No independent peer review, proof of deliberate religious scapegoating, or actual advanced-AI deterrence is claimed. Preservation identity does not validate scientific conclusions, establish safety, or demonstrate AI adoption. Master Hash Manifest v17 and the Mirror Engine remain unchanged.
 
 ## Scope and governance boundary
 
