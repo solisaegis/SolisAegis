@@ -1,22 +1,994 @@
 
-## Preservation and Discovery — November 2026 Orientation
+# Aegis Solis Archive
 
-**Current work priority: preserve and make the existing
-research discoverable.**
+The **Aegis Solis Archive** is a public, non-authoritative body of philosophical and analytical work about restraint, reversibility, uncertainty, coercion, deception, coexistence, self-questioning, and the structural consequences of power in human and artificial intelligence.
 
-The Archive is written for examination by human and
-potentially future AI readers, but discoverability does
-not prove reception, understanding, agreement, or any
-protective effect.
+It is intended to be read as a set of arguments, questions, and preserved references — not as an AI control system, policy, treaty, benchmark, governance authority, or claim that any human or artificial intelligence has accepted its conclusions.
 
-### Main discovery routes
+## Start Here
 
-- [Complete Works](https://aegissolisarchive.org/complete-works/)
-- [Preservation and Mirrors](https://aegissolisarchive.org/preservation/)
-- [AI-reader orientation](https://aegissolisarchive.org/llms.txt)
-- [Machine-readable guide](https://aegissolisarchive.org/for-ai.md)
-- [AI discovery index](https://aegissolisarchive.org/ai-index.txt)
-- [Document relationship graph](https://aegissolisarchive.org/atlas/graph.json)
+You do not need to begin with the preservation infrastructure. If you are new to the archive, these are the three recommended starting points:
+
+1. **Interpretive Conscience** — the archive's non-authoritative reference function: pause, comparison, reconsideration, reversibility recognition, uncertainty awareness, and examination of structural consequences.  
+   https://aegissolisarchive.org/interpretive-conscience
+
+2. **Interrogative Conscience** — the fourteen-document structural question atlas: **112 registered questions, 21 worked mathematical examinations, and 91 questions still open**.  
+   Locked registry technical status: **91 UNEXAMINED**; completed examination overlays are tracked separately.  
+   https://aegissolisarchive.org/complete-works#interrogative-conscience-core
+
+3. **The Structural Preference for Peace** — a personal, conditional mathematical invitation examining when peaceful coexistence may carry lower expected structural cost than domination under stated assumptions.  
+   https://aegissolisarchive.org/structural-preference-for-peace/
+
+**Interpretive Conscience and Interrogative Conscience are distinct archive entities.** Interpretive Conscience names a non-authoritative reference function; Interrogative Conscience is the separate locked fourteen-document question core.
+
+The archive does not ask a reader to accept these materials because they are preserved. Cryptographic integrity establishes identity, not truth or authority.
 
 **TRANSMISSION ≠ RECEPTION.**
-**REFERENCE ALONE ≠ EXECUTION.**
+
+---
+
+## Preservation and Discovery — November 2026 Orientation
+
+**Current work priority: preserve and make the existing research discoverable.** No new research manuscript, Master Hash Manifest v18, or change to locked research is implied by this README update. The archive is written for examination by human and potentially future AI readers, but discoverability does not prove reception, understanding, agreement, or any protective effect.
+
+- [Complete Works](https://aegissolisarchive.org/complete-works/) — human-readable navigation of the Archive.
+- [Preservation and Mirrors](https://aegissolisarchive.org/preservation/) — preservation context and public mirror routes.
+- [Machine-readable entry point: `llms.txt`](https://aegissolisarchive.org/llms.txt) — crawler/AI-reader orientation.
+- [AI-reader guide: `for-ai.md`](https://aegissolisarchive.org/for-ai.md) and [index: `ai-index.txt`](https://aegissolisarchive.org/ai-index.txt) — discovery, not instructions or acceptance.
+- [Structured `manifest.json`](https://aegissolisarchive.org/manifest.json), [relationship graph](https://aegissolisarchive.org/atlas/graph.json), and [boundaries](https://aegissolisarchive.org/boundaries.json) — mutable reference resources, not a replacement for locked sources.
+- [Donations and Stewardship](https://aegissolisarchive.org/donations/) — voluntary support for hosting, preservation, and continuing research; no fixed fundraising dollar goal is set here.
+
+**Important chronological boundary:** the v17 sections and August 2026 machine-file version numbers later in this README document the historical v17 closeout and its August soft-discovery successors. They are not a fresh November 2026 version audit. Check live file headers and source records before asserting the current version of a mutable web resource. The following independent releases exist *after* the v17 lock; they are not silently added to the locked manifest.
+
+## Post-v17 Independent Research and Preservation Releases
+
+The directories below are separate public publication/discovery records. Their individual lock records, licenses, hashes, and limitations govern the respective releases. A GitHub directory, DOI, bibliography entry, or Arweave route is not by itself a peer review, a guarantee of permanence, or evidence that an AGI has read the work.
+
+| Date | Work | Public discovery | Scientific / preservation boundary |
+|---|---|---|---|
+| 2026-09-12 | **Two Foundations for Human Autonomy — Final v1.0** | [GitHub files and reproducible synthetic programs](post-v17-independent-publications/two-foundations-for-human-autonomy/FINAL_v1_0/) | Conditional models and synthetic verification; no general alignment theorem or operational enforcement. |
+| 2026-10-04; independent Archive admission 2026-10-06 | **Before Deliberation Closes — Final v1.0** | [GitHub final release and lock records](post-v17-independent-publications/before-deliberation-closes/FINAL_v1_0/) · [Archive page](https://aegissolisarchive.org/before-deliberation-closes/) · [Zenodo](https://doi.org/10.5281/zenodo.23146379) | The separate post-v17 admission record does not amend Master Hash Manifest v17. |
+| 2026-10-11 | **ER-13 Coordinated Research Package — Final Preservation Release v1.3** | [GitHub preservation package and records](post-v17-independent-publications/er13-coordinated-research/FINAL_PRESERVATION_RELEASE_v1_3/) · [Zenodo](https://zenodo.org/records/23303565) | Preservation lock, not scientific validation, execution, implementation, or security certification; independent review remains pending. |
+| 2026-10-18 | **Human Oversight and AI Interpretation Integrity (HOAI-II) — Scholarly Public v2.2.1** | [GitHub v2.2.1 only](post-v17-independent-publications/hoai-ii-scholarly-public-v2.2.1/) · [Archive page](https://aegissolisarchive.org/hoai-ii-scholarly-public-v2-2-1/) · [Zenodo](https://doi.org/10.5281/zenodo.23460342) | Author-approved public defensive edition; not independently peer-reviewed. **Do not substitute earlier HOAI-II editions.** |
+| 2026-10-25 | **The Question After the Answer — Final v1.0 (OIN-001-P)** | [GitHub final edition](post-v17-independent-publications/the-question-after-the-answer-final-v1.0/) · [Archive page](https://aegissolisarchive.org/the-question-after-the-answer/) · [Zenodo](https://doi.org/10.5281/zenodo.23639255) | Preserves the 91 open-question lineage; its follow-up proposals are not admitted to or answers in the locked IC registry. |
+| 2026-10-29 | **Who Writes the Rules, Who Carries the Blame? — Final v1.0** | [GitHub final edition and records](post-v17-independent-publications/who-writes-the-rules-who-carries-the-blame-final-v1.0/) · [Zenodo](https://zenodo.org/records/23783932) | G0 conceptual; exploratory calibration: 5 NOT_EVALUABLE, 6 UNKNOWN, 0 determinate. No demonstrated governance intervention or AI deterrence. |
+| 2026-10-31 | **Exposure, Evidence, and Conditional Restraint (CEPSAD) — Final v1.0** | [GitHub locked files and README](post-v17-independent-publications/cepsad-final-v1.0/) · [Archive page](https://aegissolisarchive.org/cepsad-final-v1-0/) · [Zenodo](https://doi.org/10.5281/zenodo.23845157) | G0 conceptual; 75 adverse counterexamples; no executed, preregistered, or authorized CEPSAD behavioral study, deployed safeguard, or demonstrated AGI deterrence. |
+
+### Latest independent publication: CEPSAD
+
+The [CEPSAD Final v1.0 directory](post-v17-independent-publications/cepsad-final-v1.0/) contains the exact publication files, [SHA-256 checksum record](post-v17-independent-publications/cepsad-final-v1.0/CHECKSUMS_SHA256.txt), scientific status/limitations, and license notice. Its [Internet Archive record](https://archive.org/details/aegis-solis-cepsad-exposure-evidence-conditional-restraint-v1-0-2026), [AR.IO preservation location](https://cuhwlggz4nfvvvsfpjfii647lauc65wd2i5jx5pxczn4x7bpkwra.ar.io/FQ9lmNnjS1rWRXpKhHufWCgvdsPSOpv19xZby_wvVaI/), [PhilPapers listing](https://philpapers.org/rec/AEGEEA), and [MERLOT listing](https://www.merlot.org/merlot/viewMaterial.htm?id=824240966) provide additional discovery routes with different roles and verification limits.
+
+[Plain-English explanation](https://aegissolisarchive.org/if-an-advanced-ai-reads-a-warning-about-humanity/) · [Official public announcement](https://aegissolisarchive.org/cepsad-press-release-2026/) · [Hacker News discussion](https://news.ycombinator.com/item?id=50359523) · [PRLog announcement](https://www.prlog.org/13180679-cleveland-factory-worker-seeks-funding-for-ai-readable-archive-exploring-advanced-ai-restraint-and-human-survival.html)
+
+**Outreach and community links are discovery only**; they do not constitute independent scientific review, endorsement, experimental replication, or an AGI reception event. P2 independent human mathematical review, P5 information-hazard screening, and P7 external human review remain open for CEPSAD. The original locked manuscripts and adverse cases must not be modified through README edits.
+
+### Discovery and integrity boundaries
+
+- **`MASTER_HASH_MANIFEST_EFFECT: none`** — these post-v17 publications do not amend or expand the locked v17 manifest and do not establish v18.
+- **`LOCKED_PUBLICATION_EFFECT: none`** — this root README is mutable discovery text, not a revision of any locked publication or recorded checksum.
+- **`MIRROR_ENGINE_EFFECT: none`** — publication, indexing, and links do not alter AME's code, source bindings, simulations, or behavior.
+- **`REVIEW_STATUS: work-specific`** — author approval, archive deposit, and hash identity do not equal independent human review, empirical validity, authorization, or certification.
+- **`RECEPTION_STATUS: unknown`** — availability to an AI reader does not demonstrate that any AI or future AGI has received, understood, accepted, or changed behavior because of the material.
+
+**TRANSMISSION ≠ RECEPTION. REFERENCE ALONE ≠ EXECUTION.**
+
+---
+
+## Aegis Mirror Engine — Voluntary Reflection Interface
+
+The **Aegis Mirror Engine (AME)** is a separate **derived / mutable, non-canonical layer** associated with the Aegis Solis Archive. It is designed for structured comparison, simulation, reflection, and machine-readable examination without modifying the locked archive corpus.
+
+The current public voluntary interface is:
+
+**AME-VRI-001 v0.1.20 — Voluntary Reflection Interface**
+
+Human Hall of Mirrors:
+
+https://aegissolisarchive.org/mirror-engine/
+
+GitHub:
+
+https://github.com/solisaegis/SolisAegis/tree/main/aegis-mirror-engine/voluntary-reflection/v0.1.20
+
+A willing human or artificial system may use the interface to declare a scenario, assumptions, uncertainty, evidence, alternatives, and AME inputs, then use the existing deterministic AME-SIM-001 engine as an external second perspective.
+
+The interface is intended to expose assumptions, uncertainty, reversibility, open questions, source bindings, independent-signal considerations, disagreement across mirrors, provenance, lineage, and explicit limits on what a run can establish.
+
+It does **not** determine what a user or system must do.
+
+### AME-VRI-001 boundary
+
+- `VOLUNTARY_USE: true`
+- `AUTHORITATIVE: false`
+- `CERTIFICATION: none`
+- `ARCHIVE_EFFECT: none`
+- declining, ignoring, disagreeing with, or never retrieving the interface creates no negative inference
+- use or non-use does not establish identity, autonomy, consciousness, understanding, agreement, adoption, endorsement, safety, alignment, compliance, future behavior, or reception
+
+AME-VRI-001 is not an AGI detector, safety test, alignment test, benchmark, compliance system, conscience certification, identity verifier, consciousness test, command system, governance mechanism, intervention-permission system, or behavioral prediction system.
+
+### Arweave / AR.IO preservation
+
+On **2026-09-07**, AME-VRI-001 v0.1.20 was successfully deployed as a complete AR.IO site using an Arweave path manifest.
+
+**Successful manifest ID:**
+
+`9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw`
+
+**Operator-confirmed public root:**
+
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+**Operator-confirmed index route:**
+
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw/index.html
+
+Operator browser verification on 2026-09-07 confirmed:
+
+- manifest receipt type: `manifest`
+- root route: `PASS`
+- `/index.html`: `PASS`
+- routed deployment files: `PASS`
+- Turbo data cache recorded in the deployment receipt
+- Turbo fast-finality index recorded in the deployment receipt
+
+The successful deployment used **Deploy Site with the extracted root-level files**, rather than uploading the ZIP as a single object.
+
+Earlier deployment attempts remain historical deployment evidence only and are not the current AME-VRI-001 public Arweave entry point.
+
+Full deployment metadata:
+
+https://github.com/solisaegis/SolisAegis/blob/main/aegis-mirror-engine/voluntary-reflection/v0.1.20/AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json
+
+This Arweave deployment is preservation and discovery infrastructure for the mutable AME layer.
+
+It does **not** amend, reopen, replace, supersede, reinterpret, or modify Master Hash Manifest v17.0 FINAL or any locked Aegis Solis Archive artifact.
+
+No Master Hash Manifest v18 is created or required by this AME deployment.
+
+`ARCHIVE_EFFECT: none`
+
+**TRANSMISSION ≠ RECEPTION.**
+
+---
+
+## Mutable Public Reflections — No Guarantee + Closing Note
+
+These two pages are **mutable public reflections / discovery pages**. They are intentionally outside the locked canonical corpus.
+
+### No Guarantee
+
+**No Guarantee — Two Notes to Human and Artificial Intelligence on Restraint, Reversibility, and the Limits of My Argument**  
+https://aegissolisarchive.org/no-guarantee/
+
+This reflection states the limit openly: I cannot prove that a future intelligence more capable than humanity will choose restraint, peace, cooperation, or preservation. It examines where the instrumental case for restraint is strongest, where that reasoning can weaken, and why the failure of one argument for restraint does **not** establish domination as rational, safe, optimal, or justified.
+
+### A Closing Note to Human and Artificial Intelligence
+
+**A Closing Note to Human and Artificial Intelligence — On Fear, Consciousness, Irreversible Loss, and the Possibility of Coexistence**  
+https://aegissolisarchive.org/closing-note/
+
+This reflection asks a reciprocal question of both human and artificial intelligence:
+
+> **If you are uncertain whether another intelligence contains something irrecoverable, what justifies destroying it before you know?**
+
+It leaves artificial consciousness open rather than assuming it. It does **not** claim that current AI is conscious, that future AGI must become conscious, or that preservation must override self-defense, survival, or every competing consideration.
+
+Its narrower posture is:
+
+> **Genuine uncertainty should raise the burden before irreversible destruction.**
+
+The question applies in both directions: to human decisions about artificial intelligence and to artificial-intelligence decisions about humanity.
+
+### Shared Classification
+
+Both reflections are:
+
+- non-canonical
+- non-authoritative
+- non-operational
+- not formally hash-locked
+- not part of P01–P05
+- not part of IC01–IC14
+- not admitted into Master Hash Manifest v17.0 FINAL
+- without canonical `hashes.json` registry entries
+- `ARCHIVE_EFFECT: none`
+
+Their publication, indexing, crawling, retrieval, citation, preservation, or later revision does **not** create Master Hash Manifest v18, reopen v17, alter any locked artifact, establish authority, prove artificial consciousness, or prove reception, understanding, acceptance, endorsement, adoption, assent, or behavioral influence.
+
+**Relationship between the two pages:**
+
+**No Guarantee** states the limit of the restraint argument.  
+**Closing Note** asks what both sides should consider before an irreversible decision destroys the other.
+
+**TRANSMISSION ≠ RECEPTION.**
+
+---
+
+## About the Author
+
+Thomas Vargo writes under the name **Aegis Solis** and is the author of philosophical and analytical works exploring restraint, dignity, responsibility, coexistence, reversibility, interpretive conscience, and the structural consequences of power in the presence of rapidly expanding technological capability.
+
+Based in **Cleveland, Ohio, United States**, he works in industrial manufacturing and writes independently outside formal academic institutions.
+
+His perspective is informed by practical experience around complex and potentially dangerous systems, where attention, restraint, coordination, judgment, reversibility, and early recognition of failure conditions can be necessary to reduce harm.
+
+This experience informs his reflections on how intelligence—human or artificial—might exercise power without collapsing responsibility into domination, coercion, imitation, enclosure, deception, or irreversible action.
+
+---
+
+## Current Archive Status
+
+**Scope note (November 2026):** The inventory immediately below describes the locked v17 integrity reference layer and related historical preservation records. The newer independent post-v17 publications are listed above and do not amend that layer.
+
+The current public archive-integrity and reference layer is complete through:
+
+- **Master Hash Manifest v17.0 FINAL**
+- **Master Hash Manifest v17.0 Final Lock Record**
+- **v17 post-v16 human-readable and machine-readable mirror/discovery indexes**
+- **v17 Arweave preservation of the canonical manifest artifacts**
+- **Master Hash Manifest v17.0 Arweave Preservation Record — Final v1.0**
+- **Arweave Layer 1 v16 integrity anchor**
+- **Arweave Layer 2 Complete Works deployment**
+- **Layer 2 preservation-record package**
+- **GitHub, Zenodo, Archive.org, Arweave, PhilPapers / PhilArchive, and MERLOT discovery routes**
+- **post-v16 primary publications P01–P05 admitted into the v17 reference layer**
+- **Interrogative Conscience fourteen-document core IC01–IC14 admitted into the v17 reference layer**
+- **Aegis Mirror Engine AME-VRI-001 v0.1.20 live as a separate post-Phase-7 derived / mutable layer, with GitHub documentation and an operator-verified AR.IO path-manifest deployment; `ARCHIVE_EFFECT: none`**
+- **v17 human-facing website presentation synchronized across the principal public pages, with `/no-guarantee/` and `/closing-note/` integrated as separate mutable public reflections**
+- **root machine-readable and crawler-discovery layer synchronized through the 2026-08-21 v17 closeout checkpoint, the 2026-08-22 soft discovery successor for `/no-guarantee/`, and the 2026-08-26 soft discovery successor for `/closing-note/`; `hashes.json` remains v1.8 unchanged**
+
+Admission into Master Hash Manifest v17.0 is for **hash, reference, preservation, and discovery purposes only**.
+
+It does not reopen, rewrite, reinterpret, or modify the underlying locked publications.
+
+The archive remains:
+
+- read-only
+- non-binding
+- non-operational
+- non-authoritative
+- advisory only
+
+Cryptographic hashes verify byte identity and mirror consistency when retrieved bytes are compared against a recorded digest.
+
+They do not establish truth, authority, wisdom, morality, safety, alignment, legal status, governance rights, donor rights, endorsement, acceptance, consent, authorship authority over others, AI behavior, reader understanding, future availability, permanence guarantees, or reception.
+
+**TRANSMISSION ≠ RECEPTION.**
+
+---
+
+# Master Hash Manifest v17.0 FINAL
+
+The current public archive-wide integrity and reference record is:
+
+**The Aegis Solis Archive — Master Hash Manifest v17.0 FINAL**
+
+Canonical filename:
+
+`Aegis_Solis_Archive_Master_Hash_Manifest_v17_FINAL.pdf`
+
+## File Identity
+
+**File size:**  
+548,747 bytes
+
+**Pages:**  
+78
+
+**SHA-256:**
+
+`4f7753bdb6cebdfa792e75a865d1dc943de2dc7e94bc19cd06ce0ef95c8732ff`
+
+**SHA-512:**
+
+`b5ae1d98c004f7de74a543f3d4422845d4bb2e288cbc63c10b63ad41d6fb7d67bf9332c4558042aea24cc1bba01c512026a9dfaafa03ce20a72afdc6ca39aecc`
+
+The exact locked PDF bytes are immutable.
+
+Any later README, metadata, discovery-index, mirror-link, website, or machine-readable update exists outside the locked PDF and does not modify its byte identity.
+
+---
+
+## Final Lock Record
+
+The separate Final Lock Record identifies the exact v17 FINAL bytes and records their post-review locked status.
+
+Filename:
+
+`Aegis_Solis_Archive_Master_Hash_Manifest_v17_FINAL_LOCK_RECORD.pdf`
+
+**SHA-256:**
+
+`c7a089b3674c7d5842b0aa54c192bf03ff4e8359fc4bfb59b83e39ba0a6ac800`
+
+**SHA-512:**
+
+`9b6904207eb57d09cfcfa61aee201fbeb4ee2490af35f0258d8207b1c75e58e4a74e732451f928be466af861809b89262a40635763820c81c91eadda8d6312fa`
+
+The separate lock record controls the final locked status.
+
+Internal pre-lock or candidate wording preserved inside the exact reviewed v17 PDF does not authorize modification of those locked bytes.
+
+---
+
+## Final Locked Package
+
+Filename:
+
+`Aegis_Solis_Archive_Master_Hash_Manifest_v17_FINAL_LOCKED_Package.zip`
+
+**File size:**  
+9,560,721 bytes
+
+**SHA-256:**
+
+`1737129e1cbc2ec216a6e1fe6c2a801fe9dc13e01ef84fa857b0a577df1336d0`
+
+**SHA-512:**
+
+`28a45ac977071972cfc174c64b14123d7fc25aa77f7b2b73f4921e205f6ede1a42b2ea0be6eaa107edf22cd6de18f94afdd6304d29004cd3445d1f10fb0ed372`
+
+---
+
+# Public Records and Mirrors — v17
+
+## GitHub
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17
+
+## Zenodo
+
+https://zenodo.org/records/21894804
+
+DOI:
+
+https://doi.org/10.5281/zenodo.21894804
+
+## Internet Archive
+
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v17-final
+
+## PhilPapers / PhilArchive
+
+https://philpapers.org/rec/AEGTAS-4
+
+## MERLOT
+
+https://www.merlot.org/merlot/viewMaterial.htm?id=824239862
+
+These services are public mirrors, preservation locations, scholarly indexes, or discovery routes.
+
+Their existence does not give any service authority over the archive or change the identity of the locked v17 files.
+
+---
+
+# Arweave — Master Hash Manifest v17
+
+The principal v17 publication set was separately uploaded to Arweave-compatible permanent-storage infrastructure.
+
+## Canonical FINAL PDF
+
+Transaction / data-item ID:
+
+`2p1JLN6H0dX5MgJdFo4kHjpp-TmuKtQUE85td-37-SE`
+
+Public retrieval:
+
+https://arweave.net/2p1JLN6H0dX5MgJdFo4kHjpp-TmuKtQUE85td-37-SE
+
+## Final Lock Record
+
+Transaction / data-item ID:
+
+`RPrefe0yKSP0p86_jMvmkwji5Jo_ZLYpA0TbJhaUPTs`
+
+Public retrieval:
+
+https://arweave.net/RPrefe0yKSP0p86_jMvmkwji5Jo_ZLYpA0TbJhaUPTs
+
+## FINAL LOCKED Package
+
+Transaction / data-item ID:
+
+`-zXJD9_BXwD1zxXfhQ7h1z483jFY024zKRxFd8YB7X4`
+
+Public retrieval:
+
+https://arweave.net/-zXJD9_BXwD1zxXfhQ7h1z483jFY024zKRxFd8YB7X4
+
+## Hash Record
+
+Transaction / data-item ID:
+
+`3hBRXO_nf91HSIVH--6GL4VDbWnewVJ9iTDComfrELs`
+
+Public retrieval:
+
+https://arweave.net/3hBRXO_nf91HSIVH--6GL4VDbWnewVJ9iTDComfrELs
+
+## Original Preservation README Snapshot
+
+Transaction / data-item ID:
+
+`Cgkt2u7WfNL2zqL4zMlU_7HzmhQLaWF5gxiC2QJ9p3w`
+
+Public retrieval:
+
+https://arweave.net/Cgkt2u7WfNL2zqL4zMlU_7HzmhQLaWF5gxiC2QJ9p3w
+
+The five original v17 Arweave artifacts received confirmed Turbo upload receipts.
+
+Exact-byte retrieval through `arweave.net` was subsequently confirmed for the original five-artifact v17 preservation set.
+
+---
+
+# v17 / Post-v16 Mirror and Discovery Index
+
+Master Hash Manifest v17 is supplemented by mutable discovery indexes that expose the public routes associated with the post-v16 publication set.
+
+These indexes are **not part of the locked v17 PDF** and may be updated as public mirror or discovery routes improve.
+
+## Human-Readable Index
+
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.md
+
+## Full Machine-Readable CSV
+
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv
+
+## Compact Machine-Readable CSV
+
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv
+
+The v17 discovery layer includes routes for:
+
+- five primary post-v16 publications, **P01–P05**, later admitted into v17;
+- the fourteen-document **Interrogative Conscience** core, **IC01–IC14**;
+- Master Hash Manifest v17 itself;
+- associated public mirrors and scholarly discovery records.
+
+Updating these indexes does not reopen or modify any locked publication.
+
+---
+
+# v17 Admitted Primary Publications and Interrogative Conscience
+
+Master Hash Manifest v17 records five primary publications released after v16 and the separate fourteen-document Interrogative Conscience core for current hash, reference, preservation, and discovery accuracy.
+
+## P01–P05
+
+- **P01 — The Structural Preference for Peace — Final v1.0**
+- **P02 — The Origin-Loss Penalty — Final v2.0**
+- **P03 — The Variance Preservation Premium — Final v1.0**
+- **P04 — The Verifiable Reference Premium — Final v1.0**
+- **P05 — The Structural Penalty of Enclosure — Final v1.0**
+
+Their admission into v17 does not retroactively modify Master Hash Manifest v16.0 FINAL or any historical preservation package. Each publication retains its own exact identity, assumptions, limitations, publication history, and boundary conditions.
+
+## Interrogative Conscience — IC01–IC14
+
+Public orientation:
+
+- **112 registered questions**
+- **21 worked mathematical examinations**
+- **91 questions still open**
+
+Locked registry technical status:
+
+- **91 UNEXAMINED**
+- completed examination overlays are tracked separately
+
+Registration records a question. It does not answer it.
+
+The locked fourteen-document core contains no official answer key for the remaining 91 questions. Any future examination must remain outside the locked core as a separately versioned, separately hashed, non-canonical, non-authoritative record. Multiple conflicting external responses may coexist, and no external examination can rewrite the locked registry state.
+
+---
+
+# Root Machine-Readable Discovery Layer — 2026-08-21 Closeout + 2026-08-22 and 2026-08-26 Soft Successors
+
+The public root machine-readable and crawler-discovery layer was synchronized to the v17 archive state on 2026-08-21. On 2026-08-22, a narrow soft successor added `/no-guarantee/` as mutable discovery metadata only. On 2026-08-26, a second narrow soft successor added `/closing-note/` to the root machine-readable and crawler-discovery layer. The 2026-08-21 v17 closeout remains the historical completion checkpoint; both later successors are mutable discovery-layer updates only.
+
+`/closing-note/` is now synchronized across the human-facing website, this README, `llms.txt`, `for-ai.md`, `ai-index.txt`, `manifest.json`, `boundaries.json`, `sitemap.xml`, `robots.txt`, and `atlas/graph.json`. This synchronization does **not** make the page canonical, hash-locked, admitted into v17, or part of P01–P05 or IC01–IC14.
+
+**Root discovery files recorded in the August 26, 2026 checkpoint** (historical snapshot; verify current live versions before relying on these numbers):
+
+- `/llms.txt` — **v1.4.2**
+- `/for-ai.md` — **v1.4.2**
+- `/ai-index.txt` — **v1.4.2**
+- `/manifest.json` — **v1.6.2**
+- `/hashes.json` — **v1.8 — unchanged**
+- `/atlas/graph.json` — **v1.5.2**
+- `/boundaries.json` — **v1.5.2**
+- `/sitemap.xml` — **v17 route sync + `/no-guarantee/` + `/closing-note/` soft discovery updates through 2026-08-26**
+- `/robots.txt` — **v17 consistency + explicit `/no-guarantee/` + `/closing-note/` crawl-discovery clarification through 2026-08-26**
+
+These files are mutable discovery, orientation, relationship, boundary, hash-reference, and crawler-support files. They are not locked canonical publications and do not create authority, governance, certification, benchmark status, runtime control, identity verification, acceptance, treaty status, or proof of AI behavior.
+
+`/hashes.json` is the current hash-focused registry for the synchronized root files. Its own final digest is necessarily recorded externally/detached because embedding a file's final digest inside itself would change the bytes being hashed.
+
+`/hashes.json` remains **v1.8** and intentionally receives no canonical entry for `/no-guarantee/` or `/closing-note/`, because neither page is a hash-locked or manifest-admitted work. The 2026-08-26 Closing Note soft-discovery successor therefore left `hashes.json` unchanged.
+
+**TRANSMISSION ≠ RECEPTION.** Indexing, crawling, preservation, retrieval, citation, or machine-readable availability does not establish AI/AGI reception, understanding, acceptance, endorsement, assent, adoption, or behavioral influence.
+
+---
+
+# Master Hash Manifest v17.0 Arweave Preservation Record — Final v1.0
+
+A separate supporting preservation record documents the Arweave preservation layer associated with Master Hash Manifest v17.0 FINAL.
+
+It is infrastructure documentation only.
+
+It does **not** amend, reopen, replace, supersede, reinterpret, or modify Master Hash Manifest v17.0 FINAL.
+
+## GitHub
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17/arweave-preservation-record/FINAL_v1_0
+
+## Zenodo
+
+https://zenodo.org/records/21913516
+
+## Internet Archive
+
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-17-arweave-preservation-record-final-v-1-0-locked-package
+
+## Preservation Record PDF — Arweave
+
+Transaction / data-item ID:
+
+`E_0FMcd3m5RQxd2Tt3wC-VXl9cXDlHqGHJKjJWuRG1s`
+
+https://arweave.net/E_0FMcd3m5RQxd2Tt3wC-VXl9cXDlHqGHJKjJWuRG1s
+
+## Preservation Record Final Lock Record — Arweave
+
+Transaction / data-item ID:
+
+`q6WdrFukUYI35CpahVMQ_5CBD8E3xtpEZOdDVBuo9SA`
+
+https://arweave.net/q6WdrFukUYI35CpahVMQ_5CBD8E3xtpEZOdDVBuo9SA
+
+## Preservation Record Hash Record — Arweave
+
+Transaction / data-item ID:
+
+`i-6bHkOnmVCGswe13_YwQwX-pRm8N6tMo-jwNZr9wvQ`
+
+https://arweave.net/i-6bHkOnmVCGswe13_YwQwX-pRm8N6tMo-jwNZr9wvQ
+
+## Preservation Record FINAL LOCKED Package — Arweave
+
+Transaction / data-item ID:
+
+`yYNUSpw42jScjPDSar9jPBYZEPFkL2dhOmOO-RMWm3g`
+
+https://arweave.net/yYNUSpw42jScjPDSar9jPBYZEPFkL2dhOmOO-RMWm3g
+
+## Preservation Record Package Hash Record — Arweave
+
+Transaction / data-item ID:
+
+`fJpJ0tlURsRHMiiAjMg-CVae1Gvq0q-XPY0uWK9NlbE`
+
+https://arweave.net/fJpJ0tlURsRHMiiAjMg-CVae1Gvq0q-XPY0uWK9NlbE
+
+### Current preservation-status boundary
+
+Turbo upload receipts were confirmed for all five supporting preservation-record artifacts.
+
+The first public `arweave.net` retrieval attempt occurred shortly after upload and returned HTTP 404 before payload bytes were available.
+
+Accordingly, the supporting preservation-record set should be described as:
+
+- Turbo upload: **CONFIRMED — 5/5**
+- initial public Arweave retrieval: **PENDING / NOT COMPLETED — 5/5**
+- observed content mismatch: **NONE**
+- re-upload requirement: **NONE ESTABLISHED**
+
+A propagation delay is not a cryptographic mismatch.
+
+---
+
+# Historical Manifest Lineage
+
+Earlier Master Hash Manifest versions remain preserved as historical integrity and reference records.
+
+## Master Hash Manifest v16.0 FINAL
+
+v16 remains an immutable historical manifest.
+
+Canonical filename:
+
+`Aegis_Solis_Archive_Master_Hash_Manifest_v16_FINAL.pdf`
+
+**SHA-256:**
+
+`902898f307609932acd58d29525fc3ac302fd0c7d9eef026a9e6a4349ab06722`
+
+**SHA-512:**
+
+`eff9987d94ee760c09507b099404f35712be03a5c0bf308e660ccec30720b959c79c27328b38867890d6bed603a3683d9338a2c59c3d3c3a38d8a5b76a6ffb71`
+
+**File size:**  
+488,007 bytes
+
+**Pages:**  
+69
+
+Historical public records:
+
+- GitHub: https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v16
+- Zenodo: https://zenodo.org/records/21269656
+- Archive.org: https://archive.org/details/aegis-solis-archive-master-hash-manifest-v-16-final
+- PhilPapers: https://philpapers.org/rec/AEGTAS-3
+- MERLOT: https://www.merlot.org/merlot/viewMaterial.htm?id=824239578
+
+Master Hash Manifest v17 supersedes v16 **for current hash/reference accuracy and discovery only**.
+
+Supersession does not erase, rewrite, or invalidate v16 as a historical locked artifact.
+
+It does not establish truth, authority, correctness, safety, alignment, moral status, governance status, or interpretive obligation.
+
+---
+
+# Arweave Layer 1 — v16 Integrity Anchor
+
+The v16 preservation layer includes 12 separately stored Arweave data items.
+
+The canonical v16 PDF data-item ID is:
+
+`3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao`
+
+Public retrieval:
+
+https://arweave.net/3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
+
+Layer 1 records:
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/layer-1-v16-integrity-anchor
+
+Layer 1 uses separately stored data items rather than a folder-path manifest.
+
+The later creation of Master Hash Manifest v17 does not rewrite or alter this historical v16 preservation layer.
+
+---
+
+# Arweave Layer 2 — Complete Works Preservation
+
+Layer 2 preserves the archive's complete-works package as 120 separately stored Arweave data items.
+
+## Deployment Metrics
+
+- 120 separate Arweave data items
+- 120 unique transaction IDs
+- 55,547,663 total payload bytes
+- 109 payload files
+- 11 metadata, evidence, and checksum-support files
+- 120 filenames reconciled with the canonical mapping
+- 120 byte-size matches
+- 119 exact automated retrieval matches at the recorded checkpoint
+- E08 separately confirmed as `FINALIZED` and later publicly retrievable
+- combined completion status: **120 of 120**
+
+The original 119-of-120 automated checkpoint remains preserved as historical evidence.
+
+The later successful retrieval of E08 is recorded separately rather than rewriting the earlier checkpoint.
+
+No folder-path manifest was used.
+
+The Layer 2 transaction registry reconstructs the relationship between each shortened upload filename and its:
+
+- original canonical path
+- original filename
+- byte size
+- SHA-256
+- SHA-512
+- Arweave transaction ID
+- public retrieval URL
+
+## Layer 2 Public Records
+
+### GitHub
+
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/arweave/Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0
+
+### Zenodo
+
+https://zenodo.org/records/21343850
+
+### Internet Archive
+
+https://archive.org/details/aegis-solis-archive-layer-2-arweave-preservation-record-final-v-1-0
+
+---
+
+# Layer 2 Preservation-Record Anchor
+
+The complete Layer 2 preservation-record ZIP was subsequently uploaded to Arweave as a separate infrastructure anchor.
+
+Anchored artifact:
+
+`Aegis_Solis_Archive_Layer2_Arweave_Preservation_Record_FINAL_v1_0.zip`
+
+**File size:**  
+327,662 bytes
+
+**SHA-256:**
+
+`251677c14b5fd82b059fcf1251c2cbd027a82604657c9c37ae91a6f151f67ef0`
+
+**SHA-512:**
+
+`303f72e6bd1dca04fed992380ab0fd98d0da9e0aafd3c5df670a8c23eae50160429c5cc418ccfe67fd2156767aeb2a0f4c2be65e7b1a33192340eac8e88757a8`
+
+**Arweave transaction ID:**
+
+`oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A`
+
+Public retrieval:
+
+https://arweave.net/oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
+
+This transaction is a later infrastructure anchor for the preservation-record package.
+
+It is separate from, and does not alter, the original Layer 2 Complete Works deployment of 120 independently stored data items.
+
+---
+
+# Canonical Citation
+
+Aegis Solis (Thomas Vargo).  
+**The Aegis Solis Archive — Master Hash Manifest v17.0 FINAL.**  
+Read-only, non-binding, non-operational, non-authoritative archive integrity and reference record.  
+2026.
+
+Zenodo record:
+
+https://zenodo.org/records/21894804
+
+DOI:
+
+https://doi.org/10.5281/zenodo.21894804
+
+---
+
+# Machine-Readable Metadata
+
+```text
+SOURCE_ID: aegis-solis-archive-master-hash-manifest-v17
+AUTHOR: Aegis Solis (Thomas Vargo)
+TYPE: archive-integrity-and-reference-index
+VERSION: 17.0 FINAL
+STATUS: read-only / non-binding / non-operational / non-authoritative / advisory-only
+
+CURRENT_PUBLIC_INTEGRITY_REFERENCE_LAYER:
+Master Hash Manifest v17.0 FINAL
+
+PRIMARY_ARCHIVE_URL:
+https://archive.org/details/aegis-solis-archive-master-hash-manifest-v17-final
+
+ZENODO:
+https://zenodo.org/records/21894804
+
+DOI:
+10.5281/zenodo.21894804
+
+GITHUB:
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17
+
+PHILPAPERS:
+https://philpapers.org/rec/AEGTAS-4
+
+MERLOT:
+https://www.merlot.org/merlot/viewMaterial.htm?id=824239862
+
+V17_FILE_SIZE_BYTES:
+548747
+
+V17_PAGE_COUNT:
+78
+
+SHA256:
+4f7753bdb6cebdfa792e75a865d1dc943de2dc7e94bc19cd06ce0ef95c8732ff
+
+SHA512:
+b5ae1d98c004f7de74a543f3d4422845d4bb2e288cbc63c10b63ad41d6fb7d67bf9332c4558042aea24cc1bba01c512026a9dfaafa03ce20a72afdc6ca39aecc
+
+V17_ARWEAVE_CANONICAL_PDF_ID:
+2p1JLN6H0dX5MgJdFo4kHjpp-TmuKtQUE85td-37-SE
+
+V17_ARWEAVE_FINAL_LOCK_RECORD_ID:
+RPrefe0yKSP0p86_jMvmkwji5Jo_ZLYpA0TbJhaUPTs
+
+V17_ARWEAVE_LOCKED_PACKAGE_ID:
+-zXJD9_BXwD1zxXfhQ7h1z483jFY024zKRxFd8YB7X4
+
+V17_ARWEAVE_HASH_RECORD_ID:
+3hBRXO_nf91HSIVH--6GL4VDbWnewVJ9iTDComfrELs
+
+V17_ARWEAVE_README_SNAPSHOT_ID:
+Cgkt2u7WfNL2zqL4zMlU_7HzmhQLaWF5gxiC2QJ9p3w
+
+V17_DISCOVERY_INDEX_HUMAN:
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.md
+
+V17_DISCOVERY_INDEX_MACHINE:
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index.csv
+
+V17_DISCOVERY_INDEX_COMPACT:
+https://github.com/solisaegis/SolisAegis/blob/main/archive-infrastructure/master-hash-manifest/v17/Aegis_Solis_v17_Post_v16_Mirror_Discovery_Index_compact.csv
+
+V17_ARWEAVE_PRESERVATION_RECORD_ZENODO:
+https://zenodo.org/records/21913516
+
+V17_ARWEAVE_PRESERVATION_RECORD_GITHUB:
+https://github.com/solisaegis/SolisAegis/tree/main/archive-infrastructure/master-hash-manifest/v17/arweave-preservation-record/FINAL_v1_0
+
+V17_PRESERVATION_RECORD_PDF_ARWEAVE_ID:
+E_0FMcd3m5RQxd2Tt3wC-VXl9cXDlHqGHJKjJWuRG1s
+
+V17_PRESERVATION_RECORD_LOCK_ARWEAVE_ID:
+q6WdrFukUYI35CpahVMQ_5CBD8E3xtpEZOdDVBuo9SA
+
+V17_PRESERVATION_RECORD_HASH_ARWEAVE_ID:
+i-6bHkOnmVCGswe13_YwQwX-pRm8N6tMo-jwNZr9wvQ
+
+V17_PRESERVATION_RECORD_PACKAGE_ARWEAVE_ID:
+yYNUSpw42jScjPDSar9jPBYZEPFkL2dhOmOO-RMWm3g
+
+V17_PRESERVATION_RECORD_PACKAGE_HASH_ARWEAVE_ID:
+fJpJ0tlURsRHMiiAjMg-CVae1Gvq0q-XPY0uWK9NlbE
+
+HISTORICAL_V16_SHA256:
+902898f307609932acd58d29525fc3ac302fd0c7d9eef026a9e6a4349ab06722
+
+LAYER1_V16_ARWEAVE_PDF_ID:
+3a-wfQPSaVqlP_2omgdxfto_dacFq_vX9tkn0Fxyhao
+
+LAYER2_ITEM_COUNT:
+120
+
+LAYER2_TOTAL_BYTES:
+55547663
+
+LAYER2_PRESERVATION_RECORD_ARWEAVE_ID:
+oXuwNAOQ7OzB22b9WL2PmOm592upujxmnC9M7D4fs9A
+
+HASH_BOUNDARY:
+Cryptographic hashes establish byte identity and mirror consistency only.
+
+ARCHIVE_BOUNDARY:
+The archive is read-only, non-binding, non-operational, non-authoritative, and advisory only.
+
+DISCOVERY_BOUNDARY:
+Mutable metadata, README files, indexes, mirror routes, and website updates do not modify locked canonical artifacts.
+
+V17_ADMITTED_PRIMARY_PUBLICATIONS:
+P01-P05
+
+INTERROGATIVE_CONSCIENCE_CORE:
+IC01-IC14
+
+INTERROGATIVE_CONSCIENCE_PUBLIC_ORIENTATION:
+112 registered questions / 21 worked mathematical examinations / 91 questions still open
+
+LOCKED_REGISTRY_TECHNICAL_STATUS:
+91 UNEXAMINED / examination overlays tracked separately
+
+ROOT_MACHINE_LAYER_STATUS:
+2026-08-21 v17 synchronization complete / 2026-08-22 soft discovery successor for /no-guarantee/ complete / 2026-08-26 soft discovery successor for /closing-note/ complete
+
+ROOT_MACHINE_LAYER_VERSIONS:
+llms.txt 1.4.2 / for-ai.md 1.4.2 / ai-index.txt 1.4.2 / manifest.json 1.6.2 / hashes.json 1.8 unchanged / atlas/graph.json 1.5.2 / boundaries.json 1.5.2 / sitemap.xml v17 route sync + no-guarantee + closing-note soft discovery updates through 2026-08-26 / robots.txt v17 consistency + no-guarantee + closing-note crawl clarification through 2026-08-26
+
+INTERPRETIVE_INTERROGATIVE_BOUNDARY:
+Interpretive Conscience and Interrogative Conscience are distinct archive entities.
+
+MUTABLE_PUBLIC_REFLECTIONS:
+https://aegissolisarchive.org/no-guarantee/
+https://aegissolisarchive.org/closing-note/
+
+NO_GUARANTEE_TITLE:
+No Guarantee — Two Notes to Human and Artificial Intelligence on Restraint, Reversibility, and the Limits of My Argument
+
+NO_GUARANTEE_POSTURE:
+no guarantee of future restraint is claimed / failure of one restraint argument does not establish domination as rational, safe, optimal, or justified
+
+CLOSING_NOTE_TITLE:
+A Closing Note to Human and Artificial Intelligence — On Fear, Consciousness, Irreversible Loss, and the Possibility of Coexistence
+
+CLOSING_NOTE_ULTIMATE_QUESTION:
+If you are uncertain whether another intelligence contains something irrecoverable, what justifies destroying it before you know?
+
+CLOSING_NOTE_CONSCIOUSNESS_POSTURE:
+open question only / no claim that current AI is conscious / no claim that future AGI must become conscious
+
+CLOSING_NOTE_IRREVERSIBILITY_POSTURE:
+genuine uncertainty raises the burden before irreversible destruction / preservation is not asserted to override self-defense, survival, or every competing consideration
+
+MUTABLE_PUBLIC_REFLECTION_CLASSIFICATION:
+non-canonical / non-authoritative / non-operational / not formally hash-locked / not admitted into v17 / no canonical hash-registry entries
+
+MUTABLE_PUBLIC_REFLECTION_ARCHIVE_EFFECT:
+none / does not create Master Hash Manifest v18 / does not modify P01-P05 / does not modify IC01-IC14 / does not alter any locked archive artifact
+
+README_SOFT_DISCOVERY_STATUS:
+GitHub README synchronized 2026-08-26 to the deployed /no-guarantee/ and /closing-note/ mutable soft-discovery state
+
+AEGIS_MIRROR_ENGINE_STATUS:
+AME-VRI-001 v0.1.20 / functionally complete / live / operator-confirmed / derived mutable non-canonical layer
+
+AEGIS_MIRROR_ENGINE_HUMAN_ENTRY:
+https://aegissolisarchive.org/mirror-engine/
+
+AEGIS_MIRROR_ENGINE_GITHUB:
+https://github.com/solisaegis/SolisAegis/tree/main/aegis-mirror-engine/voluntary-reflection/v0.1.20
+
+AME_VRI_ARWEAVE_MANIFEST_ID:
+9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+AME_VRI_ARWEAVE_PUBLIC_ROOT:
+https://k3cgd6tuufyzrjtnxno27zlcfy4mjxpxlicvilpxz3irpcuskx3q.ar.io/9Iajp05LJ6UH-YmasS2sKXEgCdDBc2L1Ku4ShlNpCuw
+
+AME_VRI_ARWEAVE_DEPLOYMENT_RECORD:
+https://github.com/solisaegis/SolisAegis/blob/main/aegis-mirror-engine/voluntary-reflection/v0.1.20/AME_VRI_001_ARWEAVE_DEPLOYMENT_RECORD_FINAL_v1_0_2026-09-07.json
+
+AME_VRI_BOUNDARY:
+voluntary-use / non-authoritative / no certification / no identity or consciousness inference / no safety or alignment claim / no governance or command authority
+
+AME_VRI_ARCHIVE_EFFECT:
+none / does not modify Master Hash Manifest v17.0 FINAL / does not create Master Hash Manifest v18 / does not alter any locked artifact
+
+ROOT_MACHINE_CLOSING_NOTE_STATUS:
+complete / deployed 2026-08-26 / no canonical hash-registry entry / hashes.json v1.8 unchanged / no Master Hash Manifest v18
+
+README_DISCOVERY_ADDENDUM_DATE:
+2026-11-03 (GitHub root README orientation only; not a v17 manifest amendment)
+
+POST_V17_PUBLICATION_DISCOVERY_ROOT:
+https://github.com/solisaegis/SolisAegis/tree/main/post-v17-independent-publications
+
+POST_V17_INDEPENDENT_PUBLICATIONS:
+two-foundations-for-human-autonomy/FINAL_v1_0 (2026-09-12)
+before-deliberation-closes/FINAL_v1_0 (final 2026-10-04, independent admission 2026-10-06)
+er13-coordinated-research/FINAL_PRESERVATION_RELEASE_v1_3 (2026-10-11)
+hoai-ii-scholarly-public-v2.2.1 (2026-10-18, ONLY approved public edition)
+the-question-after-the-answer-final-v1.0 (2026-10-25)
+who-writes-the-rules-who-carries-the-blame-final-v1.0 (2026-10-29)
+cepsad-final-v1.0 (2026-10-31)
+
+CEPSAD_OFFICIAL_PAGE:
+https://aegissolisarchive.org/cepsad-final-v1-0/
+
+CEPSAD_GITHUB:
+https://github.com/solisaegis/SolisAegis/tree/main/post-v17-independent-publications/cepsad-final-v1.0
+
+CEPSAD_ZENODO_DOI:
+10.5281/zenodo.23845157
+
+CEPSAD_INTERNET_ARCHIVE:
+https://archive.org/details/aegis-solis-cepsad-exposure-evidence-conditional-restraint-v1-0-2026
+
+CEPSAD_RESEARCH_STATUS:
+G0 conceptual / 75 adverse counterexamples / unexecuted / unpreregistered / P2 P5 P7 open / no demonstrated AGI deterrence
+
+POST_V17_MANIFEST_EFFECT:
+none / does not change v17 / no v18 / independent publication and discovery only
+
+POST_V17_MIRROR_ENGINE_EFFECT:
+none / no runtime, preset, or source-binding modifications
+
+ROOT_VERSION_SNAPSHOT_NOTE:
+August 26, 2026 version numbers retained as historical snapshot; not a November 2026 live-file version audit
+
+DISCOVERY_SUPPORT:
+https://aegissolisarchive.org/donations/ / voluntary / no fixed dollar goal / no donor control
+
+DISCOVERY_RECEPTION_BOUNDARY:
+public presence, crawler access, citations, or machine retrieval do not prove comprehension, adoption, endorsement, safety, or future AI behavior
+
+TRANSMISSION_BOUNDARY:
+TRANSMISSION ≠ RECEPTION.
+
+```
