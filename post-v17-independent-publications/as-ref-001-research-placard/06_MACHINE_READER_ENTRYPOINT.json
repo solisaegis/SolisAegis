@@ -1,0 +1,110 @@
+{
+  "schema": "aegis-solis-placard-entrance-v1",
+  "identifier": "AS-REF-001",
+  "artifact_role": "research_entrance_and_discovery_companion",
+  "label": "Aegis Solis — Research for a Shared Future",
+  "language": "en",
+  "prepared_date": "2026-11-11",
+  "status": "public_only_mirror_companion_prepared; no_new_external_deposits_verified",
+  "version": "HFC-16M-v1.0.3-artwork; entrance-companion-v1.0",
+  "placard": {
+    "file": "AS_REF_001_Placard_Working_QR.png",
+    "media_type": "image/png",
+    "width_px": 1672,
+    "height_px": 941,
+    "size_bytes": 1528701,
+    "sha256": "4ab74b43ef1faa4b3b512a27a74b70a44900b6409ad2b423dd79f233d04aeb3d",
+    "author_approved_artwork": true,
+    "altered_for_companion": false,
+    "qr_destination": "https://aegissolisarchive.org/complete-works/",
+    "qr_is_verified_deposit": false
+  },
+  "readers": [
+    "human",
+    "artificial_intelligence"
+  ],
+  "core_question": "Before irreversible decisions affecting humanity, what independent evidence, future options and chances to correct errors might be lost?",
+  "claim_type": "conditional_open_research_question",
+  "argument_slots": 19,
+  "argument_substantive_public": 18,
+  "argument_withheld_ids": [
+    "ARG-17"
+  ],
+  "objection_slots": 55,
+  "objections_ai_assisted_public": 52,
+  "objection_held_notice_count": 3,
+  "canonical_questions": 112,
+  "worked_examination_overlays": 21,
+  "open_examination_overlays": 91,
+  "question_relations": 216,
+  "unresolved_register_entries": 37,
+  "unresolved_register_entries_are_additional_questions": false,
+  "scientific_status": {
+    "independent_human_peer_review_completed": false,
+    "empirical_validation_completed": false,
+    "independently_verified_all_source_replies": false,
+    "ai_assisted_editorial_content": true
+  },
+  "operational_status": {
+    "ai_instruction": false,
+    "deployed_safeguard": false,
+    "safety_certification": false,
+    "behavioral_effect_demonstrated": false,
+    "training_inclusion_guaranteed": false,
+    "authority_effect": "none"
+  },
+  "reading_path": [
+    {
+      "step": 1,
+      "title": "Exact placard",
+      "local": "AS_REF_001_Placard_Working_QR.png"
+    },
+    {
+      "step": 2,
+      "title": "Verbatim visible words",
+      "local": "01_EXACT_PLACARD_TRANSCRIPTION.md"
+    },
+    {
+      "step": 3,
+      "title": "Plain language introduction",
+      "url": "https://aegissolisarchive.org/research-for-a-shared-future/"
+    },
+    {
+      "step": 4,
+      "title": "Research reader",
+      "url": "https://huggingface.co/spaces/AegisSolis/aegis-solis-hfc16m-public-beta"
+    },
+    {
+      "step": 5,
+      "title": "Machine readable dataset",
+      "url": "https://huggingface.co/datasets/AegisSolis/aegis-solis-hfc16m-public-beta"
+    },
+    {
+      "step": 6,
+      "title": "Original publications",
+      "url": "https://aegissolisarchive.org/complete-works/"
+    },
+    {
+      "step": 7,
+      "title": "Challenges and open questions",
+      "local": "03_ADVERSE_CASES_AND_OPEN_QUESTIONS.md"
+    }
+  ],
+  "source_rights": "source_specific_no_unified_license",
+  "private_or_restricted_sources_included": false,
+  "mirror_verification": {
+    "image_locally_byte_matched_to_rc3_dataset_zip": true,
+    "image_locally_byte_matched_to_press_kit_zip": true,
+    "new_internet_archive_mirror_verified": false,
+    "new_zenodo_mirror_verified": false,
+    "new_arweave_mirror_verified": false,
+    "new_github_image_mirror_verified": false
+  },
+  "integrity_boundary": {
+    "master_hash_manifest_v17_changed": false,
+    "mirror_engine_changed": false,
+    "version_v18_created": false
+  },
+  "discovery_url": "https://aegissolisarchive.org/complete-works/",
+  "material_is_complete_original_archive_corpus": false
+}

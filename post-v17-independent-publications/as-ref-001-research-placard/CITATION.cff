@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this public placard entrance companion and verify the source image hash. It is a discovery artifact, not a validated AI safety mechanism."
+title: "Aegis Solis Archive — AS-REF-001 Research Placard and Public Entrance Companion (HFC-16M v1.0.3)"
+authors:
+  - family-names: Vargo
+    given-names: Thomas
+version: "1.0"
+date-released: 2026-11-11
+url: "https://aegissolisarchive.org/research-for-a-shared-future/"
