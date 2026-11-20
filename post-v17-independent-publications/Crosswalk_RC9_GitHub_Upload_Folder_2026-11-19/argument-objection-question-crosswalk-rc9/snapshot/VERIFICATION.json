@@ -1,0 +1,35 @@
+{
+  "approved_destination": "Zenodo only",
+  "counts": {
+    "AI_interpretive_link_assessments": 81,
+    "arguments": 19,
+    "catalog": 164,
+    "cepsad_cases": 75,
+    "cepsad_internal_objections": 40,
+    "edges": 531,
+    "objections": 55,
+    "oin_parent_index": 91,
+    "question_relations": 216,
+    "questions_metadata": 112,
+    "unresolved_registry_index": 37
+  },
+  "exact_website_html_snapshot": false,
+  "external_upload_performed": false,
+  "held_arg17_slots": [
+    "OBJ-ARG-17-01",
+    "OBJ-ARG-17-02",
+    "OBJ-ARG-17-03"
+  ],
+  "held_slots_have_no_source_prose": true,
+  "legal_clearance_certification": false,
+  "live_remote_page_test_performed": false,
+  "local_chromium_desktop_mobile_six_tab_test": "PASS on exact Zenodo-ready index.html (1366x900 desktop and 390x844 mobile; eight tabs present; zero JavaScript page errors)",
+  "mirror_reader_research_payload_sha256": "5f1de5b82e7b01bb099cedf31b486d90bcc1edada9cf2f10acc3f7c26a7e48f1",
+  "source_candidate_sha256_at_author_approval": "0e30b2114ce3e4c9b9c9867da0ebf49a9c27a7fe92e1fa0bd16cb06b9b1e0a23",
+  "source_data_objects_exact_match_except_release": true,
+  "source_rc9_zip_sha256_historical_only_not_reverified": "c287aff8113c479386f53f4ef7d7efa35992e3eaa7f85453bc4ee68fcafa2823",
+  "source_reader_research_payload_sha256": "5f1de5b82e7b01bb099cedf31b486d90bcc1edada9cf2f10acc3f7c26a7e48f1",
+  "source_reader_sha256_verified": "74e9a103ea975df029c5eef50b995acd08c08e79ee69d5b808533b5c23bc435d",
+  "status": "mechanical_checks_passed;author_approved_zenodo_upload_2026-11-16;rights_not_certified",
+  "verification_date": "2026-11-16"
+}
